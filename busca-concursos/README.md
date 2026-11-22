@@ -1,11 +1,11 @@
 # Radar de Concursos
 
-Busca de concursos e processos seletivos com inscrição aberta que pagam a partir de R$ 5 mil, para **nível médio** ou **superior em qualquer área**, ordenados por uma nota de **esforço de estudo estimado** (1 = muito baixo, 5 = muito alto).
+Busca de concursos e processos seletivos com inscrição aberta que pagam a partir de R$ 5 mil, para **nível médio** ou **superior em qualquer área**, ordenados por uma nota de **esforço de estudo estimado** (1 = muito baixo, 5 = muito alto). Uma segunda aba mostra os concursos **já autorizados** que ainda não têm edital.
 
 ## Como usar
 
 1. Abra `index.html` no navegador (dois cliques no arquivo).
-2. Use os filtros: escolaridade, salário mínimo, esforço máximo, estado, esfera (municipal/estadual/federal), vínculo, "sem prova escrita", "sem TAF".
+2. Use os filtros: escolaridade, certeza sobre o salário, salário mínimo, esforço máximo, estado, esfera (municipal/estadual/federal), vínculo, "sem prova escrita", "sem TAF".
 3. Abra **Detalhes** em cada edital para ver por que ele recebeu aquela nota, as etapas citadas, os cargos e o link da notícia completa.
 
 ## Como atualizar os dados
@@ -41,8 +41,23 @@ Nenhum concurso acima de R$ 5 mil dispensa estudo. A nota indica onde a disputa 
 | 50 vagas ou mais | −0,5 |
 | Só cadastro de reserva | +0,5 |
 
+## Certeza sobre o salário
+
+A fonte (PCI Concursos, inclusive o conector oficial dele) informa só o **maior salário** de cada edital e a escolaridade somada de todos os cargos. Não existe salário por cargo. Por isso cada edital é classificado:
+
+| Classificação | Quando |
+|---|---|
+| **Confirmado** | Todos os cargos pedem até o ensino médio; ou o edital tem um cargo só e a notícia diz "qualquer área"; ou a notícia dá a faixa salarial e o menor salário já passa do mínimo escolhido (e há cargo sem formação específica); ou a notícia diz quanto paga o nível médio. |
+| **Provável** | Há vaga de nível médio e nenhum cargo de formação específica foi encontrado; ou o cargo costuma aceitar qualquer área (Analista/Técnico Judiciário – Área Administrativa, Agente/Escrivão de Polícia, Policial Penal). |
+| **Salário de outro cargo** | O edital tem médico, engenheiro, professor, oficial (tenente), curso técnico ou cargo com área definida ("Analista, Contabilidade"). A vaga de nível médio provavelmente paga menos. |
+
+Por padrão a página mostra só os **confirmados**. O filtro "Certeza sobre o salário" libera os outros.
+
+## Concursos autorizados
+
+Ficam em `autorizados.js`, uma lista montada à mão a partir de portarias do Diário Oficial da União e de notícias recentes, com o link de cada fonte. O coletor **não** atualiza esse arquivo: não existe uma lista oficial única de autorizações (as estaduais e municipais saem em centenas de diários oficiais) e a busca do DOU deixa portarias de fora. Quando um autorizado publica o edital, a página avisa e ele passa a aparecer em "Inscrições abertas".
+
 ## Limitações
 
-- A fonte informa só o **maior salário** de cada edital. Quando o edital tem vários níveis, esse valor costuma ser de médico, engenheiro ou professor. A página mostra um alerta amarelo nesses casos e o selo verde **"Salário do nível médio"** quando o edital só tem nível médio. Confira a tabela de cargos no edital antes de se inscrever.
-- "Superior em qualquer área" só é marcado quando a notícia diz isso com todas as letras; editais que aceitam qualquer formação sem dizer isso na notícia ficam de fora desse filtro.
-- A nota é uma estimativa automática a partir do texto da notícia, não uma avaliação do edital completo.
+- "Superior em qualquer área" só é confirmado quando a notícia diz isso com todas as letras.
+- A nota de esforço é uma estimativa automática a partir do texto da notícia, não uma avaliação do edital completo.

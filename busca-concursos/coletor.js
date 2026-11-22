@@ -132,6 +132,29 @@ const FEDERAL =
 const MUNICIPAL =
   /\b(prefeitura|camara municipal|camara de|municipio|municipal|saae|servico autonomo|consorcio|autarquia municipal|instituto de previdencia)\b/;
 
+// cargo que exige graduação em área definida ou curso técnico
+const ESPECIALISTA = new RegExp(
+  '\\b(medic[oa]s?\\b|odontolog|dentista|cirurgi|engenheir|engenharia|advogad|procurador|psicolog|enfermeir|enfermagem|farmac|fisioterap|veterinar|arquitet|nutricion|fonoaudiolog|' +
+  'contador|contabil|auditor|delegad|juiz|promotor|defensor|desenvolvedor|cientista|professor|pedagog|assistente social|jornalista|pesquisador|estatistic|economista|' +
+  'administrador\\b|biolog|biomedic|geolog|quimic|bibliotec|tradutor|interprete|controlador interno|terapeuta|educador fisico|agronom|zootecn|designer|publicitar|museolog|' +
+  'arquivista|secretario executivo|diretor de escola|vice-diretor|coordenador pedagogico|orientador educacional|supervisor escolar|instrutor|musico|regente|radiolog|' +
+  'locutor|tenente|cadete|oficiais? (combatente|bombeiro)|especialidade|direito\\b|informatica|tecnologia da informacao|\\bti\\b|sistemas|eletricista|mecanico|topograf|laboratorio|odontologic|saude bucal|seguranca do trabalho)'
+);
+// "técnico em/de X" é curso técnico, exceto os técnicos administrativos/judiciários/bancários
+const TECNICO_CURSO = /\btecnic[oa]s? (em|de) (?!administra|legislativ|judiciari|bancari|apoio administrativo)/;
+// "Analista Ambiental, Oceanografia" / "Analista Legislativo - Jornalismo": a área depois
+// do nome indica formação exigida (exceto local, turno, edital etc.)
+const SUFIXO_AREA = /(?:,| - | – )\s*(?!.*\b(?:zona|sede|edital|cadastro|reserva|pcd|vaga|turno|plantao|noturno|diurno|rural|urbana)\b)[a-z]/;
+// cargos que normalmente aceitam qualquer formação superior, mesmo quando a notícia não diz
+const QA_POR_CARGO = /\b((analista|tecnico) judiciario\W+(area )?administrativa\s*$|policial penal|agente de policia|escrivao de policia|investigador de policia|analista tributario|auditor[- ]fiscal da receita)/;
+const CARGO_GERAL = /\b(soldado|guarda|escrevente|escriturario|tecnico (administrativo|legislativo|judiciario|bancario)|assistente (administrativo|legislativo|de administracao)|agente (administrativo|legislativo)|auxiliar administrativo|oficial administrativo)\b/;
+function ehEspecialista(cargo) {
+  const c = normalizar(cargo);
+  if (ESPECIALISTA.test(c) || TECNICO_CURSO.test(c) || /jornalis|geograf|oceanograf|historiad|sonorizac/.test(c)) return true;
+  if (CARGO_GERAL.test(c)) return false;
+  return SUFIXO_AREA.test(c);
+}
+
 function lerNoticia(html) {
   const art = (html.match(/<article[\s\S]*?<\/article>/) || [html])[0];
   const corpoHtml = (art.match(/<div itemprop="articleBody">([\s\S]*?)<\/div>/) || [, ''])[1];
@@ -187,6 +210,20 @@ function analisar(item) {
   item.salarioMin = vals.length ? Math.min(...vals) : null;
   if (vals.length && (!item.salarioMax || Math.max(...vals) > item.salarioMax)) item.salarioMax = Math.max(...vals);
   item.taxa = taxas.length ? Math.max(...taxas) : null;
+  // piso salarial do edital, só quando a notícia dá uma faixa explícita
+  // ("de R$ X a R$ Y", "entre R$ X e R$ Y"): se o menor salário já passa do
+  // mínimo, todos os cargos (inclusive os de nível médio) passam.
+  const pisos = salFrases
+    .filter((s) => /salari|remunerac|vencimento|subsidio|ganhos/.test(s) && !/respectivamente|auxilio|vale-|beneficio/.test(s))
+    .flatMap((s) => [...s.matchAll(/(?:de|entre)\s+r\$\s*([\d.]+,\d{2})\s+(?:a|e|ate)\s+r\$\s*([\d.]+,\d{2})/g)])
+    .filter((m) => dinheiro(m[1]) < dinheiro(m[2]))
+    .map((m) => dinheiro(m[1]));
+  item.salarioPiso = pisos.length ? Math.min(...pisos) : null;
+  // salário dito explicitamente para o nível médio ("R$ X para os cargos de nível médio")
+  const medioTxt = salFrases
+    .flatMap((s) => [...s.matchAll(/r\$\s*([\d.]+,\d{2})\s+para\s+(?:os\s+|as\s+)?(?:cargos|empregos|funcoes|vagas)?\s*(?:de\s+)?(?:niveis|nivel)\s+medio/g)])
+    .map((m) => dinheiro(m[1]));
+  item.salarioMedioTexto = medioTxt.length ? Math.max(...medioTxt) : null;
 
   // cargos citados na notícia (itens de lista), sem o "(N vagas)"
   item.cargosLista = item.texto
@@ -197,22 +234,44 @@ function analisar(item) {
     .slice(0, 80);
 
   // ---- escolaridade que interessa
-  // A fonte só informa o MAIOR salário do edital e as escolaridades somadas.
-  // Se o edital só tem nível médio (ou fundamental/médio), o salário é do médio:
-  // "confirmado". Se também tem superior/técnico, pode ser de outro cargo: "possível".
   const esc = normalizar(item.escolaridade);
-  item.temMedio = /medio/.test(esc);
+  item.temMedio = /medio|fundamental/.test(esc); // quem tem médio também pode fazer cargos de nível fundamental
   item.temSuperior = /superior/.test(esc);
   item.superiorQualquerArea = item.temSuperior && f.qualquerArea;
-  item.confiancaMedio = !item.temMedio ? null : !item.temSuperior && !/tecnico/.test(esc) ? 'confirmado' : 'possivel';
-  item.confiancaQualquerArea = !item.superiorQualquerArea ? null : !item.temMedio && !/tecnico|fundamental/.test(esc) ? 'confirmado' : 'possivel';
 
-  // cargos de formação específica que costumam ter os maiores salários do edital
-  const ESPECIALISTA = /\b(medic[oa]|odontolog|dentista|cirurgiao|engenheir|advogad|procurador|psicolog|enfermeir|farmaceutic|fisioterapeut|veterinari|arquitet|nutricionista|fonoaudiolog|contador|auditor|delegad|juiz|promotor|defensor|analista de tecnologia|desenvolvedor|cientista de dados|professor|pedagog)/;
-  const nomes = [...new Set([...item.cargosLista, ...item.cargos.split(/[,;]/)].map((c) => c.trim()).filter((c) => ESPECIALISTA.test(normalizar(c))))];
-  // médicos e dentistas primeiro: são quase sempre os maiores salários
-  const peso = (c) => (/medic|odontolog|dentista|cirurgiao/.test(normalizar(c)) ? 0 : /engenheir|advogad|procurador|auditor|delegad/.test(normalizar(c)) ? 1 : 2);
-  item.cargosEspecialistas = nomes.sort((x, y) => peso(x) - peso(y)).slice(0, 4);
+  // cargos que exigem formação ou curso específico (não servem para quem tem
+  // só o ensino médio ou um diploma qualquer)
+  const nomes = [...new Set([...item.cargosLista, ...item.cargos.split(/[,;]/)].map((c) => c.trim()).filter(Boolean))];
+  const peso = (c) => (/medic|odontolog|dentista|cirurgia/.test(normalizar(c)) ? 0 : /engenheir|advogad|procurador|auditor|delegad/.test(normalizar(c)) ? 1 : 2);
+  item.cargosEspecialistas = nomes.filter(ehEspecialista).sort((x, y) => peso(x) - peso(y)).slice(0, 4);
+  item.cargosGerais = nomes.filter((c) => !ehEspecialista(c) && !/varios cargos/.test(normalizar(c))).slice(0, 8);
+  item.temGeneralista = item.cargosGerais.length > 0;
+  item.qaPorCargo = item.superiorQualquerArea ? [] : nomes.filter((c) => QA_POR_CARGO.test(normalizar(c))).slice(0, 4);
+
+  // ---- certeza de que o salário alto é de uma vaga para nível médio ou qualquer área
+  // A fonte só informa o MAIOR salário do edital e as escolaridades somadas, então
+  // só dá para confirmar em alguns casos. O piso salarial explícito é tratado na página,
+  // porque depende do salário mínimo escolhido.
+  const unico = item.cargosLista.length <= 1 && !/varios cargos|,/.test(normalizar(item.cargos));
+  if (!item.temMedio && !item.superiorQualquerArea && item.qaPorCargo.length) {
+    item.acesso = 'provavel';
+    item.acessoMotivo = `O cargo ${item.qaPorCargo[0]} normalmente aceita superior em qualquer área, mas a notícia não confirma. Confira o requisito e o salário no edital.`;
+  } else if (!item.temMedio && !item.superiorQualquerArea) {
+    item.acesso = null;
+    item.acessoMotivo = 'O edital não tem vaga de nível médio nem de superior em qualquer área.';
+  } else if (item.temMedio && !item.temSuperior && !/tecnico/.test(esc)) {
+    item.acesso = 'confirmado';
+    item.acessoMotivo = 'Todos os cargos pedem até o ensino médio, então o maior salário é de um cargo de nível médio.';
+  } else if (item.superiorQualquerArea && (unico || (!item.temMedio && !item.cargosEspecialistas.length))) {
+    item.acesso = 'confirmado';
+    item.acessoMotivo = 'A notícia diz que o cargo aceita superior em qualquer área' + (unico ? ' e o edital tem um cargo só.' : ' e nenhum cargo pede formação específica.');
+  } else if (!item.cargosEspecialistas.length) {
+    item.acesso = 'provavel';
+    item.acessoMotivo = 'Nenhum cargo de formação específica foi encontrado, então o maior salário deve ser de um cargo de nível médio ou de superior geral. Confira a tabela de cargos no edital.';
+  } else {
+    item.acesso = 'incerto';
+    item.acessoMotivo = `O maior salário provavelmente é de ${item.cargosEspecialistas.slice(0, 3).join(', ')}. A vaga de nível médio pode pagar menos de R$ 5 mil.`;
+  }
 
   // ---- esforço de estudo estimado (1 = muito baixo ... 5 = muito alto)
   const motivos = [];
@@ -246,7 +305,7 @@ function analisar(item) {
 function interessa(it) {
   if (it.porHora) return false;
   if (!it.salarioMax || it.salarioMax < SALARIO_MIN) return false;
-  return /medio|superior/i.test(normalizar(it.escolaridade));
+  return /fundamental|medio|superior/i.test(normalizar(it.escolaridade));
 }
 
 function carregarAnterior() {

@@ -6,7 +6,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=IBM+Plex+Mono:wght@500;600&family=Source+Sans+3:wght@400;600;700&display=swap">
 <style>
-/* Layout: faixa de cabeçalho estreita; filtros em coluna fixa à esquerda (gaveta no celular); resultados como fichas de edital empilhadas. */
+/* Layout: faixa de cabeçalho estreita; abas (abertos / autorizados); filtros em coluna fixa à esquerda (gaveta no celular); resultados como fichas de edital empilhadas. */
 :root {
   --bg: #f3f5f4;
   --surface: #ffffff;
@@ -68,8 +68,16 @@ header.top { padding-block: 28px 20px; display: flex; flex-wrap: wrap; align-ite
 .stamp b { color: var(--ink); font-weight: 600; }
 .stale { margin-top: 14px; background: var(--warn-soft); color: var(--warn); border-radius: var(--r); padding: 10px 14px; font-weight: 600; }
 
+/* ---------- abas */
+.abas { display: flex; gap: 4px; margin-top: 20px; border-bottom: 1px solid var(--line); overflow-x: auto; }
+.abas button { border: 0; background: none; cursor: pointer; padding: 10px 14px 9px; font-family: var(--font-display); font-stretch: 88%; font-weight: 700; font-size: 17px; color: var(--muted); border-bottom: 3px solid transparent; margin-bottom: -1px; white-space: nowrap; }
+.abas button .c { font-family: var(--font-num); font-size: 13px; font-weight: 600; margin-left: 6px; color: var(--muted); }
+.abas button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.abas button[aria-selected="true"] .c { color: var(--accent); }
+
 /* ---------- grade principal */
 .layout { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 28px; margin-top: 24px; align-items: start; }
+.layout.cheia { grid-template-columns: minmax(0, 1fr); }
 @media (max-width: 860px) { .layout { grid-template-columns: minmax(0, 1fr); gap: 16px; } }
 
 /* ---------- filtros */
@@ -84,6 +92,7 @@ header.top { padding-block: 28px 20px; display: flex; flex-wrap: wrap; align-ite
 .campo { display: grid; gap: 6px; }
 .rotulo { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); }
 .campo input[type="search"], .campo select { width: 100%; padding: 9px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); }
+.campo .ajuda { font-size: 13px; color: var(--muted); line-height: 1.35; }
 .check { display: flex; gap: 8px; align-items: flex-start; line-height: 1.3; cursor: pointer; }
 .check input { margin-top: 2px; accent-color: var(--accent); width: 16px; height: 16px; flex: none; }
 .check small { display: block; color: var(--muted); font-size: 13px; }
@@ -99,10 +108,13 @@ header.top { padding-block: 28px 20px; display: flex; flex-wrap: wrap; align-ite
 .barra { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; margin-bottom: 14px; }
 .barra h2 { margin: 0; font-family: var(--font-display); font-stretch: 85%; font-size: 24px; font-weight: 700; }
 .barra h2 .n { font-family: var(--font-num); color: var(--accent); }
-.barra .resumo { color: var(--muted); font-size: 14px; width: 100%; order: 3; margin-top: -4px; }
+.barra .resumo { color: var(--muted); font-size: 14px; width: 100%; order: 3; margin-top: -4px; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; }
+.barra .resumo button { background: none; border: 0; padding: 0; color: var(--accent); font-weight: 600; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; font-size: 14px; }
 .barra label { display: flex; gap: 8px; align-items: center; font-size: 14px; color: var(--muted); }
 .barra select { padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
 .lista { display: grid; gap: 12px; }
+.aviso { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: var(--r); padding: 12px 16px; color: var(--muted); font-size: 15px; margin-bottom: 14px; }
+.aviso b { color: var(--ink); }
 
 .ficha { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 16px 18px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px 20px; }
 @media (max-width: 560px) { .ficha { grid-template-columns: minmax(0, 1fr); } }
@@ -114,15 +126,20 @@ header.top { padding-block: 28px 20px; display: flex; flex-wrap: wrap; align-ite
 .selo { font-size: 12.5px; font-weight: 600; border-radius: 999px; padding: 2px 10px; line-height: 1.6; background: var(--surface-2); color: var(--muted); }
 .selo.ok { background: var(--ok-soft); color: var(--ok); }
 .selo.warn { background: var(--warn-soft); color: var(--warn); }
+.selo.bad { background: var(--bad-soft); color: var(--bad); }
 .selo.info { background: var(--accent-soft); color: var(--accent); }
+a.selo { text-decoration: none; }
 
 .lado { display: grid; gap: 10px; justify-items: end; text-align: right; align-content: start; min-width: 170px; }
-@media (max-width: 560px) { .lado { justify-items: start; text-align: left; grid-auto-flow: row; min-width: 0; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); width: 100%; } }
+@media (max-width: 560px) { .lado { justify-items: start; text-align: left; min-width: 0; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); width: 100%; } }
 .valor small, .prazo small, .esforco small { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); font-weight: 700; }
 .valor b { font-family: var(--font-num); font-weight: 600; font-size: 21px; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }
 .prazo span { font-family: var(--font-num); font-size: 14px; font-variant-numeric: tabular-nums; }
 .prazo span.urgente { color: var(--bad); font-weight: 600; }
 .prazo span.futuro { color: var(--accent); }
+.prazo span.longo { font-family: var(--font-body); font-size: 15px; font-weight: 600; }
+.ficha .gerais { margin: 4px 0 0; font-size: 14px; color: var(--muted); }
+.ficha .gerais b { color: var(--ink); font-weight: 600; }
 .medidor { display: inline-flex; gap: 3px; vertical-align: middle; }
 .medidor i { width: 14px; height: 8px; border-radius: 2px; background: var(--meter-off); }
 .esforco .txt { font-size: 14px; font-weight: 600; margin-left: 6px; }
@@ -142,6 +159,15 @@ header.top { padding-block: 28px 20px; display: flex; flex-wrap: wrap; align-ite
 .det .etapas { display: flex; flex-wrap: wrap; gap: 6px; }
 .det .link { font-weight: 600; }
 
+/* tabela de cargos dos autorizados */
+.tab-cargos { grid-column: 1 / -1; overflow-x: auto; }
+.tab-cargos table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.tab-cargos th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); font-weight: 700; padding: 6px 10px 6px 0; border-bottom: 1px solid var(--line); }
+.tab-cargos td { padding: 7px 10px 7px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.tab-cargos td.num { font-family: var(--font-num); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tab-cargos tr.alvo td:first-child { font-weight: 700; }
+.fontes { grid-column: 1 / -1; font-size: 14px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 14px; }
+
 .vazio { background: var(--surface); border: 1px dashed var(--line); border-radius: var(--r); padding: 28px; text-align: center; color: var(--muted); }
 .vazio button { margin-top: 10px; }
 
@@ -158,14 +184,19 @@ header.top { padding-block: 28px 20px; display: flex; flex-wrap: wrap; align-ite
   <header class="top">
     <div class="brand">
       <h1>Radar de <span>Concursos</span></h1>
-      <p>Editais com inscrição aberta, salário a partir de R$ 5 mil, nível médio ou superior em qualquer área, ordenados pelo esforço de estudo estimado.</p>
+      <p>Vagas a partir de R$ 5 mil para quem tem ensino médio ou superior em qualquer área, ordenadas pelo esforço de estudo estimado. Inclui os concursos já autorizados que ainda não têm edital.</p>
     </div>
     <div class="stamp" id="carimbo">Carregando dados…</div>
   </header>
   <div class="stale" id="aviso-velho" hidden></div>
 
-  <div class="layout">
-    <aside class="filtros">
+  <nav class="abas" role="tablist" aria-label="Tipo de concurso">
+    <button type="button" role="tab" id="aba-abertos" aria-controls="layout" aria-selected="true">Inscrições abertas<span class="c" id="c-abertos"></span></button>
+    <button type="button" role="tab" id="aba-autorizados" aria-controls="layout" aria-selected="false">Autorizados<span class="c" id="c-autorizados"></span></button>
+  </nav>
+
+  <div class="layout" id="layout">
+    <aside class="filtros" id="filtros">
       <details id="painel" open>
         <summary>Filtros <span class="qtd" id="qtd-filtros"></span></summary>
         <div class="corpo">
@@ -175,10 +206,20 @@ header.top { padding-block: 28px 20px; display: flex; flex-wrap: wrap; align-ite
           </div>
 
           <div class="campo">
-            <span class="rotulo">Escolaridade</span>
-            <label class="check"><input type="checkbox" id="f-medio"> <span>Nível médio</span></label>
+            <span class="rotulo">Sua escolaridade</span>
+            <label class="check"><input type="checkbox" id="f-medio"> <span>Ensino médio<small>Inclui cargos de nível fundamental</small></span></label>
             <label class="check"><input type="checkbox" id="f-qa"> <span>Superior em qualquer área</span></label>
             <label class="check"><input type="checkbox" id="f-esp"> <span>Superior em área específica<small>Médico, engenheiro, professor etc.</small></span></label>
+          </div>
+
+          <div class="campo">
+            <label class="rotulo" for="f-certeza">Certeza sobre o salário</label>
+            <select id="f-certeza">
+              <option value="confirmado">Só salário confirmado</option>
+              <option value="provavel">Confirmado ou provável</option>
+              <option value="todos">Todos, até salário de outro cargo</option>
+            </select>
+            <span class="ajuda" id="ajuda-certeza"></span>
           </div>
 
           <div class="campo">
@@ -204,7 +245,6 @@ header.top { padding-block: 28px 20px; display: flex; flex-wrap: wrap; align-ite
           <div class="campo">
             <span class="rotulo">Mostrar só</span>
             <label class="check"><input type="checkbox" id="f-semprova"> <span>Sem prova escrita<small>Só títulos, currículo ou entrevista</small></span></label>
-            <label class="check"><input type="checkbox" id="f-semalerta"> <span>Salário alto do próprio nível<small>Esconde editais cujo maior salário parece ser de médico, engenheiro, professor…</small></span></label>
             <label class="check"><input type="checkbox" id="f-semtaf"> <span>Sem teste físico (TAF)</span></label>
             <label class="check"><input type="checkbox" id="f-abertas"> <span>Inscrições já abertas<small>Esconde as que ainda vão abrir</small></span></label>
           </div>
@@ -226,7 +266,7 @@ header.top { padding-block: 28px 20px; display: flex; flex-wrap: wrap; align-ite
       </details>
     </aside>
 
-    <main>
+    <main id="vista-abertos">
       <div class="barra">
         <h2><span class="n" id="n">0</span> <span id="n-rot">concursos</span></h2>
         <label for="f-ordem">Ordenar por
@@ -241,40 +281,61 @@ header.top { padding-block: 28px 20px; display: flex; flex-wrap: wrap; align-ite
       </div>
       <div class="lista" id="lista"></div>
     </main>
+
+    <main id="vista-autorizados" hidden>
+      <div class="barra">
+        <h2><span class="n" id="n-aut">0</span> <span id="n-aut-rot">concursos autorizados ou a caminho</span></h2>
+        <label class="check" for="f-aut-alvo"><input type="checkbox" id="f-aut-alvo"> <span>Só com cargo de nível médio ou superior em qualquer área</span></label>
+      </div>
+      <div class="aviso" id="aviso-aut"></div>
+      <div class="lista" id="lista-aut"></div>
+    </main>
   </div>
 
   <footer class="metodo">
     <div>
+      <h3>Como saber se o salário é da sua vaga</h3>
+      <p>O site de origem informa só o <b>maior salário</b> de cada edital. Em editais com vários níveis, esse valor costuma ser de médico ou engenheiro. Por isso cada edital recebe uma classificação:</p>
+      <ol>
+        <li><b>Confirmado</b>: todos os cargos pedem até o ensino médio; ou o edital tem um cargo só e ele aceita superior em qualquer área; ou a notícia diz que o menor salário do edital já passa do mínimo escolhido.</li>
+        <li><b>Provável</b>: há vaga de nível médio e nenhum cargo de formação específica foi encontrado. Confira no edital.</li>
+        <li><b>Salário de outro cargo</b>: há médico, engenheiro, professor ou curso técnico no edital. A vaga de nível médio provavelmente paga menos.</li>
+      </ol>
+    </div>
+    <div>
       <h3>Como a nota de esforço é calculada</h3>
-      <p>É uma estimativa de 1 a 5 feita a partir do texto de cada edital. Nenhum concurso que paga mais de R$ 5 mil dispensa estudo; a nota mostra onde a disputa tende a ser mais leve.</p>
+      <p>É uma estimativa de 1 a 5 a partir do texto do edital. Nenhum concurso acima de R$ 5 mil dispensa estudo; a nota mostra onde a disputa tende a ser mais leve.</p>
       <ol>
         <li><b>1</b>: sem prova escrita, só títulos, currículo ou entrevista.</li>
         <li>Parte de 2,5 com prova objetiva. Órgão municipal tira 1; federal soma 1.</li>
         <li>Somam: tribunais e órgãos de controle (+1,5), bancas como Cebraspe, FGV, FCC, Vunesp e Cesgranrio (+1), discursiva (+1), prova oral (+1), salário acima de R$ 12 mil (+1).</li>
         <li>Diminuem: seleção temporária (−0,5) e 50 vagas ou mais (−0,5).</li>
       </ol>
-      <p>Abra os detalhes de cada edital para ver os motivos da nota.</p>
-    </div>
-    <div>
-      <h3>Atenção ao salário</h3>
-      <p>A fonte informa só o <b>maior salário</b> de cada edital. Quando o edital tem só nível médio, o selo <b>"Salário do nível médio"</b> confirma que o valor é desse nível. Quando há cargos de médico, engenheiro ou professor, o alerta amarelo avisa que o valor alto provavelmente é deles. Confira a tabela de cargos no edital antes de se inscrever.</p>
     </div>
     <div>
       <h3>De onde vêm os dados</h3>
-      <p>Da lista de concursos abertos do <a href="https://www.pciconcursos.com.br/concursos/" target="_blank" rel="noopener">PCI Concursos</a> e da notícia de cada edital. Editais vencidos somem sozinhos.</p>
-      <p>Para atualizar no seu computador: <code>node coletor.js</code> dentro da pasta <code>busca-concursos</code>, depois abra <code>index.html</code>.</p>
+      <p><b>Inscrições abertas</b>: lista do <a href="https://www.pciconcursos.com.br/concursos/" target="_blank" rel="noopener">PCI Concursos</a> e a notícia de cada edital. Editais vencidos somem sozinhos. Para atualizar: <code>node coletor.js</code> na pasta <code>busca-concursos</code>.</p>
+      <p><b>Autorizados</b>: portarias do Diário Oficial da União e notícias recentes, com o link de cada fonte. Não existe lista oficial única de autorizações estaduais e municipais.</p>
     </div>
   </footer>
 </div>
 
 <script src="dados.js"></script>
+<script src="autorizados.js"></script>
 <script>
 (function () {
   'use strict';
   const DADOS = window.DADOS_CONCURSOS || { concursos: [], coletadoEm: null };
-  const PADRAO = { q: '', medio: true, qa: true, esp: false, salario: 5000, esforco: 3, semprova: false, semalerta: false, semtaf: false, abertas: false, uf: '', esfera: '', tipo: '', ordem: 'esforco' };
-  const CHAVE = 'radar-concursos-filtros-v1';
+  const AUT = window.AUTORIZADOS || { itens: [], atualizadoEm: null };
+  const PADRAO = { q: '', medio: true, qa: true, esp: false, certeza: 'confirmado', salario: 5000, esforco: 5, semprova: false, semtaf: false, abertas: false, uf: '', esfera: '', tipo: '', ordem: 'esforco', autAlvo: false };
+  const CHAVE = 'radar-concursos-filtros-v2';
   const NOMES_ESFORCO = ['', 'Muito baixo', 'Baixo', 'Moderado', 'Alto', 'Muito alto'];
+  const ORDEM_CERTEZA = { confirmado: 0, provavel: 1, incerto: 2 };
+  const AJUDA_CERTEZA = {
+    confirmado: 'Mostra só editais em que o salário escolhido é, com certeza, de uma vaga para o seu nível.',
+    provavel: 'Inclui editais em que o salário provavelmente é da sua vaga. Confira no edital.',
+    todos: 'Inclui editais em que o salário alto é de médico, engenheiro, professor etc.',
+  };
   const $ = (id) => document.getElementById(id);
 
   // ---------- utilidades
@@ -286,14 +347,35 @@ header.top { padding-block: 28px 20px; display: flex; flex-wrap: wrap; align-ite
   function diasAte(iso) { const d = data(iso); return d ? Math.round((d - hoje) / 86400000) : null; }
   const ddmm = (iso) => { const d = data(iso); return d ? d.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' }) : ''; };
 
-  // ---------- prepara os itens
+  // ---------- prepara os editais abertos
   const itens = (DADOS.concursos || []).map((c) => ({
     ...c,
     _fim: diasAte(c.inscricao && c.inscricao.fim),
     _ini: diasAte(c.inscricao && c.inscricao.inicio),
     _busca: norm([c.orgao, c.uf, c.cargos, (c.cargosLista || []).join(' '), c.manchete, c.descricao].join(' ')),
-    _alerta: (c.cargosEspecialistas || []).length > 0 && c.confiancaMedio !== 'confirmado' && c.confiancaQualquerArea !== 'confirmado',
+    _orgao: norm(c.orgao + ' ' + c.manchete),
   })).filter((c) => c._fim == null || c._fim >= 0);
+
+  // Certeza de que o salário mínimo escolhido é de uma vaga acessível (médio ou qualquer área).
+  const qaProvavel = (c) => !c.superiorQualquerArea && (c.qaPorCargo || []).length > 0;
+  function certeza(c, salMin) {
+    if (c.acesso === 'confirmado') return { nivel: 'confirmado', motivo: c.acessoMotivo };
+    if (!c.temMedio && qaProvavel(c)) {
+      const piso = c.salarioPiso && c.salarioPiso >= salMin ? ` A notícia diz que o menor salário do edital é ${brl(c.salarioPiso)}, então o salário passa do mínimo.` : '';
+      return { nivel: 'provavel', motivo: c.acessoMotivo + piso };
+    }
+    if ((c.temMedio || c.superiorQualquerArea) && c.temGeneralista) {
+      if (c.salarioPiso && c.salarioPiso >= salMin) return { nivel: 'confirmado', motivo: `A notícia diz que o menor salário do edital é ${brl(c.salarioPiso)}, então todos os cargos, inclusive os de nível médio, pagam pelo menos isso.` };
+      if (c.temMedio && c.salarioMedioTexto && c.salarioMedioTexto >= salMin) return { nivel: 'confirmado', motivo: `A notícia diz que os cargos de nível médio pagam ${brl(c.salarioMedioTexto)}.` };
+    }
+    return { nivel: c.acesso || 'incerto', motivo: c.acessoMotivo };
+  }
+  function salarioDaVaga(c, cert) {
+    if (cert.nivel !== 'confirmado') return null;
+    if (c.salarioMedioTexto && c.temMedio) return c.salarioMedioTexto;
+    if (c.salarioPiso && c.acesso !== 'confirmado') return c.salarioPiso;
+    return c.salarioMax;
+  }
 
   // ---------- estado (lembrado neste navegador)
   let estado = { ...PADRAO };
@@ -311,18 +393,19 @@ header.top { padding-block: 28px 20px; display: flex; flex-wrap: wrap; align-ite
   }
   if (window.matchMedia('(max-width: 860px)').matches) $('painel').open = false;
 
-  // UFs presentes nos dados
   const ufs = [...new Set(itens.map((c) => c.uf))].sort((a, b) => (a === 'Nacional' ? -1 : b === 'Nacional' ? 1 : a.localeCompare(b)));
   $('f-uf').insertAdjacentHTML('beforeend', ufs.map((u) => `<option value="${esc(u)}">${esc(u)}</option>`).join(''));
 
-  // ---------- filtros
-  function passa(c, e) {
-    const nivel = (e.medio && c.temMedio) || (e.qa && c.superiorQualquerArea) || (e.esp && c.temSuperior);
-    if (!nivel) return false;
+  // ---------- filtros dos editais abertos
+  function passa(c, e, ignorar) {
+    const cert = certeza(c, e.salario);
+    const acessivel = (e.medio && c.temMedio) || (e.qa && (c.superiorQualquerArea || qaProvavel(c)));
+    const limite = ORDEM_CERTEZA[e.certeza === 'todos' ? 'incerto' : e.certeza];
+    const nivelOk = (acessivel && ORDEM_CERTEZA[cert.nivel] <= limite) || (e.esp && c.temSuperior);
+    if (!nivelOk) return false;
     if (!c.salarioMax || c.salarioMax < e.salario) return false;
-    if (c.esforco > e.esforco) return false;
+    if (ignorar !== 'esforco' && c.esforco > e.esforco) return false;
     if (e.semprova && !c.etapas.semProva) return false;
-    if (e.semalerta && c._alerta) return false;
     if (e.semtaf && c.etapas.taf) return false;
     if (e.abertas && c._ini != null && c._ini > 0) return false;
     if (e.uf && c.uf !== e.uf) return false;
@@ -333,42 +416,49 @@ header.top { padding-block: 28px 20px; display: flex; flex-wrap: wrap; align-ite
     return true;
   }
   const ORDENS = {
-    esforco: (a, b) => a.esforco - b.esforco || a._alerta - b._alerta || b.salarioMax - a.salarioMax,
-    salario: (a, b) => b.salarioMax - a.salarioMax,
+    esforco: (a, b) => a.esforco - b.esforco || a._c - b._c || b.salarioMax - a.salarioMax,
+    salario: (a, b) => a._c - b._c || b.salarioMax - a.salarioMax,
     prazo: (a, b) => (a._fim ?? 9999) - (b._fim ?? 9999),
     vagas: (a, b) => (b.vagas || 0) - (a.vagas || 0),
   };
 
-  // ---------- desenho das fichas
+  // ---------- desenho das fichas abertas
   function prazoHtml(c) {
     if (c._ini != null && c._ini > 0) return `<span class="futuro">Abre em ${ddmm(c.inscricao.inicio)}</span>`;
     if (c._fim == null) return `<span>${esc(c.inscricao.texto || '—')}</span>`;
     if (c._fim === 0) return '<span class="urgente">Encerra hoje</span>';
     if (c._fim === 1) return '<span class="urgente">Encerra amanhã</span>';
-    const cls = c._fim <= 3 ? 'urgente' : '';
-    return `<span class="${cls}">Até ${ddmm(c.inscricao.fim)} · ${c._fim} dias</span>`;
+    return `<span class="${c._fim <= 3 ? 'urgente' : ''}">Até ${ddmm(c.inscricao.fim)} · ${c._fim} dias</span>`;
   }
   function medidor(n) {
     return `<span class="medidor" aria-hidden="true">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= n ? 'on' : ''}"></i>`).join('')}</span>`;
   }
-  function selos(c) {
-    const s = [];
+  function seloCerteza(c, cert) {
+    if (cert.nivel === 'confirmado') {
+      const alvo = c.temMedio && estado.medio ? 'nível médio' : 'superior em qualquer área';
+      return `<span class="selo ok">Salário confirmado para ${alvo}</span>`;
+    }
+    if (cert.nivel === 'provavel' && !c.temMedio && qaProvavel(c)) return '<span class="selo warn">Provável qualquer área: confira no edital</span>';
+    if (cert.nivel === 'provavel') return '<span class="selo warn">Provável: confira o salário no edital</span>';
+    if (c.cargosEspecialistas && c.cargosEspecialistas.length) return `<span class="selo bad">Salário alto é de ${esc(c.cargosEspecialistas.slice(0, 2).join(', '))}</span>`;
+    return '<span class="selo bad">Salário alto é de cargo específico</span>';
+  }
+  function selos(c, cert) {
+    const s = [seloCerteza(c, cert)];
     if (c.etapas.semProva) s.push('<span class="selo ok">Sem prova escrita</span>');
-    if (c.confiancaMedio === 'confirmado') s.push('<span class="selo ok">Salário do nível médio</span>');
     if (c.superiorQualquerArea) s.push('<span class="selo info">Superior em qualquer área</span>');
-    if (c._alerta) s.push(`<span class="selo warn">Maior salário pode ser de ${esc(c.cargosEspecialistas.slice(0, 2).join(', '))}</span>`);
-    if (c.temMedio && !c.superiorQualquerArea && c.confiancaMedio !== 'confirmado' && !c._alerta) s.push('<span class="selo">Confira o salário do médio no edital</span>');
     if (c.etapas.taf) s.push('<span class="selo">Tem TAF</span>');
     if (c.inscricao.situacao) s.push(`<span class="selo">${c.inscricao.situacao === 'prorrogado' ? 'Prorrogado' : 'Reaberto'}</span>`);
     return s.join('');
   }
   const ETAPAS = [['objetiva', 'Prova objetiva'], ['discursiva', 'Discursiva/redação'], ['titulos', 'Títulos/currículo'], ['entrevista', 'Entrevista'], ['pratica', 'Prova prática'], ['taf', 'Teste físico'], ['oral', 'Prova oral'], ['psicologico', 'Avaliação psicológica'], ['cursoFormacao', 'Curso de formação']];
-  function detalhes(c) {
+  function detalhes(c, cert) {
     const etapas = ETAPAS.filter(([k]) => c.etapas[k]).map(([, n]) => `<span class="selo">${n}</span>`).join('') || '<span class="selo">Não informado na notícia</span>';
     const cargos = (c.cargosLista || []).length ? c.cargosLista : [c.cargos];
     return `<div class="det">
+      <div><h4>Sobre o salário</h4>${esc(cert.motivo)}</div>
       <div class="grade">
-        <div>Salário<b class="num">${c.salarioMin && c.salarioMin < c.salarioMax ? brl(c.salarioMin) + ' a ' : 'até '}${brl(c.salarioMax)}</b></div>
+        <div>Salários do edital<b class="num">${c.salarioPiso && c.salarioPiso < c.salarioMax ? brl(c.salarioPiso) + ' a ' : 'até '}${brl(c.salarioMax)}</b></div>
         <div>Vagas<b class="num">${c.vagas ? c.vagas.toLocaleString('pt-BR') : 'Cadastro de reserva'}${c.vagas && c.cadastroReserva ? ' + CR' : ''}</b></div>
         <div>Taxa de inscrição<b class="num">${c.taxa ? brl(c.taxa) : '—'}</b></div>
         <div>Escolaridade<b>${esc(c.escolaridade)}</b></div>
@@ -382,63 +472,136 @@ header.top { padding-block: 28px 20px; display: flex; flex-wrap: wrap; align-ite
     </div>`;
   }
   function ficha(c) {
+    const cert = c._cert;
+    const daVaga = salarioDaVaga(c, cert);
+    const valor = daVaga && daVaga < c.salarioMax
+      ? `<div class="valor"><small>Sua vaga paga a partir de</small><b>${brl(daVaga)}</b></div>`
+      : `<div class="valor"><small>${cert.nivel === 'confirmado' ? 'Salário da vaga' : 'Maior salário do edital'}</small><b>${brl(c.salarioMax)}</b></div>`;
     return `<article class="ficha">
       <div>
         <h3 class="org">${esc(c.orgao)}</h3>
         <div class="meta"><span class="uf">${esc(c.uf)}</span><span>${esc(c.etapas.esfera)}</span><span>${c.etapas.temporario ? 'Processo seletivo' : 'Concurso'}</span>${c.vagas ? `<span>${c.vagas.toLocaleString('pt-BR')} ${c.vagas === 1 ? 'vaga' : 'vagas'}</span>` : '<span>Cadastro de reserva</span>'}</div>
         <p class="cargos">${esc(c.cargos)}</p>
-        <div class="selos">${selos(c)}</div>
+        ${(c.cargosGerais || []).length && /varios cargos/i.test(norm(c.cargos)) || (c.cargosGerais || []).length > 1 ? `<p class="gerais">Sem formação específica: <b>${esc(c.cargosGerais.slice(0, 5).join(', '))}</b>${c.cargosGerais.length > 5 ? ' e outros' : ''}</p>` : ''}
+        <div class="selos">${selos(c, cert)}</div>
       </div>
       <div class="lado">
-        <div class="valor"><small>Salário até</small><b>${brl(c.salarioMax)}</b></div>
+        ${valor}
         <div class="prazo"><small>Inscrições</small>${prazoHtml(c)}</div>
         <div class="esforco e${c.esforco}"><small>Esforço de estudo</small>${medidor(c.esforco)}<span class="txt">${NOMES_ESFORCO[c.esforco]}</span></div>
       </div>
-      <details class="mais"><summary>Detalhes</summary>${detalhes(c)}</details>
+      <details class="mais"><summary>Detalhes</summary>${detalhes(c, cert)}</details>
     </article>`;
   }
 
-  // ---------- render
-  function render() {
+  function renderAbertos() {
     const e = estado;
+    itens.forEach((c) => { c._cert = certeza(c, e.salario); c._c = ORDEM_CERTEZA[c._cert.nivel]; });
     const lista = itens.filter((c) => passa(c, e)).sort(ORDENS[e.ordem] || ORDENS.esforco);
     $('n').textContent = lista.length;
     $('n-rot').textContent = lista.length === 1 ? 'concurso' : 'concursos';
-    const semProva = lista.filter((c) => c.etapas.semProva).length;
-    const confirmados = lista.filter((c) => !c._alerta).length;
-    const acima = itens.filter((c) => passa(c, { ...e, esforco: 5 })).length - lista.length;
+    $('c-abertos').textContent = lista.length;
+
+    // quantos apareceriam com uma regra de certeza mais aberta
+    const com = (mud) => itens.filter((c) => passa(c, { ...e, ...mud })).length;
     const partes = [];
-    if (lista.length) partes.push(`${confirmados} sem alerta de salário de outro cargo`, `${semProva} sem prova escrita`);
-    if (acima > 0) partes.push(`${acima} ${acima === 1 ? 'outro exige' : 'outros exigem'} mais estudo (esforço acima de ${e.esforco})`);
-    $('resumo').textContent = partes.join(' · ');
+    if (e.certeza === 'confirmado') { const n = com({ certeza: 'provavel' }) - lista.length; if (n > 0) partes.push(`<button type="button" data-certeza="provavel">Mostrar também ${n} ${n === 1 ? 'provável' : 'prováveis'}</button>`); }
+    if (e.certeza !== 'todos') { const n = com({ certeza: 'todos' }) - com({ certeza: e.certeza === 'confirmado' ? 'provavel' : e.certeza }); if (n > 0) partes.push(`<span>${n} editais escondidos porque o salário alto é de cargo específico</span>`); }
+    const acima = itens.filter((c) => passa(c, e, 'esforco')).length - lista.length;
+    if (acima > 0) partes.push(`<span>${acima} ${acima === 1 ? 'outro exige' : 'outros exigem'} mais estudo</span>`);
+    $('resumo').innerHTML = partes.join('');
+    $('resumo').querySelectorAll('button[data-certeza]').forEach((b) => b.addEventListener('click', () => { mudar('certeza', b.dataset.certeza); preencher(); }));
+
     $('lista').innerHTML = lista.length
       ? lista.map(ficha).join('')
-      : `<div class="vazio">Nenhum concurso com esses filtros. Aumente o esforço máximo, diminua o salário mínimo ou limpe a busca.<br><button type="button" class="btn-limpar" id="vazio-limpar">Voltar aos filtros padrão</button></div>`;
+      : `<div class="vazio">Nenhum concurso com esses filtros. Aceite salários prováveis, aumente o esforço máximo ou limpe a busca.<br><button type="button" class="btn-limpar" id="vazio-limpar">Voltar aos filtros padrão</button></div>`;
     const b = $('vazio-limpar'); if (b) b.onclick = limpar;
-    // contador de filtros alterados
-    const mudados = Object.keys(PADRAO).filter((k) => k !== 'ordem' && estado[k] !== PADRAO[k]).length;
+    const mudados = Object.keys(PADRAO).filter((k) => !['ordem', 'autAlvo'].includes(k) && estado[k] !== PADRAO[k]).length;
     $('qtd-filtros').textContent = mudados ? `${mudados} alterado${mudados > 1 ? 's' : ''}` : '';
     $('leg-esforco').textContent = `Até ${e.esforco}: ${NOMES_ESFORCO[e.esforco].toLowerCase()}${e.esforco === 5 ? ' (mostra todos)' : ''}`;
+    $('ajuda-certeza').textContent = AJUDA_CERTEZA[e.certeza];
   }
 
-  // ---------- liga os controles
-  const caixas = { 'f-medio': 'medio', 'f-qa': 'qa', 'f-esp': 'esp', 'f-semprova': 'semprova', 'f-semalerta': 'semalerta', 'f-semtaf': 'semtaf', 'f-abertas': 'abertas' };
-  const seletores = { 'f-salario': 'salario', 'f-uf': 'uf', 'f-esfera': 'esfera', 'f-tipo': 'tipo', 'f-ordem': 'ordem' };
+  // ---------- autorizados
+  const SITUACAO = {
+    'Banca definida': ['ok', 'Autorizado · banca definida'],
+    'Comissão formada': ['info', 'Autorizado · comissão formada'],
+    'Autorizado': ['info', 'Autorizado'],
+    'Pedido em análise': ['warn', 'Ainda não autorizado · pedido em análise'],
+  };
+  const cargoAlvo = (cg) => /medio|qualquer area/.test(norm(cg.escolaridade));
+  function editalSaiu(a) {
+    return itens.find((c) => (a.chaves || []).some((k) => new RegExp('\\b' + norm(k).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b').test(c._orgao)));
+  }
+  function fichaAut(a) {
+    const [cls, rot] = SITUACAO[a.situacao] || ['info', a.situacao];
+    const saiu = editalSaiu(a);
+    const maior = Math.max(0, ...a.cargos.map((c) => c.salario || 0));
+    return `<article class="ficha">
+      <div>
+        <h3 class="org">${esc(a.orgao)}</h3>
+        <div class="meta"><span class="uf">${esc(a.uf)}</span><span>${esc(a.esfera)}</span>${a.vagas ? `<span>${a.vagas.toLocaleString('pt-BR')} vagas</span>` : '<span>Vagas não divulgadas</span>'}${a.banca ? `<span>Banca: ${esc(a.banca)}</span>` : ''}</div>
+        <div class="selos"><span class="selo ${cls}">${rot}</span>${a.cargos.some(cargoAlvo) ? '<span class="selo ok">Tem cargo para médio ou qualquer área</span>' : ''}${saiu ? `<a class="selo ok" href="#abertos">Edital já publicado: veja em Inscrições abertas</a>` : ''}</div>
+      </div>
+      <div class="lado">
+        ${maior ? `<div class="valor"><small>Salário divulgado até</small><b>${brl(maior)}</b></div>` : ''}
+        <div class="prazo"><small>Previsão do edital</small><span class="longo">${esc(a.previsaoEdital)}</span></div>
+        <div class="esforco e${a.esforco}"><small>Esforço de estudo</small>${medidor(a.esforco)}<span class="txt">${NOMES_ESFORCO[a.esforco]}</span></div>
+      </div>
+      <div class="tab-cargos"><table>
+        <thead><tr><th>Cargo</th><th>Escolaridade</th><th>Salário</th></tr></thead>
+        <tbody>${a.cargos.map((c) => `<tr class="${cargoAlvo(c) ? 'alvo' : ''}"><td>${esc(c.nome)}</td><td>${esc(c.escolaridade)}</td><td class="num">${c.salario ? brl(c.salario) : 'Não divulgado'}</td></tr>`).join('')}</tbody>
+      </table></div>
+      <div class="fontes"><span>${esc(a.notaEsforco)}</span></div>
+      <div class="fontes"><span>Fonte:</span>${a.fontes.map((f) => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nome)} ↗</a>`).join('')}</div>
+    </article>`;
+  }
+  function renderAutorizados() {
+    const lista = AUT.itens.filter((a) => !estado.autAlvo || a.cargos.some(cargoAlvo))
+      .sort((x, y) => (x.situacao === 'Pedido em análise') - (y.situacao === 'Pedido em análise') || x.esforco - y.esforco);
+    $('n-aut').textContent = lista.length;
+    $('c-autorizados').textContent = AUT.itens.length;
+    const conf = AUT.atualizadoEm ? data(AUT.atualizadoEm).toLocaleDateString('pt-BR') : '';
+    $('aviso-aut').innerHTML = `Lista conferida em <b>${conf}</b> no Diário Oficial da União e em notícias recentes. Os autorizados federais pagam bem, mas são os mais disputados. Para estados e prefeituras não existe uma lista oficial única; aqui estão só os casos confirmados por notícias recentes. Quando um edital é publicado, ele aparece na aba Inscrições abertas.`;
+    $('lista-aut').innerHTML = lista.length ? lista.map(fichaAut).join('') : '<div class="vazio">Nenhum autorizado com esse filtro.</div>';
+    $('f-aut-alvo').checked = estado.autAlvo;
+  }
+
+  // ---------- abas (com endereço #abertos / #autorizados)
+  function mostrarAba() {
+    const aut = location.hash === '#autorizados';
+    $('aba-abertos').setAttribute('aria-selected', String(!aut));
+    $('aba-autorizados').setAttribute('aria-selected', String(aut));
+    $('vista-abertos').hidden = aut;
+    $('vista-autorizados').hidden = !aut;
+    $('filtros').hidden = aut;
+    $('layout').classList.toggle('cheia', aut);
+  }
+  $('aba-abertos').addEventListener('click', () => { location.hash = 'abertos'; });
+  $('aba-autorizados').addEventListener('click', () => { location.hash = 'autorizados'; });
+  window.addEventListener('hashchange', mostrarAba);
+
+  // ---------- controles
+  const caixas = { 'f-medio': 'medio', 'f-qa': 'qa', 'f-esp': 'esp', 'f-semprova': 'semprova', 'f-semtaf': 'semtaf', 'f-abertas': 'abertas' };
+  const seletores = { 'f-certeza': 'certeza', 'f-salario': 'salario', 'f-uf': 'uf', 'f-esfera': 'esfera', 'f-tipo': 'tipo', 'f-ordem': 'ordem' };
   function preencher() {
     for (const [id, k] of Object.entries(caixas)) $(id).checked = !!estado[k];
     for (const [id, k] of Object.entries(seletores)) $(id).value = String(estado[k]);
     $('f-busca').value = estado.q;
     document.querySelectorAll('#f-esforco button').forEach((b) => b.setAttribute('aria-pressed', String(Number(b.dataset.v) === estado.esforco)));
   }
+  function render() { renderAbertos(); renderAutorizados(); }
   function mudar(k, v) { estado[k] = v; salvar(); render(); }
   for (const [id, k] of Object.entries(caixas)) $(id).addEventListener('change', (ev) => mudar(k, ev.target.checked));
   for (const [id, k] of Object.entries(seletores)) $(id).addEventListener('change', (ev) => mudar(k, k === 'salario' ? Number(ev.target.value) : ev.target.value));
   let t; $('f-busca').addEventListener('input', (ev) => { clearTimeout(t); t = setTimeout(() => mudar('q', ev.target.value), 150); });
   document.querySelectorAll('#f-esforco button').forEach((b) => b.addEventListener('click', () => { mudar('esforco', Number(b.dataset.v)); preencher(); }));
+  $('f-aut-alvo').addEventListener('change', (ev) => mudar('autAlvo', ev.target.checked));
   function limpar() { estado = { ...PADRAO }; salvar(); preencher(); render(); }
   $('limpar').addEventListener('click', limpar);
 
   preencher();
   render();
+  mostrarAba();
 })();
 </script>

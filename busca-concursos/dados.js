@@ -1,6 +1,6 @@
 // Gerado por coletor.js — não edite à mão.
 window.DADOS_CONCURSOS = {
- "coletadoEm": "2026-11-22T00:19:03.871Z",
+ "coletadoEm": "2026-11-22T01:34:11.566Z",
  "fonte": "https://www.pciconcursos.com.br/concursos/",
  "salarioMinColeta": 5000,
  "totalNaFonte": 459,
@@ -28,18 +28,23 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Cláudio, no Estado de Minas Gerais abriu um Processo Seletivo Simplificado para preencher uma vaga de Médico de ESF, com exigência de curso superior completo e registro no respectivo conselho de classe.\nSegundo o edital, a oportunidade é para o cargo de:\n• Médico de ESF (1 vaga)\nA jornada é de 40 horas semanais, com vencimento de R$ 20.743,06.\nAs inscrições serão realizadas pela internet, no site da Prefeitura, das 0h de 25 de novembro de 2026 às 23h59 de 26 de novembro de 2026, pelo horário de Brasília. Não haverá cobrança de taxa de inscrição.\nA seleção terá caráter eliminatório e classificatório, por meio de análise curricular.\nA contratação será temporária, em regime contratual, com vinculação ao Regime Geral de Previdência Social.\nO processo seletivo terá validade de um ano, contada da homologação, podendo ser prorrogada por igual período.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Médico de ESF"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico de ESF",
     "Médico"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo"
@@ -83,6 +88,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Rio Grande do Sul, a Fundação Hospitalar Getúlio Vargas (FHGV) abriu um Processo Seletivo Simplificado para contratação por prazo determinado e formação de cadastro de reserva em funções de nível superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Médico Anestesiologista\n• Médico Cardiologista\n• Médico Cardiologista Ecocárdio\n• Médico Cirurgião Geral Plantonista\n• Médico Cirurgião Geral Rotineiro\n• Médico Cirurgião Pediátrico\n• Médico Cirurgião Torácico\n• Médico Cirurgião Vascular\n• Médico Clínico para Atendimento Adulto e Infantil\n• Médico Clínico Plantonista\n• Médico Dermatologista\n• Médico do Trabalho\n• Médico Endocrinologista\n• Médico Especialista em Cirurgia Ginecológica\n• Médico Gastroenterologista\n• Médico Ginecologista\n• Médico Gineco-obstetra Plantonista\n• Médico Gineco-obstetra Rotineiro\n• Médico Hematologista\n• Médico Infectologista\n• Médico Intensivista Rotineiro\n• Médico Nefrologista\n• Médico Neonatologista Rotineiro\n• Médico Neurocirurgião Plantonista\n• Médico Neurologista\n• Médico Oftalmologista\n• Médico Otorrinolaringologista\n• Médico Pediatra Plantonista\n• Médico Pediatra Rotineiro\n• Médico Plantonista para UTI\n• Médico Pneumologista\n• Médico Proctologista\n• Médico Psiquiatra Rotineiro\n• Médico Radiologista\n• Médico Reumatologista\n• Médico Socorrista\n• Médico Traumatologista Rotineiro\n• Médico Traumato-Ortopedista\n• Médico Urologista\nA jornada é de 60 ou 120 horas mensais, conforme o cargo. Os vencimentos básicos variam de R$ 6.188,89 a R$ 16.937,78.\nAs inscrições serão feitas exclusivamente pela internet, no formulário da FHGV, das 12h de 6 de novembro de 2026 às 23h59 de 4 de dezembro de 2026.\nA classificação será feita por análise de títulos, com pontuação máxima de 100 pontos. Os documentos poderão ser enviados no ato da inscrição ou entregues presencialmente em 2 e 3 de dezembro de 2026, das 9h às 11h, na Unidade de Gestão do Trabalho, na Rua Alegrete, nº 145, bairro Dihel, em Sapucaia do Sul. Se necessário, haverá sorteio público de desempate em 5 de janeiro de 2027. Após a homologação, os candidatos convocados passarão por avaliação psicológica eliminatória, composta de testagem coletiva e entrevista individual.\nAs contratações serão pelo regime celetista, por até um ano, com possibilidade de uma prorrogação por igual período.\nO processo seletivo terá validade de um ano, prorrogável por igual período, a critério da FHGV.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 6188.89,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Médico Anestesiologista",
     "Médico Cardiologista",
@@ -127,14 +134,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Anestesiologista",
     "Médico Cardiologista",
     "Médico Cardiologista Ecocárdio",
     "Médico Cirurgião Geral Plantonista"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo e entrevista"
@@ -178,6 +188,8 @@ window.DADOS_CONCURSOS = {
    "texto": "Em Araripina (PE), a Prefeitura Municipal de Araripina abriu seis Processos Seletivos Simplificados para preencher 1.099 vagas e formar cadastro de reserva. As oportunidades são para candidatos com ensino fundamental, inclusive incompleto para algumas funções, médio, técnico e superior, conforme o cargo. Do total, 63 vagas são reservadas a pessoas com deficiência.\nSegundo os editais, as oportunidades são para os cargos de:\nAdministração e Infraestrutura e Serviços Públicos, edital nº 002/2026, com 179 vagas\n• Agente Administrativo (1 vaga)\n• Auxiliar de Manutenção Predial (30 vagas)\n• Auxiliar de Serviços Gerais (3 vagas)\n• Eletricista (1 vaga)\n• Encarregado de Manutenção de Equipamentos e Máquinas (1 vaga)\n• Fiscal de Limpeza Urbana (1 vaga)\n• Fiscal de Serviços Públicos (1 vaga)\n• Gari para Coleta (25 vagas)\n• Gari para Varrição (100 vagas)\n• Mecânico (3 vagas)\n• Motorista (1 vaga)\n• Motorista de Caçamba (1 vaga)\n• Motorista de Caminhão Coletor Compactador (4 vagas)\n• Músico (1 vaga)\n• Operador de Máquinas (1 vaga)\n• Operador de Patrol (1 vaga)\n• Operador de Retroescavadeira (1 vaga)\n• Pedreiro (1 vaga)\n• Recepcionista (1 vaga)\n• Servente de Pedreiro (1 vaga)\nEducação, edital nº 003/2026, com 635 vagas\n• Arquiteto (1 vaga)\n• Assistente Social (1 vaga)\n• Auxiliar de Sala (150 vagas)\n• Condutor de Transporte Escolar (36 vagas)\n• Engenheiro Civil (1 vaga)\n• Fiscal de Transporte Escolar (2 vagas)\n• Merendeira (60 vagas)\n• Motorista (6 vagas)\n• Nutricionista (1 vaga)\n• Professor Braillista (1 vaga)\n• Professor de Educação Infantil e Ensino Fundamental I (150 vagas)\n• Professor de Ensino Fundamental II em Ciências da Natureza e suas Tecnologias (1 vaga)\n• Professor de Ensino Fundamental II em Ciências Humanas e suas Tecnologias (1 vaga)\n• Professor de Ensino Fundamental II em Linguagens, Códigos e suas Tecnologias (1 vaga)\n• Professor de Ensino Fundamental II em Matemática e suas Tecnologias (1 vaga)\n• Psicólogo (1 vaga)\n• Psicopedagogo (1 vaga)\n• Vigia (100 vagas)\n• Zelador (120 vagas)\nAssistência Social e Combate à Fome, edital nº 004/2026, com 49 vagas\n• Agente Administrativo (1 vaga)\n• Auxiliar de Manutenção Predial (1 vaga)\n• Auxiliar de Serviços Gerais (1 vaga)\n• Assistente Social (6 vagas)\n• Auxiliar de Cozinha (1 vaga)\n• Cozinheira (2 vagas)\n• Educador Social (7 vagas)\n• Entrevistador do Cadastro Único (5 vagas)\n• Motorista (5 vagas)\n• Pedagogo (3 vagas)\n• Psicólogo (3 vagas)\n• Recepcionista (7 vagas)\n• Supervisor de Cozinha Comunitária (1 vaga)\n• Técnico em Informática (1 vaga)\n• Vigia (4 vagas)\n• Visitador do Programa Criança Feliz (1 vaga)\nAutarquia Municipal de Mobilidade, Trânsito e Transporte de Araripina (AMMTT), edital nº 005/2026, com 12 vagas\n• Auxiliar de Manutenção Predial (1 vaga)\n• Auxiliar de Serviços de Trânsito (9 vagas)\n• Auxiliar de Serviços Gerais (1 vaga)\n• Operador de Máquina de Pintura Viária (1 vaga)\nAgência Municipal de Meio Ambiente, Sustentabilidade e Proteção à Causa Animal de Araripina (AMMA), edital nº 006/2026, com 4 vagas\n• Auxiliar de Manutenção Predial (1 vaga)\n• Recepcionista (2 vagas)\n• Vigia (1 vaga)\nSaúde, edital nº 007/2026, com 220 vagas\n• Agente Administrativo (6 vagas)\n• Agente Ambiental (8 vagas)\n• Artesão (1 vaga)\n• Assistente Social (2 vagas)\n• Auxiliar de Farmácia (12 vagas)\n• Auxiliar de Informática (1 vaga)\n• Auxiliar de Saúde Bucal (6 vagas)\n• Auxiliar de Serviços Gerais (25 vagas)\n• Biomédico Citopatologista (3 vagas)\n• Cirurgião-Dentista (3 vagas)\n• Condutor de Ambulância (15 vagas)\n• Cozinheira CAPS (1 vaga)\n• Cozinheira Casa de Apoio (1 vaga)\n• Educador Físico (2 vagas)\n• Enfermeiro (18 vagas)\n• Farmacêutico (1 vaga)\n• Fisioterapeuta (2 vagas)\n• Fonoaudiólogo Infantil (1 vaga)\n• Médico Clínico (1 vaga)\n• Médico ESF (8 vagas)\n• Médico Especialista em Clínica Médica (1 vaga)\n• Médico Ginecologista (2 vagas)\n• Médico Infectologista (1 vaga)\n• Médico Neuropediatra (1 vaga)\n• Médico Obstetra (1 vaga)\n• Médico Ortopedista (1 vaga)\n• Médico Otorrinolaringologista (1 vaga)\n• Médico Psiquiatra (1 vaga)\n• Médico Psiquiatra Infantil (1 vaga)\n• Médico Urologista (1 vaga)\n• Motorista (10 vagas)\n• Oficineiro de Dança (1 vaga)\n• Pedreiro (3 vagas)\n• Recepcionista (28 vagas)\n• Técnico em Enfermagem (20 vagas)\n• Vigia (30 vagas)\nAs jornadas são de 20, 30 ou 40 horas semanais, conforme a função. Para Vigia da Saúde, a escala é de 12 horas de trabalho por 36 horas de descanso. As remunerações vão de R$ 1.741,00 a R$ 16.100,00. No edital de Administração e Infraestrutura, há adicional de periculosidade de 30% para Eletricista e adicionais de insalubridade de 20% ou 40% para as funções indicadas no quadro de vagas.\nAs inscrições serão realizadas exclusivamente pela internet, das 00h01 de 23 de novembro de 2026 às 23h59 de 6 de dezembro de 2026, no horário de Brasília. Cada edital tem um formulário próprio: Administração e Infraestrutura, Educação, Assistência Social, AMMTT, AMMA e Saúde. Como os períodos de inscrição são concomitantes, o candidato poderá se inscrever em apenas uma função, em apenas um dos seis editais. O sistema bloqueará novas inscrições. Os editais não fazem menção à cobrança de taxa de inscrição.\nA seleção terá etapa única de análise de títulos e experiência profissional, de caráter exclusivamente classificatório. Serão considerados os documentos enviados durante as inscrições. O resultado preliminar está previsto para 18 de dezembro de 2026. Os recursos poderão ser enviados de 19 a 22 de dezembro de 2026 para selecoes.sad@araripina.pe.gov.br. O resultado final está previsto para 30 de dezembro de 2026.\nAs contratações serão temporárias, por até 12 meses, com possibilidade de prorrogação por igual período, conforme a legislação municipal e a permanência da necessidade que justificou a contratação. Os contratados serão vinculados ao Regime Geral de Previdência Social (RGPS).\nCada processo seletivo terá validade de 12 meses, contados da homologação do resultado final, com possibilidade de uma única prorrogação por igual período.\nMais informações podem ser obtidas nos editais completos.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1741,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Administrativo",
     "Auxiliar de Manutenção Predial",
@@ -263,14 +275,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Biomédico Citopatologista",
     "Cirurgião-Dentista",
     "Engenheiro Civil",
-    "Arquiteto",
-    "Nutricionista"
+    "Eletricista"
    ],
+   "cargosGerais": [
+    "Agente Administrativo",
+    "Auxiliar de Manutenção Predial",
+    "Auxiliar de Serviços Gerais",
+    "Encarregado de Manutenção de Equipamentos e Máquinas",
+    "Fiscal de Limpeza Urbana",
+    "Fiscal de Serviços Públicos",
+    "Gari para Coleta",
+    "Gari para Varrição"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Biomédico Citopatologista, Cirurgião-Dentista, Engenheiro Civil. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo e entrevista"
@@ -314,6 +338,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Araújos, no Estado de Minas Gerais, abriu dois Processos Seletivos Simplificados para formar cadastro de reserva em funções de nível fundamental incompleto ao superior.\nSegundo os editais, as oportunidades são para os cargos de:\nProcesso Seletivo Simplificado nº 20/2026\n• Advogado\n• Agente Comunitário de Saúde\n• Agente de Combate às Endemias\n• Agente de Comunicação\n• Agente Fiscal\n• Auxiliar de Serviços Administrativos\n• Auxiliar de Serviços da Saúde - Auxiliar de Saúde Bucal\n• Auxiliar de Serviços Gerais\n• Auxiliar de Cuidador Social\n• Auxiliar de Serviço Público, Zona Urbana\n• Auxiliar de Serviço Público, Zona Rural\n• Comunicólogo\n• Contador\n• Cuidador Social\n• Dentista UBS\n• Enfermeiro Padrão\n• Enfermeiro UBS\n• Fisioterapeuta\n• Fonoaudiólogo\n• Gari\n• Jardineiro, Zona Urbana\n• Jardineiro, Zona Rural\n• Médico UBS\n• Mestre de Obras\n• Motorista Geral\n• Motorista Geral, Zona Rural\n• Operador de Máquinas\n• Recepcionista/Atendente\n• Técnico de Enfermagem\n• Técnico de Enfermagem UBS\n• Técnico de Raio X\n• Terapeuta Ocupacional\nProcesso Seletivo Simplificado nº 21/2026\n• Assistente Administrativo Educacional\n• Auxiliar de Secretaria\n• Psicopedagogo\n• Especialista da Educação\n• Professor de Educação Física\n• Professor de Educação Básica, Zona Urbana\n• Professor de Educação Básica, Zona Rural\n• Auxiliar de Serviços Gerais, Educação\n• Nutricionista\nAs jornadas variam de 20 a 40 horas semanais, conforme o cargo. Auxiliar de Cuidador Social e Cuidador Social trabalham em escala de 12 por 36 horas. Os salários-base variam de R$ 1.621,00 a R$ 13.865,67.\nAs inscrições para ambos os processos serão realizadas de 9 a 30 de novembro de 2026, das 8h às 11h e das 12h às 16h. Para o edital nº 20/2026, o atendimento será na sede da Prefeitura, na Avenida 1º de Janeiro, 1.748, Centro, Araújos (MG). Para o edital nº 21/2026, será no CEMAES, na Rua Espírito Santo, 1.061, Centro, no segundo andar do CMEI Raimundo Novato. Não haverá cobrança de taxa de inscrição.\nA seleção dos dois processos será feita por prova de títulos, de caráter classificatório, conforme os critérios estabelecidos nos editais.\nCada processo seletivo terá validade de um ano, contado da publicação da respectiva homologação, podendo ser prorrogado por igual período.\nMais informações podem ser obtidas nos editais completos.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Advogado",
     "Agente Comunitário de Saúde",
@@ -360,14 +386,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Dentista UBS",
     "Médico UBS",
     "Advogado",
-    "Contador"
+    "Auxiliar de Serviços da Saúde - Auxiliar de Saúde Bucal"
    ],
+   "cargosGerais": [
+    "Agente Comunitário de Saúde",
+    "Agente de Combate às Endemias",
+    "Agente de Comunicação",
+    "Agente Fiscal",
+    "Auxiliar de Serviços Administrativos",
+    "Auxiliar de Serviços Gerais",
+    "Auxiliar de Cuidador Social",
+    "Auxiliar de Serviço Público, Zona Urbana"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Dentista UBS, Médico UBS, Advogado. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo"
@@ -411,6 +449,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Fundação Hospitalar do Estado de Minas Gerais (Fhemig) abriu um Processo Seletivo Simplificado com o objetivo de preencher vagas e formar cadastro de reserva para médicos no Complexo Hospitalar de Especialidades em Belo Horizonte.\nSegundo o edital, as oportunidades são para os cargos de:\nHospital Júlia Kubitschek\n• Médico Clínico, 12 horas semanais (1 vaga)\n• Médico Clínico, 24 horas semanais (1 vaga)\n• Médico Anestesiologista, 12 horas semanais (1 vaga)\n• Médico Intensivista, 12 horas semanais (1 vaga)\n• Médico Endoscopista, 12 horas semanais (1 vaga)\n• Médico Endoscopista, 24 horas semanais (1 vaga)\n• Médico Cirurgião Geral, 12 horas semanais (1 vaga)\n• Médico Cirurgião Geral, 24 horas semanais (1 vaga)\n• Médico Radiologista e Diagnóstico por Imagem, 12 horas semanais (1 vaga)\n• Médico Radiologista e Diagnóstico por Imagem, 24 horas semanais (1 vaga)\n• Médico Generalista, 12 horas semanais (1 vaga)\n• Médico Generalista, 24 horas semanais (1 vaga)\n• Médico Ortopedista e Traumatologista, 12 horas semanais (1 vaga)\n• Médico Ortopedista e Traumatologista, 24 horas semanais (1 vaga)\n• Médico Neurocirurgião, 12 horas semanais (1 vaga)\n• Médico Neurologista, 24 horas semanais (1 vaga)\n• Médico Ginecologista e Obstetra, 12 horas semanais (1 vaga)\n• Médico Ginecologista e Obstetra, 24 horas semanais (1 vaga)\n• Médico em Medicina Paliativa, 24 horas semanais (1 vaga)\nHospital Alberto Cavalcanti\n• Médico Clínico, 12 horas semanais (1 vaga)\n• Médico Clínico, 24 horas semanais (1 vaga)\n• Médico Anestesiologista, 12 horas semanais (1 vaga)\n• Médico Intensivista, 24 horas semanais (1 vaga)\n• Médico Endoscopista, 12 horas semanais (1 vaga)\n• Médico Endoscopista, 24 horas semanais (1 vaga)\n• Médico Oncologista, 12 horas semanais (1 vaga)\n• Médico Oncologista, 24 horas semanais (1 vaga)\n• Médico Cirurgião Geral, 12 horas semanais (1 vaga)\n• Médico Cirurgião Geral, 24 horas semanais (1 vaga)\n• Médico Radiologista e Diagnóstico por Imagem, 12 horas semanais (1 vaga)\n• Médico Radiologista e Diagnóstico por Imagem, 24 horas semanais (1 vaga)\n• Médico Generalista, 12 horas semanais (1 vaga)\n• Médico Generalista, 24 horas semanais (1 vaga)\n• Médico Cirurgião Oncologista, 12 horas semanais (1 vaga)\n• Médico Cirurgião Oncologista, 24 horas semanais (1 vaga)\n• Médico em Medicina Paliativa, 24 horas semanais (1 vaga)\nA jornada será de 12 ou 24 horas semanais, com vencimento básico de R$ 2.518,37 a R$ 13.212,64, conforme a função e a carga horária. O edital prevê ajuda de custo e Gratificação de Incentivo à Eficientização dos Serviços.\nAs inscrições serão feitas das 9h de 23 de novembro de 2026 às 17h de 27 de novembro de 2026, por meio do currículo eletrônico disponível no site da Fhemig.\nA seleção terá duas etapas, ambas eliminatórias e classificatórias: análise curricular e entrevista.\nA contratação será temporária, por contrato administrativo de 12 meses, prorrogável por mais 12 meses. O contrato não gera vínculo empregatício regido pela Consolidação das Leis do Trabalho.\nO processo seletivo terá validade de até um ano, contado da publicação da homologação do resultado final, e poderá ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2518.37,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Médico Clínico, 12 horas semanais",
     "Médico Clínico, 24 horas semanais",
@@ -452,14 +492,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Clínico, 12 horas semanais",
     "Médico Clínico, 24 horas semanais",
     "Médico Anestesiologista, 12 horas semanais",
     "Médico Intensivista, 12 horas semanais"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo e entrevista"
@@ -503,6 +546,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura de Santana de Parnaíba, no Estado de São Paulo, abriu um Processo Seletivo Simplificado para formar cadastro de reserva de médicos, com exigência de ensino superior completo em Medicina e especialização na área pretendida.\nSegundo o edital, as oportunidades são para os cargos de:\n• Médico Angiologista\n• Médico Cardiologista\n• Médico Cardiologista Pediátrico\n• Médico Colposcopista\n• Médico Endocrinologista\n• Médico Endocrinologista Pediátrico\n• Médico Gastroenterologista\n• Médico Geriatra\n• Médico Ginecologista Obstetra\n• Médico Hebiatra (Medicina da Adolescência)\n• Médico Hematologista\n• Médico Hematologista Pediátrico\n• Médico Nefrologista\n• Médico Nefrologista Pediátrico\n• Médico Neurologista\n• Médico Neuropediatra\n• Médico Ortopedista\n• Médico Otorrinolaringologista\n• Médico Pediatra\n• Médico Pneumologista\n• Médico Psiquiatra da Infância e Adolescência\n• Médico Reumatologista\n• Médico Ultrassonografista\n• Médico Urologista\nA jornada prevista é de 20 horas semanais, com vencimento mensal de R$ 13.087,86. A jornada poderá variar de 6 a 40 horas semanais, com pagamento proporcional. Os contratados terão vale-alimentação de R$ 400,00.\nAs inscrições serão realizadas das 10h de 11 de novembro de 2026 às 17h de 23 de novembro de 2026, pelo site do Instituto Mais. A taxa é de R$ 72,00. Candidatos inscritos no CadÚnico, doadores de sangue e pessoas com deficiência que atendam aos requisitos do edital poderão solicitar isenção das 10h às 23h59 de 11 de novembro de 2026.\nA seleção terá avaliação de títulos e avaliação do tempo de experiência profissional, ambas de caráter classificatório.\nOs candidatos contratados serão submetidos ao Regime Jurídico Estatutário, por prazo determinado.\nO processo seletivo terá validade de seis meses a partir da homologação do resultado final e poderá ser prorrogado uma vez, por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Médico Angiologista",
     "Médico Cardiologista",
@@ -532,14 +577,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Angiologista",
     "Médico Cardiologista",
     "Médico Cardiologista Pediátrico",
     "Médico Colposcopista"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo"
@@ -583,6 +631,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Secretaria de Estado de Ciência, Tecnologia e Inovação de Mato Grosso (SECITECI) abriu um Processo Seletivo Simplificado para formar cadastro de reserva nas Escolas Técnicas Estaduais em funções de nível médio e superior.\nA retificação publicada em 5 de novembro de 2026 acrescentou ao edital o perfil de professor na área de Enfermagem para atuação na ETEC de Matupá. O documento também corrigiu referências e a numeração de subitens do edital, sem alterar suas demais disposições.\nUma retificação publicada em 9 de novembro de 2026 atualizou o cronograma do processo seletivo.\nSegundo o edital, as oportunidades são para os cargos de:\nProfessor da Educação Profissional e Tecnológica\n• Professor da área de Engenharia Agrícola e Ambiental\n• Professor da área de Medicina Veterinária\n• Professor da área de Pecuária\n• Professor da área de Zootecnia\n• Professor de Artes\n• Professor na área de Administração e Gestão\n• Professor na área de Agricultura\n• Professor na área de Agrimensura\n• Professor na área de Agroecologia e Produção Vegetal\n• Professor na área de Agroindústria\n• Professor na área de Análise e Desenvolvimento de Sistemas\n• Professor na área de Apicultura e Meliponicultura\n• Professor na área de Aquicultura\n• Professor na área de Arquitetura e Urbanismo\n• Professor na área de Automação\n• Professor na área de Biomedicina\n• Professor na área de Bioquímica\n• Professor na área de Comércio e Marketing\n• Professor na área de Comércio Exterior\n• Professor na área de Contabilidade e Finanças\n• Professor na área de Edificações\n• Professor na área de Enfermagem\n• Professor na área de Engenharia Ambiental\n• Professor na área de Engenharia e Tecnologia Agrícola\n• Professor na área de Engenharia Elétrica\n• Professor na área de Engenharia Florestal\n• Professor na área de Farmácia\n• Professor na área de Gastronomia\n• Professor na área de Gastronomia e Alimentos\n• Professor na área de Gestão do Agronegócio\n• Professor na área de Informática\n• Professor na área de Logística\n• Professor na área de Mineração\n• Professor na área de Música/Percussão\n• Professor na área de Música/Sopro-Metais\n• Professor na área de Música/Sopro-Palhetas\n• Professor na área de Processos Químicos e Bioquímicos\n• Professor na área de Química\n• Professor na área de Recursos Humanos\n• Professor na área de Saúde Bucal\n• Professor na área de Secretariado\n• Professor na área de Segurança do Trabalho\n• Professor na área de Tecnologia de Laticínios\n• Professor na área de Turismo\n• Professor na área Têxtil\nProfessor da Base Nacional Comum Curricular (BNCC)\n• Professor na área de Língua Portuguesa\n• Professor na área de Língua Inglesa\n• Professor na área de Educação Física\n• Professor na área de Arte\n• Professor na área de Matemática\n• Professor na área de Química\n• Professor na área de Física\n• Professor na área de Biologia\n• Professor na área de História\n• Professor na área de Sociologia\n• Professor na área de Filosofia\n• Professor na área de Geografia\nTécnico de Apoio Educacional\n• Técnico de Apoio Educacional\n• Técnico em Agricultura\n• Técnico em Agroindústria\n• Técnico em Agropecuária\n• Técnico em Alimentos\n• Técnico em Análises Clínicas\n• Técnico em Automação Industrial\n• Técnico em Biocombustíveis\n• Técnico em Confeitaria\n• Técnico em Edificações\n• Técnico em Eletrotécnica\n• Técnico em Enfermagem\n• Técnico em Farmácia\n• Técnico em Informática\n• Técnico em Manutenção de Máquinas Industriais\n• Técnico em Manutenção e Suporte em Informática\n• Técnico em Panificação\n• Técnico em Química\n• Técnico em Saúde Bucal\n• Técnico em Segurança do Trabalho\n• Técnico em Sistemas de Energias Renováveis\n• Técnico em Têxtil\n• Técnico em Zootecnia\nA jornada dos professores poderá ser de 20, 30 ou 40 horas semanais, com remuneração de R$ 3.234,33 a R$ 12.937,29, conforme a carga horária e a titulação.\nAs inscrições serão feitas exclusivamente pelo site do Instituto Nacional de Seleções e Concursos (SELECON), das 10h de 3 de novembro de 2026 às 23h59 de 26 de novembro de 2026, pelo horário de Mato Grosso. A taxa é de R$ 75,00. Poderão solicitar isenção, de 3 a 5 de novembro de 2026, candidatos que atendam aos critérios do edital.\nA seleção será feita por avaliação curricular, de caráter classificatório e eliminatório.\nPara professores, o contrato poderá durar até 30 meses e ser prorrogado por até 30 meses, respeitado o limite de 60 meses. Para técnicos, o prazo será de até 36 meses, com possibilidade de prorrogação por até 12 meses, limitado a 48 meses.\nO processo seletivo terá validade de dois anos, contados da homologação do resultado final, podendo ser prorrogado por igual período, a critério da administração.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 3234.33,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Professor da área de Engenharia Agrícola e Ambiental",
     "Professor da área de Medicina Veterinária",
@@ -668,14 +718,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Professor da área de Medicina Veterinária",
     "Professor na área de Biomedicina",
     "Professor da área de Engenharia Agrícola e Ambiental",
     "Professor da área de Pecuária"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Professor da área de Medicina Veterinária, Professor na área de Biomedicina, Professor da área de Engenharia Agrícola e Ambiental. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo"
@@ -719,6 +772,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado do Paraná, a Prefeitura Municipal de Quedas do Iguaçu abriu um concurso público para preencher vagas e formar cadastro de reserva em cargos efetivos de nível médio, técnico e superior.\nUma retificação excluiu o cargo de Fiscal de Tributos Municipais do concurso. Quem pagou a inscrição para esse cargo deve solicitar a devolução da taxa entre 9 e 27 de novembro de 2026, por meio do formulário disponível na página do concurso. Não é possível trocar de cargo. O reembolso será feito em até 45 dias após o fim do prazo de solicitação, por depósito em conta corrente ou transferência via Pix de titularidade do candidato.\nSegundo o edital, as oportunidades são para os seguintes cargos:\nNível médio e técnico\n• Auxiliar de Saúde Bucal\n• Cuidador Social\n• Professor (70 vagas)\n• Professor de Educação Infantil (40 vagas)\n• Técnico em Contabilidade\n• Técnico em Enfermagem\n• Técnico em Meio Ambiente (1 vaga)\n• Técnico em Saúde Bucal\nNível superior\n• Assistente Social (4 vagas)\n• Biólogo (1 vaga)\n• Contador\n• Enfermeiro\n• Farmacêutico\n• Fisioterapeuta\n• Fonoaudiólogo (2 vagas)\n• Médico Ginecologista e Obstetra\n• Nutricionista\n• Odontólogo\n• Professor de Educação Física (12 vagas)\n• Psicólogo (8 vagas)\n• Terapeuta Ocupacional (2 vagas)\nA jornada varia de 20 a 40 horas semanais, com salários iniciais de R$ 1.684,22 a R$ 11.998,88. Os salários de Técnico em Enfermagem e Enfermeiro serão complementados conforme a lei municipal. Os de magistério serão complementados, quando necessário, para garantir o piso nacional da categoria.\nAs inscrições serão realizadas de 24 de outubro de 2026 a 25 de novembro de 2026, pelo site da Universidade Estadual do Oeste do Paraná (Unioeste). A taxa é de R$ 100,00 para cargos de nível médio e técnico e de R$ 120,00 para cargos de nível superior.\nA seleção terá prova objetiva, de caráter eliminatório e classificatório, para todos os cargos. A aplicação está prevista para o dia 13 de dezembro de 2026, em Quedas do Iguaçu e, conforme o número de inscritos, em municípios vizinhos. Para os cargos de magistério haverá avaliação de títulos, de caráter classificatório. Após a convocação, os aprovados passarão por avaliação médica e psicológica, de caráter eliminatório.\nOs aprovados serão admitidos pelo regime estatutário, com vinculação ao Regime Geral de Previdência Social.\nO concurso terá validade de dois anos a partir da publicação da homologação do resultado final. O prazo poderá ser prorrogado por mais dois anos, a critério da administração municipal.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1684.22,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Saúde Bucal",
     "Cuidador Social",
@@ -745,14 +800,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Ginecologista e Obstetra",
     "Odontólogo",
-    "Professor",
-    "Professor de Educação Infantil"
+    "Auxiliar de Saúde Bucal",
+    "Professor"
    ],
+   "cargosGerais": [
+    "Cuidador Social"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Ginecologista e Obstetra, Odontólogo, Auxiliar de Saúde Bucal. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -798,6 +858,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Consórcio Intermunicipal Multifinalitário da Região da AMFRI (CIM-AMFRI) abriu Processo Seletivo Simplificado para formar cadastro de reserva em empregos temporários de nível superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Analista Ambiental (Engenharia Agrônoma)\n• Analista Ambiental (Engenharia Ambiental)\n• Analista Ambiental (Engenharia Civil)\n• Analista Ambiental (Engenharia Florestal)\n• Analista Ambiental (Geologia)\n• Analista Ambiental (Engenharia Sanitarista)\n• Contador\n• Médico(a) Veterinário(a)\nA jornada é de 40 horas semanais. O salário inicial é de R$ 9.633,84 para Analista Ambiental e de R$ 11.569,13 para Contador e Médico(a) Veterinário(a).\nAs inscrições serão realizadas de 16 de novembro de 2026 a 18 de dezembro de 2026, pelo site indepac.selecao.net.br, observado o horário oficial de Brasília. A taxa é de R$ 80,00, com pagamento por boleto até 21 de dezembro de 2026.\nA seleção terá prova escrita objetiva, de caráter eliminatório e classificatório, com questões de língua portuguesa, matemática, conhecimentos gerais e conhecimentos específicos. A aplicação está prevista para 31 de janeiro de 2027.\nAs contratações serão por tempo determinado, conforme a necessidade do CIM-AMFRI, sob o regime da Consolidação das Leis do Trabalho (CLT).\nO processo seletivo terá validade de um ano a partir da homologação, podendo ser prorrogado por mais um ano, a critério do CIM-AMFRI.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Analista Ambiental",
     "Analista Ambiental",
@@ -811,13 +873,18 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico",
     "Médico(a) Veterinário(a)",
     "Contador"
    ],
+   "cargosGerais": [
+    "Analista Ambiental"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -863,6 +930,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Pontes e Lacerda, no Estado de Mato Grosso, abriu um Processo Seletivo Simplificado destinado a preencher vagas temporárias e formar cadastro de reserva para profissionais de nível médio, técnico e superior.\nSegundo o edital, as oportunidades são para os seguintes cargos:\n• Assistente Administrativo (3 vagas)\n• Assistente Social\n• Assistente Social Educacional\n• Auxiliar de Consultório Dentário (1 vaga)\n• Bioquímico/Farmacêutico (2 vagas)\n• Enfermeiro (2 vagas)\n• Enfermeiro, zona rural\n• Fisioterapeuta\n• Fonoaudiólogo\n• Médico 20H\n• Médico 40H\n• Nutricionista\n• Odontólogo (1 vaga)\n• Pedagogo\n• Professor de Língua Inglesa, Secretaria de Educação\n• Professor de Língua Inglesa, Secretaria de Educação, zona rural\n• Professor Anos Iniciais, Secretaria de Educação (10 vagas)\n• Professor Anos Iniciais, Secretaria de Educação, zona rural\n• Professor de Educação Física 30H, Secretaria de Educação\n• Professor de Educação Física 30H, Secretaria de Educação, zona rural\n• Professor de Educação Infantil, Secretaria de Educação (15 vagas)\n• Professor de Educação Infantil, Secretaria de Educação, zona rural (2 vagas)\n• Professor de Educação Física 20H\n• Psicólogo\n• Psicólogo Educacional\n• TAE, Técnico em Administração Escolar (1 vaga)\n• TAE, Técnico em Administração Escolar, zona rural\n• TAE, Técnico em Desenvolvimento Infantil (2 vagas)\n• TAE, Técnico em Desenvolvimento Infantil, zona rural (1 vaga)\n• TAE, Técnico Multimeios Didáticos (2 vagas)\n• TAE, Técnico Multimeios Didáticos, zona rural (1 vaga)\n• Técnico em Enfermagem (1 vaga)\n• Técnico em Enfermagem, zona rural\n• Técnico em Gesso Ortopédico/Hospitalar\n• Técnico em Higiene Dental\n• Técnico Operacional Assistente Administrativo (3 vagas)\n• Técnico Operacional em Raio-X\n• Terapeuta Ocupacional\nA jornada varia de 20 a 40 horas semanais. Os vencimentos vão de R$ 1.858,25 a R$ 11.308,36, conforme a função.\nAs inscrições serão feitas exclusivamente pelo site do Instituto Atame, de 9 a 22 de novembro de 2026. A taxa varia de R$ 70,00 a R$ 100,00. Doadores regulares de sangue, trabalhadores que recebam até um salário mínimo e meio e pessoas desempregadas poderão solicitar isenção entre os dias 9 e 10 de novembro de 2026, mediante comprovação dos requisitos.\nA seleção terá prova objetiva para todas as funções, de caráter eliminatório e classificatório. Para as funções de nível superior, haverá também prova de títulos facultativa, de caráter classificatório. A prova objetiva e a entrega dos títulos estão previstas para 6 de dezembro de 2026.\nAs contratações serão temporárias, sob regime administrativo especial, com vínculo ao Regime Geral de Previdência Social. Os contratos terão duração de 6, 12 ou 24 meses, conforme a necessidade, e poderão ser prorrogados uma única vez por igual período.\nO processo seletivo terá validade de um ano a partir da publicação da homologação do resultado. O prazo poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1858.25,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Administrativo",
     "Assistente Social",
@@ -906,14 +975,24 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico 20H",
     "Médico 40H",
     "Odontólogo",
-    "Bioquímico/Farmacêutico"
+    "Assistente Social"
    ],
+   "cargosGerais": [
+    "Assistente Administrativo",
+    "Auxiliar de Consultório Dentário",
+    "TAE, Técnico em Administração Escolar, zona rural",
+    "TAE, Técnico Multimeios Didáticos, zona rural",
+    "Técnico Operacional Assistente Administrativo",
+    "Técnico Operacional em Raio-X"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico 20H, Médico 40H, Odontólogo. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -959,6 +1038,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Inhapim, no Estado de Minas Gerais, abriu um concurso público para o provimento de vagas em cargos efetivos, além da formação de cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Advogado (CREAS) (1 vaga)\n• Agente Administrativo (10 vagas)\n• Agente de Tributação (1 vaga e cadastro de reserva)\n• Agente de Vigilância Epidemiológica e Sanitária (1 vaga e cadastro de reserva)\n• Arquiteto (1 vaga)\n• Artesão (1 vaga)\n• Assistente Social (4 vagas)\n• Auxiliar Administrativo (10 vagas)\n• Auxiliar de Professor/Monitor (35 vagas)\n• Auxiliar de Secretaria Escolar (5 vagas)\n• Auxiliar de Serviços Gerais I (25 vagas)\n• Auxiliar de Serviços Gerais II (5 vagas)\n• Auxiliar de Serviços Gerais (Abrigo) (1 vaga)\n• Auxiliar em Saúde Bucal (1 vaga)\n• Bombeiro Hidráulico (1 vaga e cadastro de reserva)\n• Cirurgião Dentista (3 vagas)\n• Coveiro (1 vaga)\n• Cozinheiro (Abrigo) (1 vaga e cadastro de reserva)\n• Educador Físico (1 vaga)\n• Educador Social (3 vagas)\n• Eletricista (1 vaga)\n• Enfermeiro (3 vagas)\n• Engenheiro Civil (2 vagas)\n• Engenheiro Eletricista (1 vaga)\n• Fiscal (4 vagas)\n• Fiscal do Meio Ambiente (2 vagas)\n• Fisioterapeuta (2 vagas)\n• Fonoaudiólogo (1 vaga)\n• Gari (10 vagas)\n• Instrutor de Esportes (1 vaga e cadastro de reserva)\n• Mecânico (1 vaga e cadastro de reserva)\n• Mecânico Manutenção (1 vaga)\n• Médico Cirurgião (1 vaga)\n• Médico Clínico Geral (10 vagas)\n• Médico Pediatra (2 vagas)\n• Médico PSF (5 vagas)\n• Médico Psiquiatra Infantil (1 vaga)\n• Médico Veterinário (1 vaga)\n• Motorista Habilitação B ou AB (4 vagas)\n• Motorista Habilitação C, D, E (15 vagas)\n• Neuropedagogo/Neuropsicopedagogo (2 vagas)\n• Neuropsicólogo (1 vaga)\n• Nutricionista (2 vagas)\n• Operador de Motoniveladora (1 vaga)\n• Operário (10 vagas)\n• Orientador Social (3 vagas)\n• Pedreiro (2 vagas)\n• Pintor (1 vaga e cadastro de reserva)\n• Professor de Educação Básica do 6º ao 9º ano, História, 12 horas-aula (1 vaga)\n• Professor de Educação Básica do 6º ao 9º ano, Inglês, 8 horas-aula (1 vaga)\n• Professor de Educação Básica do 6º ao 9º ano, Educação Física, 16 horas-aula (3 vagas)\n• Professor de Educação Básica do 6º ao 9º ano, Ensino Religioso, 4 horas-aula (1 vaga)\n• Professor de Educação Básica do 6º ao 9º ano, Artes, 16 horas-aula (1 vaga)\n• Professor de Educação Básica, Infantil ao 5º ano (58 vagas)\n• Psicólogo (5 vagas)\n• Soldador (1 vaga)\n• Técnico Agrícola Agropecuário (1 vaga e cadastro de reserva)\n• Técnico em Acupuntura (1 vaga)\n• Técnico em Enfermagem (7 vagas)\n• Técnico em Enfermagem TFD, SAD e Centro de Saúde (4 vagas)\n• Técnico em Farmácia (1 vaga e cadastro de reserva)\n• Técnico em Meio Ambiente (1 vaga e cadastro de reserva)\n• Técnico em Radiologia (2 vagas)\n• Técnico em Saúde Bucal (1 vaga)\n• Terapeuta Ocupacional (1 vaga)\n• Vigia (5 vagas)\n• Visitador (5 vagas)\nAs jornadas variam de 5 a 40 horas semanais, conforme o cargo. Há também funções em escala de 12 por 36 horas. Os salários iniciais vão de R$ 1.621,00 a R$ 11.232,59. Para os cargos de professor, o valor é de R$ 28,50 por hora-aula.\nAs inscrições poderão ser feitas das 8h de 6 de novembro de 2026 às 23h59 de 6 de dezembro de 2026, pelo site da Fronte Concursos e Projetos. As taxas variam de R$ 23,09 a R$ 336,98. Doadores regulares de sangue que comprovem ao menos duas doações nos 12 meses anteriores ao encerramento das inscrições poderão solicitar isenção de 6 a 11 de novembro de 2026.\nA seleção terá prova objetiva para todos os cargos, prova de títulos para os cargos de nível superior e prova prática para Motorista Habilitação B ou AB, Motorista Habilitação C, D, E e Operador de Motoniveladora. O cargo de Técnico em Radiologia terá avaliação de experiência profissional. Para os aprovados na prova prática, será exigido exame toxicológico. As provas objetivas ocorrerão em Inhapim (MG) em 17 de janeiro de 2027, para os níveis fundamental, médio e técnico, e em 31 de janeiro de 2027, para o nível superior.\nA validade do concurso será de até dois anos, prorrogável uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Advogado",
     "Agente Administrativo",
@@ -1031,14 +1112,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Cirurgião Dentista",
     "Médico Cirurgião",
     "Médico Clínico Geral",
     "Médico Pediatra"
    ],
+   "cargosGerais": [
+    "Agente Administrativo",
+    "Agente de Tributação",
+    "Agente de Vigilância Epidemiológica e Sanitária",
+    "Artesão",
+    "Auxiliar Administrativo",
+    "Auxiliar de Secretaria Escolar",
+    "Auxiliar de Serviços Gerais I",
+    "Auxiliar de Serviços Gerais II"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Cirurgião Dentista, Médico Cirurgião, Médico Clínico Geral. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -1084,6 +1177,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Araranguá, no Estado de Santa Catarina, abriu dois Processos Seletivos Simplificados para profissionais de nível fundamental, médio, técnico e superior.\nSegundo os editais, as oportunidades são para os cargos de:\nAdministração, edital nº 003/2026\n• Agente de Vigilância Sanitária I\n• Almoxarife I\n• Arquiteto I\n• Assistente Social I\n• Atendente de Farmácia I\n• Auxiliar Administrativo I\n• Auxiliar de Laboratório de Análises Clínicas I\n• Auxiliar de Serviços Gerais I\n• Enfermeiro I\n• Engenheiro Agrimensor I\n• Engenheiro Civil I\n• Farmacêutico I\n• Fiscal Sanitário I\n• Fisioterapeuta I\n• Fisioterapeuta II\n• Fonoaudiólogo I\n• Gari I\n• Mecânico I\n• Médico I\n• Médico II PSF\n• Médico Psiquiatra\n• Médico Veterinário I\n• Motorista III\n• Nutricionista I\n• Odontólogo Bucomaxilofacial\n• Odontólogo Endodontia\n• Odontólogo Periodontia\n• Odontólogo I\n• Odontólogo II\n• Operador de Máquinas III\n• Operário I\n• Orientador Social I\n• Pedagogo da Assistência Social I\n• Profissional de Abordagem Social I\n• Psicólogo I\n• Técnico de Informática\n• Técnico em Edificações I\n• Técnico em Enfermagem I\n• Técnico em Radiologia I\n• Técnico em Saúde Bucal I\n• Terapeuta Ocupacional I\n• Vigia I\nEducação, edital nº 004/2026\n• Assistente Social I\n• Auxiliar de Serviços Gerais I\n• Monitor Escolar I (Ensino Fundamental)\n• Monitor Infantil I (Educação Infantil)\n• Nutricionista I\n• Orientador Educacional I\n• Professor III Educação Infantil e Ensino Fundamental\n• Professor IV Arte\n• Professor IV Ciências\n• Professor IV Educação Física\n• Professor IV Geografia\n• Professor IV História\n• Professor IV Inglês\n• Professor IV Matemática\n• Professor IV Português\n• Psicólogo I\n• Psicopedagogo I\n• Supervisor Escolar I\nAs jornadas variam de 20 a 40 horas semanais. Os vencimentos básicos vão de R$ 1.403,44 a R$ 11.219,13 na Administração e de R$ 1.403,44 a R$ 4.376,83 na Educação. Os vencimentos inferiores ao salário mínimo nacional serão complementados. Todos os cargos recebem vale-alimentação mensal de R$ 456,77.\nAs inscrições para os dois processos seletivos devem ser feitas de 13 de novembro de 2026 a 6 de dezembro de 2026, até as 18h do último dia, pelo site do Instituto Legalle, no horário de Brasília. As taxas são de R$ 65,00 para nível fundamental, R$ 80,00 para nível médio ou técnico e R$ 120,00 para nível superior. Doadores de sangue podem solicitar isenção de 13 a 19 de novembro de 2026, mediante comprovação de pelo menos três doações nos 12 meses anteriores à publicação dos editais.\nA seleção terá prova teórico-objetiva, eliminatória e classificatória, para todos os cargos, com aplicação prevista para 20 de dezembro de 2026. Para Operador de Máquinas III, também haverá prova prática, eliminatória e classificatória, prevista para 24 de janeiro de 2027.\nCada processo seletivo terá validade de um ano, contado da publicação da homologação do resultado final, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas nos editais completos.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1403.44,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Vigilância Sanitária I",
     "Almoxarife I",
@@ -1149,14 +1244,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico I",
     "Médico II PSF",
     "Médico Psiquiatra",
     "Médico Veterinário I"
    ],
+   "cargosGerais": [
+    "Agente de Vigilância Sanitária I",
+    "Almoxarife I",
+    "Auxiliar Administrativo I",
+    "Auxiliar de Serviços Gerais I",
+    "Fiscal Sanitário I",
+    "Gari I",
+    "Motorista III",
+    "Operador de Máquinas III"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico I, Médico II PSF, Médico Psiquiatra. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -1202,6 +1309,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Secretaria de Estado da Saúde de Santa Catarina (SES) abriu um Processo Seletivo Simplificado para preencher vagas de nível superior em Joinville/SC.\nSegundo o edital, as oportunidades são para os cargos de:\nUnidades da SES\n• Engenheiro Eletricista, área da saúde (1 vaga)\n• Engenheiro, segurança do trabalho (1 vaga)\n• Médico especialista em Cardiologia, atuação em Ecocardiografia (1 vaga)\nHospital Regional Hans Dieter Schmidt\n• Enfermeiro, atuação em Circulação Extracorpórea (1 vaga)\n• Farmacêutico, atuação em Farmácia Hospitalar (1 vaga)\n• Médico especialista em Medicina de Emergência (1 vaga)\n• Médico especialista em Endoscopia Digestiva (1 vaga)\n• Médico especialista em Nefrologia (1 vaga)\n• Médico especialista em Pneumologia (1 vaga)\n• Médico especialista em Radiologia e Diagnóstico por Imagem, atuação em Ultrassonografia Geral (1 vaga)\n• Terapeuta Ocupacional, atuação hospitalar (1 vaga)\nMaternidade Darcy Vargas\n• Médico especialista em Ginecologia e Obstetrícia (1 vaga)\nA jornada é de, no mínimo, 30 horas semanais para enfermeiros, engenheiros, farmacêuticos e terapeutas ocupacionais, com vencimento de R$ 5.670,38. Para médicos, são 20 horas semanais, com vencimento de R$ 10.581,16. Os valores incluem gratificação e auxílio-alimentação de R$ 550,00. O adicional de insalubridade é concedido quando couber e pode variar.\nAs inscrições serão realizadas exclusivamente pelo site SIGRHPPS, de 12 a 26 de novembro de 2026.\nA seleção terá uma única etapa, com pontuação por títulos e experiência profissional comprovada.\nO processo seletivo simplificado destina-se à seleção de profissionais para contratação temporária pelo período de 24 meses, podendo ser prorrogada por uma única vez, pelo mesmo prazo.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Engenheiro Eletricista, área da saúde",
     "Engenheiro, segurança do trabalho",
@@ -1218,14 +1327,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico especialista em Cardiologia, atuação em Ecocardiografia",
     "Médico especialista em Medicina de Emergência",
     "Médico especialista em Endoscopia Digestiva",
     "Médico especialista em Nefrologia"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo"
@@ -1269,6 +1381,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Goiás, a Prefeitura Municipal de São Francisco de Goiás abriu um Concurso Público com o objetivo de contratar profissionais para cargos efetivos de nível fundamental incompleto, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente Comunitário de Saúde, UBS Afonso Pedroso de Sousa (3 vagas)\n• Agente Comunitário de Saúde, UBS Antônio Rodrigues (2 vagas)\n• Agente Comunitário de Saúde, UBS Delfina Borges, somente cadastro de reserva\n• Agente de Combate às Endemias (2 vagas)\n• Analista de Controle Interno (1 vaga)\n• Assistente Social (1 vaga)\n• Auxiliar Administrativo (2 vagas)\n• Auxiliar de Almoxarifado (1 vaga)\n• Auxiliar de Cozinha (2 vagas)\n• Auxiliar de Saúde Bucal (2 vagas)\n• Auxiliar de Serviços Gerais (7 vagas)\n• Coveiro (1 vaga)\n• Cozinheiro (1 vaga)\n• Eletricista (1 vaga)\n• Enfermeiro (4 vagas)\n• Engenheiro Civil (1 vaga)\n• Farmacêutico (1 vaga)\n• Fiscal de Postura e Obras Municipais, somente cadastro de reserva\n• Fiscal de Tributos (2 vagas)\n• Fiscal de Vigilância Sanitária (1 vaga)\n• Fisioterapeuta (2 vagas)\n• Gari (3 vagas)\n• Guarda Noturno da Unidade de Saúde (2 vagas)\n• Médico (1 vaga)\n• Merendeiro (2 vagas)\n• Motorista Categoria D (5 vagas)\n• Motorista Categoria B (3 vagas)\n• Motorista de Ambulância Categoria D/E (2 vagas)\n• Nutricionista (1 vaga)\n• Odontólogo (2 vagas)\n• Operador de Máquinas, somente cadastro de reserva\n• Operador de Máquinas Pesadas (2 vagas)\n• Operador de Motoniveladora (1 vaga)\n• Padeiro (1 vaga)\n• Pedreiro (1 vaga)\n• Porteiro (2 vagas)\n• Professor (5 vagas)\n• Profissional de Apoio (6 vagas)\n• Psicólogo (2 vagas)\n• Técnico de Enfermagem (5 vagas)\n• Tratorista (2 vagas)\n• Vigia (1 vaga)\nAs jornadas são de 30 ou 40 horas semanais, conforme o cargo. Os vencimentos variam de R$ 1.621,00 a R$ 10.500,00.\nAs inscrições poderão ser feitas de 7 de dezembro de 2026, à 0h, a 7 de janeiro de 2027, às 23h59, pelo site da banca organizadora. A Prefeitura oferecerá auxílio presencial na Avenida Oto Cardoso de Paiva, nº 810, Vila Souzânia, em dias úteis, das 8h às 11h e das 13h às 16h. As taxas são de R$ 80,00 para cargos de nível fundamental, R$ 100,00 para nível médio ou técnico e R$ 180,00 para nível superior, com pagamento até 8 de janeiro de 2027. Candidatos de baixa renda inscritos no CadÚnico poderão solicitar isenção de 7 a 11 de dezembro de 2026.\nA seleção terá prova objetiva para todos os cargos, prova de títulos para os cargos de nível superior indicados no edital, prova prática para funções específicas e teste de aptidão física para coveiro, gari, guarda noturno da unidade de saúde e pedreiro. A prova objetiva está prevista para 14 de fevereiro de 2027. Conforme o número de candidatos, também poderá haver aplicação em 13 de fevereiro de 2027. As provas práticas e o teste de aptidão física estão previstos para 4 de abril de 2027.\nO concurso terá validade de dois anos, contados da publicação da homologação, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Comunitário de Saúde, UBS Afonso Pedroso de Sousa",
     "Agente Comunitário de Saúde, UBS Antônio Rodrigues",
@@ -1316,14 +1430,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico",
     "Odontólogo",
     "Engenheiro Civil",
-    "Enfermeiro"
+    "Agente Comunitário de Saúde, UBS Afonso Pedroso de Sousa"
    ],
+   "cargosGerais": [
+    "Agente Comunitário de Saúde, UBS Delfina Borges, somente cadastro de reserva",
+    "Agente de Combate às Endemias",
+    "Analista de Controle Interno",
+    "Auxiliar Administrativo",
+    "Auxiliar de Almoxarifado",
+    "Auxiliar de Cozinha",
+    "Auxiliar de Serviços Gerais",
+    "Coveiro"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico, Odontólogo, Engenheiro Civil. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -1369,6 +1495,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Minas Gerais, o Município de Santa Rita de Jacutinga realiza Concurso Público para preencher vagas em funções de nível fundamental (incompleto ou completo), médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino fundamental incompleto\n• Auxiliar de Serviços Gerais (5 vagas)\n• Bombeiro Hidráulico (1 vaga)\n• Gari (2 vagas)\n• Jardineiro (1 vaga)\n• Operário Braçal (5 vagas)\n• Pedreiro (1 vaga)\n• Pintor (1 vaga)\nEnsino fundamental completo\n• Calceteiro (1 vaga)\n• Operador de Máquina Pesada (1 vaga)\n• Operador de Trator Agrícola (1 vaga)\nEnsino médio completo\n• Administrativo (1 vaga)\n• Agente de Vigilância Sanitária (2 vagas)\n• Auxiliar de Odontologia (1 vaga)\n• Fiscal de Posturas (1 vaga)\n• Motorista (5 vagas)\n• Motorista de Ambulância (8 vagas)\n• Motorista de Caminhão (2 vagas)\nEnsino médio e técnico completo\n• Eletricista (1 vaga)\n• Técnico de Enfermagem (3 vagas)\n• Técnico de Enfermagem para Ambulância (8 vagas)\n• Técnico em Radiologia Odontológica (1 vaga)\nEnsino superior completo\n• Assistente Social (CRAS) (1 vaga)\n• Assistente Social (Saúde) (1 vaga)\n• Biólogo (1 vaga)\n• Enfermeiro para Ambulância (8 vagas)\n• Engenheiro Civil (1 vaga)\n• Farmacêutico (1 vaga)\n• Fonoaudiólogo (1 vaga)\n• Médico Clínico Geral (1 vaga)\n• Nutricionista (1 vaga)\n• Odontólogo (1 vaga)\n• Psicólogo (CRAS) (1 vaga)\n• Psicólogo (Saúde) (1 vaga)\nEnsino superior completo com especialização\n• Epidemiologista (1 vaga)\n• Veterinário para Animais de Grande Porte (1 vaga)\nAs jornadas variam de 20 a 44 horas semanais, conforme o cargo. Para Motorista de Ambulância, Técnico de Enfermagem para Ambulância e Enfermeiro para Ambulância, o edital prevê regime de plantão. Os vencimentos mensais vão de R$ 1.621,00 a R$ 10.207,61.\nAs inscrições serão realizadas exclusivamente pelo site www.ibgpconcursos.com.br, das 9h do dia 22 de dezembro de 2026 às 16h do dia 20 de janeiro de 2027, no horário de Brasília. As taxas são de R$ 50,00 para nível fundamental, R$ 70,00 para nível médio, R$ 100,00 para nível técnico e R$ 150,00 para nível superior. O pagamento poderá ser feito até 21 de janeiro de 2027. Candidatos que atendam aos critérios de isenção previstos no edital poderão solicitá-la das 9h de 22 de dezembro às 16h de 28 de dezembro de 2026.\nTodos os candidatos farão prova objetiva de múltipla escolha, de caráter eliminatório e classificatório, prevista para 14 de fevereiro de 2027. Haverá prova de títulos, de caráter classificatório, para os cargos de nível superior. Também haverá prova prática, de caráter eliminatório, para Bombeiro Hidráulico, Gari, Operário Braçal, Pedreiro, Calceteiro, Operador de Máquina Pesada, Operador de Trator Agrícola e os três cargos de Motorista.\nO concurso terá validade de dois anos a partir da publicação da homologação do resultado final, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Serviços Gerais",
     "Bombeiro Hidráulico",
@@ -1409,14 +1537,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Auxiliar de Odontologia",
     "Técnico em Radiologia Odontológica",
     "Médico Clínico Geral",
     "Odontólogo"
    ],
+   "cargosGerais": [
+    "Auxiliar de Serviços Gerais",
+    "Bombeiro Hidráulico",
+    "Gari",
+    "Jardineiro",
+    "Operário Braçal",
+    "Pedreiro",
+    "Pintor",
+    "Calceteiro"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Auxiliar de Odontologia, Técnico em Radiologia Odontológica, Médico Clínico Geral. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -1462,6 +1602,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Luislândia, no Estado de Minas Gerais, publicou o edital do Concurso Público destinado ao provimento de cargos efetivos de nível superior, médio, técnico e fundamental.\nSegundo o edital, as oportunidades são para os cargos de:\n• Advogado (1 vaga)\n• Agente de Vigilância Sanitária - Fiscal Sanitário (CR)\n• Agente Fiscal de Obras e Posturas (1 vaga)\n• Agente Fiscal de Tributos Municipais (1 vaga)\n• Analista em Administração - Agente Administrativo (10 vagas)\n• Assistente de Apoio ao Ensino Infantil (3 vagas)\n• Assistente Social (1 vaga)\n• Assistente Técnico Administrativo (1 vaga)\n• Auxiliar de Saúde Bucal (CR)\n• Auxiliar de Serviços da Educação Básica (10 vagas)\n• Auxiliar de Serviços Gerais (10 vagas)\n• Auxiliar de Serviços Públicos - Vigia (CR)\n• Biomédico (CR)\n• Coveiro (2 vagas)\n• Educador Físico (CR)\n• Educador Social (CR)\n• Enfermeiro (2 vagas)\n• Engenheiro Civil (1 vaga)\n• Especialista em Educação Básica - Pedagogo (1 vaga)\n• Farmacêutico I (CR)\n• Fisioterapeuta I (CR)\n• Fonoaudiólogo (CR)\n• Gari (5 vagas)\n• Médico Clínico (3 vagas)\n• Médico Veterinário (1 vaga)\n• Monitor de Transporte Escolar (1 vaga)\n• Motorista (8 vagas)\n• Nutricionista (1 vaga)\n• Odontólogo I (1 vaga)\n• Oficial de Serviços Públicos - Eletricista (1 vaga)\n• Oficial de Serviços Públicos - Pedreiro (2 vagas)\n• Operador de Máquinas Pesadas (2 vagas)\n• Orientador Social (CR)\n• Professor de Disciplina Específica - Artes (1 vaga)\n• Professor de Disciplina Específica - Ciências (CR)\n• Professor de Disciplina Específica - Educação Física (1 vaga)\n• Professor de Disciplina Específica - Ensino Religioso (CR)\n• Professor de Disciplina Específica - Geografia (1 vaga)\n• Professor de Disciplina Específica - História (1 vaga)\n• Professor de Disciplina Específica - Inglês (CR)\n• Professor de Disciplina Específica - Matemática (1 vaga)\n• Professor de Disciplina Específica - Português (CR)\n• Professor de Educação Básica Infantil e 1º ao 5º (7 vagas)\n• Psicólogo (1 vaga)\n• Psicólogo Clínico (CR)\n• Técnico de Enfermagem (2 vagas)\n• Técnico de Nível Médio - Tecnologia da Informação (1 vaga)\n• Técnico de Nível Superior em Contabilidade (1 vaga)\n• Técnico em Farmácia (CR)\n• Técnico em Manutenção (1 vaga)\n• Técnico em Saúde Bucal (CR)\n• Técnico de Nível Médio em Segurança do Trabalho (1 vaga)\nA jornada de trabalho varia de 6 a 40 horas semanais ou regime de hora-aula para professores, com remuneração de R$ 1.621,00 a R$ 10.000,00, ou R$ 28,50 por hora-aula.\nAs inscrições devem ser feitas exclusivamente pelo site cotec.fadenor.com.br, das 8h do dia 10 de dezembro de 2026 às 17h do dia 6 de janeiro de 2027. O valor da taxa varia de R$ 65,00 a R$ 100,00 dependendo do cargo. O pedido de isenção pode ser solicitado de 7 a 9 de dezembro de 2026.\nA seleção será composta por prova objetiva de múltipla escolha para todos os cargos, prevista para o dia 31 de janeiro de 2027. Haverá também prova prática para Operador de Máquinas Pesadas e prova de títulos para cargos de nível superior.\nO concurso terá validade de 2 anos, podendo ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Advogado",
     "Agente de Vigilância Sanitária - Fiscal Sanitário",
@@ -1519,14 +1661,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Biomédico",
     "Médico Clínico",
     "Médico Veterinário",
-    "Odontólogo I",
-    "Advogado"
+    "Odontólogo I"
    ],
+   "cargosGerais": [
+    "Agente Fiscal de Obras e Posturas",
+    "Agente Fiscal de Tributos Municipais",
+    "Analista em Administração - Agente Administrativo",
+    "Assistente de Apoio ao Ensino Infantil",
+    "Assistente Técnico Administrativo",
+    "Auxiliar de Serviços da Educação Básica",
+    "Auxiliar de Serviços Gerais",
+    "Coveiro"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Biomédico, Médico Clínico, Médico Veterinário. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -1572,6 +1726,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado da Paraíba, a Prefeitura Municipal de Baía da Traição abriu um Concurso Público para preencher vagas em cargos efetivos de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Motorista B (11 vagas)\n• Motorista D (11 vagas)\n• Agente Administrativo (7 vagas)\n• Agente de Vigilância Sanitária (2 vagas)\n• Agente de Combate às Endemias (3 vagas)\n• Agente de Trânsito (3 vagas)\n• Técnico em Saúde Bucal (5 vagas)\n• Técnico em Enfermagem (12 vagas)\n• Técnico em Laboratório (1 vaga)\n• Recepcionista (8 vagas)\n• Assistente Social (2 vagas)\n• Enfermeiro UBS (12 vagas)\n• Farmacêutico (2 vagas)\n• Fisioterapeuta (6 vagas)\n• Fiscal de Tributos (1 vaga)\n• Fonoaudiólogo (1 vaga)\n• Nutricionista (2 vagas)\n• Médico Clínico Geral (3 vagas)\n• Médico Plantonista (2 vagas)\n• Odontólogo (7 vagas)\n• Psicólogo (2 vagas)\n• Terapeuta Ocupacional (1 vaga)\nAgente Comunitário de Saúde, por microárea\n• 04, Laranjeiras e Santa Rita (1 vaga)\n• 07, Aldeia Forte (1 vaga)\n• 08, Rua Dom Pedro II, Centro (1 vaga)\n• 10, Rua Cacique Daniel Santana, Rua São Miguel e Rua Marria Rosa Padilha (1 vaga)\n• 17, São Miguel (2 vagas)\n• 18, Aldeia Benfica (1 vaga)\n• 19, Aldeia Acajutibiró (1 vaga)\n• 20, Rua Ubirajara Brandão, Rua Cangulo II e Rua Vereador Vicente de Paula Macena (1 vaga)\n• 21, Aldeia Acajutibiró (1 vaga)\n• 22, Rua Matias Freire e Rua José Bezerra Falcão (1 vaga)\n• 23, Loteamento São Francisco e Jardim Prainha (1 vaga)\n• 24, Aldeia São Francisco (1 vaga)\nAs jornadas são de 20 ou 40 horas semanais, conforme o cargo. Para Médico Plantonista, a jornada é por plantão de 24 horas. As remunerações vão de R$ 1.621,00 a R$ 10.000,00. O edital prevê complementação conforme a Lei Federal nº 14.434/2022 para Técnico em Enfermagem e Enfermeiro UBS e gratificação de programas para os candidatos beneficiados, enquanto durar o respectivo programa.\nAs inscrições serão realizadas exclusivamente pelo site www.educapb.com.br, das 8h de 17 de novembro de 2026 às 23h59 de 16 de dezembro de 2026, no horário local. As taxas são de R$ 70,00 para nível fundamental, R$ 90,00 para níveis médio e técnico e R$ 110,00 para nível superior. Doadores de sangue ou de medula óssea e pessoas em condição de hipossuficiência econômica podem solicitar isenção de 17 a 24 de novembro de 2026, conforme os critérios do edital.\nA seleção terá prova objetiva para todos os cargos, avaliação de títulos para os cargos de nível superior e prova prática para Motorista B e Motorista D. As provas objetivas estão previstas para 17 de janeiro de 2027. A prova prática está prevista para 28 de fevereiro de 2027.\nO concurso terá validade de um ano, contado da homologação do resultado, e poderá ser prorrogado por igual período, a critério do Poder Executivo Municipal.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Motorista B",
     "Motorista D",
@@ -1611,14 +1767,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Clínico Geral",
     "Médico Plantonista",
     "Odontólogo",
-    "Enfermeiro UBS"
+    "Técnico em Saúde Bucal"
    ],
+   "cargosGerais": [
+    "Motorista B",
+    "Motorista D",
+    "Agente Administrativo",
+    "Agente de Vigilância Sanitária",
+    "Agente de Combate às Endemias",
+    "Agente de Trânsito",
+    "Recepcionista",
+    "Fiscal de Tributos"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Clínico Geral, Médico Plantonista, Odontólogo. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -1664,6 +1832,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Moreilândia, no estado de Pernambuco, realiza dois Concursos Públicos destinados ao preenchimento de vagas e à formação de cadastro de reserva para funções de nível médio, técnico e superior.\nA Prefeitura republicou os editais dos concursos, ampliando o número de vagas, reabrindo o período de inscrições, alterando as datas de prova e outras datas dos cronogramas.\nSegundo os editais, as oportunidades são para os cargos de:\n• Advogado (3 vagas + CR)\n• Agente Administrativo (50 vagas + CR)\n• Auxiliar Administrativo (20 vagas + CR)\n• Biomédico (1 vaga + CR)\n• Eletrotécnico (2 vagas + CR)\n• Enfermeiro Plantonista (9 vagas + CR)\n• Enfermeiro PSF (6 vagas + CR)\n• Fiscal de Serviços Públicos (4 vagas + CR)\n• Fisioterapeuta (4 vagas + CR)\n• Fonoaudiólogo (3 vagas + CR)\n• Motorista Categoria B (3 vagas + CR)\n• Motorista Categoria C (3 vagas + CR)\n• Motorista Categoria D (1 vaga + CR)\n• Nutricionista (1 vaga + CR)\n• Psicólogo (1 vaga + CR)\n• Técnico em Enfermagem (30 vagas + CR)\n• Técnico em Informática (17 vagas + CR)\n• Técnico em Radiologia (3 vagas + CR)\n• Terapeuta Ocupacional (2 vagas + CR)\n• Veterinário (2 vagas + CR)\n• Vigilante (32 vagas + CR)\n• Agente de Manutenção de Imóveis (3 vagas + CR)\n• Assistente Social (4 vagas + CR)\n• Auxiliar de Saúde Bucal (6 vagas + CR)\n• Engenheiro Civil (1 vaga + CR)\n• Encarregado de Almoxarifado (1 vaga + CR)\n• Farmacêutico (2 vagas + CR)\n• Fiscal de Tributos (2 vagas + CR)\n• Médico Evolucionista (2 vagas + CR)\n• Médico Plantonista (5 vagas + CR)\n• Médico PSF (6 vagas + CR)\n• Médico Ortopedista (2 vagas + CR)\n• Odontólogo (11 vagas + CR)\n• Técnico Agrícola (3 vagas + CR)\n• Técnico em Controle Interno (2 vagas + CR)\n• Tecnólogo em Edificações (1 vaga + CR)\n• Professor - Ensino Infantil (50 vagas + CR)\n• Professor - Fundamental I (50 vagas + CR)\n• Professor - Fundamental II - Ciências (6 vagas + CR)\n• Professor - Fundamental II - Educação Física (3 vagas + CR)\n• Professor - Fundamental II - Geografia (6 vagas + CR)\n• Professor - Fundamental II - História (6 vagas + CR)\n• Professor - Fundamental II - Língua Portuguesa (6 vagas + CR)\n• Professor - Fundamental II - Matemática (6 vagas + CR)\nA jornada de trabalho varia de 24 a 40 horas semanais para os cargos gerais, com plantões de 24 horas para determinados cargos médicos, e é de 30 horas semanais para o magistério. Nos cargos gerais, os salários iniciais vão de R$ 1.621,00 a R$ 10.000,00, conforme o cargo; para Médico Evolucionista e Médico Plantonista, a remuneração é de R$ 2.100,00 por plantão. Para os cargos do magistério, o salário inicial é de R$ 3.650,82.\nAs inscrições para os cargos gerais e do magistério deverão ser efetuadas entre os dias 4 de novembro de 2026 e 3 de dezembro de 2026, pelo site www.consulpam.com.br. As taxas são de R$ 100,00 para cargos de nível médio e técnico e de R$ 140,00 para cargos de nível superior, inclusive os do magistério. Os pedidos de isenção da taxa poderão ser apresentados nos dias 5 e 6 de novembro de 2026, conforme os critérios estabelecidos nos editais.\nA seleção será realizada por prova objetiva, de caráter eliminatório e classificatório. Para os cargos gerais, a aplicação está prevista para 21 de fevereiro de 2027, nos turnos da manhã, para nível superior, e da tarde, para níveis médio e técnico. Para o magistério, a prova objetiva está prevista para 20 de fevereiro de 2027, pela manhã para Professor - Fundamental I e à tarde para os demais cargos. Haverá prova de títulos para os cargos de nível superior.\nO prazo de validade dos concursos será de 2 anos, contados da homologação do resultado final, podendo ser prorrogado uma única vez por igual período, a critério da Administração Pública.\nMais informações podem ser obtidas nos editais completos.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Advogado",
     "Agente Administrativo",
@@ -1713,14 +1883,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Biomédico",
     "Médico Evolucionista",
     "Médico Plantonista",
-    "Médico PSF",
-    "Médico Ortopedista"
+    "Médico PSF"
    ],
+   "cargosGerais": [
+    "Agente Administrativo",
+    "Auxiliar Administrativo",
+    "Eletrotécnico",
+    "Fiscal de Serviços Públicos",
+    "Motorista Categoria B",
+    "Motorista Categoria C",
+    "Motorista Categoria D",
+    "Vigilante"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Biomédico, Médico Evolucionista, Médico Plantonista. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -1766,6 +1948,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Tijucas, no Estado de Santa Catarina, abriu dois concursos públicos para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio e superior.\nSegundo os editais, as oportunidades são para os cargos de:\nEdital nº 03/2026: nível superior\n• Arquiteto (1 vaga e cadastro reserva)\n• Assistente Social (1 vaga e cadastro reserva)\n• Contador (1 vaga e cadastro reserva)\n• Controlador Interno (1 vaga e cadastro reserva)\n• Coordenador Pedagógico (7 vagas e cadastro reserva)\n• Educador Físico da Saúde (cadastro reserva)\n• Engenheiro Civil (1 vaga e cadastro reserva)\n• Engenheiro de Infraestrutura (1 vaga e cadastro reserva)\n• Engenheiro Eletricista (1 vaga e cadastro reserva)\n• Farmacêutico (cadastro reserva)\n• Fisioterapeuta (cadastro reserva)\n• Fonoaudiólogo (1 vaga e cadastro reserva)\n• Geógrafo (1 vaga e cadastro reserva)\n• Médico Ginecologista (2 vagas e cadastro reserva)\n• Médico Neuropediatra (1 vaga e cadastro reserva)\n• Médico Neurologista (1 vaga e cadastro reserva)\n• Médico Pediatra (cadastro reserva)\n• Médico Psiquiatra (1 vaga e cadastro reserva)\n• Médico Veterinário (cadastro reserva)\n• Nutricionista (cadastro reserva)\n• Pedagogo do Programa de Acolhimento Institucional Casa Lar (1 vaga e cadastro reserva)\n• Psicólogo (3 vagas e cadastro reserva)\n• Psicopedagogo (1 vaga e cadastro reserva)\n• Terapeuta Ocupacional (1 vaga e cadastro reserva)\n• Tradutor e Intérprete de Libras (1 vaga e cadastro reserva)\nEdital nº 03/2026: nível médio\n• Agente de Trânsito (1 vaga e cadastro reserva)\n• Assistente Administrativo (1 vaga e cadastro reserva)\n• Auxiliar de Farmácia (4 vagas e cadastro reserva)\n• Educador Social (1 vaga e cadastro reserva)\n• Fiscal Técnico de Obras e Posturas (1 vaga e cadastro reserva)\n• Recepcionista (2 vagas e cadastro reserva)\n• Recepcionista em Saúde Pública (4 vagas e cadastro reserva)\n• Técnico em Edificações (1 vaga e cadastro reserva)\n• Técnico em Topografia (1 vaga e cadastro reserva)\nEdital nº 03/2026: nível fundamental\n• Auxiliar de Manutenção e Conservação (2 vagas e cadastro reserva)\n• Auxiliar de Serviços Gerais (11 vagas e cadastro reserva)\n• Cozinheiro(a) Casa Lar (1 vaga e cadastro reserva)\n• Merendeira (26 vagas e cadastro reserva)\n• Motorista I (1 vaga e cadastro reserva)\n• Motorista II (1 vaga e cadastro reserva)\n• Motorista III (3 vagas e cadastro reserva)\n• Operador de Balsa (cadastro reserva)\n• Operador de Máquinas Leves (1 vaga e cadastro reserva)\n• Operador de Máquinas Pesadas e Complexas (1 vaga e cadastro reserva)\n• Sepultador (cadastro reserva)\n• Vigia (5 vagas e cadastro reserva)\nEdital nº 04/2026: nível superior\n• Assistente Social do CRAS (cadastro reserva)\n• Assistente Social do CREAS (cadastro reserva)\n• Enfermeiro da ESF (cadastro reserva)\n• Médico Infectologista DST/AIDS (cadastro reserva)\n• Psicólogo do CRAS (cadastro reserva)\n• Psicólogo do CREAS (1 vaga e cadastro reserva)\nEdital nº 04/2026: nível médio\n• Técnico em Enfermagem da ESF (cadastro reserva)\nEdital nº 04/2026: nível fundamental\n• Agente Comunitário de Saúde: Porto do Itinga (cadastro reserva)\n• Agente Comunitário de Saúde: Itinga (cadastro reserva)\n• Agente Comunitário de Saúde: Sul do Rio (cadastro reserva)\n• Agente Comunitário de Saúde: Praça (cadastro reserva)\n• Agente Comunitário de Saúde: Centro (cadastro reserva)\n• Agente Comunitário de Saúde: Joáia (cadastro reserva)\n• Agente Comunitário de Saúde: Areias (cadastro reserva)\nAs jornadas variam de 20 a 40 horas semanais. Os vencimentos vão de R$ 1.928,10 a R$ 9.941,61. Os editais preveem vale-refeição conforme a legislação municipal.\nAs inscrições devem ser feitas exclusivamente pelo site da Univali, das 16h de 24 de novembro de 2026 às 16h de 5 de janeiro de 2027. As taxas são de R$ 90,00 para nível fundamental, R$ 110,00 para nível médio e R$ 160,00 para nível superior. O pedido de isenção pode ser feito até 30 de novembro de 2026 por candidatos que atendam às condições previstas nos editais, incluindo doadores de sangue, medula óssea ou leite humano, pessoas hipossuficientes e prestadores de serviço eleitoral.\nOs dois concursos terão prova objetiva, de caráter classificatório e eliminatório, em 31 de janeiro de 2027. A aplicação será preferencialmente em Tijucas, podendo ocorrer em municípios vizinhos. No edital nº 03/2026, também haverá prova prática, de caráter classificatório e eliminatório, em 7 de março de 2027, para Merendeira, Motorista I, Motorista II, Motorista III, Operador de Máquinas Leves, Operador de Máquinas Pesadas e Complexas e Tradutor e Intérprete de Libras.\nCada concurso terá validade de dois anos a partir da publicação da homologação do resultado final, com possibilidade de prorrogação por igual período, a critério da administração pública.\nMais informações podem ser obtidas nos editais completos.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1928.1,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Arquiteto",
     "Assistente Social",
@@ -1831,14 +2015,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Ginecologista",
     "Médico Neuropediatra",
     "Médico Neurologista",
     "Médico Pediatra"
    ],
+   "cargosGerais": [
+    "Psicopedagogo",
+    "Agente de Trânsito",
+    "Assistente Administrativo",
+    "Educador Social",
+    "Recepcionista",
+    "Recepcionista em Saúde Pública",
+    "Auxiliar de Manutenção e Conservação",
+    "Auxiliar de Serviços Gerais"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Ginecologista, Médico Neuropediatra, Médico Neurologista. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -1884,6 +2080,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de São Paulo, a Prefeitura Municipal de Alvinlândia abriu o Processo Seletivo Simplificado nº 04/2026 para formar cadastro de reserva em funções de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino médio completo\n• Encarregado de Serviços Desportivos\n• Vigia\nEnsino superior completo\n• Dentista\n• Médico da Família\n• Professor de Educação Básica I\n• Professor de Educação Básica II\nA jornada é de até 40 horas semanais para Encarregado de Serviços Desportivos e de 40 horas semanais para Vigia, Dentista e Médico da Família. Para os professores, a jornada depende das aulas disponíveis. Os salários variam de R$ 1.870,30 a R$ 9.742,35. Os professores recebem R$ 25,64 por hora-aula. Os contratados também terão cartão-alimentação de R$ 1.100,00.\nAs inscrições serão realizadas exclusivamente pelo site do Instituto IBEPP, das 00h01 de 17 de novembro de 2026 às 23h59 de 29 de novembro de 2026. A taxa é de R$ 45,00 para funções de nível médio e de R$ 65,00 para funções de nível superior, com pagamento do boleto até 30 de novembro de 2026. Não há isenção total ou parcial, ressalvadas as hipóteses previstas em legislação federal ou estadual de aplicação obrigatória ao município.\nA seleção terá prova objetiva, de caráter classificatório, para todas as funções. Haverá também prova de títulos, de caráter classificatório, para Médico da Família, Professor de Educação Básica I e Professor de Educação Básica II. A prova objetiva está prevista para 20 de dezembro de 2026, às 9h, na EMEF \"José Bonifácio do Couto\", em Alvinlândia.\nAs contratações serão por tempo determinado, sob o regime da Consolidação das Leis do Trabalho (CLT).\nO processo seletivo terá validade de um ano, contado da publicação da homologação do resultado final, e poderá ser prorrogado uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1870.3,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Encarregado de Serviços Desportivos",
     "Vigia",
@@ -1895,14 +2093,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Dentista",
     "Médico da Família",
     "Professor de Educação Básica I",
     "Professor de Educação Básica II"
    ],
+   "cargosGerais": [
+    "Encarregado de Serviços Desportivos",
+    "Vigia"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Dentista, Médico da Família, Professor de Educação Básica I. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -1948,6 +2152,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Tabaporã, no Estado de Mato Grosso, abriu um Processo Seletivo Simplificado para preencher vagas temporárias e formar cadastro de reserva em funções de nível fundamental, médio/técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível fundamental\n• Auxiliar Administrativo (6 vagas)\n• Auxiliar de Saneamento (6 vagas)\n• Cozinheira (1 vaga)\n• Eletricista de Manutenção (1 vaga)\n• Encarregado de Limpeza Pública, 40 horas (18 vagas)\n• Encarregado de Limpeza Pública, 30 horas (4 vagas)\n• Guarda de Patrimônio (3 vagas e cadastro de reserva)\n• Merendeira (1 vaga)\n• Mestre de Obras (1 vaga)\n• Motorista (12 vagas)\n• Operador de Máquina Pesada (3 vagas)\n• Operador de Pá Carregadeira (2 vagas e cadastro de reserva)\n• Pedreiro (2 vagas)\n• Tratorista (cadastro de reserva)\nNível médio/técnico\n• Agente Administrativo (2 vagas e cadastro de reserva)\n• Auxiliar de Professor (45 vagas)\n• Auxiliar de Saúde Bucal (2 vagas e cadastro de reserva)\n• Monitor de Transporte Escolar (23 vagas)\n• Fiscal de Vigilância Sanitária (1 vaga)\n• Técnico de Enfermagem (4 vagas e cadastro de reserva)\n• Técnico em Radiologia (1 vaga)\n• Cuidador Social de Crianças, Adolescentes e Jovens (1 vaga)\nNível superior\n• Assistente Social (1 vaga)\n• Bioquímico/Farmacêutico (1 vaga)\n• Cirurgião Dentista (cadastro de reserva)\n• Educador Físico (2 vagas)\n• Enfermeiro (2 vagas e cadastro de reserva)\n• Engenheiro Agrônomo (cadastro de reserva)\n• Fisioterapeuta (2 vagas e cadastro de reserva)\n• Fonoaudiólogo (1 vaga)\n• Médico Veterinário (cadastro de reserva)\n• Professor (15 vagas)\n• Psicólogo (cadastro de reserva)\n• Analista Ambiental (2 vagas)\nA jornada é de 30 ou 40 horas semanais, com vencimentos mensais de R$ 1.996,85 a R$ 9.677,25.\nAs inscrições serão realizadas exclusivamente pelo site aigle.selecao.net.br, de 17 de novembro de 2026 a 1º de dezembro de 2026, até às 23h59, no horário de Mato Grosso. As taxas são de R$ 35,00 para nível fundamental, R$ 45,00 para nível médio/técnico e R$ 55,00 para nível superior, com pagamento até 2 de dezembro de 2026. Poderão pedir isenção, de 17 a 23 de novembro de 2026, candidatos de família de baixa renda inscritos no CadÚnico, doadores regulares de sangue e doadores de medula óssea cadastrados no REDOME, conforme os critérios do edital.\nA seleção terá prova objetiva para todos os cargos, prova prática para Motorista, Operador de Máquina Pesada, Operador de Pá Carregadeira e Tratorista, e prova de títulos para todos os cargos. A prova objetiva está prevista para 13 de dezembro de 2026, das 8h às 11h, no horário de Mato Grosso. A prova prática ocorrerá no mesmo dia, a partir das 14h.\nOs aprovados serão contratados por contrato administrativo pelo prazo de um ano, com possibilidade de uma ou mais prorrogações, por períodos iguais ou inferiores, até o limite de três anos. Os contratados serão vinculados ao Regime Geral de Previdência Social.\nO processo seletivo terá validade de dois anos a partir da publicação da homologação do resultado final, podendo ser prorrogado uma vez por mais dois anos.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1996.85,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar Administrativo",
     "Auxiliar de Saneamento",
@@ -1987,14 +2193,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Cirurgião Dentista",
     "Médico Veterinário",
     "Engenheiro Agrônomo",
-    "Auxiliar de Professor"
+    "Eletricista de Manutenção"
    ],
+   "cargosGerais": [
+    "Auxiliar Administrativo",
+    "Auxiliar de Saneamento",
+    "Cozinheira",
+    "Encarregado de Limpeza Pública, 40 horas",
+    "Encarregado de Limpeza Pública, 30 horas",
+    "Guarda de Patrimônio",
+    "Merendeira",
+    "Mestre de Obras"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Cirurgião Dentista, Médico Veterinário, Engenheiro Agrônomo. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -2041,6 +2259,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, o Município de Luiz Alves abriu um Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível superior\n• Analista de Recursos Humanos\n• Arquiteto e Urbanista\n• Arteterapeuta (1 vaga)\n• Assistente Social\n• Assistente Social Educacional (1 vaga)\n• Contador\n• Enfermeiro\n• Engenheiro Agrônomo\n• Engenheiro Ambiental Sanitarista\n• Engenheiro Civil (1 vaga)\n• Engenheiro Florestal\n• Fiscal Ambiental (1 vaga)\n• Fiscal de Obras e Posturas\n• Fiscal de Tributos\n• Fiscal Sanitário\n• Fonoaudiólogo\n• Fonoaudiólogo (SME) (1 vaga)\n• Médico Auditor\n• Médico Especialista em Saúde Mental (2 vagas)\n• Médico Ginecologista / Obstetra (1 vaga)\n• Médico Pediatra (1 vaga)\n• Médico Veterinário\n• Nutricionista (1 vaga)\n• Odontólogo\n• Orientador Social\n• Procurador\n• Professor de Anos Iniciais\n• Professor de Ciências\n• Professor de Dança\n• Professor de Educação Física\n• Professor de Educação Infantil\n• Professor de Ensino Religioso (1 vaga)\n• Professor de Geografia\n• Professor de História\n• Professor de Língua Inglesa\n• Professor de Música\n• Profissional de Educação Física (1 vaga)\n• Psicólogo (SMDAS)\n• Psicólogo Educacional (1 vaga)\n• Psicopedagogo\n• Tesoureiro\nNível médio e técnico\n• Agente de Defesa Civil\n• Agente Educacional (8 vagas)\n• Assistente Administrativo\n• Atendente de Educação Infantil (8 vagas)\n• Auxiliar de Saúde Bucal (2 vagas)\n• Maestro de Banda Municipal (1 vaga)\n• Motorista Socorrista\n• Técnico Agrícola\n• Técnico em Farmácia\n• Técnico em Manutenção e Suporte de Informática\n• Técnico em Saúde Bucal (3 vagas)\nNível fundamental\n• Cozinheiro (10 vagas)\n• Motorista Categoria B\n• Operador de Máquinas (2 vagas)\n• Operário Braçal (13 vagas)\n• Zelador\n• Zelador (SME) (3 vagas)\nAs jornadas variam de 10 a 44 horas semanais, conforme o cargo. Para Agente de Defesa Civil e Motorista Socorrista, o edital prevê escalas específicas. Os vencimentos vão de R$ 1.341,41 a R$ 8.889,30. Os servidores terão vale-alimentação e refeição, conforme a legislação municipal.\nAs inscrições serão feitas exclusivamente pelo site www.univali.br/concursos, das 16h do dia 27 de outubro de 2026 às 16h do dia 23 de novembro de 2026. A taxa é de R$ 90,00 para nível fundamental, R$ 110,00 para nível médio e técnico e R$ 160,00 para nível superior. Doadores de sangue, medula óssea ou leite humano e prestadores de serviços à Justiça Eleitoral de Santa Catarina poderão solicitar isenção até 3 de novembro de 2026, mediante comprovação.\nA seleção terá prova objetiva para todos os cargos, de caráter eliminatório e classificatório, e prova de títulos, de caráter classificatório, apenas para professores. A prova objetiva está prevista para o dia 13 de dezembro de 2026, pela manhã, em Itajaí (SC) para os cargos de nível médio, técnico e superior e em Luiz Alves (SC) para os cargos de nível fundamental.\nO concurso terá validade de dois anos a partir da publicação da homologação do resultado final, podendo ser prorrogado por igual período, a critério da administração municipal.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1341.41,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Analista de Recursos Humanos",
     "Arquiteto e Urbanista",
@@ -2104,14 +2324,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Auditor",
     "Médico Especialista em Saúde Mental",
     "Médico Ginecologista / Obstetra",
     "Médico Pediatra"
    ],
+   "cargosGerais": [
+    "Analista de Recursos Humanos",
+    "Arteterapeuta",
+    "Fiscal Ambiental",
+    "Fiscal de Obras e Posturas",
+    "Fiscal de Tributos",
+    "Fiscal Sanitário",
+    "Orientador Social",
+    "Profissional de Educação Física"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Auditor, Médico Especialista em Saúde Mental, Médico Ginecologista / Obstetra. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -2157,6 +2389,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Nova Lima, no Estado de Minas Gerais, por meio da Secretaria Municipal de Saúde (SEMSA), abriu um Processo Seletivo Simplificado para preencher vagas em funções de nível médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Assistente Social (1 vaga)\n• Assistente Administrativo (1 vaga)\n• Bioquímico (1 vaga)\n• Enfermeiro (1 vaga)\n• Enfermeiro PSF (1 vaga)\n• Engenheiro Civil (1 vaga)\n• Farmacêutico, 40 horas semanais (1 vaga)\n• Farmacêutico, 30 horas semanais (1 vaga)\n• Fisioterapeuta (1 vaga)\n• Fonoaudiólogo (1 vaga)\n• Nutricionista (1 vaga)\n• Odontólogo Generalista, 40 horas semanais (1 vaga)\n• Odontólogo Generalista, 30 horas semanais (1 vaga)\n• Odontólogo Especialista em Endodontia (1 vaga)\n• Odontólogo Especialista em Prótese Dentária (1 vaga)\n• Psicólogo (1 vaga)\n• Técnico de Enfermagem, 30 horas semanais (1 vaga)\n• Técnico de Enfermagem, 40 horas semanais (1 vaga)\n• Técnico de Enfermagem PSF (1 vaga)\n• Técnico de Serviço Público - Informática (1 vaga)\n• Técnico de Radiologia (1 vaga)\n• Técnico em Farmácia (1 vaga)\n• Técnico em Patologia (1 vaga)\n• Terapeuta Ocupacional (1 vaga)\nAs jornadas variam de 20 a 40 horas semanais, com vencimentos mensais de R$ 2.382,01 a R$ 8.106,76.\nAs inscrições serão realizadas de 26 de novembro de 2026 a 2 de dezembro de 2026, somente nos dias úteis, das 8h às 17h. O candidato deverá entregar envelope lacrado com a ficha de inscrição e os documentos exigidos na unidade do Nova Lima Atende, na Praça Bernardino de Lima, nº 163, Centro, Nova Lima (MG). Não haverá cobrança de taxa de inscrição.\nA seleção terá duas etapas eliminatórias e classificatórias: análise curricular e documental, com pontuação por experiência, titulação e capacitação, e entrevista presencial. As entrevistas estão previstas para o período de 4 a 15 de janeiro de 2027. Os candidatos inscritos para as vagas reservadas a pessoas negras, se convocados para a entrevista, também passarão por procedimento de heteroidentificação.\nA contratação será feita por contrato administrativo temporário, com vigência inicial de até 12 meses e possibilidade de prorrogação até o limite total de 48 meses.\nO processo seletivo terá validade de um ano, contado da publicação da homologação do resultado final. O prazo poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2382.01,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Social",
     "Assistente Administrativo",
@@ -2186,14 +2420,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Odontólogo Generalista, 40 horas semanais",
     "Odontólogo Generalista, 30 horas semanais",
     "Odontólogo Especialista em Endodontia",
     "Odontólogo Especialista em Prótese Dentária"
    ],
+   "cargosGerais": [
+    "Assistente Administrativo",
+    "Bioquímico"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Odontólogo Generalista, 40 horas semanais, Odontólogo Generalista, 30 horas semanais, Odontólogo Especialista em Endodontia. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo e entrevista"
@@ -2237,6 +2477,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Custódia, no Estado de Pernambuco, abriu um Concurso Público para preencher vagas imediatas e formar cadastro de reserva em funções de nível fundamental, médio, técnico ou superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível fundamental\n• Auxiliar de Serviços Gerais (55 vagas)\n• Coveiro (1 vaga)\n• Eletricista (1 vaga)\n• Gari (17 vagas)\n• Mecânico (1 vaga)\n• Mecânico de Veículo Pesado (1 vaga)\n• Merendeira (30 vagas)\n• Mestre de Obras (1 vaga)\n• Operário (16 vagas)\n• Pedreiro (3 vagas)\n• Pintor (1 vaga)\n• Porteiro (7 vagas)\n• Soldador (1 vaga)\n• Supervisor de Conservação de Açougue (1 vaga)\n• Supervisor de Conservação de Obras (1 vaga)\n• Vigilante (22 vagas)\nNível médio e técnico, área geral\n• Agente Administrativo I e II (22 vagas)\n• Auxiliar de Contabilidade (3 vagas)\n• Digitador (9 vagas)\n• Educador Social (3 vagas)\n• Fiscal de Obras (2 vagas)\n• Fiscal de Serviços Urbanos (2 vagas)\n• Motorista (4 vagas)\n• Motorista de Veículo Pesado (6 vagas)\n• Operador de Máquinas (1 vaga)\n• Operador de Máquinas Pesadas (1 vaga)\n• Recepcionista (9 vagas)\n• Técnico Agrícola (1 vaga)\nNível médio e técnico, área da saúde\n• Cuidador de Idosos (3 vagas)\n• Inspetor de Vigilância (1 vaga)\n• Técnico de Enfermagem (20 vagas)\n• Técnico em Raio X (1 vaga)\nNível médio e técnico, área da educação\n• Assistente Administrativo e de Apoio Técnico Educacional (A.T.E.) (3 vagas)\n• Auxiliar Administrativo Educacional (A.A.E.) (22 vagas)\n• Monitor (2 vagas)\nNível superior, área geral\n• Assistente Social (3 vagas)\n• Engenheiro Civil (1 vaga)\nNível superior, área da saúde\n• Bioquímico (1 vaga)\n• Enfermeiro (1 vaga)\n• Farmacêutico (2 vagas)\n• Fisioterapeuta (1 vaga)\n• Médico Plantonista (3 vagas)\n• Nutricionista (1 vaga)\n• Odontólogo (4 vagas)\n• Psicólogo (1 vaga)\n• Veterinário (1 vaga)\nMagistério\n• Professor de Ciências (3 vagas)\n• Professor de Educação Física (4 vagas)\n• Professor de Educação Infantil e Anos Iniciais (60 vagas)\n• Professor de Geografia (3 vagas)\n• Professor de História (3 vagas)\n• Professor de Língua Inglesa (2 vagas)\n• Professor de Língua Portuguesa (7 vagas)\n• Professor de Matemática (8 vagas)\n• Professor de Música (1 vaga)\nA jornada é de 40 horas semanais para a maioria dos cargos, de 30 horas para Fisioterapeuta e de 24 horas para Técnico em Raio X. Médico Plantonista cumpre um plantão de 24 horas por semana, e os professores têm jornada de 150 horas-aula mensais. A remuneração indicada vai de R$ 1.650,00 a R$ 8.000,00. Para Enfermeiro e Técnico de Enfermagem, será observado o piso salarial nacional da enfermagem.\nAs inscrições serão realizadas pela internet, de 18 de novembro de 2026 a 18 de dezembro de 2026, na Área do Candidato do Instituto Igeduc. A taxa é de R$ 86,00 para nível fundamental, R$ 126,00 para nível médio e técnico e R$ 150,00 para nível superior e magistério. Candidatos de famílias inscritas no CadÚnico, com renda mensal por pessoa de até meio salário mínimo, poderão solicitar isenção de 18 a 20 de novembro de 2026, conforme as exigências do edital.\nA seleção terá prova objetiva, de caráter eliminatório e classificatório, para todos os cargos, e avaliação de títulos, apenas classificatória, para os cargos de nível superior. A prova objetiva está prevista para 24 de janeiro de 2027.\nO concurso terá validade de dois anos a partir da homologação do resultado definitivo e poderá ser prorrogado uma vez, por igual período, a critério do Município.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1650,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Serviços Gerais",
     "Coveiro",
@@ -2297,14 +2539,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Plantonista",
     "Odontólogo",
     "Engenheiro Civil",
-    "Enfermeiro"
+    "Eletricista"
    ],
+   "cargosGerais": [
+    "Auxiliar de Serviços Gerais",
+    "Coveiro",
+    "Gari",
+    "Merendeira",
+    "Mestre de Obras",
+    "Operário",
+    "Pedreiro",
+    "Pintor"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Plantonista, Odontólogo, Engenheiro Civil. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -2350,6 +2604,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado do Piauí, a Prefeitura Municipal de Monsenhor Gil abriu um concurso público para preencher vagas efetivas em funções de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível superior\n• Assistente Social (2 vagas)\n• Bibliotecário (1 vaga)\n• Cirurgião Dentista (3 vagas)\n• Enfermeiro (2 vagas)\n• Fonoaudiólogo (1 vaga)\n• Médico (2 vagas)\n• Nutricionista (2 vagas)\n• Psicólogo (2 vagas)\n• Professor do 1º ao 5º Ano (5 vagas)\n• Professor de Atendimento Educacional Especializado (AEE) (3 vagas)\n• Professor Classe B, Ciências (2 vagas)\n• Professor Classe B, Educação Física (2 vagas)\n• Professor Classe B, Ensino Infantil (6 vagas)\n• Professor Classe B, Geografia (2 vagas)\n• Professor Classe B, História (2 vagas)\n• Professor Classe B, Inglês (2 vagas)\n• Professor Classe B, Matemática (3 vagas)\n• Professor Classe B, Português (3 vagas)\n• Terapeuta Ocupacional (1 vaga)\nNível médio e técnico\n• Assistente Escolar (3 vagas)\n• Auxiliar Administrativo (5 vagas)\n• Auxiliar de Sala (6 vagas)\n• Fiscal Ambiental (1 vaga)\n• Fiscal de Tributos (1 vaga)\n• Técnico em Enfermagem (3 vagas)\nNível fundamental\n• Auxiliar de Serviços Gerais (12 vagas)\n• Merendeira (8 vagas)\n• Motorista (3 vagas)\n• Operador de Máquinas (1 vaga)\n• Vigia (12 vagas)\nA jornada varia de 20 a 40 horas semanais. Os vencimentos básicos iniciais vão de R$ 1.621,00 a R$ 8.000,00, acrescidos de eventuais gratificações e vantagens pecuniárias permanentes previstas na legislação municipal.\nAs inscrições serão feitas exclusivamente no site do Instituto Legatus de 20 de outubro de 2026 a 23 de novembro de 2026. As taxas são de R$ 95,00 para cargos de nível fundamental, R$ 122,50 para os de nível médio ou técnico e R$ 150,00 para os de nível superior. Candidatos inscritos no CadÚnico que pertençam a famílias de baixa renda poderão solicitar isenção.\nA seleção terá prova escrita objetiva, de caráter eliminatório e classificatório, para todos os cargos. Haverá também avaliação de títulos, de caráter classificatório, para os cargos de nível superior. A prova objetiva está prevista para o dia 20 de dezembro de 2026, em Monsenhor Gil, com possibilidade de aplicação em cidades próximas caso a oferta de lugares seja insuficiente.\nOs candidatos nomeados estarão sujeitos ao regime estatutário.\nO concurso terá validade de dois anos a partir da homologação do resultado final. O prazo poderá ser prorrogado uma vez por igual período, a critério da Prefeitura.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Social",
     "Bibliotecário",
@@ -2385,14 +2641,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Cirurgião Dentista",
     "Médico",
-    "Enfermeiro",
-    "Fonoaudiólogo"
+    "Assistente Social",
+    "Bibliotecário"
    ],
+   "cargosGerais": [
+    "Assistente Escolar",
+    "Auxiliar Administrativo",
+    "Auxiliar de Sala",
+    "Fiscal Ambiental",
+    "Fiscal de Tributos",
+    "Auxiliar de Serviços Gerais",
+    "Merendeira",
+    "Motorista"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Cirurgião Dentista, Médico, Assistente Social. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -2438,6 +2706,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Hospital Municipal Dr. Gil Alves, localizado em Bocaiúva/MG, divulgou o edital de Concurso Público com o objetivo de preencher vagas efetivas para profissionais de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente Administrativo (7 vagas)\n• Agente de Controle Interno (1 vaga)\n• Assistente Administrativo (5 vagas)\n• Assistente Social Hospitalar (1 vaga)\n• Auxiliar de Cozinha Hospitalar (4 vagas)\n• Auxiliar de Manutenção Predial (2 vagas)\n• Auxiliar de Farmácia (9 vagas)\n• Biomédico (6 vagas)\n• Contador (1 vaga)\n• Copeiro (4 vagas)\n• Cozinheiro Hospitalar (4 vagas)\n• Enfermeiro (24 vagas)\n• Engenheiro Biomédico (1 vaga)\n• Farmacêutico Hospitalar (6 vagas)\n• Fisioterapeuta (1 vaga)\n• Motorista (8 vagas)\n• Médico Clínico Geral (4 vagas)\n• Nutricionista Hospitalar (1 vaga)\n• Psicólogo Hospitalar (1 vaga)\n• Técnico em Enfermagem (74 vagas)\n• Técnico em Enfermagem Instrumentador Cirúrgico (5 vagas)\n• Técnico em Laboratório (6 vagas)\n• Técnico em Radiologia e Imagenologia (8 vagas)\nA jornada semanal varia entre 24 e 40 horas, podendo incluir escalas de plantão 12x36 e trabalho noturno, conforme a necessidade do serviço. Os salários vão de R$ 1.621,00 a R$ 7.950,00, dependendo do cargo.\nAs inscrições poderão ser feitas exclusivamente pela internet, no site www.cotec.fadenor.com.br, das 8h do dia 27 de novembro de 2026 até às 17h do dia 28 de dezembro de 2026. O valor da taxa de inscrição varia entre R$ 65,00 e R$ 95,00. O pedido de isenção da taxa poderá ser solicitado de 24 a 26 de novembro de 2026, conforme as regras do edital.\nA seleção será realizada por meio de prova objetiva de múltipla escolha, de caráter eliminatório e classificatório, prevista para o dia 31 de janeiro de 2027, além de prova de títulos de caráter classificatório para determinados cargos.\nO prazo de validade do concurso será de 2 anos, a contar da homologação, podendo ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Administrativo",
     "Agente de Controle Interno",
@@ -2466,14 +2736,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Biomédico",
     "Engenheiro Biomédico",
     "Médico Clínico Geral",
-    "Contador",
-    "Enfermeiro"
+    "Assistente Social Hospitalar"
    ],
+   "cargosGerais": [
+    "Agente Administrativo",
+    "Agente de Controle Interno",
+    "Assistente Administrativo",
+    "Auxiliar de Cozinha Hospitalar",
+    "Auxiliar de Manutenção Predial",
+    "Copeiro",
+    "Cozinheiro Hospitalar",
+    "Motorista"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Biomédico, Engenheiro Biomédico, Médico Clínico Geral. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -2519,6 +2801,8 @@ window.DADOS_CONCURSOS = {
    "texto": "Em Comodoro (MT), a Prefeitura Municipal de Comodoro, por meio da Secretaria Municipal de Saúde, abriu o Processo Seletivo Simplificado nº 003/2026 para formar cadastro reserva. As oportunidades exigem ensino fundamental, médio, técnico ou superior, conforme o cargo.\nSegundo o edital, as oportunidades são para os cargos de:\n• Farmacêutico (1 vaga para cadastro reserva)\n• Farmacêutico/Bioquímico (1 vaga para cadastro reserva)\n• Odontólogo (4 vagas para cadastro reserva)\n• Nutricionista (1 vaga para cadastro reserva)\n• Fisioterapeuta (1 vaga para cadastro reserva)\n• Enfermeiro (5 vagas para cadastro reserva)\n• Técnico em Enfermagem (15 vagas para cadastro reserva)\n• Técnico de Raio X (1 vaga para cadastro reserva)\n• Agente Comunitário de Saúde, microárea 34 (1 vaga para cadastro reserva)\n• Agente Comunitário de Saúde, microárea 56 (1 vaga para cadastro reserva)\n• Assistente Administrativo (1 vaga para cadastro reserva)\n• Auxiliar de Serviços Gerais (7 vagas para cadastro reserva)\nA jornada varia de 20 a 40 horas semanais. A remuneração vai de R$ 2.026,25 a R$ 7.929,74.\nAs inscrições gratuitas serão feitas de 17 de novembro de 2026, às 7h, a 1 de dezembro de 2026, às 13h, no site da Prefeitura, por meio de link a ser divulgado em edital complementar. A ficha impressa e os documentos exigidos deverão ser entregues de 17 de novembro a 2 de dezembro de 2026, em dias úteis, das 7h às 10h30 e das 13h às 16h, na Secretaria Municipal de Saúde, situada na Avenida Prefeito Valdir Mazutti, nº 671-N, Centro. Não haverá cobrança de taxa de inscrição.\nA seleção terá duas etapas: inscrição online com entrega de documentos e análise curricular e avaliação de títulos, de caráter classificatório e eliminatório. A pontuação considera formação, experiência profissional e cursos complementares, conforme os critérios de cada cargo.\nAs contratações serão por prazo determinado, conforme a necessidade da administração. O regime jurídico será o estatutário, com vinculação ao Regime Geral da Previdência Social.\nO edital não informa prazo de validade para o processo seletivo.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2026.25,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Farmacêutico",
     "Farmacêutico/Bioquímico",
@@ -2536,14 +2820,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Odontólogo",
     "Farmacêutico",
     "Farmacêutico/Bioquímico",
     "Nutricionista"
    ],
+   "cargosGerais": [
+    "Assistente Administrativo",
+    "Auxiliar de Serviços Gerais"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Odontólogo, Farmacêutico, Farmacêutico/Bioquímico. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo"
@@ -2587,6 +2877,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, a Prefeitura Municipal de Praia Grande e o Fundo Municipal de Saúde abriram três processos seletivos para a contratação de profissionais de nível fundamental, médio, técnico ou superior.\nSegundo os editais, as oportunidades são para os seguintes cargos:\nPrefeitura Municipal de Praia Grande: Processo Seletivo Simplificado 001/2026\n• Assistente Social\n• Professor de Artes habilitado (2 vagas)\n• Professor de Artes não habilitado\n• Professor de Ciências habilitado (1 vaga)\n• Professor de Ciências não habilitado\n• Professor de Educação Física habilitado (2 vagas)\n• Professor de Educação Infantil habilitado (15 vagas)\n• Professor de Educação Infantil não habilitado\n• Professor de Ensino Religioso habilitado (1 vaga)\n• Professor de Geografia habilitado\n• Professor de Geografia não habilitado\n• Professor de História habilitado (1 vaga)\n• Professor de História não habilitado\n• Professor de Informática habilitado (1 vaga)\n• Professor de Informática não habilitado\n• Professor de Língua Portuguesa habilitado (1 vaga)\n• Professor de Língua Portuguesa não habilitado\n• Professor de Língua Inglesa habilitado (1 vaga)\n• Professor de Língua Inglesa não habilitado\n• Professor de Matemática habilitado (1 vaga)\n• Professor de Matemática não habilitado\n• Professor de Música habilitado (1 vaga)\n• Professor de Séries Iniciais do Ensino Fundamental I habilitado (10 vagas)\n• Professor de Séries Iniciais do Ensino Fundamental I não habilitado\n• Auxiliar de Educação Infantil (15 vagas)\n• Auxiliar Educacional (20 vagas)\n• Monitor de Transporte Escolar (1 vaga)\nFundo Municipal de Saúde: Processo Seletivo Simplificado 002/2026\n• Agente Comunitário de Saúde: Microárea 01\n• Agente Comunitário de Saúde: Microárea 02\n• Agente Comunitário de Saúde: Microárea 03\n• Agente Comunitário de Saúde: Microárea 06\n• Agente Comunitário de Saúde: Microárea 09\n• Agente Comunitário de Saúde, ESF Urbano: Microárea 03\n• Agente Comunitário de Saúde, ESF Urbano: Microárea 04\n• Agente Comunitário de Saúde, ESF Urbano: Microárea 07\n• Agente Comunitário de Saúde, ESF Urbano: Microárea 08\n• Agente Comunitário de Saúde, ESF Urbano: Microárea 10\n• Agente Comunitário de Saúde, ESF Urbano: Microárea 11\n• Agente Comunitário de Saúde, ESF Urbano: Microárea 12\n• Agente Comunitário de Saúde, ESF Rural: Microárea 01\n• Agente Comunitário de Saúde, ESF Rural: Microárea 02\n• Agente Comunitário de Saúde, ESF Rural: Microárea 03\n• Agente Comunitário de Saúde, ESF Rural: Microárea 04\n• Agente Comunitário de Saúde, ESF Rural: Microárea 05\n• Agente Comunitário de Saúde, ESF Rural: Microárea 06\n• Auxiliar de Saúde Bucal (1 vaga)\n• Farmacêutico (1 vaga)\n• Fisioterapeuta\n• Médico Ginecologista (1 vaga)\n• Médico Pediatra (1 vaga)\n• Psicólogo\n• Técnico de Enfermagem\nFundo Municipal de Saúde: Processo Seletivo Público 003/2026\n• Agente Comunitário de Saúde: Microárea 05 (1 vaga)\n• Agente de Combate às Endemias (1 vaga)\nAs jornadas variam de 10 a 40 horas semanais, conforme o cargo, e os vencimentos básicos vão de R$ 810,50 a R$ 7.921,65.\nAs inscrições para os três processos seletivos devem ser feitas de 27 de outubro de 2026 a 22 de novembro de 2026, pelo site do Instituto Legalle, no horário oficial de Brasília. A taxa é de R$ 80,00 para cargos de nível fundamental, médio ou técnico e de R$ 100,00 para cargos de nível superior. Candidatos de famílias de baixa renda e doadores de medula óssea podem solicitar isenção de 27 de outubro de 2026 a 3 de novembro de 2026, com envio da documentação exigida.\nTodos os candidatos serão avaliados por prova teórico-objetiva, eliminatória e classificatória, prevista para 13 de dezembro de 2026. A aplicação será em Praia Grande, com possibilidade de ocorrer em cidades próximas caso não haja locais suficientes ou adequados. No processo 001/2026, os candidatos aos cargos de professor habilitado aprovados na prova objetiva também passarão por prova de títulos, classificatória.\nCada processo seletivo terá validade de um ano, contado da publicação da homologação do resultado final. O prazo poderá ser prorrogado uma vez.\nMais informações podem ser obtidas nos editais completos.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 810.5,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Social",
     "Professor de Artes habilitado",
@@ -2646,14 +2938,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Ginecologista",
     "Médico Pediatra",
-    "Professor de Artes habilitado",
-    "Professor de Artes não habilitado"
+    "Assistente Social",
+    "Professor de Artes habilitado"
    ],
+   "cargosGerais": [
+    "Auxiliar de Educação Infantil",
+    "Auxiliar Educacional",
+    "Monitor de Transporte Escolar",
+    "Agente Comunitário de Saúde: Microárea 01",
+    "Agente Comunitário de Saúde: Microárea 02",
+    "Agente Comunitário de Saúde: Microárea 03",
+    "Agente Comunitário de Saúde: Microárea 06",
+    "Agente Comunitário de Saúde: Microárea 09"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Ginecologista, Médico Pediatra, Assistente Social. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -2700,6 +3004,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Mato Grosso, a Prefeitura Municipal de Vila Bela da Santíssima Trindade abriu um Processo Seletivo destinado a preencher vagas e formar cadastro de reserva para candidatos com ensino fundamental, médio e superior.\nDe acordo com o documento (Edital complementar 001), foram incluídos os cargos de Analista Ambiental, Apoio Administrativo (Motorista de Veículo Leve), Assistente Social, Contador, Fiscal Ambiental, Instrutor de Artesanato, Orientador Social, Psicólogo (Assistência Social) e Técnico Administrativo Educacional (TDI). O edital foi republicado em versão consolidada.\nSegundo o edital, as oportunidades são para os cargos de:\n• Analista Ambiental (1 vaga)\n• Apoio Administrativo (Motorista de Veículo Pesado), zona rural (4 vagas)\n• Apoio Administrativo (Motorista de Veículo Leve), zona urbana\n• Apoio Administrativo (Vigia), zona rural\n• Apoio Administrativo (Vigia), zona urbana\n• Apoio Administrativo - Infraestrutura (Zelador), zona rural (4 vagas)\n• Apoio Administrativo - Infraestrutura (Zelador), zona urbana (4 vagas)\n• Apoio Administrativo - Nutrição (Merendeira), zona rural (4 vagas)\n• Apoio Administrativo - Nutrição (Merendeira), zona urbana (3 vagas)\n• Assistente Social (2 vagas)\n• Contador\n• Fiscal Ambiental (1 vaga)\n• Instrutor de Artesanato (Ponta do Aterro)\n• Nutricionista na Educação (1 vaga)\n• Orientador Social (2 vagas)\n• Professor de Ciências, zona rural\n• Professor de Educação Física, zona rural\n• Professor de Geografia, zona rural\n• Professor de História, zona rural\n• Professor de Letras, zona rural (1 vaga)\n• Professor de Matemática, zona rural (1 vaga)\n• Professor de Pedagogia, zona rural (10 vagas)\n• Professor de Pedagogia, zona urbana (8 vagas)\n• Professor, nível médio/magistério (1 vaga)\n• Psicólogo (Educação) (1 vaga)\n• Psicólogo (Assistência Social) (2 vagas)\n• Técnico Administrativo Educacional (TDI) (4 vagas)\nA jornada é de 30 ou 40 horas semanais para os cargos com carga horária fixa. Para professores, o edital indica remuneração por hora-aula. Os vencimentos dos demais cargos variam de R$ 2.167,80 a R$ 7.700,67. O valor da hora-aula é de R$ 18,76 para professor de nível médio/magistério e de R$ 28,14 para os demais professores.\nAs inscrições serão feitas exclusivamente pelo site da W2 Consultores, das 8h de 19 de novembro de 2026 às 17h de 3 de dezembro de 2026, no horário de Cuiabá. A taxa é de R$ 50,00 para nível fundamental, R$ 80,00 para nível médio e R$ 120,00 para nível superior. Pedidos de isenção poderão ser apresentados no mesmo site, das 8h de 19 de novembro de 2026 às 17h de 23 de novembro de 2026, por candidatos que atendam aos critérios previstos no edital.\nA seleção terá prova objetiva para todos os cargos, prova prática para as funções de motorista de veículo leve e pesado e avaliação de títulos para os cargos de nível superior. As provas estão previstas para 13 de dezembro de 2026.\nO processo seletivo terá validade de um ano, contado da publicação da homologação da classificação final, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2167.8,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Analista Ambiental",
     "Apoio Administrativo",
@@ -2732,14 +3038,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
-    "Contador",
-    "Nutricionista na Educação",
-    "Professor de Ciências, zona rural",
-    "Professor de Educação Física, zona rural"
+    "Apoio Administrativo - Infraestrutura",
+    "Apoio Administrativo - Nutrição",
+    "Assistente Social",
+    "Contador"
    ],
+   "cargosGerais": [
+    "Analista Ambiental",
+    "Apoio Administrativo",
+    "Apoio Administrativo (Motorista de Veículo Leve), zona urbana",
+    "Apoio Administrativo (Vigia), zona rural",
+    "Apoio Administrativo (Vigia), zona urbana",
+    "Fiscal Ambiental",
+    "Orientador Social",
+    "Técnico Administrativo Educacional"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Apoio Administrativo - Infraestrutura, Apoio Administrativo - Nutrição, Assistente Social. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -2786,6 +3104,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura do Município de Santana de Parnaíba, no Estado de São Paulo, realizará um Concurso Público com o objetivo de preencher vagas e formar cadastro de reserva para candidatos alfabetizados e com ensino fundamental, médio, técnico ou superior completo.\nSegundo o edital, as oportunidades são para os cargos de:\nAlfabetizado\n• Agente de Limpeza Pública (10 vagas)\n• Agente de Serviços de Alimentação (30 vagas)\n• Agente de Serviços Gerais (cadastro de reserva)\n• Agente de Serviços Públicos (15 vagas)\n• Oficial de Manutenção Eletricista (2 vagas)\n• Oficial de Manutenção Pedreiro (1 vaga)\nEnsino fundamental completo\n• Motorista A/B (cadastro de reserva)\n• Motorista D (1 vaga)\nEnsino médio ou técnico completo\n• Agente de Atendimento (3 vagas)\n• Agente de Defesa Civil (cadastro de reserva)\n• Monitor Assistencial (1 vaga)\n• Oficial Administrativo (cadastro de reserva)\n• Operador de Tráfego (1 vaga)\n• Técnico em Tecnologia da Informação (1 vaga)\nEnsino superior completo\n• Analista de Tecnologia da Informação (cadastro de reserva)\n• Educador Esportivo Atividades Aquáticas (2 vagas)\n• Educador Esportivo Ginástica Rítmica (1 vaga)\n• Educador Esportivo Jiu-Jitsu (cadastro de reserva)\n• Educador Esportivo Muay Thai (1 vaga)\n• Educador Esportivo Tênis (1 vaga)\n• Fonoaudiólogo (5 vagas)\n• Terapeuta Ocupacional (1 vaga)\nAs jornadas são de 20, 30 ou 40 horas semanais, com vencimentos mensais de R$ 1.897,52 a R$ 7.497,97. Os nomeados receberão vale-alimentação de R$ 400,00 a R$ 650,00, conforme o cargo. Há auxílio-transporte para os cargos indicados no edital.\nAs inscrições serão feitas exclusivamente pelo site do Instituto Mais, das 10h de 11 de novembro de 2026 às 17h de 8 de dezembro de 2026, pelo horário de Brasília. A taxa é de R$ 54,00 para nível alfabetizado e fundamental, R$ 66,00 para nível médio ou técnico e R$ 81,00 para nível superior. O pagamento por boleto vence em 9 de dezembro de 2026. A isenção poderá ser solicitada das 10h de 11 de novembro às 17h de 12 de novembro de 2026 por candidatos que atendam aos critérios do edital para inscritos no CadÚnico, doadores de sangue ou pessoas com deficiência.\nTodos os candidatos farão prova objetiva, prevista para 10 de janeiro de 2027, preferencialmente em Santana de Parnaíba (SP), nos períodos da manhã ou da tarde, conforme o cargo. Conforme a função, haverá também prova prática, teste de aptidão física, prova prática de direção veicular ou prova prática de informática.\nOs nomeados ficarão sujeitos ao regime estatutário e ao estágio probatório de três anos.\nO concurso terá validade de dois anos, contados da homologação do resultado final, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1897.52,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Limpeza Pública",
     "Agente de Serviços de Alimentação",
@@ -2813,12 +3133,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Oficial de Manutenção Eletricista",
+    "Técnico em Tecnologia da Informação",
     "Analista de Tecnologia da Informação",
     "Fonoaudiólogo"
    ],
+   "cargosGerais": [
+    "Agente de Limpeza Pública",
+    "Agente de Serviços de Alimentação",
+    "Agente de Serviços Gerais",
+    "Agente de Serviços Públicos",
+    "Oficial de Manutenção Pedreiro",
+    "Motorista A/B",
+    "Motorista D",
+    "Agente de Atendimento"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Oficial de Manutenção Eletricista, Técnico em Tecnologia da Informação, Analista de Tecnologia da Informação. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -2864,6 +3198,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Piratini, no Estado do Rio Grande do Sul, abriu um concurso público com o objetivo de preencher vagas para pessoas alfabetizadas ou com ensino fundamental, médio, técnico ou superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente Administrativo (6 vagas)\n• Assistente Social (3 vagas)\n• Auxiliar de Saúde Bucal (3 vagas)\n• Contador (1 vaga)\n• Cuidador/Educador (4 vagas)\n• Enfermeiro (2 vagas)\n• Farmacêutico (2 vagas)\n• Fiscal Tributário (2 vagas)\n• Mecânico (2 vagas)\n• Médico (1 vaga)\n• Médico Veterinário (1 vaga)\n• Motorista (31 vagas)\n• Odontólogo (1 vaga)\n• Operador de Máquinas (6 vagas)\n• Professor de Anos Iniciais (1 vaga)\n• Professor de Artes (3 vagas)\n• Professor de Atendimento Educacional Especializado (AEE) (11 vagas)\n• Professor de Ciências (1 vaga)\n• Professor de Educação Física (4 vagas)\n• Professor de Educação Infantil (14 vagas)\n• Professor de Geografia (1 vaga)\n• Professor de História (1 vaga)\n• Professor de Inglês (1 vaga)\n• Professor de Libras (1 vaga)\n• Professor de Matemática (1 vaga)\n• Professor de Português (1 vaga)\n• Psicólogo (2 vagas)\n• Técnico Agropecuário (1 vaga)\n• Técnico em Enfermagem (7 vagas)\nAs jornadas variam de 20 a 44 horas semanais, com remuneração inicial de R$ 1.446,16 a R$ 7.462,95. Os servidores poderão fazer jus a benefícios previstos na legislação, como vale-alimentação, conforme o vencimento-base da classe.\nAs inscrições devem ser feitas no site do Instituto Objetiva, das 13h de 10 de novembro de 2026 às 13h de 25 de novembro de 2026. As taxas são de R$ 116,05, R$ 174,07 ou R$ 232,10, conforme o cargo. Podem solicitar isenção os doadores de sangue ou de medula óssea, pessoas com deficiência e pessoas sem renda, no período de 13h de 10 de novembro de 2026 às 13h de 12 de novembro de 2026, observados os requisitos do edital. Nos dias úteis do período de inscrição, haverá um posto com computador e internet na Secretaria Municipal de Administração, na Rua Comendador Freitas, nº 255, Centro, das 8h às 13h.\nA seleção terá prova objetiva para todos os cargos, prevista para 20 de dezembro de 2026. Haverá prova prática para os cargos de Motorista e de Operador de Máquinas, prevista para 20 e/ou 21 de fevereiro de 2027. Também haverá prova de títulos para os cargos de Assistente Social, Contador, Enfermeiro, Farmacêutico, Fiscal Tributário, Médico, Médico Veterinário, Odontólogo, todos os cargos de Professor e Psicólogo.\nOs aprovados serão nomeados para cargos públicos sob o regime estatutário.\nO concurso terá validade de até dois anos, contados da publicação da homologação final, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1446.16,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Administrativo",
     "Assistente Social",
@@ -2898,14 +3234,24 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico",
     "Médico Veterinário",
     "Odontólogo",
-    "Contador"
+    "Assistente Social"
    ],
+   "cargosGerais": [
+    "Agente Administrativo",
+    "Cuidador/Educador",
+    "Fiscal Tributário",
+    "Motorista",
+    "Operador de Máquinas",
+    "Técnico Agropecuário"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico, Médico Veterinário, Odontólogo. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -2951,6 +3297,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Mato Grosso, a Prefeitura Municipal de Cáceres abriu um Processo Seletivo Simplificado Unificado para preencher vagas temporárias e formar cadastro de reserva em funções de nível fundamental, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino fundamental\n• Auxiliar de Cuidador, área urbana (12 vagas e cadastro reserva)\n• Guarda Municipal Patrimonial, área urbana (3 vagas e cadastro reserva)\n• Guarda Municipal Patrimonial, Núcleo Clarinópolis (cadastro reserva)\n• Guarda Municipal Patrimonial, Núcleo Sapiquá (cadastro reserva)\n• Guarda Municipal Patrimonial, Núcleo Paiol (cadastro reserva)\n• Guarda Municipal Patrimonial, Núcleo Santo Antonio do Caramujo (cadastro reserva)\n• Guarda Municipal Patrimonial, Escola Municipal Buriti, Vila Aparecida (cadastro reserva)\n• Guarda Municipal Patrimonial, Escola Municipal 16 de Março, Sadia (cadastro reserva)\nEnsino médio\n• Assistente Administrativo, área urbana (1 vaga e cadastro reserva)\n• Assistente Administrativo, Núcleo Clarinópolis (cadastro reserva)\n• Assistente Administrativo, Núcleo Sapiquá (cadastro reserva)\n• Assistente Administrativo, Núcleo Paiol (cadastro reserva)\n• Assistente Administrativo, Núcleo Santo Antonio do Caramujo (cadastro reserva)\n• Assistente Administrativo, Escola Municipal Buriti, Vila Aparecida (cadastro reserva)\n• Assistente Administrativo, Escola Municipal 16 de Março, Sadia (cadastro reserva)\n• Auxiliar de Desenvolvimento Infantil, área urbana (10 vagas e cadastro reserva)\n• Auxiliar de Desenvolvimento Infantil, Núcleo Clarinópolis (cadastro reserva)\n• Auxiliar de Desenvolvimento Infantil, Núcleo Sapiquá (cadastro reserva)\n• Auxiliar de Desenvolvimento Infantil, Núcleo Paiol (cadastro reserva)\n• Auxiliar de Desenvolvimento Infantil, Núcleo Santo Antonio do Caramujo (cadastro reserva)\n• Auxiliar de Desenvolvimento Infantil, Escola Municipal Buriti, Vila Aparecida (cadastro reserva)\n• Auxiliar de Desenvolvimento Infantil, Escola Municipal 16 de Março, Sadia (cadastro reserva)\n• Cuidador, área urbana (1 vaga e cadastro reserva)\n• Educador/Orientador Social, área urbana (1 vaga e cadastro reserva)\nNível superior\n• Advogado(a) do SUAS, área urbana (cadastro reserva)\n• Assistente Social, área urbana (1 vaga e cadastro reserva)\n• Educador Físico, área urbana (cadastro reserva)\n• Fonoaudiólogo, área urbana (cadastro reserva)\n• Nutricionista Generalista, área urbana (cadastro reserva)\n• Professor Licenciado em Letras, área urbana (cadastro reserva)\n• Professor Licenciado em Pedagogia, área urbana (1 vaga e cadastro reserva)\n• Professor Licenciado em Pedagogia, Núcleo Clarinópolis (cadastro reserva)\n• Professor Licenciado em Pedagogia, Núcleo Sapiquá (cadastro reserva)\n• Professor Licenciado em Pedagogia, Núcleo Paiol (cadastro reserva)\n• Professor Licenciado em Pedagogia, Núcleo Santo Antonio do Caramujo (cadastro reserva)\n• Professor Licenciado em Pedagogia, Escola Municipal Buriti, Vila Aparecida (cadastro reserva)\n• Professor Licenciado em Pedagogia, Escola Municipal 16 de Março, Sadia (cadastro reserva)\n• Psicólogo, área urbana (cadastro reserva)\nA jornada varia de 30 a 40 horas semanais. A remuneração vai de R$ 1.452,29 a R$ 7.226,74. Para os cargos de nível fundamental, o quadro de vagas indica R$ 168,71 adicionais à remuneração.\nO cronograma prevê inscrições de 20 a 30 de novembro de 2026, exclusivamente pelo site Império Concursos. As taxas são de R$ 20,00 para nível fundamental, R$ 30,00 para nível médio e R$ 40,00 para nível superior. O cronograma prevê pedidos de isenção para pessoas com deficiência, doadores de sangue, trabalhadores que recebem até um salário mínimo, desempregados e beneficiários do Cadastro Único, conforme as condições do edital.\nA seleção inclui prova objetiva eliminatória para todos os cargos, prevista para 20 de dezembro de 2026. O edital também prevê prova prática e prova de títulos para cargos específicos, e pontuação classificatória pela Prova Nacional Docente de 2026 para os cargos de professor.\nO processo seletivo terá validade de um ano a partir da homologação, podendo ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1452.29,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Cuidador, área urbana",
     "Guarda Municipal Patrimonial, área urbana",
@@ -2994,14 +3342,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Advogado",
-    "Fonoaudiólogo, área urbana",
-    "Nutricionista Generalista, área urbana",
-    "Professor Licenciado em Letras, área urbana"
+    "Auxiliar de Desenvolvimento Infantil, Núcleo Clarinópolis",
+    "Auxiliar de Desenvolvimento Infantil, Núcleo Sapiquá",
+    "Auxiliar de Desenvolvimento Infantil, Núcleo Paiol"
    ],
+   "cargosGerais": [
+    "Auxiliar de Cuidador, área urbana",
+    "Guarda Municipal Patrimonial, área urbana",
+    "Guarda Municipal Patrimonial, Núcleo Clarinópolis",
+    "Guarda Municipal Patrimonial, Núcleo Sapiquá",
+    "Guarda Municipal Patrimonial, Núcleo Paiol",
+    "Guarda Municipal Patrimonial, Núcleo Santo Antonio do Caramujo",
+    "Guarda Municipal Patrimonial, Escola Municipal Buriti, Vila Aparecida",
+    "Guarda Municipal Patrimonial, Escola Municipal 16 de Março, Sadia"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Advogado, Auxiliar de Desenvolvimento Infantil, Núcleo Clarinópolis, Auxiliar de Desenvolvimento Infantil, Núcleo Sapiquá. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -3047,6 +3407,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Fundação Hospitalar do Estado de Minas Gerais (Fhemig) abriu dois Processos Seletivos Simplificados para preencher 10 vagas e formar cadastro de reserva em Betim e Belo Horizonte. As oportunidades exigem ensino médio, formação técnica ou nível superior, conforme a função.\nSegundo os editais, as oportunidades são para os cargos de:\nCasa de Saúde Santa Izabel, em Betim, edital 186/2026\n• Médico Generalista (1 vaga)\n• Médico Dermatologista (1 vaga)\nHospital Júlia Kubitschek, em Belo Horizonte, edital 189/2026\n• Auxiliar Administrativo (1 vaga)\n• Técnico em Farmácia (1 vaga)\n• Técnico em Nutrição e Dietética (1 vaga)\n• Técnico em Patologia Clínica (1 vaga)\nHospital Alberto Cavalcanti, em Belo Horizonte, edital 189/2026\n• Auxiliar Administrativo (1 vaga)\n• Técnico em Farmácia (1 vaga)\n• Técnico em Nutrição e Dietética (1 vaga)\n• Técnico em Patologia Clínica (1 vaga)\nAs jornadas são de 24 horas semanais para médicos e de 30 ou 40 horas semanais para as demais funções, conforme a vaga. Os vencimentos básicos vão de R$ 1.605,06 a R$ 7.040,85, acrescidos de ajuda de custo e Gratificação de Incentivo à Eficientização dos Serviços.\nAs inscrições para ambos os editais ocorrerão das 9h de 16 de novembro de 2026 às 17h de 23 de novembro de 2026, exclusivamente pelo preenchimento do currículo eletrônico no site da Fhemig. Candidatos sem acesso à internet poderão solicitar o uso de um computador nas unidades indicadas nos editais.\nAmbas as seleções terão análise curricular e entrevista, etapas eliminatórias e classificatórias. As entrevistas estão previstas para 8 e 9 de dezembro de 2026, em Betim, e de 14 a 17 de dezembro de 2026, em Belo Horizonte.\nAs contratações serão feitas por contrato administrativo temporário, sem vínculo regido pela CLT, pelo prazo de 12 meses, prorrogável por mais 12 meses.\nOs dois processos seletivos terão validade de até um ano, contado da publicação da homologação do resultado final, com possibilidade de prorrogação por igual período.\nMais informações podem ser obtidas nos editais completos.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1605.06,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Médico Generalista",
     "Médico Dermatologista",
@@ -3062,12 +3424,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Generalista",
-    "Médico Dermatologista"
+    "Médico Dermatologista",
+    "Técnico em Farmácia",
+    "Técnico em Nutrição e Dietética"
    ],
+   "cargosGerais": [
+    "Auxiliar Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Generalista, Médico Dermatologista, Técnico em Farmácia. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo e entrevista"
@@ -3111,18 +3480,23 @@ window.DADOS_CONCURSOS = {
    "texto": "A Fundação Hospitalar do Estado de Minas Gerais (Fhemig) abriu um Processo Seletivo Simplificado para preencher uma vaga e formar cadastro de reserva no Instituto Raul Soares, em Belo Horizonte. A oportunidade exige nível superior em Medicina e especialização em Clínica Médica registrada no Conselho Regional de Medicina de Minas Gerais.\nSegundo o edital, a oportunidade é para o cargo de:\n• Médico - Clínica Médica (1 vaga e cadastro de reserva)\nA jornada é de 24 horas semanais, com vencimento básico de R$ 7.040,85, acrescido de ajuda de custo e Gratificação de Incentivo à Eficientização dos Serviços.\nAs inscrições serão realizadas das 9h de 17 de novembro de 2026 às 17h de 24 de novembro de 2026, exclusivamente pelo preenchimento do currículo eletrônico no site da Fhemig.\nA seleção terá duas etapas eliminatórias e classificatórias: análise curricular e entrevista. A entrevista está prevista para 11 de dezembro de 2026\nA contratação será feita por contrato administrativo temporário, sem vínculo regido pela CLT, pelo prazo de 12 meses, prorrogável por mais 12 meses.\nO processo seletivo terá validade de até um ano, contado da publicação da homologação do resultado final, e poderá ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Médico - Clínica Médica"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico - Clínica Médica",
     "Médico"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo e entrevista"
@@ -3166,6 +3540,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Biguaçu, no Estado de Santa Catarina, abriu dois Processos Seletivos Simplificados para formar cadastro de reserva na Secretaria Municipal de Educação. As seleções são destinadas a profissionais com ensino fundamental, médio e superior.\nSegundo os editais, as oportunidades são para os cargos de:\nEdital nº 050/2026\n• Auxiliar de Serviços Gerais Merendeira\n• Auxiliar de Serviços Gerais Servente\n• Monitor do Transporte Escolar\n• Professor Auxiliar de Sala\n• Assistente Social\n• Especialista em Assuntos Educacionais\n• Professor Auxiliar de Ensino\n• Psicólogo\n• Segundo Professor\n• Técnico em Educação\n• Professor II Educação Infantil\n• Professor II Ensino Fundamental\n• Professor III Educação Especial\n• Professor III Artes\n• Professor III Ciências\n• Professor III Educação Física\n• Professor III Espanhol\n• Professor III Inglês\n• Professor III Língua Portuguesa\n• Professor III Matemática\nEdital nº 051/2026\n• Motorista III Ônibus\n• Tradutor e Intérprete de Libras\nAs jornadas variam de 10 a 40 horas semanais, conforme o cargo. Os salários vão de R$ 1.750,70 a R$ 7.002,84. O edital nº 050/2026 prevê vale-alimentação mensal de R$ 193,14 a R$ 771,27, conforme a carga horária.\nAs inscrições devem ser feitas pelo site concursos.furb.br, das 17h de 23 de novembro de 2026 às 23h59 de 7 de dezembro de 2026. As taxas são de R$ 80,00 para nível fundamental, R$ 120,00 para nível médio ou técnico e R$ 150,00 para nível superior. O pagamento poderá ser feito até 8 de dezembro de 2026. Doadores de sangue ou de medula óssea e doadoras de leite materno poderão solicitar isenção, com a documentação exigida, de 23 a 25 de novembro de 2026.\nOs dois processos terão prova objetiva, eliminatória e classificatória, em 20 de dezembro de 2026. Haverá prova de títulos, facultativa e classificatória, para Merendeira e cargos de nível superior do edital nº 050/2026, além de Tradutor e Intérprete de Libras do edital nº 051/2026. Neste último edital, os aprovados e convocados também farão prova prática, eliminatória e classificatória, em 31 de janeiro de 2027, para ambos os cargos.\nCada processo seletivo terá validade de um ano, contado da homologação, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas nos editais completos.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1750.7,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Serviços Gerais Merendeira",
     "Auxiliar de Serviços Gerais Servente",
@@ -3193,14 +3569,23 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Professor Auxiliar de Sala",
+    "Assistente Social",
     "Professor Auxiliar de Ensino",
-    "Psicólogo",
-    "Segundo Professor"
+    "Psicólogo"
    ],
+   "cargosGerais": [
+    "Auxiliar de Serviços Gerais Merendeira",
+    "Auxiliar de Serviços Gerais Servente",
+    "Monitor do Transporte Escolar",
+    "Especialista em Assuntos Educacionais",
+    "Motorista III Ônibus"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Professor Auxiliar de Sala, Assistente Social, Professor Auxiliar de Ensino. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -3246,6 +3631,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Itambaracá, no Estado do Paraná, abriu o Processo Seletivo Simplificado nº 002/2026 para preencher vagas temporárias e formar cadastro de reserva. As oportunidades exigem ensino fundamental (incompleto ou completo), ensino médio ou ensino superior, conforme a função.\nSegundo o edital, as oportunidades são para os cargos de:\n• Coveiro (1 vaga)\n• Eletricista Predial (1 vaga e 1 para cadastro de reserva)\n• Operador de Máquinas (1 vaga e 1 para cadastro de reserva)\n• Motorista (3 para cadastro de reserva)\n• Farmacêutico (1 vaga)\n• Enfermeiro (1 vaga)\n• Engenheiro Civil, 20 horas semanais (1 para cadastro de reserva)\n• Engenheiro Civil, 40 horas semanais (1 vaga)\nAs jornadas são de 20 ou 40 horas semanais. As remunerações mensais variam de R$ 1.741,72 a R$ 6.800,00, acrescidas de R$ 400,00 de auxílio-alimentação.\nAs inscrições serão realizadas de 25 de novembro a 4 de dezembro de 2026, das 8h30 às 11h30, no Departamento de Recursos Humanos da Prefeitura Municipal de Itambaracá. A ficha de inscrição está disponível no site da prefeitura e no edital. O candidato deverá entregá-la com os documentos exigidos em envelope lacrado. Não haverá cobrança de taxa de inscrição.\nA seleção será feita por análise de títulos, aperfeiçoamento profissional e tempo de serviço. Para Coveiro e Operador de Máquinas, haverá também prova prática, de caráter eliminatório e classificatório, prevista para 19 de dezembro de 2026.\nAs contratações serão pelo prazo de 12 meses, com possibilidade de uma prorrogação por igual período, mediante autorização legislativa.\nO processo seletivo terá validade de 12 meses a partir da homologação do resultado final. O prazo poderá ser prorrogado uma vez por igual período, em caso de excepcional interesse público e mediante autorização legislativa.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Coveiro",
     "Eletricista Predial",
@@ -3259,14 +3646,21 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Engenheiro Civil, 20 horas semanais",
     "Engenheiro Civil, 40 horas semanais",
-    "Farmacêutico",
-    "Enfermeiro"
+    "Eletricista Predial",
+    "Farmacêutico"
    ],
+   "cargosGerais": [
+    "Coveiro",
+    "Operador de Máquinas",
+    "Motorista"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Engenheiro Civil, 20 horas semanais, Engenheiro Civil, 40 horas semanais, Eletricista Predial. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Etapas de prova não detalhadas (base)",
@@ -3312,6 +3706,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, a Autarquia Municipal de Saneamento de Fraiburgo (SANEFRAI) abriu um Processo Seletivo para contratação temporária e formação de cadastro de reserva em funções de nível fundamental, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível superior\n• Engenheiro Sanitarista e Ambiental\n• Farmacêutico Bioquímico\nNível médio\n• Assistente Administrativo\n• Operador de ETA/ETE\nNível fundamental\n• Agente de Serviços Gerais\n• Agente de Leitura e Inspeção\n• Agente Operacional\n• Instalador Hidráulico\n• Motorista\n• Operador de Máquinas\nA jornada é de 20 horas semanais para Farmacêutico Bioquímico e de 40 horas para os demais cargos. Os vencimentos variam de R$ 1.381,28 a R$ 6.747,15. Há vale-alimentação mensal de R$ 682,77 para jornadas de 40 horas, com valor proporcional para jornada inferior.\nAs inscrições serão realizadas de 3 de novembro de 2026, às 6h, a 2 de dezembro de 2026, às 18h, pelo site do Instituto Brasileiro de Administração Municipal (IBAM). A taxa é de R$ 100,00 para nível superior, R$ 80,00 para nível médio e R$ 60,00 para nível fundamental. Os candidatos que atendam aos requisitos do edital podem solicitar isenção de 10 a 11 de novembro de 2026.\nA seleção terá prova escrita objetiva, eliminatória e classificatória, para todos os cargos. Ela está prevista para 20 de dezembro de 2026, às 9h. Também haverá prova prática, eliminatória e classificatória, para Agente de Leitura e Inspeção, Instalador Hidráulico, Motorista, Operador de ETA/ETE e Operador de Máquinas. A convocação está prevista para 18 de janeiro de 2027 e a realização, para 24 de janeiro de 2027.\nO Processo Seletivo terá validade de um ano a partir da homologação, podendo ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1381.28,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Engenheiro Sanitarista e Ambiental",
     "Farmacêutico Bioquímico",
@@ -3327,12 +3723,24 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Engenheiro Sanitarista e Ambiental",
     "Farmacêutico Bioquímico"
    ],
+   "cargosGerais": [
+    "Assistente Administrativo",
+    "Operador de ETA/ETE",
+    "Agente de Serviços Gerais",
+    "Agente de Leitura e Inspeção",
+    "Agente Operacional",
+    "Instalador Hidráulico",
+    "Motorista",
+    "Operador de Máquinas"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Engenheiro Sanitarista e Ambiental, Farmacêutico Bioquímico. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -3378,17 +3786,22 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Presidente Lucena, no Estado do Rio Grande do Sul, abriu um Processo Seletivo Simplificado para preencher uma vaga de nível superior e formar cadastro de reserva para a função de enfermeiro.\nSegundo o edital, a oportunidade é para o cargo de:\n• Enfermeiro (1 vaga e cadastro reserva)\nA jornada é de 40 horas semanais, com remuneração mensal de R$ 6.710,73. Além do vencimento o contratado fará jus às seguintes vantagens funcionais: acréscimo de 40% a título de insalubridade, horas extras na eventual extrapolação da carga horária diária e semanal, desde que previamente convocado pelo superior hierárquico, gratificação natalina proporcional ao período trabalhado; férias proporcionais acrescidas de um terço, indenizadas ao final do contrato; inscrição no Regime Geral de Previdência Social.\nAs inscrições serão recebidas de 23 a 27 de novembro de 2026, mediante entrega de envelope fechado na recepção da sede do Município, na Rua Ipiranga, nº 375, Centro. De segunda a quinta-feira, o atendimento será das 7h45 às 11h30 e das 13h às 17h; na sexta-feira, das 7h45 às 11h30. O valor da inscrição é de R$ 26,68, com pagamento no Setor de Tesouraria do Município.\nA seleção consistirá na análise dos atestados e títulos dos candidatos, conforme os critérios de pontuação do edital.\nA contratação será por prazo determinado de até 12 meses, com possibilidade de renovação mediante demonstração de disponibilidade orçamentária.\nO Processo Seletivo Simplificado terá validade de dois anos.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Enfermeiro"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Enfermeiro"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo"
@@ -3432,6 +3845,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, o Município de Jaguaruna abriu um Concurso Público para preencher vagas efetivas e formar cadastro de reserva em funções de nível fundamental incompleto e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Professor de Educação Infantil, 20 horas semanais (28 vagas e cadastro de reserva)\n• Professor de Educação Infantil, 30 horas semanais (6 vagas)\n• Professor de Anos Iniciais (8 vagas e cadastro de reserva)\n• Professor de História (2 vagas e cadastro de reserva)\n• Professor de Matemática (2 vagas e cadastro de reserva)\n• Professor de Português (1 vaga e cadastro de reserva)\n• Professor de Artes, 30 horas semanais (1 vaga e cadastro de reserva)\n• Professor de Artes, 20 horas semanais (15 vagas e cadastro de reserva)\n• Professor de Inglês, 30 horas semanais (4 vagas e cadastro de reserva)\n• Professor de Inglês, 20 horas semanais (11 vagas e cadastro de reserva)\n• Professor de Educação Física, 10 horas semanais (1 vaga e cadastro de reserva)\n• Professor de Educação Física, 20 horas semanais (11 vagas e cadastro de reserva)\n• Professor de Educação Física, 30 horas semanais (1 vaga e cadastro de reserva)\n• Assistente Técnico Pedagógico (cadastro de reserva)\n• Orientador Educacional (cadastro de reserva)\n• Supervisor Escolar (cadastro de reserva)\n• Psicopedagogo (8 vagas e cadastro de reserva)\n• Assistente Social (7 vagas e cadastro de reserva)\n• Nutricionista (6 vagas e cadastro de reserva)\n• Motorista de Ônibus Escolar (1 vaga e cadastro de reserva)\n• Monitor de Transporte Escolar (1 vaga e cadastro de reserva)\nAs jornadas variam de 10 a 40 horas semanais. Os vencimentos vão de R$ 1.282,66 a R$ 6.675,91, conforme o cargo e a carga horária.\nAs inscrições serão feitas exclusivamente pelo site unesc.selecao.net.br, das 10h de 23 de novembro de 2026 às 16h de 8 de dezembro de 2026, no horário de Brasília. A taxa é de R$ 100,00 para nível fundamental e de R$ 150,00 para nível superior. Poderão solicitar isenção, de 23 a 27 de novembro de 2026, candidatos desempregados, com renda individual mensal de até 1,5 salário mínimo ou que comprovem doação de sangue nos 12 meses anteriores à inscrição.\nA seleção terá prova objetiva para todos os cargos. Haverá prova de títulos para professores, assistente técnico pedagógico, orientador educacional e supervisor escolar. Para motorista haverá avaliação de tempo de serviço e prova prática. A prova objetiva será em 20 de dezembro de 2026. A prova prática está prevista para 25 e 26 de janeiro de 2027.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado definitivo, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1282.66,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Professor de Educação Infantil, 20 horas semanais",
     "Professor de Educação Infantil, 30 horas semanais",
@@ -3455,17 +3870,24 @@ window.DADOS_CONCURSOS = {
     "Motorista de Ônibus Escolar",
     "Monitor de Transporte Escolar"
    ],
-   "temMedio": false,
+   "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Professor de Educação Infantil, 20 horas semanais",
     "Professor de Educação Infantil, 30 horas semanais",
     "Professor de Anos Iniciais",
     "Professor de História"
    ],
+   "cargosGerais": [
+    "Psicopedagogo",
+    "Motorista de Ônibus Escolar",
+    "Monitor de Transporte Escolar"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Professor de Educação Infantil, 20 horas semanais, Professor de Educação Infantil, 30 horas semanais, Professor de Anos Iniciais. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -3511,6 +3933,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Nova Ubiratã, no Estado de Mato Grosso, abriu um Processo Seletivo Simplificado com o objetivo de preencher vagas e formar cadastro de reserva para funções que exigem alfabetização ou escolaridade de nível fundamental, médio, técnico ou superior.\nSegundo o edital, as oportunidades são para os cargos de:\nSede\n• Assistente Social, nível I (1 vaga)\n• Psicólogo, nível I (1 vaga)\n• Apoio Administrativo Educacional, limpeza (5 vagas)\n• Apoio Administrativo Educacional, motorista (cadastro de reserva)\n• Apoio Administrativo Educacional, nutrição (2 vagas)\n• Apoio Administrativo Educacional, vigia (cadastro de reserva)\n• Professor II, Pedagogia (3 vagas)\n• Técnico Administrativo Educacional, secretário escolar (1 vaga)\n• Técnico ou Auxiliar de Desenvolvimento Infantil e Educação Especial, 20 horas (15 vagas)\n• Técnico ou Auxiliar de Desenvolvimento Infantil e Educação Especial, 40 horas (2 vagas)\n• Assistente Social (cadastro de reserva)\n• Auxiliar Administrativo (1 vaga)\n• Auxiliar de Consultório Odontológico (1 vaga)\n• Auxiliar de Serviços Gerais (1 vaga)\n• Brigadista (cadastro de reserva)\n• Cozinheiro (cadastro de reserva)\n• Educador Físico (cadastro de reserva)\n• Encanador (cadastro de reserva)\n• Enfermeiro (1 vaga)\n• Fiscal de Meio Ambiente (cadastro de reserva)\n• Fiscal de Obras e Posturas (cadastro de reserva)\n• Menor Aprendiz (cadastro de reserva)\n• Motorista, categoria E (cadastro de reserva)\n• Motorista, categoria D ou E (cadastro de reserva)\n• Pedreiro (cadastro de reserva)\n• Psicólogo, 40 horas semanais (cadastro de reserva)\n• Técnico Agrícola (cadastro de reserva)\n• Técnico em Enfermagem (1 vaga)\n• Vigia (1 vaga)\n• Zeladora (4 vagas)\nDistrito Entre Rios\n• Apoio Administrativo Educacional, limpeza (cadastro de reserva)\n• Apoio Administrativo Educacional, motorista (cadastro de reserva)\n• Apoio Administrativo Educacional, nutrição (cadastro de reserva)\n• Apoio Administrativo Educacional, vigia (cadastro de reserva)\n• Professor II, Pedagogia (2 vagas)\n• Técnico ou Auxiliar de Desenvolvimento Infantil e Educação Especial (3 vagas)\n• Auxiliar de Serviços Gerais (cadastro de reserva)\n• Enfermeiro (cadastro de reserva)\n• Motorista, categoria D ou E (cadastro de reserva)\n• Técnico em Enfermagem (cadastro de reserva)\n• Vigia (1 vaga)\n• Zeladora (cadastro de reserva)\nDistrito Novo Mato Grosso\n• Apoio Administrativo Educacional, limpeza (1 vaga)\n• Apoio Administrativo Educacional, nutrição (cadastro de reserva)\n• Apoio Administrativo Educacional, vigia (cadastro de reserva)\n• Professor II, Pedagogia (1 vaga)\n• Professor II, Letras (1 vaga)\n• Professor II, Matemática (1 vaga)\n• Técnico Administrativo Educacional, secretário escolar (1 vaga)\n• Técnico ou Auxiliar de Desenvolvimento Infantil e Educação Especial (1 vaga)\n• Auxiliar de Serviços Gerais (cadastro de reserva)\n• Encanador (cadastro de reserva)\n• Zeladora (cadastro de reserva)\nEscola Municipal Lorindo Pedro Basso\n• Professor II, Pedagogia (1 vaga)\n• Técnico ou Auxiliar de Desenvolvimento Infantil e Educação Especial (cadastro de reserva)\n• Apoio Administrativo Educacional, nutrição (1 vaga)\nDistrito Santo Antônio do Rio Bonito\n• Apoio Administrativo Educacional, limpeza (1 vaga)\n• Apoio Administrativo Educacional, nutrição (cadastro de reserva)\n• Apoio Administrativo Educacional, vigia (cadastro de reserva)\n• Professor II, Pedagogia (2 vagas)\n• Professor II, Letras ou Inglês (cadastro de reserva)\n• Técnico Administrativo Educacional, secretário escolar (1 vaga)\n• Técnico ou Auxiliar de Desenvolvimento Infantil e Educação Especial (cadastro de reserva)\n• Auxiliar de Serviços Gerais (cadastro de reserva)\n• Encanador (cadastro de reserva)\nDistrito Santa Terezinha do Rio Ferro\n• Apoio Administrativo Educacional, limpeza (1 vaga)\n• Professor II, Pedagogia (2 vagas)\n• Professor II, Letras (1 vaga)\n• Professor II, Matemática (1 vaga)\n• Técnico ou Auxiliar de Desenvolvimento Infantil e Educação Especial (cadastro de reserva)\n• Apoio Administrativo Educacional, nutrição (cadastro de reserva)\n• Apoio Administrativo Educacional, motorista (cadastro de reserva)\n• Auxiliar de Serviços Gerais (cadastro de reserva)\n• Técnico em Enfermagem (cadastro de reserva)\nEscola Municipal Indígena Tupará\n• Professor I, Magistério (cadastro de reserva)\n• Professor II, Pedagogia (1 vaga)\n• Apoio Administrativo Educacional, limpeza (1 vaga)\n• Apoio Administrativo Educacional, nutrição (1 vaga)\nAs jornadas são de 20, 30 ou 40 horas semanais, conforme o cargo. As remunerações vão de R$ 810,50 a R$ 6.562,12.\nAs inscrições serão presenciais de 16 a 30 de novembro de 2026, das 7h às 11h e das 13h às 17h, no Espaço Científico Educacional Profª Margarete Traversin Massocco, na Rua Pedro Duarte, nº 191, Centro, Nova Ubiratã (MT). Não haverá cobrança de taxa de inscrição.\nA seleção terá prova objetiva para todos os cargos, em 13 de dezembro de 2026. Candidatos a brigadista também farão Teste de Aptidão Física e Teste de Habilidades na Utilização de Ferramentas Agrícolas no mesmo dia.\nO Processo Seletivo Simplificado terá validade até 15 de dezembro de 2027.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 810.5,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Social, nível I",
     "Psicólogo, nível I",
@@ -3594,14 +4018,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Auxiliar de Consultório Odontológico",
+    "Assistente Social, nível I",
     "Psicólogo, nível I",
-    "Professor II, Pedagogia",
-    "Enfermeiro"
+    "Apoio Administrativo Educacional, limpeza"
    ],
+   "cargosGerais": [
+    "Técnico Administrativo Educacional, secretário escolar",
+    "Técnico ou Auxiliar de Desenvolvimento Infantil e Educação Especial, 20 horas",
+    "Técnico ou Auxiliar de Desenvolvimento Infantil e Educação Especial, 40 horas",
+    "Auxiliar Administrativo",
+    "Auxiliar de Serviços Gerais",
+    "Brigadista",
+    "Cozinheiro",
+    "Encanador"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Auxiliar de Consultório Odontológico, Assistente Social, nível I, Psicólogo, nível I. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -3648,6 +4084,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Ribeirãozinho do Maranhão publicou editais de Concurso Público e Processo Seletivo para o preenchimento de vagas e formação de cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nSegundo os editais, as oportunidades são para os cargos de:\n• Arquiteto (1 vaga)\n• Assistente Social (1 vaga)\n• Assistente Jurídico (1 vaga + CR)\n• Contador do Controle Interno (1 vaga)\n• Enfermeiro (4 vagas + CR)\n• Engenheiro Agrônomo (1 vaga)\n• Engenheiro Ambiental (1 vaga)\n• Engenheiro Civil (1 vaga)\n• Farmacêutico/Bioquímico (2 vagas + CR)\n• Fisioterapeuta (1 vaga + CR)\n• Médico Clínico Geral (3 vagas + CR)\n• Nutricionista (2 vagas + CR)\n• Psicólogo (1 vaga)\n• Profissional de Educação Física (1 vaga + CR)\n• Professor Nível II - Educação Infantil (10 vagas + 1 PcD + CR)\n• Professor Nível II - Ensino Fundamental - Anos Iniciais (14 vagas + 1 PcD + CR)\n• Professor Nível II - Ensino Fundamental - Artes (2 vagas + CR)\n• Professor Nível II - Ensino Fundamental - Ciências (2 vagas + CR)\n• Professor Nível II - Ensino Fundamental - Inglês (2 vagas + CR)\n• Professor Nível II - Ensino Fundamental - Matemática (2 vagas + CR)\n• Professor Nível II - Ensino Fundamental - Português (1 vaga + CR)\n• Agente Cadastrador (1 vaga + CR)\n• Agente de Fiscalização (1 vaga + CR)\n• Auxiliar de Sala (19 vagas + 1 PcD + CR)\n• Auxiliar de Saúde Bucal (1 vaga)\n• Auxiliar de Serviços Administrativos Educacionais (24 vagas + 1 PcD + CR)\n• Educador Social (2 vagas + CR)\n• Fiscal Ambiental (1 vaga)\n• Secretário Escolar (2 vagas + CR)\n• Secretário Executivo (1 vaga)\n• Técnico Administrativo (14 vagas + CR)\n• Técnico Agrimensor (1 vaga)\n• Técnico de Apoio ao Educando (2 vagas + CR)\n• Técnico de Informática (1 vaga)\n• Técnico Educacional (2 vagas + CR)\n• Técnico em Enfermagem (7 vagas + 1 PcD + CR)\n• Auxiliar de Eletricista (1 vaga + CR)\n• Eletricista (1 vaga)\n• Mecânico de Máquinas (1 vaga)\n• Monitor de Ônibus (4 vagas + CR)\n• Motorista I Categoria B (2 vagas + CR)\n• Motorista II Categoria D (Ônibus Escolar) (2 vagas + CR)\n• Motorista III Categoria D (Ambulância) (3 vagas + CR)\n• Pintor (1 vaga)\n• Porteiro (4 vagas + CR)\n• Operador de Máquinas (Pá Carregadeira, Patrol e Retroescavadeira) (3 vagas)\n• Auxiliar de Serviços Gerais (10 vagas + 1 PcD + CR)\n• Coveiro (3 vagas + CR)\n• Operador de Roçadeira (1 vaga + CR)\n• Pedreiro (3 vagas + CR)\n• Vigia (19 vagas + 1 PcD + CR)\n• Analista Jurídico (2 vagas + CR)\n• Procurador Municipal (1 vaga)\n• Agente Comunitário de Saúde Zona Urbana (4 vagas + 1 PcD + CR)\n• Agente Comunitário de Saúde Bananal (1 vaga + CR)\n• Agente Comunitário de Saúde Gameleira (1 vaga + CR)\n• Agente Comunitário de Saúde Setor Agrícola (2 vagas + CR)\n• Agente Comunitário de Saúde Ribeirãozinho da Roça (1 vaga + CR)\nSegundo o edital, a jornada de trabalho varia de 30 a 40 horas semanais, a depender do cargo ou função. As remunerações vão de R$ 1.621,00 até R$ 6.500,00, conforme o cargo.\nAs inscrições devem ser realizadas pelo site www.fsaduconcursos.org.br, das 10h do dia 27 de outubro de 2026 às 17h do dia 1º de dezembro de 2026. O valor da taxa de inscrição varia conforme o edital: R$ 80,00 para nível fundamental, R$ 90,00 para nível médio e médio técnico e R$ 110,00 para nível superior. Haverá possibilidade de pedido de isenção da taxa nos termos do edital.\nO processo de seleção prevê prova objetiva para todos os cargos. Para algumas funções haverá também prova de títulos, prova prática e/ou curso de formação, de acordo com cada edital. As provas objetivas estão previstas para os dias 23 ou 24 de janeiro de 2027.\nO prazo de validade dos concursos e do processo seletivo é de 2 anos, podendo ser prorrogado uma única vez por igual período, a critério da Prefeitura de Ribeirãozinho do Maranhão MA.\nMais informações podem ser obtidas nos editais completos.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": 90,
    "cargosLista": [
     "Arquiteto",
     "Assistente Social",
@@ -3711,14 +4149,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Clínico Geral",
     "Engenheiro Agrônomo",
     "Engenheiro Ambiental",
     "Engenheiro Civil"
    ],
+   "cargosGerais": [
+    "Assistente Jurídico",
+    "Profissional de Educação Física",
+    "Agente Cadastrador",
+    "Agente de Fiscalização",
+    "Auxiliar de Sala",
+    "Auxiliar de Serviços Administrativos Educacionais",
+    "Educador Social",
+    "Fiscal Ambiental"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Clínico Geral, Engenheiro Agrônomo, Engenheiro Ambiental. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -3766,6 +4216,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Florianópolis, no Estado de Santa Catarina, por meio da Secretaria de Educação, abriu um Processo Seletivo de Substitutos destinado a formar cadastro de reserva para o ano letivo de 2027. As funções exigem formação de nível médio ou superior e algumas admitem estudantes de licenciatura.\nSegundo o edital, as oportunidades são para os cargos de:\n• Professor Auxiliar de Atividades de Ciências\n• Professor Auxiliar de Educação Especial\n• Professor Auxiliar de Educação Infantil\n• Professor Auxiliar de Ensino Fundamental\n• Professor Auxiliar de Tecnologia Educacional\n• Professor Auxiliar Intérprete Educacional\n• Professor de Anos Iniciais\n• Professor de Artes Cênicas e/ou Teatro\n• Professor de Artes - Música\n• Professor de Artes Plásticas e/ou Visuais\n• Professor de Ciências\n• Professor de Dança\n• Professor de Educação Especial\n• Professor de Educação Física\n• Professor de Educação Infantil\n• Professor de Espanhol\n• Professor de Geografia\n• Professor de História\n• Professor de Inglês\n• Professor de Libras\n• Professor de Matemática\n• Professor de Português\n• Professor de Português e Inglês\n• Administrador Escolar\n• Orientador Educacional\n• Supervisor Escolar\nAs jornadas variam de 10 a 40 horas semanais, conforme a função e a vaga disponível. A remuneração bruta inicial varia de R$ 1.431,10 a R$ 6.493,56, conforme a jornada e a formação. O edital prevê auxílio-lanche de R$ 27,01 por dia de efetivo trabalho para jornadas de 30 horas e de 20 horas cumpridas nos turnos matutino e vespertino, auxílio-alimentação de R$ 31,39 por dia de efetivo trabalho para jornadas de 40 horas e vale-transporte nas condições estabelecidas.\nAs inscrições devem ser feitas exclusivamente pelo site seletivoflorianopolis.selecao.net.br, das 10h de 12 de novembro de 2026 às 17h de 26 de novembro de 2026. A taxa é de R$ 60,00 para Professor Auxiliar Intérprete Educacional, Professor de Dança e Professor de Libras, e de R$ 25,00 para as demais funções. Pedidos de isenção podem ser feitos de 12 a 17 de novembro de 2026 por inscritos no CadÚnico, doadores de sangue e cadastrados no Registro Brasileiro de Doadores Voluntários de Medula Óssea, conforme as regras do edital.\nA seleção inclui avaliação de títulos e nota da Prova Nacional Docente para as funções que utilizam essa prova. Para Professor Auxiliar Intérprete Educacional, Professor de Dança e Professor de Libras, haverá prova escrita objetiva, prevista para 13 de dezembro de 2026. Candidatos a Professor Auxiliar Intérprete Educacional e Professor de Libras também farão prova prática, prevista para ocorrer de 18 a 20 de dezembro de 2026.\nOs efeitos do processo seletivo terão início no começo do ano letivo de 2027 e terminarão no dia anterior ao início das atividades do ano letivo de 2028.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1431.1,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Professor Auxiliar de Atividades de Ciências",
     "Professor Auxiliar de Educação Especial",
@@ -3797,14 +4249,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Professor Auxiliar de Atividades de Ciências",
     "Professor Auxiliar de Educação Especial",
     "Professor Auxiliar de Educação Infantil",
     "Professor Auxiliar de Ensino Fundamental"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Professor Auxiliar de Atividades de Ciências, Professor Auxiliar de Educação Especial, Professor Auxiliar de Educação Infantil. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -3850,6 +4305,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Salete, no Estado de Santa Catarina, abriu um Processo Seletivo para formar cadastro de reserva destinado à contratação temporária. As funções exigem escolaridade que varia da alfabetização ao nível superior, inclusive com ensino superior em andamento.\nSegundo o edital, as oportunidades são para os cargos de:\nProfessores habilitados\n• Professor de Artes\n• Professor de Educação Física\n• Professor de Língua Estrangeira (Inglês)\n• Professor de Geografia\n• Professor de História\n• Professor de Matemática\n• Professor de Língua Portuguesa\n• Professor de Ensino Religioso\n• Professor de Ciências\n• Professor de Educação Infantil\n• Professor de Séries Iniciais\n• Segundo Professor\nProfessores não habilitados\n• Professor de Artes\n• Professor de Língua Estrangeira (Inglês)\n• Professor de Geografia\n• Professor de História\n• Professor de Matemática\n• Professor de Língua Portuguesa\n• Professor de Ensino Religioso\n• Professor de Ciências\n• Professor de Educação Infantil\n• Professor de Séries Iniciais\n• Segundo Professor\nOutras funções\n• Agente de Serviços Gerais\n• Agente de Serviços Gerais I\n• Agente Administrativo\n• Farmacêutico\n• Operador de Máquina\n• Operador de Veículo\nA jornada varia de 10 a 44 horas semanais, conforme a função, com remuneração de R$ 753,00 a R$ 6.347,69.\nAs inscrições serão feitas pelo site da Actio Assessoria, das 12h de 13 de novembro de 2026 às 15h de 30 de novembro de 2026. A taxa é de R$ 30,00, R$ 50,00 ou R$ 90,00, conforme a função. Candidatos convocados e nomeados pela Justiça Eleitoral de Santa Catarina que tenham prestado serviço em pelo menos dois eventos eleitorais nos últimos quatro anos podem solicitar isenção até 20 de novembro de 2026, mediante comprovação.\nA seleção terá prova escrita objetiva para todas as funções, avaliação de títulos para professores habilitados e prova prática para Operador de Máquina e Operador de Veículo. As provas escritas estão previstas para 6 de dezembro de 2026, pela manhã. As provas práticas estão previstas para a tarde do mesmo dia.\nO Processo Seletivo terá validade de um ano a partir da publicação da homologação do resultado final, podendo ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 753,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Professor de Artes",
     "Professor de Educação Física",
@@ -3884,14 +4341,23 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Professor de Artes",
     "Professor de Educação Física",
     "Professor de Língua Estrangeira",
     "Professor de Geografia"
    ],
+   "cargosGerais": [
+    "Agente de Serviços Gerais",
+    "Agente de Serviços Gerais I",
+    "Agente Administrativo",
+    "Operador de Máquina",
+    "Operador de Veículo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Professor de Artes, Professor de Educação Física, Professor de Língua Estrangeira. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -3937,6 +4403,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Fundação Hospitalar do Estado de Minas Gerais (Fhemig) abriu um Processo Seletivo Simplificado para preencher vagas e formar cadastro de reserva em funções de nível superior no Complexo Hospitalar de Especialidades, em Belo Horizonte.\nSegundo o edital, as oportunidades são para os cargos de:\nHospital Júlia Kubitschek\n• Biomédico, 40 horas semanais (1 vaga)\n• Biomédico, 30 horas semanais (1 vaga)\n• Farmacêutico, 40 horas semanais (1 vaga)\n• Farmacêutico Hospitalar, 40 horas semanais (1 vaga)\n• Farmacêutico Hospitalar, 30 horas semanais (1 vaga)\n• Fonoaudiólogo, 30 horas semanais (1 vaga)\nHospital Alberto Cavalcanti\n• Biomédico, 40 horas semanais (1 vaga)\n• Farmacêutico, 40 horas semanais (1 vaga)\n• Farmacêutico Hospitalar, 40 horas semanais (1 vaga)\n• Fonoaudiólogo, 30 horas semanais (1 vaga)\nA jornada é de 30 ou 40 horas semanais, com vencimento básico de R$ 3.211,03 a R$ 6.145,37, conforme a função e a carga horária. Também estão previstas ajuda de custo e Gratificação de Incentivo à Eficientização dos Serviços.\nAs inscrições devem ser feitas de 1º de dezembro de 2026, às 9h, a 9 de dezembro de 2026, às 17h, pelo sistema disponível no site da Fhemig. Candidatos sem acesso à internet poderão solicitar o uso de computador nas unidades indicadas no edital, das 9h às 12h, exceto aos sábados, domingos e feriados.\nA seleção terá análise curricular e entrevista, ambas de caráter eliminatório e classificatório.\nA contratação será por contrato administrativo temporário, sem vínculo regido pela CLT, pelo prazo de 12 meses, prorrogável por mais 12 meses.\nO processo seletivo terá validade de até um ano, contado da publicação da homologação do resultado final, e poderá ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 3211.03,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Biomédico, 40 horas semanais",
     "Biomédico, 30 horas semanais",
@@ -3952,14 +4420,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
-    "Farmacêutico, 40 horas semanais",
-    "Farmacêutico Hospitalar, 40 horas semanais",
-    "Farmacêutico Hospitalar, 30 horas semanais",
-    "Fonoaudiólogo, 30 horas semanais"
+    "Biomédico, 40 horas semanais",
+    "Biomédico, 30 horas semanais",
+    "Biomédico",
+    "Farmacêutico, 40 horas semanais"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo e entrevista"
@@ -4002,6 +4473,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado do Piauí, o Concurso Público da Prefeitura Municipal de São Julião para preencher vagas efetivas e formar cadastro de reserva para profissionais de nível fundamental, médio, técnico e superior está suspenso em caráter preventivo, cautelar e temporário, conforme comunicado do Instituto Brasileiro de Estudos e Desenvolvimento (IBED) de 28 de outubro de 2026.\nA suspensão abrange o cronograma e os atos de execução do concurso, inclusive o início das inscrições previsto para 5 de novembro de 2026. Durante esse período, não serão recebidas inscrições nem recolhidas taxas.\nSegundo o IBED, a medida atende a orientações da Promotoria de Justiça de Fronteiras (PI) e permite a revisão jurídica do processo de formação da Lei Municipal nº 585/2025, que trata da criação de cargos efetivos. Serão verificados o texto legal publicado, o texto aprovado pela Câmara Municipal e sua correspondência com os cargos, as vagas e as jornadas previstos no edital.\nA retomada total ou parcial do concurso dependerá da conclusão da revisão e das providências necessárias à regularização de eventuais pontos identificados. Um novo cronograma e as retificações cabíveis serão divulgados pelos mesmos meios oficiais utilizados para a divulgação do concurso. A suspensão não representa o cancelamento definitivo do certame.\nSegundo o edital, as oportunidades previstas são para os seguintes cargos:\nNível superior\n• Professor de Língua Portuguesa (3 vagas)\n• Professor de Língua Inglesa (1 vaga)\n• Professor de Matemática (2 vagas)\n• Professor de Ciências (1 vaga)\n• Professor de Geografia (1 vaga)\n• Professor de História (1 vaga)\n• Professor de Educação Física (2 vagas)\n• Professor de Educação Infantil e Séries Iniciais (14 vagas)\n• Assistente Social (2 vagas)\n• Psicólogo (1 vaga)\n• Nutricionista (1 vaga)\n• Educador Físico (saúde) (1 vaga)\n• Dentista (ESF) (2 vagas)\n• Médico (ESF) (2 vagas)\n• Médico (Plantonista) (2 vagas)\n• Enfermeiro (Plantonista) (2 vagas)\n• Enfermeiro (ESF) (1 vaga)\n• Fisioterapeuta (1 vaga)\n• Médico Veterinário (1 vaga)\n• Controlador Interno (1 vaga)\n• Assessor Jurídico (2 vagas)\n• Fonoaudiólogo (1 vaga)\nNível médio e técnico\n• Motorista (3 vagas)\n• Técnico em Saúde Bucal (2 vagas)\n• Técnico em Enfermagem (ESF) (2 vagas)\n• Técnico em Enfermagem (Plantonista) (3 vagas)\n• Agente Comunitário de Saúde (microárea sede) (1 vaga)\n• Agente Comunitário de Saúde (microárea Mandacaru) (1 vaga)\n• Agente Comunitário de Saúde (microárea Fujona) (1 vaga)\n• Técnico em Prótese Dentária (1 vaga)\n• Técnico em Informática (3 vagas)\n• Fiscal de Vigilância Sanitária (1 vaga)\n• Agente Administrativo (2 vagas)\n• Operador de Máquinas Pesadas (2 vagas)\n• Técnico em Controle Interno (1 vaga)\n• Recepcionista (6 vagas)\n• Agente de Controle de Endemias (3 vagas)\nNível fundamental\n• Vigia/Agente de Portaria (9 vagas)\n• Merendeira/Manipuladora de Alimentos (12 vagas)\n• Auxiliar de Serviços Diversos (14 vagas)\nAs inscrições seriam feitas exclusivamente pelo site do Instituto Brasileiro de Estudos e Desenvolvimento (IBED), de 5 de novembro de 2026 a 7 de dezembro de 2026, mas esse período está suspenso.\nMais informações podem ser obtidas no edital completo e no comunicado de suspensão.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Professor de Língua Portuguesa",
     "Professor de Língua Inglesa",
@@ -4047,14 +4520,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Dentista",
     "Médico",
     "Médico Veterinário",
     "Professor de Língua Portuguesa"
    ],
+   "cargosGerais": [
+    "Assessor Jurídico",
+    "Motorista",
+    "Agente Comunitário de Saúde",
+    "Fiscal de Vigilância Sanitária",
+    "Agente Administrativo",
+    "Operador de Máquinas Pesadas",
+    "Recepcionista",
+    "Agente de Controle de Endemias"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Dentista, Médico, Médico Veterinário. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Etapas de prova não detalhadas (base)",
@@ -4100,6 +4585,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Mirim Doce, no Estado de Santa Catarina, abriu um Processo Seletivo com o objetivo de preencher vagas temporárias e formar cadastro de reserva para pessoas alfabetizadas e com escolaridade em nível médio, técnico e superior, além de estudantes de ensino médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Arquiteto (1 vaga)\n• Atendente de Agricultura (cadastro reserva)\n• Auxiliar de Sala (1 vaga)\n• Enfermeiro (cadastro reserva)\n• Engenheiro Civil (1 vaga)\n• Estagiário Nível Médio (cadastro reserva)\n• Estagiário Nível Superior (cadastro reserva)\n• Faxineiro(a) (1 vaga)\n• Inseminador (cadastro reserva)\n• Lavador e Lubrificador (cadastro reserva)\n• Merendeira (1 vaga)\n• Motorista (cadastro reserva)\n• Operário (cadastro reserva)\n• Professor Apoiador (Educação Especial) (1 vaga)\n• Professor Educação Infantil e Séries Iniciais (cadastro reserva)\n• Professor Séries Finais - Artes (cadastro reserva)\n• Professor Séries Finais - Ciências (cadastro reserva)\n• Professor Séries Finais - Educação Física (cadastro reserva)\n• Professor Séries Finais - Geografia (cadastro reserva)\n• Professor Séries Finais - História (cadastro reserva)\n• Professor Séries Finais - Língua Estrangeira Inglês (cadastro reserva)\n• Professor Séries Finais - Língua Portuguesa (cadastro reserva)\n• Professor Séries Finais - Matemática (cadastro reserva)\n• Técnico em Enfermagem (cadastro reserva)\n• Veterinário (cadastro reserva)\n• Vigilante Sanitário (cadastro reserva)\nA carga horária é de 20 a 40 horas semanais. Os salários variam de R$ 1.860,03 a R$ 5.998,72. Para os cargos de estágio, os valores são de R$ 556,73 e R$ 742,31.\nAs inscrições serão feitas exclusivamente pela internet, no site da SC Treinamentos, de 19 de novembro de 2026 até às 23h59 de 29 de novembro de 2026. As taxas variam de R$ 20,00 a R$ 50,00 e poderão ser pagas até 30 de novembro de 2026. Os pedidos de isenção poderão ser feitos de 19 a 23 de novembro de 2026 por doadores de sangue ou de medula óssea, inscritos no CadÚnico que atendam aos critérios do edital, eleitores que prestaram serviço à Justiça Eleitoral de Santa Catarina e jurados do Tribunal do Júri.\nA seleção terá prova objetiva para todos os cargos, prevista para 12 de dezembro de 2026. Haverá prova de títulos para os cargos de professor da educação infantil, séries iniciais e séries finais. Os candidatos a Faxineiro(a), Lavador e Lubrificador, Merendeira, Motorista e Operário também farão prova prática, prevista para a mesma data, após a prova objetiva.\nO Processo Seletivo terá validade de um ano, contado da publicação da homologação do resultado final, sem prorrogação.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1860.03,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Arquiteto",
     "Atendente de Agricultura",
@@ -4131,14 +4618,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Engenheiro Civil",
     "Arquiteto",
     "Enfermeiro",
     "Professor Apoiador"
    ],
+   "cargosGerais": [
+    "Atendente de Agricultura",
+    "Auxiliar de Sala",
+    "Estagiário Nível Médio",
+    "Estagiário Nível Superior",
+    "Faxineiro",
+    "Inseminador",
+    "Lavador e Lubrificador",
+    "Merendeira"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Engenheiro Civil, Arquiteto, Enfermeiro. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -4184,6 +4683,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Gramado dos Loureiros, no Estado do Rio Grande do Sul, abriu um Processo Seletivo Simplificado para preencher vagas e formar cadastro de reserva para contratações emergenciais em funções de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Professor de Educação Física (3 vagas)\n• Professor de História (1 vaga)\n• Professor de Educação Básica (12 vagas)\n• Psicólogo (Educação) (1 vaga)\n• Supervisão/Orientação (1 vaga)\n• Professor de Pedagogia com especialização em Neuropsicopedagogia (1 vaga)\n• Professor de Computação (1 vaga)\n• Professor de Educação Especial (1 vaga)\n• Professor de Matemática (1 vaga)\n• Atendente Educacional (6 vagas)\n• Monitor (2 vagas)\n• Psicólogo CRAS (1 vaga)\nA jornada varia de 20 a 40 horas semanais, com vencimentos básicos de R$ 1.868,58 a R$ 5.899,08.\nAs inscrições serão recebidas de 16 a 23 de novembro de 2026, das 7h às 13h, no Departamento Pessoal. A documentação deve ser entregue em envelope lacrado, pessoalmente ou por procurador. A taxa é de R$ 96,81 para cargos de nível médio e de R$ 138,29 para cargos de nível superior. A guia deve ser emitida na Tesouraria do Município, e o comprovante de pagamento deve acompanhar a inscrição.\nA seleção será feita por prova de títulos. A classificação considerará a pontuação dos títulos apresentados na inscrição.\nA seleção terá validade de até um ano a partir da publicação da homologação dos resultados, com possibilidade de prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1868.58,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Professor de Educação Física",
     "Professor de História",
@@ -4201,14 +4702,21 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Professor de Educação Física",
     "Professor de História",
     "Professor de Educação Básica",
     "Psicólogo"
    ],
+   "cargosGerais": [
+    "Supervisão/Orientação",
+    "Atendente Educacional",
+    "Monitor"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Professor de Educação Física, Professor de História, Professor de Educação Básica. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo"
@@ -4252,6 +4760,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Ribeirão Corrente, no Estado de São Paulo, abriu um Processo Seletivo para formar cadastro de reserva em funções de nível fundamental (incompleto e completo), médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível superior\n• Assistente Social\n• Enfermeiro\n• Farmacêutico\n• Fonoaudiólogo\n• Médico Pediatra\n• Monitor Esportivo\n• Nutricionista\n• Psicólogo\n• Psicopedagogo\n• Terapeuta Ocupacional\nNível superior: educação\n• Professor de Creche\n• Professor de Educação Básica II: Arte\n• Professor de Educação Básica II: Ciências\n• Professor de Educação Básica II: Educação Física\n• Professor de Educação Básica II: Filosofia\n• Professor de Educação Básica II: Geografia\n• Professor de Educação Básica II: História\n• Professor de Educação Básica II: Inglês\n• Professor de Educação Básica II: Matemática\n• Professor de Educação Básica II: Música\n• Professor de Educação Básica II: Português\n• Professor PEB I\n• Professor PEB II: Educação Especial\nNível médio ou técnico\n• Auxiliar de Secretaria\n• Técnico de Enfermagem\nNível fundamental completo\n• Auxiliar Desenvolvimento Infantil\n• Recepcionista da Saúde\nNível fundamental incompleto\n• Ajudante de Limpeza\n• Ajudante Geral\n• Merendeiro\n• Motorista de Ambulância\n• Motorista de Transporte Escolar\n• Motorista de Veículos Pesados\n• Operador de Máquina\n• Padeiro\n• Vigia\nAs jornadas previstas são de 20 a 40 horas, conforme a função. Os vencimentos mensais variam de R$ 1.785,83 a R$ 5.798,33. Para os cargos de Professor de Educação Básica II e Professor PEB I, a remuneração é de R$ 24,43 por hora-aula. Todas as funções têm cartão alimentação mensal de R$ 800,00.\nAs inscrições serão feitas exclusivamente pelo site CONSESP, de 19 de novembro de 2026 a 27 de dezembro de 2026, no horário de Brasília. A taxa é de R$ 30,00 para funções de nível fundamental, R$ 45,00 para nível médio ou técnico e R$ 55,00 para nível superior. O boleto poderá ser pago até 28 de dezembro de 2026.\nA seleção terá prova objetiva para todas as funções, avaliação de títulos para as funções de nível superior da área de educação e prova prática para Motorista de Ambulância, Motorista de Transporte Escolar, Motorista de Veículos Pesados e Operador de Máquina. As provas estão previstas para 24 de janeiro de 2027.\nAs contratações serão por tempo determinado, sob o regime celetista.\nO Processo Seletivo terá validade de um ano, contada da homologação final dos resultados.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1785.83,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Social",
     "Enfermeiro",
@@ -4293,14 +4803,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Pediatra",
+    "Assistente Social",
     "Enfermeiro",
-    "Farmacêutico",
-    "Fonoaudiólogo"
+    "Farmacêutico"
    ],
+   "cargosGerais": [
+    "Monitor Esportivo",
+    "Psicopedagogo",
+    "Auxiliar de Secretaria",
+    "Auxiliar Desenvolvimento Infantil",
+    "Recepcionista da Saúde",
+    "Ajudante de Limpeza",
+    "Ajudante Geral",
+    "Merendeiro"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Pediatra, Assistente Social, Enfermeiro. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -4346,6 +4868,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Secretaria de Estado da Saúde de Santa Catarina (SES) abriu um Processo Seletivo Simplificado para preencher três vagas de nível médio/técnico e superior, em Joinville/SC.\nSegundo o edital, as oportunidades são para os cargos de:\nUnidades da SES em Joinville\n• Técnico em Enfermagem, atuação em regulação (1 vaga)\nHospital Regional Hans Dieter Schmidt\n• Enfermeiro, atuação hospitalar (1 vaga)\n• Técnico em Enfermagem, atuação hospitalar (1 vaga)\nA jornada mínima é de 30 horas semanais. A remuneração total informada no edital é de R$ 4.448,15 para Técnico em Enfermagem e R$ 5.670,38 para Enfermeiro. Os valores incluem gratificação de atividade em saúde e auxílio-alimentação de R$ 550,00. O adicional de insalubridade é concedido quando couber e pode variar conforme a lotação e as atividades.\nAs inscrições serão realizadas de 12 a 26 de novembro de 2026, exclusivamente pelo site de inscrições.\nA seleção terá uma única etapa, com pontuação por títulos e experiência profissional comprovada, conforme os critérios do edital.\nO processo seletivo simplificado destina-se à seleção de profissionais para contratação temporária pelo período de 24 meses, podendo ser prorrogado por uma única vez, pelo mesmo prazo.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Técnico em Enfermagem, atuação em regulação",
     "Enfermeiro, atuação hospitalar",
@@ -4354,12 +4878,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Técnico em Enfermagem, atuação em regulação",
     "Enfermeiro, atuação hospitalar",
-    "Enfermeiro"
+    "Técnico em Enfermagem, atuação hospitalar",
+    "Técnico em Enfermagem"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Técnico em Enfermagem, atuação em regulação, Enfermeiro, atuação hospitalar, Técnico em Enfermagem, atuação hospitalar. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo"
@@ -4403,6 +4932,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Schroeder, no Estado de Santa Catarina, por meio da Secretaria Municipal de Educação, abriu um Processo Seletivo Simplificado para preencher vagas de nível fundamental incompleto, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Servente (1 vaga)\n• Profissional de Apoio Escolar Ensino Fundamental (1 vaga)\n• Profissional de Apoio Escolar Educação Infantil (1 vaga)\n• Monitor de Transporte Escolar (1 vaga)\n• Professor B (1 vaga)\n• Professor B - Educação Infantil (1 vaga)\n• Professor B - Intérprete de Libras - Educação Infantil e Ensino Fundamental (anos iniciais e finais) (1 vaga)\n• Professor B - Arte - Educação Infantil e Ensino Fundamental (anos iniciais e finais) (1 vaga)\n• Professor B - Língua Portuguesa - Ensino Fundamental (anos finais) (1 vaga)\n• Professor B - Matemática - Ensino Fundamental (anos finais) (1 vaga)\n• Professor B - História - Ensino Fundamental (anos finais) (1 vaga)\n• Professor B - Educação Especial (1 vaga)\n• Professor B - Língua Inglesa (1 vaga)\n• Professor B - Ciências - Ensino Fundamental (anos finais) (1 vaga)\n• Professor B - Educação Física (1 vaga)\n• Nutricionista (1 vaga)\nA jornada é de 40 horas semanais para servente, profissionais de apoio escolar e monitor de transporte escolar. Para professores e nutricionista, pode variar de 10 a 40 horas semanais, conforme o cargo e a necessidade do município. A remuneração vai de R$ 1.932,79 a R$ 5.643,69, com valores proporcionais nas contratações com jornada inferior a 40 horas. Há auxílio-alimentação de R$ 500,06 mensais para jornada de 40 horas, proporcional à carga horária contratada.\nAs inscrições serão realizadas de 27 de novembro de 2026 a 6 de dezembro de 2026, pelo site do Município de Schroeder, até às 23h59 do último dia. Também será possível se inscrever presencialmente, em dias úteis, das 8h às 11h e das 13h às 16h, na Secretaria Municipal de Educação, na Rua Marechal Castelo Branco, nº 3905, Centro, Schroeder (SC). Não haverá cobrança de taxa de inscrição.\nA seleção terá prova objetiva, de caráter eliminatório e classificatório, e prova de títulos, de caráter classificatório. A prova objetiva está prevista para 13 de dezembro de 2026. Para continuar na seleção, o candidato deverá obter ao menos 50 pontos na prova objetiva.\nOs contratos serão temporários, em regime de substituição, regidos pela Consolidação das Leis do Trabalho (CLT). Terão duração máxima de 12 meses e poderão ser prorrogados conforme a legislação municipal e o quadro de vagas.\nO Processo Seletivo terá validade de seis meses, contados da publicação da homologação do resultado final. O prazo poderá ser prorrogado uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1932.79,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Servente",
     "Profissional de Apoio Escolar Ensino Fundamental",
@@ -4424,14 +4955,22 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Professor B",
     "Professor B - Educação Infantil",
     "Professor B - Intérprete de Libras - Educação Infantil e Ensino Fundamental",
     "Professor B - Arte - Educação Infantil e Ensino Fundamental"
    ],
+   "cargosGerais": [
+    "Servente",
+    "Profissional de Apoio Escolar Ensino Fundamental",
+    "Profissional de Apoio Escolar Educação Infantil",
+    "Monitor de Transporte Escolar"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Professor B, Professor B - Educação Infantil, Professor B - Intérprete de Libras - Educação Infantil e Ensino Fundamental. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -4477,6 +5016,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Montes Claros, no Estado de Minas Gerais, abriu um processo seletivo simplificado para preencher vagas em funções de nível médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Auxiliar de Consultório Dentário, 30 horas (10 vagas)\n• Auxiliar de Consultório Dentário, Estratégia Saúde da Família, 40 horas (24 vagas)\n• Auxiliar de Consultório Dentário, Estratégia Saúde da Família, 40 horas, zona rural (11 vagas)\n• Enfermeiro com Especialidade em Saúde Mental (2 vagas)\n• Técnico em Prótese Dentária (1 vaga)\n• Técnico em Enfermagem, 40 horas (12 vagas)\n• Técnico em Enfermagem, 40 horas, zona rural (20 vagas)\n• Médico Angiologista (1 vaga)\n• Médico Clínico Geral (6 vagas)\n• Médico Epidemiologista (1 vaga)\n• Médico Geneticista (1 vaga)\n• Médico Neurologista (3 vagas)\n• Médico Pneumologista (1 vaga)\n• Médico Plantonista, Pediatra (5 vagas)\n• Médico Ultrassonografista (1 vaga)\n• Médico Urologista (3 vagas)\n• Odontólogo (2 vagas)\nAs jornadas variam de 20 a 40 horas semanais. A remuneração vai de R$ 1.778,15 a R$ 5.551,46.\nAs inscrições poderão ser feitas de 19 de novembro de 2026, às 9h, a 30 de novembro de 2026, às 17h, pelo site concursos.montesclaros.mg.gov.br ou presencialmente.\nA seleção ocorrerá por meio de avaliação curricular e experiência profissional, ambas de caráter classificatório.\nO processo seletivo terá validade de um ano a partir da homologação do resultado final, com possibilidade de prorrogação uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1778.15,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Consultório Dentário, 30 horas",
     "Auxiliar de Consultório Dentário, Estratégia Saúde da Família, 40 horas",
@@ -4499,14 +5040,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Angiologista",
     "Médico Clínico Geral",
     "Médico Epidemiologista",
     "Médico Geneticista"
    ],
+   "cargosGerais": [
+    "Auxiliar de Consultório Dentário, 30 horas",
+    "Auxiliar de Consultório Dentário, Estratégia Saúde da Família, 40 horas, zona rural"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Angiologista, Médico Clínico Geral, Médico Epidemiologista. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo"
@@ -4550,15 +5097,22 @@ window.DADOS_CONCURSOS = {
    "texto": "No Espírito Santo, a Câmara Municipal de Marilândia abriu um Processo Seletivo Simplificado para preencher uma vaga temporária de nível superior.\nSegundo o edital, a oportunidade é para o cargo de:\n• Controlador Interno (1 vaga)\nA jornada é de 30 horas semanais. O vencimento é de R$ 5.348,97, além de auxílio-alimentação de R$ 1.300,00. É exigido ensino superior completo em Ciências Contábeis, Direito ou Administração.\nAs inscrições poderão ser feitas de 16 de novembro de 2026, a partir das 11h, até 25 de novembro de 2026, às 17h, pelo e-mail protocolo@marilandia.es.leg.br ou presencialmente na Câmara, na Rua Luiz Catelan, nº 230, Centro, Marilândia. O atendimento presencial ocorre de segunda a quinta-feira, das 11h às 17h, e às sextas-feiras, das 8h às 14h. Não haverá cobrança de taxa de inscrição.\nA seleção terá caráter classificatório e eliminatório, por meio de análise documental de escolaridade, experiência profissional e títulos.\nA contratação será temporária, mediante contrato administrativo, para substituir servidora efetiva em licença-maternidade. O contrato terá duração de até seis meses e poderá ser prorrogado por até igual período, conforme a conveniência da administração e a legislação municipal.\nO processo seletivo terá validade de 12 meses a partir da publicação da homologação. O prazo poderá ser prorrogado uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Controlador Interno"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Controlador Interno"
+   ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 1,
    "motivos": [
     "Sem prova escrita: só títulos/currículo"
@@ -4602,6 +5156,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Secretaria de Educação e Cultura do Município de Águas de Chapecó, no Estado de Santa Catarina, abriu um Processo Seletivo para a contratação temporária e formação de cadastro de reserva. As oportunidades exigem ensino médio ou superior.\nSegundo o edital, as oportunidades são para os cargos de:\nProfessor MAG II\n• Professor MAG II - Educação Especial\n• Professor MAG II - Ensino Fundamental\n• Professor MAG II - Artes\n• Professor MAG II - Educação Física\n• Professor MAG II - Educação Infantil\n• Professor MAG II - Ensino Religioso\n• Professor MAG II - Espanhol\n• Professor MAG II - Informática\n• Professor MAG II - Inglês\nEnsino médio\n• Auxiliar de Sala\nA jornada será de 10, 20, 30 ou 40 horas semanais. Para 40 horas, o vencimento-base é de R$ 2.225,66 para Auxiliar de Sala e de R$ 5.147,24 para Professor MAG II. O valor será proporcional nas jornadas menores.\nAs inscrições serão feitas exclusivamente pelo site do Processo Seletivo, das 16h de 17 de novembro de 2026 às 16h de 9 de dezembro de 2026, no horário de Brasília. A taxa é de R$ 120,00 para ensino médio e R$ 150,00 para ensino superior. Pedidos de isenção poderão ser apresentados de 17 a 19 de novembro de 2026, nas condições previstas no edital.\nTodos os candidatos farão prova objetiva, de caráter eliminatório e classificatório, prevista para 10 de janeiro de 2027. Para Professor MAG II, haverá também prova de títulos, de caráter classificatório.\nO Processo Seletivo terá validade de um ano, podendo ser prorrogado uma vez por igual período, a critério do Município.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Professor MAG II - Educação Especial",
     "Professor MAG II - Ensino Fundamental",
@@ -4617,14 +5173,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Professor MAG II - Educação Especial",
     "Professor MAG II - Ensino Fundamental",
     "Professor MAG II - Artes",
     "Professor MAG II - Educação Física"
    ],
+   "cargosGerais": [
+    "Auxiliar de Sala"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Professor MAG II - Educação Especial, Professor MAG II - Ensino Fundamental, Professor MAG II - Artes. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -4670,6 +5231,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, o Município de Jaraguá do Sul, por meio da Secretaria Municipal de Educação, realiza um Processo Seletivo para preencher vagas temporárias de nível fundamental, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível fundamental\n• Agente de Alimentação e Nutrição (1 vaga)\n• Motorista de Veículos Pesados e Ambulância (1 vaga)\nNível médio\n• Auxiliar de Sala (1 vaga)\n• Profissional de Apoio Escolar, 20 horas semanais (1 vaga)\n• Profissional de Apoio Escolar, 40 horas semanais (1 vaga)\nNível superior\n• Coordenador Pedagógico (1 vaga)\n• Pedagogo, Atendimento Educacional Especializado (1 vaga)\n• Pedagogo, Sala de Atendimento Pedagógico (1 vaga)\n• Professor de Educação Infantil (1 vaga)\n• Professor de Ensino Fundamental, Anos Iniciais (1 vaga)\n• Professor de Ensino Fundamental, Arte (1 vaga)\n• Professor de Ensino Fundamental, Ciências (1 vaga)\n• Professor de Ensino Fundamental, Educação Física (1 vaga)\n• Professor de Ensino Fundamental, Ensino Religioso (1 vaga)\n• Professor de Ensino Fundamental, Geografia (1 vaga)\n• Professor de Ensino Fundamental, Língua Inglesa (1 vaga)\n• Professor de Ensino Fundamental, Língua Portuguesa (1 vaga)\n• Professor de Ensino Fundamental, Música (1 vaga)\nAs jornadas variam de 20 a 40 horas semanais, com vencimentos mensais de R$ 1.672,41 a R$ 5.130,63. Para os cargos de professor, o vencimento é proporcional à carga horária assumida. O edital prevê auxílio-refeição de R$ 22,72 por dia trabalhado e serviços de saúde, desde que atendidos os requisitos legais.\nAs inscrições serão realizadas pelo site Instituto Tupy, das 10h de 19 de novembro de 2026 às 20h de 8 de dezembro de 2026. A taxa varia de R$ 70,00 a R$ 90,00. Doadores de sangue ou de medula óssea podem solicitar isenção até as 17h de 23 de novembro de 2026, pela Área do Candidato, mediante apresentação dos documentos exigidos.\nA seleção terá prova objetiva, eliminatória e classificatória, para todos os cargos. A aplicação está prevista para 20 de dezembro de 2026, preferencialmente em Jaraguá do Sul. Haverá também prova de títulos, classificatória, para Coordenador Pedagógico, Professor de Educação Infantil e Professor de Ensino Fundamental de todas as disciplinas.\nO primeiro contrato terá duração de até três meses e poderá ser prorrogado sucessivamente por períodos de até seis meses, respeitado o limite total de quatro anos.\nO Processo Seletivo terá validade de dois anos a partir da homologação do resultado. O prazo poderá ser prorrogado por igual período, a critério do município.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1672.41,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Alimentação e Nutrição",
     "Motorista de Veículos Pesados e Ambulância",
@@ -4693,14 +5256,23 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Coordenador Pedagógico",
     "Pedagogo, Atendimento Educacional Especializado",
     "Pedagogo, Sala de Atendimento Pedagógico",
     "Professor de Educação Infantil"
    ],
+   "cargosGerais": [
+    "Agente de Alimentação e Nutrição",
+    "Motorista de Veículos Pesados e Ambulância",
+    "Auxiliar de Sala",
+    "Profissional de Apoio Escolar, 20 horas semanais",
+    "Profissional de Apoio Escolar, 40 horas semanais"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Coordenador Pedagógico, Pedagogo, Atendimento Educacional Especializado, Pedagogo, Sala de Atendimento Pedagógico. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -4746,6 +5318,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, o Município de Nova Veneza, por meio da Secretaria Municipal de Educação, abriu um Processo Seletivo para preencher vagas temporárias e formar cadastro de reserva. As oportunidades exigem escolaridade do ensino básico ao superior, conforme a função.\nSegundo o edital, as oportunidades são para os cargos de:\n• Auxiliar de Administração Escolar\n• Auxiliar de Biblioteca\n• Profissional de Apoio Escolar I (40 vagas)\n• Monitor Escolar\n• Coordenador Pedagógico\n• Especialista em Assuntos Educacionais\n• Orientador Educacional\n• Psicopedagogo\n• Supervisor Escolar\n• Psicólogo\n• Professor de Educação Infantil e Ensino Fundamental dos Anos Iniciais, 1º ao 5º ano\n• Professor de Língua Portuguesa, Anos Finais\n• Professor de Italiano, Anos Iniciais e Anos Finais\n• Professor de Inglês, Anos Iniciais e Anos Finais\n• Professor de Matemática, Anos Finais\n• Professor de Ciências, Anos Finais\n• Professor de Geografia, Anos Finais\n• Professor de História, Anos Finais\n• Professor de Arte, Educação Infantil, Anos Iniciais e Anos Finais\n• Professor de Educação Física, Educação Infantil, Anos Iniciais e Anos Finais\n• Auxiliar de Serviços Gerais I\n• Motorista I\n• Motorista II\nA jornada varia de 10 a 40 horas semanais, conforme a função. Os vencimentos vão de R$ 1.621,00 a R$ 5.130,63. Para as funções com jornada inferior a 40 horas, os valores indicados no edital são proporcionais à carga horária.\nAs inscrições serão feitas exclusivamente pelo site unesc.selecao.net.br, das 10h de 18 de novembro de 2026 às 16h de 2 de dezembro de 2026, no horário de Brasília. A taxa varia de R$ 40,00 a R$ 60,00. Doadores de sangue, medula óssea ou leite humano que atendam às condições do edital podem solicitar isenção pelo site até 23 de novembro de 2026.\nA seleção terá prova objetiva, eliminatória e classificatória, para todas as funções. Haverá prova de títulos, classificatória, para as funções de nível superior e para Profissional de Apoio Escolar I. A prova objetiva está prevista para o dia 13 de dezembro de 2026.\nO Processo Seletivo terá validade de um ano, contado da publicação da homologação do resultado definitivo. O prazo poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Administração Escolar",
     "Auxiliar de Biblioteca",
@@ -4774,14 +5348,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Auxiliar de Biblioteca",
     "Coordenador Pedagógico",
-    "Psicólogo",
-    "Professor de Educação Infantil e Ensino Fundamental dos Anos Iniciais, 1º ao 5º ano",
-    "Professor de Língua Portuguesa, Anos Finais"
+    "Orientador Educacional",
+    "Supervisor Escolar"
    ],
+   "cargosGerais": [
+    "Auxiliar de Administração Escolar",
+    "Profissional de Apoio Escolar I",
+    "Monitor Escolar",
+    "Especialista em Assuntos Educacionais",
+    "Psicopedagogo",
+    "Auxiliar de Serviços Gerais I",
+    "Motorista I",
+    "Motorista II"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Auxiliar de Biblioteca, Coordenador Pedagógico, Orientador Educacional. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -4827,6 +5413,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura de Umuarama, no Estado do Paraná, abriu um Processo Seletivo Simplificado para preencher cinco vagas temporárias em funções de nível fundamental, magistério e superior, conforme a função.\nSegundo o edital, as oportunidades são para os cargos de:\nNível fundamental\n• Auxiliar de Serviços Gerais (1 vaga)\n• Motorista II (1 vaga)\nMagistério\n• Professor (1 vaga)\n• Professor de Educação Infantil (1 vaga)\nNível superior\n• Professor de Educação Física (1 vaga)\nA jornada é de 20 ou 40 horas semanais, conforme a função. Os vencimentos iniciais vão de R$ 1.766,00 a R$ 5.130,62.\nAs inscrições serão feitas exclusivamente pelo site da Fundação FAFIPA, das 8h de 9 de novembro de 2026 às 23h59 de 23 de novembro de 2026, no horário de Brasília. A taxa é de R$ 40,00 para as funções de nível fundamental e de R$ 60,00 para as demais. Candidatos inscritos no Cadastro Único, doadores de medula óssea ou de sangue, doadoras de leite materno e eleitores que prestaram serviço eleitoral poderão solicitar isenção, conforme os critérios do edital, das 8h de 9 de novembro de 2026 às 23h59 de 11 de novembro de 2026.\nA seleção terá prova objetiva, de caráter eliminatório e classificatório, prevista para 6 de dezembro de 2026. A aplicação será em Umuarama (PR), com possibilidade de alocação em cidades próximas se o número de inscritos exceder a oferta de lugares. Candidatos inscritos nas vagas reservadas para afrodescendentes passarão por procedimento de heteroidentificação.\nO processo seletivo terá validade de um ano a partir da homologação do resultado final, com possibilidade de prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1766,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Serviços Gerais",
     "Motorista II",
@@ -4837,13 +5425,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Professor",
     "Professor de Educação Infantil",
     "Professor de Educação Física"
    ],
+   "cargosGerais": [
+    "Auxiliar de Serviços Gerais",
+    "Motorista II"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Professor, Professor de Educação Infantil, Professor de Educação Física. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -4889,6 +5483,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Bernardino de Campos, no Estado de São Paulo, abriu um Processo Seletivo Público para contratações temporárias em funções de nível médio e superior na área da educação.\nSegundo o edital, as oportunidades são para os cargos de:\n• Auxiliar de Desenvolvimento Infantil\n• Professor de Desenvolvimento Infantil\n• Professor de Educação Básica I (Educação Infantil e Pré-Escola)\n• Professor de Educação Básica II (1º ao 5º ano)\n• Professor de Educação Básica II (Educação Especial)\n• Professor de Educação Básica III (Arte)\n• Professor de Educação Básica III (Educação Física)\nA jornada é de 40 horas semanais para auxiliar e de 125, 150 ou 200 horas mensais para professores, conforme o cargo. A remuneração é de R$ 1.941,58 para auxiliar e de R$ 5.130,00 para os cargos de professor com jornada de 200 horas mensais. Para os demais cargos de professor, o valor é de R$ 25,65 por hora-aula.\nAs inscrições serão feitas pelo site da OM Consultoria Concursos, das 9h de 23 de novembro de 2026 até às 23h59 de 3 de dezembro de 2026, no horário de Brasília. A taxa é de R$ 35,00 para auxiliar e de R$ 40,00 para professor.\nA seleção terá prova objetiva de múltipla escolha, de caráter classificatório, com 30 questões. A aplicação está prevista para 20 de dezembro de 2026, na E.E. Cel. José Inocêncio Moreira, Rua Rui Barbosa, 184, Barra Funda.\nAs contratações temporárias serão feitas pelo regime da Consolidação das Leis do Trabalho (CLT).\nO processo seletivo terá validade até o fim do ano letivo de 2027.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Desenvolvimento Infantil",
     "Professor de Desenvolvimento Infantil",
@@ -4901,14 +5497,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Professor de Desenvolvimento Infantil",
     "Professor de Educação Básica I",
     "Professor de Educação Básica II",
     "Professor de Educação Básica III"
    ],
+   "cargosGerais": [
+    "Auxiliar de Desenvolvimento Infantil"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Professor de Desenvolvimento Infantil, Professor de Educação Básica I, Professor de Educação Básica II. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -4954,6 +5555,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, a Prefeitura Municipal de Rancho Queimado abriu um Processo Seletivo para formar cadastro de reserva em funções de nível fundamental, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente de Serviços Gerais\n• Assistente Social Educacional\n• Auxiliar de Ensino\n• Auxiliar de Escola\n• Merendeira\n• Monitor Transporte Escolar\n• Motorista I (Escolar)\n• Nutricionista com Especialização em Nutrição Materno-Infantil\n• Orientador Educacional\n• Professor\n• Professor de Apoio a Alunos com Deficiência\n• Professor de Artes\n• Professor de Educação Física\n• Professor de Informática\n• Professor de Língua Estrangeira Alemão\n• Professor de Língua Estrangeira Inglês\n• Psicólogo Educacional\n• Supervisor Escolar\nAs jornadas variam de 10 a 40 horas semanais. Os vencimentos para candidatos habilitados vão de R$ 1.618,52 a R$ 5.111,16. Para candidatos não habilitados nas funções de professor e auxiliar de ensino, o vencimento corresponde a 70% do valor previsto para a função.\nAs inscrições devem ser feitas exclusivamente pelo site da SC Treinamentos, de 12 de novembro de 2026 até às 23h59 de 29 de novembro de 2026. As taxas são de R$ 40,00, R$ 50,00 ou R$ 60,00, conforme a função, com pagamento até 30 de novembro de 2026. A isenção pode ser solicitada de 12 a 19 de novembro de 2026 por candidatos que atendam aos critérios do edital, entre eles doadores de sangue ou medula óssea, inscritos no CadÚnico, voluntários da Justiça Eleitoral e jurados.\nA seleção terá prova objetiva para todas as funções e avaliação de tempo de serviço para os aprovados nessa prova. Haverá prova de títulos para professores, auxiliar de ensino, orientador educacional e supervisor escolar. Agente de Serviços Gerais, Merendeira e Motorista I (Escolar) também farão prova prática, de caráter eliminatório. As provas objetivas e práticas estão previstas para 13 de dezembro de 2026.\nO Processo Seletivo terá validade de um ano, contado da publicação da homologação do resultado final, e poderá ser prorrogado uma única vez, a critério da administração municipal.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1618.52,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Serviços Gerais",
     "Assistente Social Educacional",
@@ -4977,14 +5580,24 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Assistente Social Educacional",
     "Nutricionista com Especialização em Nutrição Materno-Infantil",
-    "Professor",
-    "Professor de Apoio a Alunos com Deficiência",
-    "Professor de Artes"
+    "Orientador Educacional",
+    "Professor"
    ],
+   "cargosGerais": [
+    "Agente de Serviços Gerais",
+    "Auxiliar de Ensino",
+    "Auxiliar de Escola",
+    "Merendeira",
+    "Monitor Transporte Escolar",
+    "Motorista I"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Assistente Social Educacional, Nutricionista com Especialização em Nutrição Materno-Infantil, Orientador Educacional. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 1,
    "motivos": [
     "Prova objetiva (base)",
@@ -5030,6 +5643,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, a Prefeitura Municipal de Guarujá do Sul abriu um Concurso Público e dois Processos Seletivos com o objetivo de preencher vagas de nível fundamental, médio, técnico e superior.\nSegundo os editais, as oportunidades são para os cargos de:\nConcurso Público nº 001/2026\n• Assistente Social (1 vaga)\n• Fisioterapeuta (1 vaga)\n• Professor I (Educação Infantil) (2 vagas e cadastro de reserva)\n• Professor II (Séries Iniciais) (cadastro de reserva)\n• Operador de Máquinas e Equipamentos, com CNH categoria C, D ou E (1 vaga e cadastro de reserva)\nProcesso Seletivo nº 001/2026: professor habilitado e especialista em assuntos educacionais\n• Especialista em Assuntos Educacionais, Psicopedagogo (cadastro de reserva)\n• Professor de Artes (cadastro de reserva)\n• Professor de Atendimento Educacional Especializado (AEE) (cadastro de reserva)\n• Professor de Ciências (cadastro de reserva)\n• Professor de Educação Física, Bacharelado (cadastro de reserva)\n• Professor de Educação Física, Licenciatura (cadastro de reserva)\n• Professor de Educação Infantil (cadastro de reserva)\n• Professor de Ensino Fundamental, Anos Iniciais (cadastro de reserva)\n• Professor de Geografia (cadastro de reserva)\n• Professor de História (cadastro de reserva)\n• Professor de Informática (cadastro de reserva)\n• Professor de Inglês (cadastro de reserva)\n• Professor de Libras (cadastro de reserva)\n• Professor de Matemática (cadastro de reserva)\n• Professor de Português (cadastro de reserva)\n• Segundo Professor (cadastro de reserva)\nProcesso Seletivo nº 001/2026: professor não habilitado\n• Professor de Artes (cadastro de reserva)\n• Professor de Ciências (cadastro de reserva)\n• Professor de Educação Física (cadastro de reserva)\n• Professor de Educação Infantil (cadastro de reserva)\n• Professor de Ensino Fundamental, Anos Iniciais (cadastro de reserva)\n• Professor de Geografia (cadastro de reserva)\n• Professor de História (cadastro de reserva)\n• Professor de Informática (cadastro de reserva)\n• Professor de Inglês (cadastro de reserva)\n• Professor de Libras (cadastro de reserva)\n• Professor de Matemática (cadastro de reserva)\n• Professor de Português (cadastro de reserva)\n• Segundo Professor (cadastro de reserva)\nProcesso Seletivo nº 001/2026: monitor de creche\n• Monitor de Creche (cadastro de reserva)\nProcesso Seletivo nº 002/2026: nível superior\n• Arquiteto e Urbanista (cadastro de reserva)\n• Assistente Social (cadastro de reserva)\n• Enfermeiro (cadastro de reserva)\n• Engenheiro Civil (cadastro de reserva)\n• Engenheiro Sanitarista Ambiental (cadastro de reserva)\n• Farmacêutico (cadastro de reserva)\n• Fisioterapeuta (cadastro de reserva)\n• Médico (cadastro de reserva)\n• Nutricionista (cadastro de reserva)\n• Odontólogo (cadastro de reserva)\n• Psicólogo (cadastro de reserva)\nProcesso Seletivo nº 002/2026: nível médio/técnico\n• Auxiliar de Saúde Bucal (cadastro de reserva)\n• Técnico em Enfermagem (cadastro de reserva)\n• Técnico em Informática (cadastro de reserva)\nProcesso Seletivo nº 002/2026: nível médio\n• Agente Administrativo (cadastro de reserva)\n• Agente de Combate às Endemias (cadastro de reserva)\n• Agente Sanitário (cadastro de reserva)\nProcesso Seletivo nº 002/2026: nível fundamental\n• Condutor de Veículos, com CNH categoria AD ou AE (cadastro de reserva)\n• Controlador de Acesso (cadastro de reserva)\n• Operador de Máquinas e Equipamentos, com CNH categoria C, D ou E (cadastro de reserva)\nAs jornadas variam de 10 a 40 horas semanais, conforme o cargo e o edital. As remunerações vão de R$ 1.697,29 a R$ 30.761,75.\nAs inscrições para os três editais serão recebidas das 10h de 3 de novembro de 2026 às 23h59 de 2 de dezembro de 2026, pelo site da Associação dos Municípios do Extremo Oeste de Santa Catarina (AMEOSC). Quem não tiver acesso à internet poderá usar um equipamento na Prefeitura, na Rua Ceará, nº 619, Centro, durante o horário de expediente. As taxas variam de R$ 60,00 a R$ 120,00. O pagamento por boleto poderá ser feito até 3 de dezembro de 2026. Candidatos de famílias inscritas no CadÚnico que atendam ao critério de renda e doadores de medula óssea cadastrados em entidades reconhecidas pelo Ministério da Saúde poderão solicitar isenção das 10h de 3 de novembro de 2026 às 23h59 de 17 de novembro de 2026.\nTodos os cargos terão prova objetiva, de caráter eliminatório e classificatório, prevista para o dia 19 ou 20 de dezembro de 2026, conforme o edital. Alguns cargos também terão prova prática e prova de títulos.\nO concurso terá validade de dois anos a partir da homologação do resultado final, com possibilidade de uma prorrogação por igual período. O Processo Seletivo nº 002/2026 terá validade de um ano a partir da homologação, também prorrogável uma vez por igual período. O Processo Seletivo nº 001/2026 será válido até o fim do ano letivo de 2027 e poderá ser prorrogado para o ano letivo de 2028, conforme o interesse e a necessidade da administração municipal.\nMais informações podem ser obtidas nos editais completos.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1697.29,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Social",
     "Fisioterapeuta",
@@ -5090,14 +5705,23 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico",
     "Odontólogo",
     "Engenheiro Civil",
     "Engenheiro Sanitarista Ambiental"
    ],
+   "cargosGerais": [
+    "Monitor de Creche",
+    "Agente Administrativo",
+    "Agente de Combate às Endemias",
+    "Agente Sanitário",
+    "Controlador de Acesso"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico, Odontólogo, Engenheiro Civil. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -5144,6 +5768,8 @@ window.DADOS_CONCURSOS = {
    "texto": "Em Lebon Régis (SC), a Prefeitura Municipal de Lebon Régis e a Secretaria Municipal de Educação realizarão dois processos seletivos para admissão temporária. Os editais nº 05/2026 e nº 06/2026 oferecem, juntos, 85 vagas e formação de cadastro reserva. As oportunidades exigem ensino fundamental, médio, técnico ou superior, conforme o cargo.\nSegundo o edital, as oportunidades são para os cargos de:\nPrefeitura Municipal de Lebon Régis, edital nº 05/2026\n• Agente de Saúde ACT (12 vagas, sendo uma reservada a pessoa com deficiência)\n• Agente de Serviços Gerais (1 vaga)\n• Mecânico Especializado\n• Motorista ACT (4 vagas)\n• Operador de Máquinas Pesadas ACT (5 vagas)\n• Operador de Trator Agrícola ACT (2 vagas)\n• Agente de Combate às Endemias ACT (1 vaga)\n• Agente de Defesa Civil ACT\n• Atendente de Consultório Dentário ACT (4 vagas)\n• Oficial Administrativo (6 vagas)\n• Orientador Social 1 ACT (1 vaga)\n• Recepcionista ACT (5 vagas)\n• Técnico em Enfermagem ACT (4 vagas)\n• Assistente Social ACT\n• Enfermeiro ACT (1 vaga)\n• Engenheiro Agrônomo (1 vaga)\n• Farmacêutico ACT\n• Fiscal de Obras e Posturas ACT (1 vaga)\n• Fiscal em Vigilância Sanitária ACT\n• Fisioterapeuta ACT\n• Médico ACT (2 vagas)\n• Nutricionista (1 vaga)\n• Odontólogo ACT (1 vaga)\n• Orientador Social 2 ACT (1 vaga)\n• Psicólogo ACT (1 vaga)\nSecretaria Municipal de Educação, edital nº 06/2026\n• Assistente Social Educacional ACT (1 vaga)\n• Motorista de Veículo Escolar ACT (9 vagas)\n• Professor ACT Anos Iniciais 1º a 5º Ano Habilitado (2 vagas)\n• Professor ACT Anos Iniciais 1º a 5º Ano Não Habilitado\n• Professor ACT Artes Habilitado (4 vagas)\n• Professor ACT Artes Não Habilitado\n• Professor ACT Educação Especial e Inclusiva Habilitado (3 vagas)\n• Professor ACT Educação Especial e Inclusiva Não Habilitado\n• Professor ACT Educação Física Habilitado (2 vagas)\n• Professor ACT Educação Infantil Habilitado (2 vagas)\n• Professor ACT Educação Infantil Não Habilitado\n• Professor ACT Intérprete de Libras Habilitado (1 vaga)\n• Professor ACT Música Habilitado (1 vaga)\n• Professor ACT Tecnologias Educacionais Habilitado (1 vaga)\n• Professor ACT Tecnologias Educacionais Não Habilitado\n• Psicólogo Educacional ACT (1 vaga)\nNo edital nº 05/2026, a jornada é de 40 horas semanais, com vencimentos mensais de R$ 1.621,00 a R$ 24.488,28. No edital da Educação, a jornada é de 40 horas para assistente social educacional, motorista de veículo escolar e psicólogo educacional, com vencimentos de R$ 2.212,41 a R$ 3.827,78. Para professores, há jornadas de 20, 30 ou 40 horas, com vencimentos de R$ 2.565,32, R$ 3.847,97 ou R$ 5.130,63, respectivamente. O cargo de Professor ACT Tecnologias Educacionais também prevê jornada de 10 horas, com vencimento de R$ 1.282,66.\nAs inscrições para os dois processos seletivos serão feitas exclusivamente pelo site da SC Treinamentos, de 19 de novembro de 2026 até às 23h59 de 5 de dezembro de 2026. As taxas são de R$ 40,00 para os cargos de nível fundamental e de motorista de veículo escolar, R$ 60,00 para os cargos de nível médio ou técnico do edital nº 05/2026 e R$ 80,00 para os cargos de nível superior e de professor. O pagamento poderá ser feito até 7 de dezembro de 2026. A isenção poderá ser solicitada de 19 a 27 de novembro de 2026 por doadores de sangue fidelizados ou de medula óssea, inscritos no CadÚnico que atendam aos critérios dos editais, voluntários da Justiça Eleitoral e jurados, mediante comprovação.\nOs dois processos terão prova objetiva, de caráter eliminatório e classificatório, para todos os cargos, provavelmente em 13 de dezembro de 2026, no período da manhã. O horário e o local serão divulgados em 11 de dezembro de 2026. Como as provas objetivas ocorrerão no mesmo período, o candidato não poderá prestar as provas dos dois editais. No edital nº 05/2026, haverá também prova prática para Motorista, Operador de Máquinas Pesadas e Operador de Trator Agrícola. No edital da Educação, haverá prova prática para Motorista de Veículo Escolar e prova de títulos, exclusivamente classificatória, para os cargos de professor. Os documentos para a prova de títulos deverão ser enviados pelo site até 13 de dezembro de 2026. As provas práticas estão previstas para 13 de dezembro de 2026, na Rodoviária Municipal de Lebon Régis, após a prova objetiva. O endereço será divulgado com os locais de prova.\nAs admissões serão temporárias, conforme a legislação municipal vigente na data da admissão. Os candidatos serão convocados segundo a ordem de classificação. No edital da Educação, os professores habilitados serão chamados antes dos não habilitados.\nCada processo seletivo terá validade de um ano, contado da publicação da homologação do resultado final, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Saúde ACT",
     "Agente de Serviços Gerais",
@@ -5190,14 +5816,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico ACT",
     "Odontólogo ACT",
     "Engenheiro Agrônomo",
-    "Enfermeiro ACT"
+    "Mecânico Especializado"
    ],
+   "cargosGerais": [
+    "Agente de Saúde ACT",
+    "Agente de Serviços Gerais",
+    "Motorista ACT",
+    "Operador de Máquinas Pesadas ACT",
+    "Operador de Trator Agrícola ACT",
+    "Agente de Combate às Endemias ACT",
+    "Agente de Defesa Civil ACT",
+    "Atendente de Consultório Dentário ACT"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico ACT, Odontólogo ACT, Engenheiro Agrônomo. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -5245,6 +5883,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, a Prefeitura de Coronel Freitas e a Câmara Municipal realizam um Processo Seletivo para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nPrefeitura Municipal de Coronel Freitas\n• Operador de Máquinas II\n• Motorista\n• Monitor\n• Assistente Administrativo\n• Auxiliar de Farmácia\n• Agente de Defesa Civil\n• Atendente de Consultório Dentário\n• Técnico em Tributação\n• Técnico em Enfermagem\n• Engenheiro Agrônomo\n• Engenheiro Civil, 20 horas semanais\n• Engenheiro Civil, 40 horas semanais\n• Arquiteto\n• Médico Veterinário, 40 horas semanais\n• Médico Veterinário, 20 horas semanais\n• Assistente Social\n• Assistente Social da Educação\n• Fisioterapeuta\n• Fonoaudiólogo\n• Médico Clínico Geral, 40 horas semanais\n• Médico Clínico Geral, 20 horas semanais\n• Médico Comunitário da Família\n• Enfermeiro\n• Nutricionista da Saúde\n• Nutricionista da Educação\n• Farmacêutico, 40 horas semanais\n• Farmacêutico, 20 horas semanais\n• Odontólogo\n• Psicólogo\n• Psicólogo Escolar\n• Professor de Informática Básica e Educativa, habilitado\n• Professor de Informática Básica e Educativa, não habilitado\n• Professor de Artes, habilitado\n• Professor de Artes, não habilitado\n• Professor de Educação Infantil, habilitado (2 vagas)\n• Professor de Educação Infantil, não habilitado\n• Professor de Ensino Fundamental, habilitado (2 vagas)\n• Professor de Ensino Fundamental, não habilitado\n• Professor de Educação Física, habilitado\n• Professor de Língua Estrangeira (Inglês), habilitado\n• Professor de Língua Estrangeira, não habilitado\n• Professor de Educação Especial, habilitado\n• Professor de Educação Especial, não habilitado\n• Assistente Pedagógico (6 vagas)\nCâmara Municipal de Coronel Freitas\n• Técnico em Administração\n• Assessor Jurídico\n• Analista Administrativo com atuação em Compras e Licitação\nAs jornadas variam de 10 a 40 horas semanais, conforme o cargo. Os salários vão de R$ 855,30 a R$ 22.662,75.\nAs inscrições devem ser feitas de 18 a 27 de novembro de 2026, pelo site da Talent Concursos. As taxas são de R$ 60,00 para nível fundamental, R$ 80,00 para nível médio e técnico e R$ 120,00 para nível superior. A isenção pode ser solicitada de 18 a 20 de novembro de 2026 por candidatos inscritos no CadÚnico que atendam ao critério de renda e por doadores de sangue, medula óssea ou leite materno, conforme as exigências do edital.\nA seleção terá prova objetiva, eliminatória e classificatória, para todos os cargos. Haverá prova de títulos, classificatória, para professores, e prova prática, eliminatória e classificatória, para os 20 primeiros classificados nos cargos de Motorista e Operador de Máquinas II. A prova objetiva está prevista para 6 de dezembro de 2026. A prova prática está prevista para 20 de dezembro de 2026.\nO Processo Seletivo terá validade de até um ano.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 855.3,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Operador de Máquinas II",
     "Motorista",
@@ -5297,14 +5937,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Veterinário, 40 horas semanais",
     "Médico Veterinário, 20 horas semanais",
     "Médico Clínico Geral, 40 horas semanais",
     "Médico Clínico Geral, 20 horas semanais"
    ],
+   "cargosGerais": [
+    "Operador de Máquinas II",
+    "Motorista",
+    "Monitor",
+    "Assistente Administrativo",
+    "Agente de Defesa Civil",
+    "Atendente de Consultório Dentário",
+    "Técnico em Administração",
+    "Assessor Jurídico"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Veterinário, 40 horas semanais, Médico Veterinário, 20 horas semanais, Médico Clínico Geral, 40 horas semanais. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -5351,6 +6003,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Ijuí, no Rio Grande do Sul, abriu o Concurso Público nº 01/2026 para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nUma retificação desmembrou o cargo de Agente Comunitário de Saúde em 19 áreas de atuação. Para concorrer, é necessário residir na área pretendida desde a data de publicação do edital e de abertura das inscrições. Candidatos já inscritos nesse cargo devem escolher uma área de atuação entre 13 e 24 de novembro de 2026; quem pagou a inscrição e não quiser continuar ou não residir nas áreas previstas poderá pedir a devolução da taxa no mesmo período, pelo site da Fundatec. Candidatos isentos também devem escolher uma área até 24 de novembro, sob pena de bloqueio da inscrição.\nO Edital nº 03/2026 alterou os requisitos para Professor de Atendimento Educacional Especializado e determinou que o cargo de Advogado passe a constar como: Analista de Controle Interno - Área Direito. As atribuições dos cargos de Analista de Controle Interno - Área Direito, Cirurgião Dentista Sanitarista, Nutricionista e Técnico em Informática, além de incluir Professor de Música entre as atribuições dos docentes. Ainda, a carga horária para Técnico em Enfermagem passa a ser de 37 horas e 30 minutos semanais. Foram corrigidos critérios de desempate, conteúdos programáticos e a pontuação da prova de títulos.\nSegundo o edital, as oportunidades são para os cargos de:\nNível superior completo\n• Analista de Controle Interno - Área Direito (1 vaga)\n• Agente de Cultura (1 vaga)\n• Analista Ambiental - Engenheiro Ambiental\n• Arquiteto (1 vaga)\n• Assistente Social (4 vagas)\n• Cirurgião Dentista Sanitarista\n• Contador (2 vagas)\n• Economista\n• Enfermeiro\n• Enfermeiro Plantonista\n• Engenheiro Agrônomo com Formação Pedagógica (2 vagas)\n• Engenheiro Civil (3 vagas)\n• Engenheiro de Segurança do Trabalho\n• Engenheiro Eletricista (1 vaga)\n• Engenheiro Florestal\n• Farmacêutico\n• Fiscal de Obras e Infraestrutura (1 vaga)\n• Fiscal de Posturas\n• Fiscal Sanitário (1 vaga)\n• Fiscal Tributário (1 vaga)\n• Fisioterapeuta (1 vaga)\n• Fonoaudiólogo (2 vagas)\n• Geólogo (1 vaga)\n• Médico Auditor (1 vaga)\n• Médico Cardiologista\n• Médico Dermatologista (1 vaga)\n• Médico do Trabalho (1 vaga)\n• Médico Geral Comunitário (6 vagas)\n• Médico Gineco-Obstetra (1 vaga)\n• Médico Oftalmologista\n• Médico Pediatra (1 vaga)\n• Médico Plantonista (2 vagas)\n• Médico Psiquiatra (1 vaga)\n• Médico Radiologista (1 vaga)\n• Médico Veterinário (2 vagas)\n• Médico Veterinário com Formação Pedagógica (2 vagas)\n• Nutricionista (1 vaga)\n• Pedagogo (1 vaga)\n• Procurador (2 vagas)\n• Professor de Arte (2 vagas)\n• Professor de Atendimento Educacional Especializado (2 vagas)\n• Professor de Ciências\n• Professor de Educação Física (6 vagas)\n• Professor de Geografia (2 vagas)\n• Professor de História (1 vaga)\n• Professor de Língua Inglesa\n• Professor de Língua Portuguesa (2 vagas)\n• Professor de Matemática (2 vagas)\n• Professor de Música (2 vagas)\n• Psicólogo (4 vagas)\n• Tesoureiro\n• Turismólogo (1 vaga)\n• Zootecnista com Formação Pedagógica (1 vaga)\nNível técnico completo\n• Técnico de Enfermagem Plantonista\n• Técnico em Enfermagem (2 vagas)\n• Técnico de Topografia (1 vaga)\n• Técnico em Agropecuária\n• Técnico em Contabilidade (1 vaga)\n• Técnico em Informática\nNível médio completo\n• Agente Comunitário de Saúde (3 vagas, distribuídas por área de atuação)\n• Agente de Trânsito (2 vagas)\n• Agente de Vigilância em Saúde (2 vagas)\n• Almoxarife (1 vaga)\n• Assessor Administrativo (10 vagas)\n• Atendente de Consultório Dentário (2 vagas)\n• Auxiliar da Educação Inclusiva e de Ensino Fundamental (12 vagas)\n• Auxiliar de Educação Infantil (3 vagas)\n• Cozinheiro (2 vagas)\n• Instrutor de Banda Marcial (2 vagas)\n• Motorista (6 vagas)\n• Motorista Plantonista\n• Músico Bombardino Bb\n• Músico Clarinete Bb\n• Músico Saxofone Barítono Eb (1 vaga)\n• Músico Saxofone Tenor Bb (1 vaga)\n• Músico Trombone de Pisto ou Vara em C\n• Músico Tuba Bb\n• Operador de Máquinas (1 vaga)\n• Orientador Social (2 vagas)\n• Professor de Anos Iniciais do Ensino Fundamental (5 vagas)\n• Professor de Educação Infantil (20h) (8 vagas)\n• Professor de Educação Infantil Pré-Escola (12 vagas)\n• Secretário de Escola (3 vagas)\nNível fundamental completo\n• Operário (5 vagas)\nAs jornadas variam de 10 a 40 horas semanais, com escalas de 12 horas de trabalho por 36 de descanso ou de 24 horas por 72 de descanso para cargos plantonistas. Para Técnico em Enfermagem, a carga horária foi retificada para 37 horas e 30 minutos semanais. Os vencimentos básicos vão de R$ 1.437,25 a R$ 21.312,22. Os benefícios incluem vale-alimentação de R$ 645,00 e plano de saúde facultativo.\nAs inscrições serão feitas exclusivamente pela internet, no site da Fundatec, de 23 de outubro de 2026 a 24 de novembro de 2026, conforme retificação do cronograma. A taxa é de R$ 53,45 para nível fundamental, R$ 124,71 para nível médio e técnico e R$ 267,23 para nível superior.\nA seleção terá prova teórico-objetiva para todos os cargos. Haverá prova de títulos para cargos de nível superior, exceto Fiscal de Posturas, e cargos de professor de nível médio; prova prática para Instrutor de Banda Marcial, músicos, Motorista, Motorista Plantonista e Operador de Máquinas; e teste de aptidão física para Agente Comunitário de Saúde, Agente de Trânsito, Agente de Vigilância em Saúde e Operário. As provas objetivas estão previstas para 19 e 20 de dezembro de 2026, em Ijuí, com possibilidade de aplicação em outras cidades da região.\nO concurso terá validade de dois anos, contados da homologação dos resultados finais, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo e nas retificações.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1437.25,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Analista de Controle Interno - Área Direito",
     "Agente de Cultura",
@@ -5436,14 +6090,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Cirurgião Dentista Sanitarista",
     "Médico Auditor",
     "Médico Cardiologista",
     "Médico Dermatologista"
    ],
+   "cargosGerais": [
+    "Agente de Cultura",
+    "Fiscal de Obras e Infraestrutura",
+    "Fiscal de Posturas",
+    "Fiscal Sanitário",
+    "Fiscal Tributário",
+    "Tesoureiro",
+    "Turismólogo",
+    "Agente Comunitário de Saúde"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Cirurgião Dentista Sanitarista, Médico Auditor, Médico Cardiologista. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -5490,6 +6156,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Chapadão do Lageado, no Estado de Santa Catarina, realiza o Processo Seletivo Simplificado nº 07/2026 com o objetivo de preencher vagas e formar cadastro de reserva para candidatos alfabetizados e com ensino fundamental, médio, técnico, superior incompleto ou superior completo.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente de Correios\n• Agente de Serviços Gerais\n• Assistente Social\n• Enfermeiro\n• Farmacêutico\n• Fisioterapeuta\n• Fonoaudiólogo\n• Instrutor de Jiu-Jitsu\n• Mecânico\n• Médico\n• Médico Veterinário\n• Monitor de Transporte Escolar (9 vagas)\n• Nutricionista\n• Odontólogo\n• Operador de Equipamentos\n• Operário\n• Professor de Anos Iniciais (Habilitado)\n• Professor de Anos Iniciais (Não Habilitado)\n• Professor de Artes (Habilitado)\n• Professor de Artes (Não Habilitado)\n• Professor de Ciências (Habilitado)\n• Professor de Ciências (Não Habilitado)\n• Professor de Educação Física\n• Professor de Educação Infantil (Habilitado)\n• Professor de Educação Infantil (Não Habilitado)\n• Professor de Informática (Habilitado)\n• Professor de Informática (Não Habilitado)\n• Professor de Sala de AEE (Habilitado)\n• Professor de Sala de AEE (Não Habilitado)\n• Profissional de Apoio Escolar\n• Psicólogo\n• Psicopedagogo\n• Técnico em Enfermagem\nA jornada é de até 40 horas semanais, com vencimentos básicos de R$ 1.741,00 a R$ 21.291,71. O valor indicado para médico está sujeito ao limite remuneratório constitucional. Todas as funções recebem auxílio-alimentação de R$ 940,20 mensais para jornada de 40 horas, proporcional à carga horária. Para professores, há adicionais de 10% por regência de classe e 5% por assiduidade.\nAs inscrições devem ser feitas de 24 de novembro de 2026 a 23 de dezembro de 2026, até as 18h do último dia, pelo site da Legalle Concursos. As taxas são de R$ 50,00 para funções de nível fundamental ou alfabetizado, R$ 60,00 para nível médio ou técnico e R$ 70,00 para nível superior. O pagamento poderá ser efetuado até 24 de dezembro de 2026. Pedidos de isenção poderão ser apresentados de 24 a 30 de novembro de 2026 por doadores de medula óssea, sangue ou leite humano, pessoas que atuaram a serviço da Justiça Eleitoral ou do Tribunal do Júri e integrantes de família de baixa renda, conforme os critérios do edital.\nA seleção terá prova teórico-objetiva, eliminatória e classificatória, para todas as funções. Professores habilitados e não habilitados e psicopedagogos também passarão por prova de títulos, de caráter classificatório. A prova objetiva está prevista para 16 de janeiro de 2027, em Chapadão do Lageado. Caso não haja locais suficientes ou adequados, as provas poderão ocorrer em cidades próximas.\nO processo seletivo terá validade de um ano a partir da publicação da homologação do resultado final, com possibilidade de uma única prorrogação, a critério da administração municipal.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1741,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Correios",
     "Agente de Serviços Gerais",
@@ -5528,14 +6196,25 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico",
     "Médico Veterinário",
     "Odontólogo",
-    "Enfermeiro"
+    "Assistente Social"
    ],
+   "cargosGerais": [
+    "Agente de Correios",
+    "Agente de Serviços Gerais",
+    "Monitor de Transporte Escolar",
+    "Operador de Equipamentos",
+    "Operário",
+    "Profissional de Apoio Escolar",
+    "Psicopedagogo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico, Médico Veterinário, Odontólogo. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -5582,6 +6261,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Pouso Redondo, no Estado de Santa Catarina, realizará um Processo Seletivo Simplificado para contratações temporárias e formação de cadastro de reserva. Há oportunidades para candidatos com ensino fundamental incompleto, ensino médio completo, ensino superior completo e estudantes de licenciatura ou Pedagogia.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente de Organização Escolar\n• Agente de Serviços Gerais\n• Assistente Social\n• Cirurgião Dentista\n• Fonoaudiólogo\n• Médico\n• Motorista/Operador de Máquinas e/ou Equipamentos\n• Nutricionista\n• Professor de Artes Habilitado\n• Professor de Artes Não Habilitado\n• Professor de Ciências Habilitado\n• Professor de Ciências Não Habilitado\n• Professor de Educação Física Habilitado\n• Professor de Educação Física Não Habilitado\n• Professor de Educação Infantil Habilitado\n• Professor de Educação Infantil Não Habilitado\n• Professor de Geografia Habilitado\n• Professor de Geografia Não Habilitado\n• Professor de História Habilitado\n• Professor de História Não Habilitado\n• Professor de Língua Inglesa Habilitado\n• Professor de Língua Inglesa Não Habilitado\n• Professor de Língua Portuguesa Habilitado\n• Professor de Língua Portuguesa Não Habilitado\n• Professor de Matemática Habilitado\n• Professor de Matemática Não Habilitado\n• Professor dos Anos Iniciais Habilitado\n• Professor dos Anos Iniciais Não Habilitado\n• Psicólogo(a)\nAs jornadas indicadas são de 30 ou 40 horas semanais, conforme o cargo. A carga horária será definida de acordo com a necessidade e o interesse público. Os vencimentos vão de R$ 2.575,42 a R$ 21.091,49.\nAs inscrições serão feitas exclusivamente pela internet, no site da SC Treinamentos, de 16 de novembro de 2026 até às 23h59 de 26 de novembro de 2026. As taxas variam de R$ 80,00 a R$ 200,00. O pagamento poderá ser feito até 27 de novembro de 2026. Pedidos de isenção poderão ser apresentados de 16 a 17 de novembro de 2026 por doadores de sangue ou medula óssea, candidatos de baixa renda inscritos no CadÚnico, voluntários da Justiça Eleitoral e jurados, conforme as regras do edital.\nA seleção terá prova objetiva para todos os cargos, prevista para a tarde de 5 de dezembro de 2026. Haverá prova prática para Motorista/Operador de Máquinas e/ou Equipamentos, prevista para 6 de dezembro de 2026. Haverá também prova de títulos para os professores habilitados e para o médico.\nO processo seletivo terá validade de um ano a partir da publicação da homologação do resultado final. O prazo poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2575.42,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Organização Escolar",
     "Agente de Serviços Gerais",
@@ -5616,14 +6297,21 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Cirurgião Dentista",
     "Médico",
-    "Fonoaudiólogo",
-    "Nutricionista"
+    "Assistente Social",
+    "Fonoaudiólogo"
    ],
+   "cargosGerais": [
+    "Agente de Organização Escolar",
+    "Agente de Serviços Gerais",
+    "Motorista/Operador de Máquinas e/ou Equipamentos"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Cirurgião Dentista, Médico, Assistente Social. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -5670,6 +6358,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, a Prefeitura Municipal de São Bento do Sul e a Fundação Cultural de São Bento do Sul abriram um Processo Seletivo para preencher vagas temporárias e formar cadastro de reserva em funções de nível fundamental, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nAdministração direta: ensino fundamental\n• Auxiliar de Operações na Secretaria Municipal de Educação\n• Auxiliar de Operações na Secretaria Municipal de Obras e Serviços Urbanos\n• Auxiliar de Operações Interior na Secretaria Municipal de Obras e Serviços Urbanos\n• Calceteiro\n• Mecânico\n• Pedreiro\n• Pintor\nAdministração direta: ensino médio\n• Auxiliar de Consultório Dentário\n• Motorista na Secretaria Municipal de Educação\n• Motorista na Secretaria Municipal de Obras e Serviços Urbanos\n• Técnico em Agrimensura\nAdministração direta: ensino superior\n• Assistente Social na Secretaria Municipal de Assistência Social\n• Assistente Social na Secretaria Municipal de Educação\n• Médico Angiologista/Cirurgia Vascular\n• Médico Endocrinologista (1 vaga)\n• Médico Ginecologista/Obstetra\n• Médico Neuropediatra (1 vaga)\n• Médico Pediatra (1 vaga)\n• Médico Reumatologista\n• Médico Urologista (1 vaga)\n• Nutricionista\n• Odontólogo Endodontista (1 vaga)\n• Odontólogo Periodontista (1 vaga)\n• Psicólogo\n• Psicólogo na Secretaria Municipal de Educação\nMagistério: ensino fundamental\n• Agente de Alimentação Escolar\nMagistério: ensino médio\n• Atendente de Educação Inclusiva\n• Atendente Educativo\n• Secretária(o) de Escola\nMagistério: ensino superior\n• Coordenador Educacional\n• Especialista em Assuntos Educacionais\n• Professor Anos Finais de Artes, habilitado\n• Professor Anos Finais de Artes, não habilitado\n• Professor Anos Finais de Arteterapia\n• Professor Anos Finais de Ciências, habilitado\n• Professor Anos Finais de Ciências, não habilitado\n• Professor Anos Finais de Educação Física\n• Professor Anos Finais de Geografia, habilitado\n• Professor Anos Finais de Geografia, não habilitado\n• Professor Anos Finais de História\n• Professor Anos Finais de História, não habilitado\n• Professor Anos Finais de Inglês, habilitado\n• Professor Anos Finais de Inglês, não habilitado\n• Professor Anos Finais de Língua Portuguesa, habilitado\n• Professor Anos Finais de Língua Portuguesa, não habilitado\n• Professor Anos Finais de Matemática, habilitado\n• Professor Anos Finais de Matemática, não habilitado\n• Professor Anos Finais de Oficina de Dança Corpo Coreográfico Bandas\n• Professor Anos Finais de Pensamento Computacional, habilitado\n• Professor Anos Iniciais, habilitado\n• Professor Anos Iniciais, não habilitado\n• Professor de Educação Especial, habilitado\n• Professor de Educação Especial em Libras, não habilitado\n• Professor de Educação Especial, não habilitado\n• Professor de Educação Infantil, habilitado\n• Professor de Educação Especial em Braille, habilitado\n• Professor de Educação Especial em Braille, não habilitado\n• Professor de Educação Especial em Libras, habilitado\nFundação Cultural de São Bento do Sul: ensino fundamental\n• Auxiliar de Operações\nFundação Cultural de São Bento do Sul: ensino superior\n• Professor de Violoncelo\nFundação Municipal de Desportos: ensino fundamental\n• Auxiliar de Operações\nAs jornadas indicadas nos quadros vão de 10 a 40 horas semanais, com remunerações mensais de R$ 1.412,23 a R$ 20.795,15. O edital prevê abono complementar para determinados cargos, vale-transporte mediante solicitação e desconto, auxílio-alimentação conforme a jornada e bonificação por resultados para agentes de alimentação escolar. Professores do ensino fundamental em regência de classe terão gratificação de 20% sobre a remuneração.\nAs inscrições serão feitas pelo site do Instituto Tupy, das 10h de 19 de novembro de 2026 às 20h de 18 de dezembro de 2026. A taxa é de R$ 45,00 para ensino fundamental, R$ 70,00 para ensino médio e R$ 90,00 para ensino superior. Doadores de sangue ou de medula óssea poderão pedir isenção pela Área do Candidato até as 17h de 23 de novembro de 2026, conforme os requisitos do edital.\nA seleção terá prova objetiva, eliminatória e classificatória, para todos os cargos. A aplicação está prevista para 24 de janeiro de 2027, preferencialmente em São Bento do Sul, com possibilidade de ocorrer também em municípios limítrofes. Para os cargos de ensino superior do magistério, haverá ainda prova de títulos, classificatória.\nO Processo Seletivo terá validade de um ano a partir da homologação do resultado, podendo ser prorrogado por igual período, a critério do município.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1412.23,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Operações na Secretaria Municipal de Educação",
     "Auxiliar de Operações na Secretaria Municipal de Obras e Serviços Urbanos",
@@ -5736,14 +6426,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Angiologista/Cirurgia Vascular",
     "Médico Endocrinologista",
     "Médico Ginecologista/Obstetra",
     "Médico Neuropediatra"
    ],
+   "cargosGerais": [
+    "Auxiliar de Operações na Secretaria Municipal de Educação",
+    "Auxiliar de Operações na Secretaria Municipal de Obras e Serviços Urbanos",
+    "Auxiliar de Operações Interior na Secretaria Municipal de Obras e Serviços Urbanos",
+    "Calceteiro",
+    "Pedreiro",
+    "Pintor",
+    "Auxiliar de Consultório Dentário",
+    "Motorista na Secretaria Municipal de Educação"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Angiologista/Cirurgia Vascular, Médico Endocrinologista, Médico Ginecologista/Obstetra. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -5790,6 +6492,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Bom Retiro, no Estado de Santa Catarina, abriu um Concurso Público com o objetivo de preencher vagas e formar cadastro de reserva para profissionais de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente Comunitário de Saúde Bairro Bela Vista (CR)\n• Agente Comunitário de Saúde Bairro Capistrano (CR)\n• Agente Comunitário de Saúde Bairro São José (cadastro reserva)\n• Agente Comunitário de Saúde Barbaquá (CR)\n• Agente Comunitário de Saúde Barreiros (CR)\n• Agente Comunitário de Saúde Cambará/Figueiredo (CR)\n• Agente Comunitário de Saúde Campo Novo/Santa Clara/Caneleira (CR)\n• Agente Comunitário de Saúde Canoas (CR)\n• Agente Comunitário de Saúde Centro (CR)\n• Agente Comunitário de Saúde Costão do Frade (CR)\n• Agente Comunitário de Saúde Entrada (CR)\n• Agente Comunitário de Saúde Paraíso da Serra (CR)\n• Agente Comunitário de Saúde Rio Frederico (CR)\n• Agente Comunitário de Saúde Três Pontas (CR)\n• Assistente Administrativo (3 vagas e CR)\n• Assistente Social (2 vagas e CR)\n• Atendente de Consultório Dentário (3 vagas e CR)\n• Auditor Fiscal Municipal (1 vaga e CR)\n• Auxiliar de Apoio Escolar (15 vagas e CR)\n• Engenheiro Civil (CR)\n• Farmacêutico (2 vagas e CR)\n• Fiscal da Vigilância Sanitária (CR)\n• Fisioterapeuta (CR)\n• Fonoaudiólogo (CR)\n• Médico (2 vagas e cadastro reserva)\n• Médico Veterinário (CR)\n• Motorista (4 vagas e CR)\n• Motorista Socorrista (4 vagas e CR)\n• Nutricionista (CR)\n• Odontólogo (CR)\n• Operador de Máquinas Rodoviárias (4 vagas e CR)\n• Procurador Municipal (1 vaga e CR)\n• Professor de Educação Física (CR)\n• Professor de Educação Infantil 20 horas (CR)\n• Professor de Educação Infantil 30 horas (CR)\n• Professor de Ensino Fundamental (CR)\n• Profissional de Enfermagem (3 vagas e CR)\n• Psicólogo (2 vagas e CR)\n• Recepcionista (CR)\n• Servente (10 vagas e CR)\n• Técnico de Enfermagem Socorrista (4 vagas e CR)\n• Trabalhador Braçal (6 vagas e CR)\n• Vigilante Sanitário (CR)\nAs jornadas são de 20, 30 ou 40 horas semanais, ou em escala de 24 horas de trabalho por 72 horas de descanso. Os vencimentos vão de R$ 1.759,63 a R$ 20.138,46. Há vale-alimentação de R$ 322,30, além de adicional de insalubridade e diferença de piso salarial para os cargos indicados no edital.\nAs inscrições serão feitas pelo site SC Treinamentos, de 23 de outubro de 2026 até às 23h59 do dia 23 de novembro de 2026. As taxas variam de R$ 50,00 a R$ 150,00, conforme o cargo. A isenção poderá ser solicitada de 23 de outubro de 2026 a 12 de novembro de 2026 por doadores de sangue ou medula óssea, candidatos inscritos no CadÚnico e voluntários da Justiça Eleitoral ou jurados que atendam às condições do edital.\nA seleção terá prova objetiva, eliminatória e classificatória, para todos os cargos, prevista para 6 de dezembro de 2026. Para os cargos de professor, haverá prova de títulos, exclusivamente classificatória. Motorista, Motorista Socorrista e Operador de Máquinas Rodoviárias também farão prova prática, eliminatória e classificatória, prevista para 20 de dezembro de 2026.\nOs aprovados ingressarão no quadro permanente do município, sob regime estatutário.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final. O prazo poderá ser prorrogado uma vez, por igual período.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1759.63,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Comunitário de Saúde Bairro Bela Vista",
     "Agente Comunitário de Saúde Bairro Capistrano",
@@ -5838,14 +6542,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico",
     "Médico Veterinário",
     "Odontólogo",
     "Auditor Fiscal Municipal"
    ],
+   "cargosGerais": [
+    "Agente Comunitário de Saúde Bairro Bela Vista",
+    "Agente Comunitário de Saúde Bairro Capistrano",
+    "Agente Comunitário de Saúde Bairro São José",
+    "Agente Comunitário de Saúde Barbaquá",
+    "Agente Comunitário de Saúde Barreiros",
+    "Agente Comunitário de Saúde Cambará/Figueiredo",
+    "Agente Comunitário de Saúde Campo Novo/Santa Clara/Caneleira",
+    "Agente Comunitário de Saúde Canoas"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico, Médico Veterinário, Odontólogo. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -5892,6 +6608,8 @@ window.DADOS_CONCURSOS = {
    "texto": "Em Itaiópolis (SC), a Prefeitura Municipal de Itaiópolis abriu Processo Seletivo para formar cadastro reserva para contratações temporárias. As oportunidades exigem escolaridade do nível fundamental ao superior, conforme o cargo.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino fundamental\n• Auxiliar Operacional\n• Copeiro\n• Cozinheiro\n• Mecânico\n• Merendeira\n• Merendeira (Escolas Rurais Secção Schneider, Nova Esperança, Baía do Itajaí, Rio da Areia, Pré-escolar Anjo da Guarda ou Pré-escolar Anjos do Amanhã)\n• Motorista, CNH \"C\"\n• Motorista, CNH \"D\" e permissão para dirigir ambulância\n• Motorista, CNH \"D\" e permissão para realizar transporte escolar\n• Operador de Máquina, CNH \"B\", \"C\" ou \"D\"\n• Recepcionista\n• Servente de Limpeza\n• Servente de Limpeza (Escolas Rurais Secção Schneider, Nova Esperança, Baía do Itajaí, Rio da Areia, Pré-escolar Anjo da Guarda ou Pré-escolar Anjos do Amanhã)\nEnsino médio e técnico\n• Auxiliar de Centro de Educação Infantil\n• Auxiliar de Centro de Educação Infantil (Escola Rural Secção Schneider/Moema)\n• Técnico em Administração\n• Técnico em Enfermagem\n• Técnico em Higiene Dental\n• Técnico em Radiologia\n• Técnico em Topografia\nEnsino superior\n• Assistente Social\n• Arquiteto\n• Cirurgião Dentista\n• Enfermeiro\n• Engenheiro Ambiental e Sanitarista\n• Engenheiro Civil\n• Farmacêutico\n• Fisioterapeuta\n• Fonoaudiólogo\n• Médico Clínico Geral\n• Médico Ginecologista/Obstetra\n• Médico Pediatra\n• Médico Psiquiatra\n• Médico Veterinário\n• Nutricionista\n• Orientador de Desporto\n• Psicólogo\n• Terapeuta Ocupacional\nEnsino superior magistério\n• Professor de Arte, Educação Infantil e Ensino Fundamental\n• Professor de Ciências, Anos Finais\n• Professor de Educação Especial\n• Professor de Educação Física, Educação Infantil e Ensino Fundamental\n• Professor de Educação Infantil\n• Professor de Educação Infantil (Escolas Rurais Nova Esperança ou Baía do Itajaí)\n• Professor de Ensino Fundamental, Anos Iniciais\n• Professor de Ensino Fundamental, Anos Iniciais (Escolas Rurais Nova Esperança ou Baía do Itajaí)\n• Professor de Ensino Religioso, Anos Finais\n• Professor de Geografia, Anos Finais\n• Professor de História, Anos Finais\n• Professor de Inglês, Ensino Fundamental\n• Professor de Língua Portuguesa, Anos Finais\n• Professor de Matemática, Anos Finais\n• Professor de Sala de Recursos Multifuncionais\nAs jornadas variam de 10 a 40 horas semanais, conforme o cargo, e os vencimentos vão de R$ 1.282,66 a R$ 16.487,72. Há auxílio-alimentação de R$ 575,00 para a jornada de 40 horas semanais, conforme valor informado para maio de 2026. Para Técnico em Enfermagem, o edital também prevê complemento de piso.\nAs inscrições serão feitas das 16h de 19 de novembro de 2026 às 20h de 8 de dezembro de 2026, pela página do certame. A taxa é de R$ 60,00 para cargos de nível fundamental, R$ 80,00 para médio e técnico e R$ 100,00 para superior. Doadores de sangue, medula óssea ou leite humano e integrantes de famílias de baixa renda inscritas no CadÚnico podem solicitar isenção até as 17h de 23 de novembro de 2026, na Área do Candidato, mediante comprovação.\nA seleção terá prova objetiva, eliminatória e classificatória, para todos os cargos. Haverá prova de títulos, classificatória, para os cargos de magistério, e prova prática, eliminatória, para Motorista com CNH \"C\" e Operador de Máquina. As provas objetivas estão previstas para 19 de dezembro de 2026, à tarde, para nível fundamental, e 20 de dezembro de 2026, pela manhã para nível médio e técnico e à tarde para nível superior e magistério. Os locais e horários serão divulgados na página do certame a partir das 18h de 15 de dezembro de 2026.\nAs admissões serão temporárias, conforme a necessidade da prefeitura e a ordem de classificação.\nO Processo Seletivo terá validade de um ano a partir da homologação do resultado, com possibilidade de prorrogação por igual período, a critério do município.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1282.66,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar Operacional",
     "Copeiro",
@@ -5950,14 +6668,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Cirurgião Dentista",
     "Médico Clínico Geral",
     "Médico Ginecologista/Obstetra",
     "Médico Pediatra"
    ],
+   "cargosGerais": [
+    "Auxiliar Operacional",
+    "Copeiro",
+    "Cozinheiro",
+    "Merendeira",
+    "Recepcionista",
+    "Servente de Limpeza",
+    "Auxiliar de Centro de Educação Infantil",
+    "Técnico em Administração"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Cirurgião Dentista, Médico Clínico Geral, Médico Ginecologista/Obstetra. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -6004,6 +6734,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Canto do Buriti, no Estado do Piauí, divulgou um edital de Concurso Público para preencher vagas em funções de nível fundamental incompleto e completo, médio, técnico e superior, além de formar cadastro de reserva.\nDe acordo com o edital de retificação nº 001/2026, houve alteração nos requisitos e na quantidade de vagas para diversos cargos.\nSegundo a primeira retificação do edital, as oportunidades são para os cargos de:\nNível fundamental incompleto\n• Auxiliar de Serviços Gerais (30 vagas)\n• Vigia (30 vagas)\nNível fundamental completo\n• Condutor de Ambulância (3 vagas)\n• Eletricista (1 vaga)\n• Motorista CNH B (6 vagas)\n• Motorista CNH D (11 vagas)\nNível médio ou técnico completo\n• Agente Administrativo (4 vagas)\n• Agente Comunitário de Saúde, Bairro Matadouro (1 vaga)\n• Agente Comunitário de Saúde, Centro (1 vaga)\n• Agente Comunitário de Saúde, Localidade Retiro (1 vaga)\n• Agente Comunitário de Saúde, Localidade Santa Maria (1 vaga)\n• Agente Comunitário de Saúde, Povoado Fazenda Nova (1 vaga)\n• Agente de Trânsito (5 vagas)\n• Agente de Vigilância Sanitária (1 vaga)\n• Atendente de Farmácia Básica (2 vagas)\n• Fiscal de Obras (1 vaga)\n• Fiscal de Tributos (1 vaga)\n• Técnico Agrícola (1 vaga)\n• Técnico Agrimensor (1 vaga)\n• Técnico em Enfermagem - ESF (2 vagas)\n• Técnico em Enfermagem (SAMU) (2 vagas)\n• Técnico em Informática (3 vagas)\n• Técnico em Saúde Bucal (4 vagas)\nNível superior completo\n• Agente de Fiscalização Ambiental (1 vaga)\n• Assistente Social (1 vaga)\n• Cirurgião Dentista ESF (3 vagas)\n• Educador Físico (1 vaga)\n• Engenheiro Civil (1 vaga)\n• Farmacêutico Bioquímico (1 vaga)\n• Fiscal de Inspeção Sanitária (1 vaga)\n• Fiscal de Tributos (1 vaga)\n• Fisioterapeuta (2 vagas)\n• Fonoaudiólogo (2 vagas)\n• Médico Neuropediatra (1 vaga)\n• Médico Psiquiatra (1 vaga)\n• Médico Veterinário (1 vaga)\n• Nutricionista (2 vagas)\n• Professor de Artes (1 vaga)\n• Professor de Informática (6 vagas)\n• Professor de Educação Física (7 vagas)\n• Professor Fundamental (20 vagas)\n• Professor Infantil (25 vagas)\n• Professor de Inglês (2 vagas)\n• Professor de Matemática (5 vagas)\n• Professor de Português (5 vagas)\n• Psicólogo (3 vagas)\n• Psicopedagogo (2 vagas)\n• Terapeuta Ocupacional (1 vaga)\nA jornada varia de 20 a 40 horas semanais. Os vencimentos básicos informados variam de R$ 1.621,00 a R$ 16.210,00. Para agentes comunitários de saúde, o edital indica o piso nacional, sem valor numérico. Há previsão de adicional de insalubridade para determinados cargos e de periculosidade para eletricista.\nAs inscrições serão realizadas pelo site www.institutovicentenelson.com.br, de 27 de outubro de 2026 a 26 de novembro de 2026. As taxas são de R$ 76,00 para nível fundamental, R$ 86,00 para nível médio ou técnico e R$ 99,00 para nível superior, com pagamento até as 21h do dia 27 de novembro de 2026.\nA seleção terá prova objetiva de múltipla escolha, eliminatória e classificatória, para todos os cargos, e prova de títulos, apenas classificatória, para os cargos de nível superior. A prova objetiva está prevista para o dia 13 de dezembro de 2026. Após a homologação, haverá comprovação de requisitos e exames médicos, de caráter eliminatório. Candidatos às vagas reservadas a pessoas com deficiência também passarão por avaliação biopsicossocial.\nO concurso terá validade de até dois anos, contados da homologação, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo e na primeira retificação.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Serviços Gerais",
     "Vigia",
@@ -6057,14 +6789,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Cirurgião Dentista ESF",
     "Médico Neuropediatra",
     "Médico Psiquiatra",
     "Médico Veterinário"
    ],
+   "cargosGerais": [
+    "Auxiliar de Serviços Gerais",
+    "Vigia",
+    "Condutor de Ambulância",
+    "Motorista CNH B",
+    "Motorista CNH D",
+    "Agente Administrativo",
+    "Agente de Trânsito",
+    "Agente de Vigilância Sanitária"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Cirurgião Dentista ESF, Médico Neuropediatra, Médico Psiquiatra. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -6111,6 +6855,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Rio do Oeste, no Estado de Santa Catarina, realizará um Processo Seletivo Simplificado com o objetivo de formar cadastro de reserva para funções que exigem desde alfabetização até formação superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente Administrativo\n• Assistente Social\n• Auxiliar Administrativo\n• Auxiliar de Consultório Dentário\n• Auxiliar de Ensino, Ensino Fundamental, Centro\n• Auxiliar de Ensino, Ensino Fundamental, Toca Grande I\n• Auxiliar de Farmácia\n• Auxiliar de Sala, Educação Infantil, Centro\n• Auxiliar de Sala, Educação Infantil, Toca Grande I\n• Auxiliar de Serviços Gerais, Centro\n• Auxiliar de Serviços Gerais, Toca Grande I\n• Enfermeiro\n• Farmacêutico\n• Fonoaudiólogo\n• Médico Clínico Geral\n• Médico Ginecologista e Obstetra\n• Médico Pediatra\n• Monitor de Transporte Escolar, Educação Especial\n• Operador de Máquinas e Veículos\n• Operário\n• Professor de Artes, Educação Infantil e Ensino Fundamental, Séries Iniciais e Séries Finais, Habilitado\n• Professor de Artes, Educação Infantil e Ensino Fundamental, Séries Iniciais e Séries Finais, Não Habilitado\n• Professor de Ciências, Ensino Fundamental, Séries Finais, Habilitado\n• Professor de Ciências, Ensino Fundamental, Séries Finais, Não Habilitado\n• Professor de Educação Física, Educação Infantil e Ensino Fundamental, Séries Iniciais e Séries Finais, Habilitado\n• Professor de Ensino Religioso, Ensino Fundamental, Séries Finais, Habilitado\n• Professor de Ensino Religioso, Ensino Fundamental, Séries Finais, Não Habilitado\n• Professor de Esportes\n• Professor de Geografia, Ensino Fundamental, Séries Finais, Habilitado\n• Professor de Geografia, Ensino Fundamental, Séries Finais, Não Habilitado\n• Professor de História, Ensino Fundamental, Séries Finais, Habilitado\n• Professor de História, Ensino Fundamental, Séries Finais, Não Habilitado\n• Professor de Libras\n• Professor de Língua Inglesa, Ensino Fundamental, Séries Finais, Habilitado\n• Professor de Língua Inglesa, Ensino Fundamental, Séries Finais, Não Habilitado\n• Professor de Língua Portuguesa, Ensino Fundamental, Séries Finais, Habilitado\n• Professor de Língua Portuguesa, Ensino Fundamental, Séries Finais, Não Habilitado\n• Professor de Matemática, Ensino Fundamental, Séries Finais, Habilitado\n• Professor de Matemática, Ensino Fundamental, Séries Finais, Não Habilitado\n• Professor de Educação Infantil, Habilitado, Centro\n• Professor de Educação Infantil, Habilitado, Toca Grande I\n• Professor de Educação Infantil, Não Habilitado, Centro\n• Professor de Educação Infantil, Não Habilitado, Toca Grande I\n• Professor de Ensino Fundamental, Séries Iniciais, Habilitado, Centro\n• Professor de Ensino Fundamental, Séries Iniciais, Habilitado, Toca Grande I\n• Professor de Ensino Fundamental, Séries Iniciais, Não Habilitado, Centro\n• Professor de Ensino Fundamental, Séries Iniciais, Não Habilitado, Toca Grande I\n• Professor Volante\n• Psicólogo\n• Técnico em Enfermagem\nA jornada varia de 20 a 40 horas semanais. Os salários vão de R$ 1.897,45 a R$ 15.337,90, com valores proporcionais à carga horária nos cargos indicados no edital. Todas as vagas têm auxílio-alimentação proporcional à jornada. Há incidência de insalubridade apenas nas vagas previstas em laudo técnico.\nAs inscrições serão realizadas de 12 de novembro de 2026 até às 23h59 de 23 de novembro de 2026, pelo site SC Treinamentos. As taxas são de R$ 40,00, R$ 70,00 ou R$ 100,00, conforme o cargo, e poderão ser pagas até 25 de novembro de 2026. De 12 a 17 de novembro de 2026, poderão solicitar isenção os candidatos inscritos no CadÚnico que atendam aos critérios do edital, doadores de sangue fidelizados, doadores de medula óssea, voluntários da Justiça Eleitoral e jurados que cumpram os requisitos previstos.\nA seleção terá prova objetiva, eliminatória e classificatória, para todos os cargos, prevista para 6 de dezembro de 2026. Haverá também prova de títulos, exclusivamente classificatória, para os cargos de Professor Habilitado indicados no edital, Professor de Esportes, Professor de Libras e Professor Volante.\nO processo seletivo terá validade de um ano a partir da publicação da homologação do resultado final. O prazo poderá ser prorrogado uma vez, por igual período, a critério da Administração.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1897.45,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Administrativo",
     "Assistente Social",
@@ -6163,14 +6909,23 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Clínico Geral",
     "Médico Ginecologista e Obstetra",
     "Médico Pediatra",
-    "Enfermeiro"
+    "Assistente Social"
    ],
+   "cargosGerais": [
+    "Agente Administrativo",
+    "Auxiliar Administrativo",
+    "Auxiliar de Consultório Dentário",
+    "Operador de Máquinas e Veículos",
+    "Operário"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Clínico Geral, Médico Ginecologista e Obstetra, Médico Pediatra. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -6217,6 +6972,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Faina e a Câmara Municipal de Faina, no estado de Goiás, publicaram o edital de reabertura do Concurso Público nº 01/2024, organizado pelo Instituto Itame, para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio e superior.\nConforme o Edital Complementar 01, as inscrições serão reabertas entre os dias 3 de novembro de 2026 e 3 de dezembro de 2026, pelo site www.itame.com.br. O valor é de R$ 80,00 para nível fundamental, R$ 90,00 para nível médio e R$ 150,00 para nível superior. O pedido de isenção da taxa pode ser feito até 10 de novembro de 2026 por candidatos que atendam aos critérios do edital. Além disso, as datas das provas também foram alteradas. Recomenda-se a leitura do documento completo para acesso a mais detalhes.\nSegundo o edital retificado, as oportunidades são para os cargos de:\nPrefeitura Municipal de Faina\n• Coveiro (2 vagas)\n• Motorista de Ambulância (2 vagas)\n• Motorista de Veículo Pesado (2 vagas)\n• Operador de Máquinas Pesadas (2 vagas)\n• Pedreiro (2 vagas)\n• Porteiro/Vigia/Zelador (2 vagas)\n• Serviços Gerais (12 vagas)\n• Agente Administrativo (4 vagas)\n• Encanador (2 vagas)\n• Fiscal de Vigilância Sanitária (1 vaga)\n• Recepcionista (3 vagas)\n• Técnico em Enfermagem (3 vagas)\n• Técnico em Raio-X (2 vagas)\n• Assistente Social (1 vaga)\n• Controlador Interno (1 vaga)\n• Enfermeiro (2 vagas)\n• Enfermeiro Plantonista (3 vagas)\n• Farmacêutico/Bioquímico (1 vaga)\n• Fisioterapeuta (1 vaga)\n• Fonoaudiólogo (1 vaga)\n• Médico Plantonista (3 vagas)\n• Médico PSF (2 vagas)\n• Nutricionista (1 vaga)\n• Odontólogo (2 vagas)\n• Professor(a) - Pedagogo (5 vagas)\n• Psicólogo (1 vaga)\n• Psicopedagogo (1 vaga)\n• Terapeuta Ocupacional (1 vaga)\nCâmara Municipal de Faina\n• Técnico em Controle Interno (1 vaga)\n• Técnico em Tecnologia da Informação (1 vaga)\n• Técnico Legislativo (3 vagas)\nA jornada semanal varia de 20 a 40 horas, de acordo com o cargo. Os salários iniciais vão de R$ 1.621,00 a R$ 13.530,00. Para o cargo de Enfermeiro Plantonista, a remuneração é de R$ 250,37 por plantão de 12 horas.\nA seleção contará com provas objetivas para todos os cargos, previstas para 31 de janeiro de 2027 (domingo) e, caso necessário, também para 30 de janeiro de 2027 (sábado). As provas poderão ocorrer em municípios vizinhos. Haverá ainda prova de títulos para Professor(a) - Pedagogo, com envio dos documentos de 1º a 7 de março de 2027, e prova prática para Operador de Máquinas Pesadas, prevista para 6 e/ou 7 de março de 2027.\nO regime de contratação estatutário disciplinará a relação de trabalho dos candidatos nomeados. O estágio probatório será de três anos.\nA validade do concurso é de dois anos a partir da homologação dos resultados finais, podendo ser prorrogada uma única vez e por igual período.\nMais informações podem ser obtidas no edital completo e em sua retificação.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": 90,
    "cargosLista": [
     "Coveiro",
     "Motorista de Ambulância",
@@ -6253,14 +7010,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Plantonista",
     "Médico PSF",
     "Odontólogo",
-    "Enfermeiro"
+    "Técnico em Enfermagem"
    ],
+   "cargosGerais": [
+    "Coveiro",
+    "Motorista de Ambulância",
+    "Motorista de Veículo Pesado",
+    "Operador de Máquinas Pesadas",
+    "Pedreiro",
+    "Porteiro/Vigia/Zelador",
+    "Serviços Gerais",
+    "Agente Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Plantonista, Médico PSF, Odontólogo. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -6307,6 +7076,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Patis, em Minas Gerais, divulgou o edital de Concurso Público destinado ao preenchimento de vagas imediatas e à formação de cadastro de reserva para profissionais de nível fundamental (incompleto e completo), médio, médio/técnico e superior.\nDe acordo com o edital, as oportunidades são para os cargos de:\n• Administrador (1 vaga)\n• Advogado (1 vaga)\n• Agente Administrativo (1 vaga)\n• Almoxarife (1 vaga)\n• Assistente de Educação (20 vagas)\n• Assistente Social (3 vagas)\n• Assistente Técnico Administrativo (CR)\n• Assistente Técnico Educacional (1 vaga)\n• Auxiliar de Saúde (1 vaga)\n• Auxiliar de Serviços da Educação Básica (15 vagas)\n• Auxiliar de Serviços Gerais (3 vagas)\n• Auxiliar em Saúde Bucal (3 vagas)\n• Biomédico (1 vaga)\n• Cirurgião Dentista (2 vagas)\n• Contador (1 vaga)\n• Educador Físico (1 vaga)\n• Educador Social / Orientador Social (3 vagas)\n• Enfermeiro (5 vagas)\n• Engenheiro Civil (CR)\n• Especialista em Educação Básica (1 vaga)\n• Farmacêutico (1 vaga)\n• Fiscal de Obras (1 vaga)\n• Fiscal de Posturas (1 vaga)\n• Fiscal de Tributos (CR)\n• Fiscal Sanitário (4 vagas)\n• Fisioterapeuta (CR)\n• Fonoaudiólogo (2 vagas)\n• Gari (2 vagas)\n• Marceneiro/Carpinteiro (1 vaga)\n• Médico Clínico Geral (CR)\n• Médico ESF (3 vagas)\n• Médico Veterinário (1 vaga)\n• Motorista Categoria B (2 vagas)\n• Motorista Categoria D (9 vagas)\n• Nutricionista (1 vaga)\n• Oficial de Serviços Públicos (Bombeiro) (CR)\n• Oficial de Serviços Públicos (Eletricista) (CR)\n• Oficial de Serviços Públicos (Serralheiro) (1 vaga)\n• Operador de máquinas (2 vagas)\n• Operador de Patrol/Motoniveladora (1 vaga)\n• Orientador Educacional (1 vaga)\n• Pintor de Parede (1 vaga)\n• Professor de Apoio (2 vagas)\n• Professor de Computação (2 vagas)\n• Professor de Educação Básica - Professor de 1ª a 5ª (24 vagas)\n• Professor de Educação Básica (II - Artes) (1 vaga)\n• Professor de Educação Básica (II - Ciências) (1 vaga)\n• Professor de Educação Básica (II - Educação Física) (2 vagas)\n• Professor de Educação Básica (II - Educação Religiosa) (1 vaga)\n• Professor de Educação Básica (II - Geografia) (2 vagas)\n• Professor de Educação Básica (II - História) (1 vaga)\n• Professor de Educação Básica (II - Inglês) (1 vaga)\n• Professor de Educação Básica (II - Matemática) (3 vagas)\n• Professor de Educação Básica (II - Português) (1 vaga)\n• Professor de Educação Empreendedora (1 vaga)\n• Psicólogo (Área Social) (1 vaga)\n• Psicólogo (Saúde) (1 vaga)\n• Servente de Pedreiro (3 vagas)\n• Técnico de Nível Médio em Políticas Sociais (1 vaga)\n• Técnico em Contabilidade (1 vaga)\n• Técnico em Edificações (1 vaga)\n• Técnico em Enfermagem (4 vagas)\n• Técnico em Informática (2 vagas)\n• Técnico em Saúde Bucal (CR)\n• Vigia (CR)\nA jornada de trabalho varia de 24 a 40 horas semanais, conforme o cargo. O vencimento básico inicial vai de R$ 1.621,00 a R$ 13.500,00.\nAs inscrições poderão ser realizadas das 8h do dia 3 de dezembro de 2026 às 17h do dia 30 de dezembro de 2026, pelo site cotec.fadenor.com.br. A taxa de inscrição varia de R$ 65,00 a R$ 100,00, dependendo do cargo escolhido. Haverá período específico para pedido de isenção da taxa, das 8h do dia 30 de novembro de 2026 às 17h do dia 2 de dezembro de 2026.\nA seleção dos candidatos será realizada por meio de provas objetivas de múltipla escolha para todos os cargos, previstas para o dia 31 de janeiro de 2027. Haverá ainda prova prática, para os cargos de Operador de Máquinas e Operador de Patrol/Motoniveladora. Para os cargos de Especialista em Educação Básica, Orientador Educacional e Professores haverá também prova de títulos.\nO concurso terá validade de 2 anos a partir da homologação do resultado final, podendo ser prorrogado uma vez por igual período, a critério do Município.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Administrador",
     "Advogado",
@@ -6377,14 +7148,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Biomédico",
     "Cirurgião Dentista",
     "Médico Clínico Geral",
-    "Médico ESF",
-    "Médico Veterinário"
+    "Médico ESF"
    ],
+   "cargosGerais": [
+    "Agente Administrativo",
+    "Almoxarife",
+    "Assistente de Educação",
+    "Assistente Técnico Administrativo",
+    "Assistente Técnico Educacional",
+    "Auxiliar de Saúde",
+    "Auxiliar de Serviços da Educação Básica",
+    "Auxiliar de Serviços Gerais"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Biomédico, Cirurgião Dentista, Médico Clínico Geral. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -6431,6 +7214,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, a Prefeitura Municipal de Major Gercino abriu um Processo Seletivo Simplificado para contratação temporária e formação de cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nCentro\n• Professor de Educação Física, 40 horas (2 vagas e cadastro de reserva)\n• Professor de Educação Física, 30 horas (1 vaga e cadastro de reserva)\n• Professor Pedagogo (3 vagas e cadastro de reserva)\n• Professor de Artes (1 vaga e cadastro de reserva)\n• Auxiliar de Serviços Gerais (4 vagas e cadastro de reserva)\n• Professor de Língua Inglesa (1 vaga e cadastro de reserva)\n• Orientador Social (1 vaga e cadastro de reserva)\nPinheiral\n• Professor de Educação Física (1 vaga e cadastro de reserva)\n• Professor de Artes (1 vaga e cadastro de reserva)\n• Auxiliar de Serviços Gerais (1 vaga e cadastro de reserva)\n• Professor de Língua Inglesa (1 vaga e cadastro de reserva)\n• Orientador Social (cadastro de reserva)\nBoiteuxburgo\n• Professor de Educação Física (1 vaga e cadastro de reserva)\n• Professor Pedagogo (cadastro de reserva)\n• Professor de Artes (1 vaga e cadastro de reserva)\n• Auxiliar de Serviços Gerais (1 vaga e cadastro de reserva)\n• Professor de Língua Inglesa (1 vaga e cadastro de reserva)\n• Orientador Social (cadastro de reserva)\nCargos sem lotação especificada no quadro de vagas\n• Motorista Categoria C (cadastro de reserva)\n• Operador de Máquina I - Trator (cadastro de reserva)\n• Operador de Máquina IV (cadastro de reserva)\n• Professor de Educação Especial (cadastro de reserva)\n• Auxiliar de Apoio Escolar (1 vaga e cadastro de reserva)\n• Monitor Escolar (cadastro de reserva)\n• Auxiliar de Creche (1 vaga e cadastro de reserva)\n• Auxiliar Administrativo Operacional (cadastro de reserva)\n• Auxiliar de Manutenção e Conservação (cadastro de reserva)\n• Médico (cadastro de reserva)\n• Enfermeiro (cadastro de reserva)\n• Técnico de Enfermagem (cadastro de reserva)\n• Fisioterapeuta (cadastro de reserva)\n• Psicólogo (cadastro de reserva)\n• Farmacêutico (cadastro de reserva)\n• Dentista (cadastro de reserva)\n• Motorista Categoria B (1 vaga e cadastro de reserva)\n• Auxiliar de Dentista (cadastro de reserva)\n• Agente de Saúde (cadastro de reserva)\n• Agente de Endemias (cadastro de reserva)\n• Vigilante Sanitário (cadastro de reserva)\n• Recepcionista (cadastro de reserva)\n• Fonoaudiólogo (1 vaga e cadastro de reserva)\n• Assistente Social (1 vaga e cadastro de reserva)\n• Psicólogo Educacional (cadastro de reserva)\n• Contador (cadastro de reserva)\n• Motorista Educação (cadastro de reserva)\n• Motorista de Máquina II - Retroescavadeira (cadastro de reserva)\nAs jornadas variam de 20 a 40 horas semanais. As remunerações vão de R$ 1.700,93 a R$ 13.301,74, conforme o cargo e a carga horária.\nAs inscrições serão feitas exclusivamente pelo site do Instituto Frank Duarte, das 8h do dia 18 de novembro de 2026 às 23h30 do dia 3 de dezembro de 2026. A taxa é de R$ 50,00 ou R$ 70,00, conforme o cargo, com pagamento até 4 de dezembro de 2026. Pedidos de isenção poderão ser enviados pelo portal de 23 a 25 de novembro de 2026, com formulário e documentação comprobatória.\nTodos os candidatos farão prova teórica objetiva, eliminatória e classificatória, em 13 de dezembro de 2026, das 8h às 12h, em Major Gercino. Para os cargos indicados no edital, haverá também prova prática, eliminatória e classificatória, no mesmo dia, das 13h30 às 17h30, ou avaliação de títulos, exclusivamente classificatória.\nO processo seletivo terá validade de um ano, contado da homologação do resultado, e poderá ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1700.93,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Professor de Educação Física, 40 horas",
     "Professor de Educação Física, 30 horas",
@@ -6482,14 +7267,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico",
     "Dentista",
     "Auxiliar de Dentista",
     "Professor de Educação Física, 40 horas"
    ],
+   "cargosGerais": [
+    "Auxiliar de Serviços Gerais",
+    "Orientador Social",
+    "Motorista Categoria C",
+    "Operador de Máquina IV",
+    "Auxiliar de Apoio Escolar",
+    "Monitor Escolar",
+    "Auxiliar de Creche",
+    "Auxiliar Administrativo Operacional"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico, Dentista, Auxiliar de Dentista. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Etapas de prova não detalhadas (base)",
@@ -6536,6 +7333,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado do Ceará, a Prefeitura Municipal de Juazeiro do Norte, por meio da Secretaria de Saúde, abriu um Processo Seletivo Simplificado para preencher vagas temporárias e formar cadastro de reserva em funções de nível fundamental, médio/ técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Analista de Relações Públicas (1 vaga)\n• Assistente de Manutenção (21 vagas)\n• Assistente Social (9 vagas)\n• Atendente de Farmácia (19 vagas)\n• Auxiliar Administrativo (48 vagas)\n• Auxiliar de Faturamento (5 vagas)\n• Auxiliar de Serviços Gerais (101 vagas)\n• Auxiliar em Saúde Bucal (5 vagas)\n• Capturador de Animais (3 vagas)\n• Cirurgião Dentista (10 vagas)\n• Contador (1 vaga)\n• Dentista Bucomaxilofacial (1 vaga)\n• Digitador (59 vagas)\n• Educador Físico (2 vagas)\n• Eletricista (5 vagas)\n• Enfermeiro (25 vagas)\n• Enfermeiro Auditor (3 vagas)\n• Farmacêutico (5 vagas)\n• Faturista (1 vaga)\n• Fisioterapeuta (1 vaga)\n• Fonoaudióloga (3 vagas)\n• Instrumentador (1 vaga)\n• Maqueiro (1 vaga)\n• Médico (28 vagas)\n• Médico Cardiologista (1 vaga)\n• Médico Cirurgião (1 vaga)\n• Médico Cirurgião Pediatra (1 vaga)\n• Médico Infectologista (1 vaga)\n• Médico Neuropediatra (1 vaga)\n• Médico Ortopedista/Traumatologista (3 vagas)\n• Médico Otorrinolaringologista (1 vaga)\n• Médico Plantonista (10 vagas)\n• Médico Pneumologista (1 vaga)\n• Médico Proctologista (1 vaga)\n• Médico Psiquiatra (1 vaga)\n• Médico Psiquiatra Infantil (1 vaga)\n• Médico Reumatologista (1 vaga)\n• Médico Veterinário (2 vagas)\n• Mobilizador Social (3 vagas)\n• Motorista Categoria A (1 vaga)\n• Motorista Categoria AB (20 vagas)\n• Neuropsicólogo (1 vaga)\n• Nutricionista (1 vaga)\n• Odontopediatra (1 vaga)\n• Pedreiro (2 vagas)\n• Pintor (5 vagas)\n• Porteiro (123 vagas)\n• Psicólogo (1 vaga)\n• Recepcionista (9 vagas)\n• Sapateiro (1 vaga)\n• Supervisor de Serviços de Saúde (18 vagas)\n• Técnico de TI (2 vagas)\n• Técnico em Enfermagem (54 vagas)\n• Técnico em Imobilização Ortopédica (4 vagas)\n• Técnico em Manutenção de Aparelho Odontológico (2 vagas)\n• Técnico em Radiologia (1 vaga)\n• Técnico em Saúde Bucal (4 vagas)\n• Técnico em Segurança do Trabalho (2 vagas)\n• Auditor em Saúde (1 vaga)\n• Enfermeiro Plantonista (24 vagas)\n• Técnico em Enfermagem Plantonista (8 vagas)\nAs jornadas variam de 100 a 200 horas mensais, além de 30 horas semanais para assistente social e fisioterapeuta. As funções de plantonista seguem escala de 12 x 36. Os salários mensais vão de R$ 1.621,00 a R$ 12.000,00. Por plantão de 12 horas, os valores variam de R$ 100,00 a R$ 1.100,00, conforme a função e o dia.\nAs inscrições serão realizadas de 19 de novembro de 2026 a 10 de dezembro de 2026, pelo site do Instituto Consulpam. As taxas são de R$ 60,00 para nível fundamental, R$ 90,00 para nível médio ou técnico e R$ 140,00 para nível superior. A isenção poderá ser solicitada em 23 e 24 de novembro de 2026 por inscritos no CadÚnico, doadores de medula óssea, doadores de sangue e candidatos com vínculo funcional com o município, conforme os requisitos do edital.\nA seleção terá prova objetiva, de caráter eliminatório e classificatório, e prova de títulos, de caráter classificatório. Para os níveis fundamental e médio ou técnico, os títulos avaliarão a experiência profissional. Para o nível superior, também serão considerados títulos acadêmicos. As provas objetivas estão previstas para 24 de janeiro de 2027. Candidatos inscritos nas vagas reservadas também serão submetidos aos procedimentos de verificação previstos no edital.\nO processo seletivo terá validade de dois anos, contados da publicação da homologação do resultado final. O prazo poderá ser prorrogado uma única vez por igual período, a critério da administração pública.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Analista de Relações Públicas",
     "Assistente de Manutenção",
@@ -6602,14 +7401,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Cirurgião Dentista",
     "Dentista Bucomaxilofacial",
     "Médico",
     "Médico Cardiologista"
    ],
+   "cargosGerais": [
+    "Analista de Relações Públicas",
+    "Assistente de Manutenção",
+    "Auxiliar Administrativo",
+    "Auxiliar de Faturamento",
+    "Auxiliar de Serviços Gerais",
+    "Capturador de Animais",
+    "Digitador",
+    "Faturista"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Cirurgião Dentista, Dentista Bucomaxilofacial, Médico. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -6657,6 +7468,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Novo São Joaquim, no Estado de Mato Grosso, abriu um concurso público para preencher vagas em funções de nível fundamental (incompleto ou completo), médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino fundamental incompleto\n• Agente de Serviços Gerais AG10 (Servente) (2 vagas)\n• Agente de Serviços Gerais AG11 (Coletor de Lixo), Distrito Cachoeira da Fumaça (1 vaga)\n• Agente de Serviços Gerais AG11 (Coletor de Lixo), Distrito Itaquerê (2 vagas)\n• Agente de Serviços Gerais AG11 (Coletor de Lixo), Sede (17 vagas)\n• Agente de Serviços Gerais AG12 (Cozinheira), P. A. Santo Idelfonso (1 vaga)\n• Agente de Serviços Gerais AG12 (Cozinheira), Sede (4 vagas)\n• Agente de Serviços Gerais AG13 (Lavadeira/Passadeira) (1 vaga)\n• Agente de Serviços Gerais AG3 (Faxineira), Distrito Itaquerê (2 vagas)\n• Agente de Serviços Gerais AG3 (Faxineira), P. A. Santo Idelfonso (3 vagas)\n• Agente de Serviços Gerais AG3 (Faxineira), Sede (23 vagas)\n• Agente de Serviços Gerais AG4 (Gari), Distrito Cachoeira da Fumaça (1 vaga)\n• Agente de Serviços Gerais AG4 (Gari), Distrito Itaquerê (2 vagas)\n• Agente de Serviços Gerais AG4 (Gari), Sede (16 vagas)\n• Agente de Serviços Gerais AG5 (Guarda), Distrito Itaquerê (1 vaga)\n• Agente de Serviços Gerais AG5 (Guarda), Sede (4 vagas)\n• Agente de Serviços Gerais AG8 (Merendeira) (3 vagas)\n• Eletricista (1 vaga)\n• Mecânico (2 vagas)\n• Motorista, Distrito Cachoeira da Fumaça (2 vagas)\n• Motorista, Distrito Itaquerê (8 vagas)\n• Motorista, P. A. Santo Idelfonso (1 vaga)\n• Motorista, Sede (19 vagas)\n• Operador de Máquina (Escavadeira Hidráulica) (1 vaga)\n• Operador de Máquina (Motoniveladora) (4 vagas)\n• Operador de Máquina (Pá Carregadeira) (2 vagas)\n• Operador de Máquina (Retroescavadeira) (2 vagas)\n• Operador de Máquina (Trator) (4 vagas)\n• Pedreiro (2 vagas)\nEnsino fundamental completo\n• Motorista II (1 vaga)\nEnsino médio completo\n• Agente Administrativo AA1 (3 vagas)\n• Agente Administrativo AA7 (Recepcionista) (5 vagas)\n• Assistente Administrativo (3 vagas)\n• Auxiliar de Saúde Bucal (3 vagas)\n• Auxiliar de Turma (5 vagas)\n• Cuidador do Idoso (4 vagas)\n• Cuidador do Menor (6 vagas)\n• Lactarista (1 vaga)\n• Monitor de Creche (15 vagas)\nEnsino médio/técnico completo\n• Instrutor de Informática (2 vagas)\n• Técnico de Enfermagem (18 vagas)\n• Técnico em Radiologia (1 vaga)\nEnsino superior completo\n• Assistente Social (2 vagas)\n• Bioquímico/Farmacêutico (3 vagas)\n• Contador (1 vaga)\n• Controlador Interno (CR)\n• Enfermeiro (4 vagas)\n• Fisioterapeuta (2 vagas)\n• Fonoaudiólogo (1 vaga)\n• Médico Veterinário (1 vaga)\n• Nutricionista (1 vaga)\n• Odontólogo (3 vagas)\n• Professor de Educação Física (1 vaga)\n• Professor de Inglês (1 vaga)\n• Professor, Aldeias Indígenas (2 vagas)\n• Professor, Distrito Cachoeira da Fumaça (3 vagas)\n• Professor, Distrito Itaquerê (5 vagas)\n• Professor, P. A. Santo Idelfonso (3 vagas)\n• Professor, Sede do Município (30 vagas)\n• Psicólogo (2 vagas)\n• Terapeuta Ocupacional (1 vaga)\nEnsino superior completo com especialização\n• Neuropsicólogo (1 vaga)\n• Psicopedagogo (1 vaga)\nAs jornadas variam de 20 a 40 horas semanais. Os vencimentos iniciais mensais vão de R$ 1.621,00 a R$ 11.979,03, conforme o cargo.\nAs inscrições serão realizadas exclusivamente pelo site www.ibgpconcursos.com.br, das 9h de 2 de dezembro de 2026 às 16h de 4 de janeiro de 2027, no horário de Mato Grosso. As taxas são de R$ 60,00 para o ensino fundamental, R$ 80,00 para o ensino médio/técnico e R$ 100,00 para o ensino superior. Poderá ser solicitada isenção das 9h de 2 de dezembro às 16h de 4 de dezembro de 2026, nas condições previstas no edital.\nA seleção terá prova objetiva para todos os cargos, redação para professores, neuropsicólogo e psicopedagogo, prova de títulos para os cargos de nível superior e prova prática para eletricista, mecânico, motoristas, operadores de máquina e pedreiro. A prova objetiva está prevista para 21 de fevereiro de 2027.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, e poderá ser prorrogado uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Serviços Gerais AG10",
     "Agente de Serviços Gerais AG11",
@@ -6724,14 +7537,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Veterinário",
     "Odontólogo",
-    "Bioquímico/Farmacêutico",
-    "Contador"
+    "Eletricista",
+    "Mecânico"
    ],
+   "cargosGerais": [
+    "Agente de Serviços Gerais AG10",
+    "Agente de Serviços Gerais AG11",
+    "Agente de Serviços Gerais AG12",
+    "Agente de Serviços Gerais AG13",
+    "Agente de Serviços Gerais AG3",
+    "Agente de Serviços Gerais AG4",
+    "Agente de Serviços Gerais AG5",
+    "Agente de Serviços Gerais AG8"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Veterinário, Odontólogo, Eletricista. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -6778,6 +7603,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, a Câmara Municipal de São Francisco do Sul abriu um Concurso Público para preencher vagas em cargos efetivos de nível fundamental, médio e superior.\nUma retificação alterou o vencimento do cargo de Motorista para R$ 4.912,43, atualizou o conteúdo programático de Controlador e modificou a documentação exigida para a isenção da taxa de inscrição de candidatos de baixa renda inscritos no CadÚnico. Para solicitar o benefício nessa condição, o candidato deverá informar o NIS e anexar, em um único arquivo, o comprovante atualizado de inscrição no CadÚnico e a cópia completa da Carteira de Trabalho Digital emitida após a publicação do edital. A declaração de órgão competente deixou de ser exigida.\nSegundo o edital, as oportunidades são para os cargos de:\nNível fundamental\n• Motorista (2 vagas)\nNível médio\n• Assistente Legislativo (2 vagas)\n• Assistente Administrativo (4 vagas)\n• Assistente de Gestão de Pessoal (2 vagas)\nNível superior\n• Analista Administrativo (1 vaga)\n• Analista Legislativo (1 vaga)\n• Analista de Tecnologia da Informação (1 vaga)\n• Advogado (1 vaga)\n• Contador (1 vaga)\n• Controlador (1 vaga)\n• Jornalista (1 vaga)\nA jornada é de 30 horas semanais para todos os cargos. Os vencimentos variam de R$ 4.912,43 a R$ 10.924,72.\nAs inscrições poderão ser feitas das 8h de 6 de novembro de 2026 às 23h59 de 7 de dezembro de 2026, pelo site concursos.furb.br. As taxas são de R$ 70,00 para o nível fundamental, R$ 120,00 para o nível médio e R$ 150,00 para o nível superior. O pagamento poderá ser feito até 8 de dezembro de 2026. A isenção poderá ser solicitada de 6 a 10 de novembro de 2026 por candidatos que comprovem os requisitos previstos no edital.\nA seleção terá prova objetiva para todos os cargos, prova de títulos para os cargos de nível superior e prova prática para Motorista. A prova objetiva está prevista para o dia 24 de janeiro de 2027, em São Francisco do Sul. Caso não haja locais suficientes ou adequados no município, ela poderá ocorrer em municípios limítrofes. A prova prática está prevista para 21 de fevereiro de 2027.\nO provimento dos cargos será pelo regime jurídico estatutário.\nO concurso terá validade de dois anos a partir da homologação, podendo ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 4912.43,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Motorista",
     "Assistente Legislativo",
@@ -6794,13 +7621,25 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Advogado",
     "Analista de Tecnologia da Informação",
-    "Contador"
+    "Contador",
+    "Jornalista"
    ],
+   "cargosGerais": [
+    "Motorista",
+    "Assistente Legislativo",
+    "Assistente Administrativo",
+    "Assistente de Gestão de Pessoal",
+    "Analista Administrativo",
+    "Analista Legislativo",
+    "Controlador"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Advogado, Analista de Tecnologia da Informação, Contador. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -6845,6 +7684,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Vargem Grande do Sul, no Estado de São Paulo, abriu um Concurso Público para preencher duas vagas e formar cadastro de reserva em funções de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Assistente Administrativo (1 vaga)\n• Contador (1 vaga)\n• Médico Ginecologista e Obstetra (cadastro de reserva)\n• Médico Neuropediatra (cadastro de reserva)\n• Professor de Educação Especial (cadastro de reserva)\n• Terapeuta Ocupacional (cadastro de reserva)\nAs jornadas variam de 15 a 40 horas semanais, com salários iniciais de R$ 2.342,17 a R$ 10.788,32.\nAs inscrições serão feitas de 30 de novembro de 2026 a 15 de dezembro de 2026, pelo site www.aplicativa.net.br. As taxas são de R$ 60,00 para o cargo de nível médio e R$ 80,00 para os cargos de nível superior. Candidatos inscritos no Cadastro Único, doadores de medula óssea e doadores de sangue que atendam aos requisitos do edital poderão solicitar isenção de 30 de novembro de 2026 a 2 de dezembro de 2026, pelo mesmo site.\nA seleção terá prova objetiva para todos os cargos e avaliação de títulos para Professor de Educação Especial. A prova objetiva está prevista para 24 de janeiro de 2027, em Vargem Grande do Sul (SP). Candidatos que concorrerem às vagas reservadas estarão sujeitos aos procedimentos de confirmação ou verificação previstos no edital.\nO concurso terá validade de dois anos a partir da homologação, podendo ser prorrogado por mais dois anos.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2342.17,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Administrativo",
     "Contador",
@@ -6856,14 +7697,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Ginecologista e Obstetra",
     "Médico Neuropediatra",
     "Contador",
     "Professor de Educação Especial"
    ],
+   "cargosGerais": [
+    "Assistente Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Ginecologista e Obstetra, Médico Neuropediatra, Contador. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -6908,6 +7754,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Rio Grande do Sul, o Município de Antônio Prado realiza um Concurso Público com o objetivo de preencher vagas e formar cadastro de reserva para as funções de nível fundamental, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente de Manutenção e Reparos (4 vagas)\n• Agente de Serviços Gerais (8 vagas)\n• Agente Educacional (4 vagas)\n• Auxiliar em Saúde Bucal - 40 horas\n• Enfermeiro 20 horas (1 vaga)\n• Escriturário (CR)\n• Mecânico (1 vaga)\n• Médico Ginecologista (1 vaga)\n• Médico Pediatra (CR)\n• Médico Psiquiatra (1 vaga)\n• Motorista (CR)\n• Operador de Máquinas e Equipamentos Rodoviários (1 vaga)\nA jornada é de 20 ou 40 horas semanais, com vencimento básico de R$ 2.091,19 a R$ 10.352,30. Os servidores recebem vale-alimentação de R$ 30,00 por dia útil trabalhado, com desconto em folha de 1% do valor total dos vales.\nAs inscrições devem ser feitas exclusivamente pelo site www.legalleconcursos.com.br, de 10 de novembro de 2026 até às 18h de 9 de dezembro de 2026. A taxa é de R$ 60,00 para cargos de nível fundamental, R$ 80,00 para nível médio e R$ 150,00 para nível superior. Candidatos inscritos no CadÚnico e pertencentes a famílias de baixa renda podem solicitar isenção no período de 10 a 16 de novembro de 2026.\nA seleção terá prova teórico-objetiva para todos os cargos, prevista para 24 de janeiro de 2027. Haverá também prova de títulos, de caráter classificatório, para os cargos médicos, e prova prática, de caráter eliminatório e classificatório, para Agente de Manutenção e Reparos, Agente de Serviços Gerais, Mecânico, Motorista e Operador de Máquinas e Equipamentos Rodoviários. A prova prática está prevista para 21 de fevereiro de 2027.\nOs nomeados estarão sujeitos ao regime estatutário. O provimento dos cargos seguirá a necessidade do município e a ordem de classificação.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, com possibilidade de prorrogação uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2091.19,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Manutenção e Reparos",
     "Agente de Serviços Gerais",
@@ -6925,14 +7773,24 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Ginecologista",
     "Médico Pediatra",
     "Médico Psiquiatra",
-    "Enfermeiro 20 horas"
+    "Auxiliar em Saúde Bucal - 40 horas"
    ],
+   "cargosGerais": [
+    "Agente de Manutenção e Reparos",
+    "Agente de Serviços Gerais",
+    "Agente Educacional",
+    "Escriturário",
+    "Motorista",
+    "Operador de Máquinas e Equipamentos Rodoviários"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Ginecologista, Médico Pediatra, Médico Psiquiatra. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -6976,6 +7834,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, o Município de Santa Terezinha do Progresso suspendeu o Concurso Público destinado a preencher oito vagas efetivas e formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nDe acordo com a Prefeitura, a suspensão decorre de decisão judicial que determinou a suspensão cautelar das atividades da referida empresa responsável pela organização do concurso, pelo prazo de 90 dias. A medida não representa, neste momento, o cancelamento do certame. Novas informações e orientações serão divulgadas pelos canais oficiais.\nSegundo o edital, as oportunidades são para os cargos de:\nNível fundamental\n• Operador de Nível I\n• Operador de Nível II\n• Motorista (1 vaga)\n• Frentista\nNível médio e técnico\n• Mecânico de Linha Pesada\n• Mecânico de Linha Leve\n• Orientador Social\n• Assistente Administrativo e de Gestão\n• Agente Comunitário de Saúde, microárea 01, cidade (1 vaga)\n• Agente Comunitário de Saúde, microárea 02, Área dos Padres, Boa Vista, Linha Jacoby, Linha Palmeirinha, Linha São Luiz e parte da cidade (1 vaga)\n• Agente Comunitário de Saúde, microárea 07, Linha Alto Alegre, Linha Peroti, Linha Vista Alegre, Linha Zanatta e parte da cidade\n• Atendente de Farmácia\n• Fiscal de Vigilância Sanitária e Ambiental (1 vaga)\nNível superior\n• Analista de Recursos Humanos\n• Analista de Compras e Licitação\n• Agente, Fiscal e Auditor de Tributação\n• Médico (1 vaga)\n• Farmacêutico (1 vaga)\n• Psicólogo (1 vaga)\n• Assistente Social (1 vaga)\n• Professor de Educação Física\n• Veterinário\n• Enfermeiro\nA jornada varia de 20 a 40 horas semanais, com vencimentos iniciais de R$ 2.400,00 a R$ 10.000,00.\nO edital previa inscrições pelo site Fênix Instituto, de 26 de outubro de 2026 a 25 de novembro de 2026, com taxas de R$ 80,00 a R$ 150,00. O pagamento poderia ser feito até às 18h do dia 26 de novembro de 2026. Pedidos de isenção poderiam ser apresentados de 26 de outubro de 2026 a 15 de novembro de 2026 por doadores de sangue ou medula óssea, inscritos no CadÚnico que atendessem aos critérios do edital e candidatos que tivessem prestado serviços à Justiça Eleitoral. Em razão da suspensão, os candidatos devem aguardar novas orientações oficiais sobre as inscrições e os demais prazos.\nA seleção prevê prova objetiva para todos os cargos; prova de títulos para o nível superior; e prova prática para Operador de Nível I, Operador de Nível II, Motorista, Mecânico de Linha Pesada e Mecânico de Linha Leve. A prova objetiva estava prevista para 6 de dezembro de 2026, e a prova prática, para 13 de dezembro de 2026, a partir das 13h. Com a suspensão temporária do concurso, os candidatos devem aguardar a divulgação de eventuais atualizações do cronograma.\nO concurso terá validade de dois anos, contados da homologação final, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo e nos canais oficiais da Prefeitura.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2400,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Operador de Nível I",
     "Operador de Nível II",
@@ -7002,14 +7862,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico",
     "Agente, Fiscal e Auditor de Tributação",
-    "Farmacêutico",
-    "Psicólogo"
+    "Mecânico de Linha Pesada",
+    "Mecânico de Linha Leve"
    ],
+   "cargosGerais": [
+    "Operador de Nível I",
+    "Operador de Nível II",
+    "Motorista",
+    "Frentista",
+    "Orientador Social",
+    "Assistente Administrativo e de Gestão",
+    "Fiscal de Vigilância Sanitária e Ambiental",
+    "Analista de Recursos Humanos"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico, Agente, Fiscal e Auditor de Tributação, Mecânico de Linha Pesada. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -7054,6 +7926,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado da Paraíba, a Prefeitura Municipal de Parari abriu um Concurso Público para preencher vagas em cargos efetivos de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nPrefeitura Municipal de Parari\n• Agente Administrativo (1 vaga)\n• Assistente Social (1 vaga)\n• Fiscal de Tributos e Arrecadação (1 vaga)\n• Auxiliar de Limpeza de Vias Públicas (2 vagas)\n• Motorista \"D\" (1 vaga)\nSecretaria de Saúde\n• Agente de Vigilância Sanitária (1 vaga)\n• Educador Físico (1 vaga)\n• Enfermeiro (1 vaga)\n• Farmacêutico (1 vaga)\n• Fisioterapeuta (1 vaga)\n• Fonoaudiólogo (1 vaga)\n• Médico Clínico Geral (1 vaga)\n• Motorista \"D\" Ambulância (1 vaga)\n• Nutricionista (1 vaga)\n• Odontólogo (1 vaga)\n• Psicopedagogo (1 vaga)\n• Psicólogo (1 vaga)\n• Técnico em Enfermagem (1 vaga)\n• Técnico em Laboratório (1 vaga)\n• Técnico em Saúde Bucal (1 vaga)\nSecretaria de Educação\n• Professor Pedagogo (1 vaga)\n• Professor Inglês (1 vaga)\n• Professor História (1 vaga)\n• Professor Letras Português (1 vaga)\n• Professor Matemática (1 vaga)\n• Professor Educação Física (1 vaga)\n• Psicólogo Educacional (1 vaga)\n• Psicopedagogo Educacional (1 vaga)\nAs jornadas variam de 20 a 40 horas semanais, conforme o cargo. Para Motorista \"D\" Ambulância, há plantão de 24 horas de trabalho por 48 horas de descanso. Os vencimentos vão de R$ 1.621,00 a R$ 10.000,00. O edital prevê complemento federal para Enfermeiro e Técnico em Enfermagem e gratificação para Médico Clínico Geral, sem informar os respectivos valores.\nAs inscrições serão realizadas exclusivamente pelo site da Ápice Consultoria, das 9h de 9 de novembro de 2026 às 23h59 de 9 de dezembro de 2026. As taxas são de R$ 30,00 para nível fundamental, R$ 50,00 para os níveis médio e técnico e R$ 70,00 para nível superior.\nA seleção terá prova escrita objetiva para todos os cargos, prevista para 31 de janeiro de 2027. Haverá também prova prática, de caráter eliminatório e classificatório, para Motorista \"D\" e Motorista \"D\" Ambulância, prevista para 14 de março de 2027, e prova de títulos, de caráter classificatório, para os cargos de nível superior.\nOs cargos são efetivos e regidos pelo Regime Jurídico Único.\nO concurso terá validade de dois anos, contados da publicação da homologação no Diário Oficial do Município. O prazo poderá ser prorrogado a critério da administração municipal, conforme a Constituição Federal.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Administrativo",
     "Assistente Social",
@@ -7087,14 +7961,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Clínico Geral",
     "Odontólogo",
-    "Enfermeiro",
-    "Farmacêutico"
+    "Assistente Social",
+    "Educador Físico"
    ],
+   "cargosGerais": [
+    "Agente Administrativo",
+    "Fiscal de Tributos e Arrecadação",
+    "Auxiliar de Limpeza de Vias Públicas",
+    "Motorista \"D\"",
+    "Agente de Vigilância Sanitária",
+    "Motorista \"D\" Ambulância",
+    "Psicopedagogo",
+    "Psicopedagogo Educacional"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Clínico Geral, Odontólogo, Assistente Social. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -7139,6 +8025,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado do Rio Grande do Sul, o Município de São José do Inhacorá abriu um Concurso Público para preencher vagas e formar cadastro de reserva em funções que variam da alfabetização ao ensino superior.\nSegundo o edital, as oportunidades são para os cargos de:\nGrupo 1\n• Agente Educacional (3 vagas)\n• Educador Social (cadastro de reserva)\nGrupo 2\n• Professor de Educação Especial AEE (cadastro de reserva)\n• Professor de Anos Iniciais 20h (2 vagas)\n• Professor de Anos Iniciais 40h (2 vagas)\n• Professor de Arte (1 vaga)\n• Professor de Computação e Inovação (1 vaga)\n• Professor de Educação Física (1 vaga)\n• Professor de Educação Infantil 25h (5 vagas)\n• Professor de Educação Infantil 40h (3 vagas)\n• Professor de Língua Inglesa (cadastro de reserva)\n• Professor de História (1 vaga)\n• Professor de Língua Portuguesa (1 vaga)\n• Professor de Matemática (cadastro de reserva)\nGrupo 3\n• Almoxarife (cadastro de reserva)\n• Merendeira (1 vaga)\n• Motorista (cadastro de reserva)\n• Operário (cadastro de reserva)\nGrupo 4\n• Dentista (cadastro de reserva)\n• Nutricionista (1 vaga)\nAs jornadas variam de 20 a 40 horas semanais, com vencimentos de R$ 1.798,62 a R$ 9.885,71. O profissional da educação lotado em escola de difícil acesso receberá gratificação de R$ 429,34.\nAs inscrições serão realizadas de 30 de outubro de 2026 a 23 de novembro de 2026, exclusivamente pelo site Premier Concursos, até às 23h59 do último dia. As taxas são de R$ 73,29, R$ 104,70 ou R$ 125,64, conforme o cargo. O pagamento poderá ser feito até 24 de novembro de 2026. Haverá computador disponível para inscrição no Telecentro da Rua Frei Leonardo Braun, nº 415, Centro, em dias úteis, das 8h às 11h30 e das 13h30 às 17h30.\nA seleção terá prova escrita, eliminatória e classificatória, para todos os cargos. Também haverá prova prática, eliminatória e classificatória, para candidatos aos cargos de Merendeira, Motorista e Operário aprovados até a 20ª colocação, e prova de títulos, classificatória, para professores. A prova escrita está prevista para 20 de dezembro de 2026, em horário e local a serem divulgados.\nOs aprovados serão nomeados para cargos efetivos sob regime estatutário, conforme a ordem de classificação.\nO concurso terá validade de dois anos a partir da homologação da classificação final e poderá ser prorrogado por mais dois anos, a critério do município.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1798.62,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Educacional",
     "Educador Social",
@@ -7164,14 +8052,24 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Dentista",
     "Professor de Educação Especial AEE",
     "Professor de Anos Iniciais 20h",
     "Professor de Anos Iniciais 40h"
    ],
+   "cargosGerais": [
+    "Agente Educacional",
+    "Educador Social",
+    "Almoxarife",
+    "Merendeira",
+    "Motorista",
+    "Operário"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Dentista, Professor de Educação Especial AEE, Professor de Anos Iniciais 20h. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -7216,6 +8114,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de São Carlos, no Estado de São Paulo, realizará um Concurso Público destinado a preencher vagas e formar cadastro de reserva para candidatos com ensino médio ou superior, conforme a função.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino médio\n• Agente Educacional (1 vaga)\n• Auxiliar Administrativo Escolar (1 vaga)\n• Instrutor de Libras (Preferencialmente Surdo) (1 vaga)\nEnsino superior\n• Coordenador Pedagógico (1 vaga)\n• Diretor Adjunto de Escola (cadastro de reserva)\n• Diretor de Escola (1 vaga)\n• Intérprete Educacional de Libras (1 vaga)\n• Professor I (10 vagas)\n• Professor III - Educação Especial (1 vaga)\n• Professor III - Educação Física (1 vaga)\n• Professor III - Geografia (1 vaga)\n• Professor III - Matemática (1 vaga)\n• Professor IV (1 vaga)\n• Supervisor de Ensino (cadastro de reserva)\nAs jornadas variam de 24 a 40 horas semanais. Os salários iniciais vão de R$ 2.867,00 a R$ 9.701,00.\nAs inscrições serão realizadas de 12 de novembro de 2026 a 1º de dezembro de 2026, pelo site do INDEPAC, conforme o horário oficial de Brasília. As taxas são de R$ 55,00 para cargos de ensino médio e R$ 65,00 para cargos de ensino superior, com pagamento por boleto até 2 de dezembro de 2026. Doadores de medula óssea e de sangue que atendam aos requisitos do edital poderão solicitar isenção de 12 a 17 de novembro de 2026.\nA seleção terá prova objetiva para todos os cargos. Haverá prova de títulos para os cargos de ensino superior e prova prática para Instrutor de Libras (Preferencialmente Surdo) e Intérprete Educacional de Libras. A prova objetiva está prevista para 20 de dezembro de 2026. A prova prática está prevista para 14 de fevereiro de 2027.\nAs contratações ocorrerão pelo regime celetista, conforme a necessidade do município e a ordem de classificação.\nO concurso terá validade de dois anos, contados da homologação, com possibilidade de prorrogação por mais dois anos.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2867,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Educacional",
     "Auxiliar Administrativo Escolar",
@@ -7235,14 +8135,22 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Instrutor de Libras",
     "Coordenador Pedagógico",
-    "Professor I",
-    "Professor III - Educação Especial",
-    "Professor III - Educação Física"
+    "Diretor de Escola",
+    "Intérprete Educacional de Libras"
    ],
+   "cargosGerais": [
+    "Agente Educacional",
+    "Auxiliar Administrativo Escolar",
+    "Diretor Adjunto de Escola",
+    "Supervisor de Ensino"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Instrutor de Libras, Coordenador Pedagógico, Diretor de Escola. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -7287,6 +8195,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Universidade Estadual de Campinas (Unicamp) abriu dois processos seletivos públicos temporários para preencher vagas de nível médio/técnico e superior, com exigência de registro no respectivo conselho de classe.\nSegundo os editais, as oportunidades são para os cargos de:\n• Enfermeiro, edital nº 73/2026 (1 vaga)\n• Técnico de Enfermagem, edital nº 74/2026 (2 vagas)\nA jornada é de 30 horas semanais, com remuneração inicial de R$ 5.122,67 a R$ 9.659,46. São previstos auxílio-alimentação de R$ 2.000,00 mensais, vale-refeição de R$ 50,00 por dia trabalhado e auxílio-saúde de até R$ 900,00 mensais, conforme as regras dos editais.\nAs inscrições serão realizadas pelo site www.dgrh.unicamp.br, das 9h de 23 de novembro de 2026 às 23h59 de 27 de novembro de 2026. A taxa varia de R$ 36,00 a R$ 52,00.\nA seleção terá prova escrita objetiva, eliminatória e classificatória.\nAs contratações serão por prazo determinado, pelo regime da Consolidação das Leis do Trabalho (CLT).\nOs processos seletivos terão validade de um ano, contado da publicação da homologação, com possibilidade de prorrogação por igual período, a critério da Unicamp.\nMais informações podem ser obtidas nos editais completos.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 5122.67,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Enfermeiro, edital nº 73/2026",
     "Técnico de Enfermagem, edital nº 74/2026"
@@ -7294,12 +8204,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Enfermeiro, edital nº 73/2026",
-    "Enfermeiro"
+    "Técnico de Enfermagem, edital nº 74/2026",
+    "Enfermeiro",
+    "Técnico de Enfermagem"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Enfermeiro, edital nº 73/2026, Técnico de Enfermagem, edital nº 74/2026, Enfermeiro. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -7344,6 +8259,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Serviço Autônomo Municipal de Água e Saneamento Ambiental (SAMASA) de Três Barras, no Estado de Santa Catarina, abriu um Concurso Público para preencher oito vagas efetivas de nível médio e superior.\nA retificação nº 01 esclarece que o cargo de Auxiliar Administrativo exige ensino médio completo, enquanto o de Assistente Administrativo exige ensino superior completo.\nConforme a retificação nº 02 do edital, o cargo de Tesoureiro exige ensino superior completo em Ciências Contábeis, Administração, Economia ou outras áreas correlatas, entendidas como cursos cujos egressos sejam habilitados ao registro no CRC, CRA ou CORECON, além de registro profissional ativo no respectivo conselho.\nSegundo o edital, as oportunidades são para os cargos de:\n• Auxiliar Administrativo (2 vagas)\n• Assistente Administrativo (2 vagas)\n• Contador (1 vaga)\n• Engenheiro Químico (1 vaga)\n• Engenheiro Sanitarista (1 vaga)\n• Tesoureiro (1 vaga)\nA jornada é de 20 ou 40 horas semanais, conforme o cargo. Os vencimentos variam de R$ 3.113,56 a R$ 9.500,00.\nAs inscrições serão realizadas pelo site unesc.selecao.net.br, das 10h do dia 28 de outubro de 2026 às 16h do dia 26 de novembro de 2026, no horário de Brasília. A taxa é de R$ 120,00 para cargos de nível médio e de R$ 150,00 para cargos de nível superior. A isenção poderá ser solicitada até o dia 11 de novembro de 2026 por candidatos que atendam às condições previstas no edital, incluindo doadores de sangue, medula óssea ou leite humano, inscritos no CadÚnico, pessoas com deficiência e voluntários da Justiça Eleitoral.\nA seleção terá prova objetiva, de caráter eliminatório e classificatório, para todos os cargos, e prova de títulos, de caráter classificatório, para os cargos de nível superior. A prova objetiva será aplicada em 13 de dezembro de 2026.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado definitivo, e poderá ser prorrogado uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 3113.56,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar Administrativo",
     "Assistente Administrativo",
@@ -7355,13 +8272,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Engenheiro Químico",
     "Engenheiro Sanitarista",
     "Contador"
    ],
+   "cargosGerais": [
+    "Auxiliar Administrativo",
+    "Assistente Administrativo",
+    "Tesoureiro"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Engenheiro Químico, Engenheiro Sanitarista, Contador. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -7406,6 +8330,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Rio Grande do Sul, a Prefeitura Municipal de Sede Nova abriu um Concurso Público e um Processo Seletivo Público para preencher vagas e formar cadastro de reserva em funções de nível fundamental (incompleto ou completo), médio, técnico e superior.\nSegundo os editais, as oportunidades são para os cargos de:\nConcurso Público nº 01/2026\n• Agente de Contratação (cadastro reserva)\n• Analista de Tesouraria (cadastro reserva)\n• Assistente Social (cadastro reserva)\n• Assistente Social Educacional (cadastro reserva)\n• Auditor Fiscal da Receita Municipal (cadastro reserva)\n• Contador (1 vaga e cadastro reserva)\n• Dentista (1 vaga e cadastro reserva)\n• Farmacêutico (1 vaga e cadastro reserva)\n• Fiscal de Contratos (cadastro reserva)\n• Gestor de Recursos Humanos (cadastro reserva)\n• Inspetor Sanitário e Ambiental (cadastro reserva)\n• Nutricionista (cadastro reserva)\n• Procurador Jurídico (1 vaga e cadastro reserva)\n• Professor de Artes, séries finais do ensino fundamental (cadastro reserva)\n• Professor de Computação (1 vaga e cadastro reserva)\n• Professor de Educação Física, séries finais do ensino fundamental (cadastro reserva)\n• Professor de História, séries finais do ensino fundamental (cadastro reserva)\n• Professor de Português, séries finais do ensino fundamental (cadastro reserva)\n• Psicólogo (cadastro reserva)\n• Psicólogo Educacional (1 vaga e cadastro reserva)\n• Técnico-pedagógico (1 vaga e cadastro reserva)\n• Técnico em Agropecuária (1 vaga e cadastro reserva)\n• Técnico em Enfermagem (cadastro reserva)\n• Técnico Contábil (cadastro reserva)\n• Atendente Educacional (8 vagas e cadastro reserva)\n• Controlador de Materiais (1 vaga e cadastro reserva)\n• Inspetor Tributário (cadastro reserva)\n• Monitor Auxiliar (5 vagas e cadastro reserva)\n• Secretário de Escola (cadastro reserva)\n• Professor de 22 horas, educação infantil e séries iniciais (9 vagas e cadastro reserva)\n• Auxiliar de Administração (cadastro reserva)\n• Operador de Máquinas (6 vagas e cadastro reserva)\n• Motorista (6 vagas e cadastro reserva)\n• Zelador (cadastro reserva)\nProcesso Seletivo Público nº 06/2026\n• Agente Comunitário de Saúde, UBS Sede Nova (cadastro reserva)\n• Agente de Combate a Endemias (1 vaga e cadastro reserva)\n• Auxiliar de Saúde Bucal (1 vaga e cadastro reserva)\nAs jornadas variam de 22 a 44 horas semanais. Os vencimentos básicos vão de R$ 2.045,10 a R$ 9.339,29. Ambos os editais preveem vale-alimentação mensal de 40 VRM.\nAs inscrições para os dois certames serão feitas exclusivamente pela internet, no site da FUNDATEC, de 19 de novembro de 2026 a 18 de dezembro de 2026. As taxas são de R$ 70,00 para nível fundamental, R$ 100,00 para nível médio e técnico e R$ 140,00 para nível superior. O pagamento poderá ser feito até 21 de dezembro de 2026.\nTodos os candidatos farão prova teórico-objetiva, de caráter eliminatório e classificatório, prevista para 24 de janeiro de 2027. No concurso, os candidatos aprovados para cargos de professor também passarão por prova de títulos, de caráter classificatório. Para Motorista e Operador de Máquinas, haverá prova prática, de caráter eliminatório e classificatório, prevista para 3 e/ou 4 de abril de 2027.\nOs cargos do concurso público têm ingresso pelo regime estatutário. Os empregos do processo seletivo seguem o regime celetista.\nO concurso e o processo seletivo terão validade de dois anos, contados da homologação dos respectivos resultados finais. Cada prazo poderá ser prorrogado uma única vez por igual período.\nMais informações podem ser obtidas nos editais completos.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2045.1,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Contratação",
     "Analista de Tesouraria",
@@ -7448,14 +8374,28 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Dentista",
     "Auditor Fiscal da Receita Municipal",
     "Procurador Jurídico",
-    "Contador"
+    "Assistente Social"
    ],
+   "cargosGerais": [
+    "Agente de Contratação",
+    "Analista de Tesouraria",
+    "Fiscal de Contratos",
+    "Gestor de Recursos Humanos",
+    "Inspetor Sanitário e Ambiental",
+    "Atendente Educacional",
+    "Controlador de Materiais",
+    "Inspetor Tributário"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [
+    "Auditor Fiscal da Receita Municipal"
+   ],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Dentista, Auditor Fiscal da Receita Municipal, Procurador Jurídico. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Etapas de prova não detalhadas (base)",
@@ -7500,6 +8440,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Cândido Rodrigues, no Estado de São Paulo, abriu um Concurso Público destinado a preencher vagas e formar cadastro de reserva para candidatos com ensino fundamental (incompleto ou completo), médio (incompleto ou completo), formação técnica e ensino superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Merendeira (2 vagas)\n• Motorista (1 vaga)\n• Serviços Gerais (2 vagas)\n• Auxiliar de Cirurgião Dentista (1 vaga)\n• Instrutor de Artes (1 vaga)\n• Operador de Máquinas e Equipamentos Pesados (1 vaga)\n• Operador de Trator e Máquinas Leves (1 vaga)\n• Pedreiro (1 vaga)\n• Auxiliar de Farmácia (1 vaga)\n• Diretor de Transporte da Secretaria Municipal de Saúde (1 vaga)\n• Eletricista (1 vaga)\n• Ouvidor (1 vaga)\n• Monitor de Educação Infantil (1 vaga)\n• Secretário (1 vaga)\n• Agente de Organização e Inspeção (1 vaga)\n• Técnico em Enfermagem (1 vaga)\n• Guarda-Vidas (1 vaga)\n• Analista Educacional (1 vaga)\n• Assistente Social (cadastro reserva)\n• Cirurgião Dentista, 20 horas (1 vaga)\n• Contador (cadastro reserva)\n• Controlador Interno (1 vaga)\n• Coordenador de Regulação da Saúde (1 vaga)\n• Diretor Escolar (1 vaga)\n• Enfermeiro (1 vaga)\n• Engenheiro Agrônomo (cadastro reserva)\n• Engenheiro Civil (cadastro reserva)\n• Farmacêutico (cadastro reserva)\n• Fisioterapeuta (cadastro reserva)\n• Monitor de Informática (cadastro reserva)\n• Nutricionista (cadastro reserva)\n• Procurador Jurídico (cadastro reserva)\n• Professor de Educação Básica I (1 vaga)\n• Professor de Educação Básica I, Educação Especial ou AEE (cadastro reserva)\n• Professor de Educação Básica II, Artes (1 vaga)\n• Professor de Educação Básica II, Ciências (cadastro reserva)\n• Professor de Educação Básica II, Educação Física (cadastro reserva)\n• Professor de Educação Básica II, Geografia (cadastro reserva)\n• Professor de Educação Básica II, História (cadastro reserva)\n• Professor de Educação Básica II, Língua Espanhola (cadastro reserva)\n• Professor de Educação Básica II, Língua Inglesa (cadastro reserva)\n• Professor de Educação Básica II, Língua Portuguesa (cadastro reserva)\n• Professor de Educação Básica II, Matemática (cadastro reserva)\n• Psicólogo, 20 horas (cadastro reserva)\n• Veterinário (cadastro reserva)\nAs jornadas variam de 20 a 40 horas semanais, conforme o cargo. Os professores recebem R$ 25,65 por hora-aula. Para os demais cargos, os salários-base vão de R$ 1.921,82 a R$ 8.862,24.\nAs inscrições serão feitas exclusivamente pelo site da Fênix Concursos, das 10h de 20 de novembro de 2026 às 10h de 4 de dezembro de 2026, no horário de Brasília. As taxas são de R$ 50,00, R$ 70,00 ou R$ 90,00, conforme o cargo. Não haverá isenção parcial ou total.\nA seleção terá prova objetiva para todos os cargos, prova prática para Motorista, Serviços Gerais, Operador de Máquinas e Equipamentos Pesados, Operador de Trator e Máquinas Leves e Pedreiro, além de avaliação de títulos para os cargos de nível superior. A prova objetiva está prevista para 17 de janeiro de 2027.\nO concurso terá validade de dois anos e poderá ser prorrogado uma vez por igual período, a critério da Prefeitura.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1921.82,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Merendeira",
     "Motorista",
@@ -7550,14 +8492,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Auxiliar de Cirurgião Dentista",
     "Cirurgião Dentista, 20 horas",
     "Engenheiro Agrônomo",
     "Engenheiro Civil"
    ],
+   "cargosGerais": [
+    "Merendeira",
+    "Motorista",
+    "Serviços Gerais",
+    "Operador de Máquinas e Equipamentos Pesados",
+    "Operador de Trator e Máquinas Leves",
+    "Pedreiro",
+    "Diretor de Transporte da Secretaria Municipal de Saúde",
+    "Ouvidor"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Auxiliar de Cirurgião Dentista, Cirurgião Dentista, 20 horas, Engenheiro Agrônomo. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -7602,6 +8556,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Lagoa Santa, no Estado de Minas Gerais, abriu um Concurso Público visando preencher vagas e formar cadastro de reserva para profissionais de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Operador de Máquinas (2 vagas)\n• Agente Administrativo (29 vagas)\n• Agente de Proteção e Defesa Civil (4 vagas)\n• Técnico de Laboratório (1 vaga)\n• Técnico em Segurança do Trabalho (2 vagas)\n• Auditor de Controle Interno em Contabilidade (1 vaga)\n• Auditor Fiscal da Receita Municipal (1 vaga)\n• Biólogo (1 vaga)\n• Contador (1 vaga)\n• Enfermeiro (1 vaga)\n• Engenheiro Civil (2 vagas)\n• Farmacêutico (8 vagas)\n• Fiscal de Vigilância Sanitária (2 vagas)\n• Fisioterapeuta (2 vagas)\n• Fonoaudiólogo (1 vaga)\n• Nutricionista (1 vaga)\n• Procurador Municipal (1 vaga)\n• Professor B - Séries Finais do Ensino Fundamental e EJA - Ciências (1 vaga)\n• Professor B - Séries Finais do Ensino Fundamental e EJA - Geografia (1 vaga)\n• Terapeuta Ocupacional (3 vagas)\n• Auditor de Controle Interno em Engenharia (1 vaga)\n• Auditor de Controle Interno em Saúde (1 vaga)\n• Cirurgião Dentista - Atendimento Especial (3 vagas)\n• Cirurgião Dentista - Endodontista (1 vaga)\n• Cirurgião Dentista - Odontopediatra (2 vagas)\n• Engenheiro de Segurança do Trabalho (1 vaga)\n• Médico Dermatologista (1 vaga)\n• Médico Endocrinologista (Cadastro de Reserva)\n• Médico Ginecologista (Cadastro de Reserva)\n• Médico Infectologista (1 vaga)\n• Médico Ortopedista (Cadastro de Reserva)\n• Médico Otorrinolaringologista (1 vaga)\n• Médico Pediatra (1 vaga)\n• Médico Pneumologista (1 vaga)\nA jornada de trabalho varia conforme o cargo, entre 12 e 40 horas semanais. As remunerações iniciais vão de R$ 2.220,57 a R$ 8.860,79, conforme a função.\nAs inscrições deverão ser realizadas no site www.ibgpconcursos.com.br das 9h do dia 16 de dezembro de 2026 até às 16h do dia 18 de janeiro de 2027. As taxas são de R$ 50,00 para nível fundamental, R$ 65,00 para nível médio/técnico e R$ 100,00 para nível superior. O pagamento poderá ser feito até o dia 19 de janeiro de 2027.\nA seleção acontecerá por meio de prova objetiva para todos os cargos, prevista para o dia 21 de fevereiro de 2027, em dois turnos, conforme informado no edital. Para os cargos de Professor B - Ciências e Professor B - Geografia haverá também prova discursiva (redação). Todos os cargos de nível superior terão prova de títulos classificatória.\nO concurso terá validade de dois anos a partir da homologação do resultado final, podendo ser prorrogado uma única vez pelo mesmo período.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2220.57,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Operador de Máquinas",
     "Agente Administrativo",
@@ -7641,14 +8597,24 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Cirurgião Dentista - Atendimento Especial",
     "Cirurgião Dentista - Endodontista",
     "Cirurgião Dentista - Odontopediatra",
     "Médico Dermatologista"
    ],
+   "cargosGerais": [
+    "Operador de Máquinas",
+    "Agente Administrativo",
+    "Agente de Proteção e Defesa Civil",
+    "Fiscal de Vigilância Sanitária"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [
+    "Auditor Fiscal da Receita Municipal"
+   ],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Cirurgião Dentista - Atendimento Especial, Cirurgião Dentista - Endodontista, Cirurgião Dentista - Odontopediatra. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -7695,6 +8661,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado do Rio Grande do Sul, a Prefeitura Municipal de Novo Xingu realiza Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente Administrativo (1 vaga)\n• Analista Administrativo (1 vaga)\n• Auditor Fiscal da Receita Municipal (1 vaga)\n• Auxiliar de Apoio Operacional (1 vaga)\n• Contador Municipal 40h (1 vaga)\n• Engenheiro Civil\n• Engenheiro Sanitarista e Ambiental (1 vaga)\n• Fonoaudiólogo (1 vaga)\n• Mecânico\n• Monitor (1 vaga)\n• Motorista\n• Operário (1 vaga)\n• Operador de Máquinas (1 vaga)\n• Técnico em Informática (1 vaga)\n• Vigilante (1 vaga)\nAs jornadas são de 20 a 40 horas semanais, com remuneração inicial de R$ 1.626,94 a R$ 8.797,52. O edital também prevê vale-alimentação de R$ 600,16.\nAs inscrições devem ser feitas no site do Instituto Objetiva, das 13h de 30 de outubro de 2026 às 13h de 30 de novembro de 2026. As taxas são de R$ 90,00, R$ 120,00 ou R$ 150,00, conforme o cargo. Membros de famílias de baixa renda inscritos no CadÚnico poderão solicitar isenção das 13h de 30 de outubro de 2026 às 13h de 4 de novembro de 2026. Durante os dias úteis do período de inscrição, haverá computador com acesso à internet no Centro de Apoio Educacional, na Avenida Emilio Knaak, nº 1.160, Bairro Centro, das 7h30 às 11h30.\nA seleção terá prova objetiva para todos os candidatos com inscrição homologada e prova prática, em segunda etapa, para Mecânico, Motorista, Operador de Máquinas e Operário. A prova objetiva está prevista para o dia 24 de janeiro de 2027 e a prática para o dia 14 de março de 2027.\nOs aprovados serão nomeados conforme a necessidade e a disponibilidade orçamentária do município, sob regime estatutário.\nO concurso terá validade de dois anos, contados da publicação da homologação final, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1626.94,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Administrativo",
     "Analista Administrativo",
@@ -7715,14 +8683,28 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Auditor Fiscal da Receita Municipal",
     "Engenheiro Civil",
     "Engenheiro Sanitarista e Ambiental",
     "Contador Municipal 40h"
    ],
+   "cargosGerais": [
+    "Agente Administrativo",
+    "Analista Administrativo",
+    "Auxiliar de Apoio Operacional",
+    "Monitor",
+    "Motorista",
+    "Operário",
+    "Operador de Máquinas",
+    "Vigilante"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [
+    "Auditor Fiscal da Receita Municipal"
+   ],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Auditor Fiscal da Receita Municipal, Engenheiro Civil, Engenheiro Sanitarista e Ambiental. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -7767,6 +8749,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Santa Luzia, em Minas Gerais, tornou público o Concurso Público destinado ao provimento de cargos efetivos de nível fundamental, médio, técnico e superior.\nDe acordo com o edital, as oportunidades são para os cargos de:\n• Analista Administrativo (24 vagas)\n• Analista de Sistemas (1 vaga)\n• Arqueólogo (1 vaga)\n• Arquiteto e Urbanista (2 vagas)\n• Arquivista (1 vaga)\n• Assistente Administrativo (32 vagas)\n• Assistente da Procuradoria (1 vaga)\n• Assistente Social (9 vagas)\n• Auditor (1 vaga)\n• Auxiliar de Secretaria (14 vagas)\n• Auxiliar de Serviço Educacional (9 vagas)\n• Bibliotecário (1 vaga)\n• Biólogo (1 vaga)\n• Cerimonialista (CR)\n• Contador (1 vaga)\n• Controlador Interno (CR)\n• Coveiro (1 vaga)\n• Dentista (17 vagas)\n• Economista (1 vaga)\n• Enfermeiro (50 vagas)\n• Engenheiro Civil (9 vagas)\n• Engenheiro Agrimensor (CR)\n• Engenheiro Agrônomo (CR)\n• Engenheiro Ambiental (4 vagas)\n• Engenheiro de Segurança no Trabalho (1 vaga)\n• Engenheiro de Trânsito (CR)\n• Engenheiro Eletricista (CR)\n• Engenheiro Florestal (1 vaga)\n• Engenheiro Sanitário (1 vaga)\n• Farmacêutico (3 vagas)\n• Fiscal Ambiental (1 vaga)\n• Fiscal de Posturas (3 vagas)\n• Fiscal de Tributos (1 vaga)\n• Fiscal Sanitário II (8 vagas)\n• Fisioterapeuta (12 vagas)\n• Fonoaudiólogo (6 vagas)\n• Geógrafo (CR)\n• Geólogo (1 vaga)\n• Historiador (1 vaga)\n• Jornalista (CR)\n• Médico do Trabalho (1 vaga)\n• Médico Generalista (1 vaga)\n• Médico Veterinário (2 vagas)\n• Museólogo (CR)\n• Nutricionista (9 vagas)\n• Oficial Fazendário (1 vaga)\n• Pregoeiro (CR)\n• Professor de Educação Básica PEB II (156 vagas)\n• Professor de Educação Básica PEB III Arte (1 vaga)\n• Professor de Educação Básica PEB III Ciências (1 vaga)\n• Professor de Educação Básica PEB III Educação Física (CR)\n• Professor de Educação Básica PEB III Ensino Religioso (1 vaga)\n• Professor de Educação Básica PEB III Geografia (2 vagas)\n• Professor de Educação Básica PEB III História (3 vagas)\n• Professor de Educação Básica PEB III Inglês (1 vaga)\n• Professor de Educação Básica PEB III Língua Portuguesa (1 vaga)\n• Professor de Educação Básica PEB III Matemática (7 vagas)\n• Psicólogo (12 vagas)\n• Supervisor Pedagógico (CR)\n• Técnico Agrícola (1 vaga)\n• Técnico Ambiental (CR)\n• Técnico em Saúde Bucal (12 vagas)\n• Técnico em Edificações (8 vagas)\n• Técnico em Enfermagem (CR)\n• Técnico em Geoprocessamento (1 vaga)\n• Técnico em Informática (2 vagas)\n• Técnico em Paisagismo (CR)\n• Terapeuta Ocupacional (4 vagas)\n• Tesoureiro (1 vaga)\n• Topógrafo (3 vagas)\n• Turismólogo (1 vaga)\n• Procurador Municipal (3 vagas)\nA jornada de trabalho é de 20 a 40 horas semanais, conforme o cargo. As remunerações variam de R$ 1.622,41 a R$ 8.628,87.\nAs inscrições poderão ser realizadas das 8h do dia 17 de dezembro de 2026 até as 17h do dia 15 de janeiro de 2027 exclusivamente pelo site cotec.fadenor.com.br. As taxas de inscrição vão de R$ 70,00 a R$ 175,00 conforme o cargo. Haverá isenção para inscritos no CadÚnico no período de 14 a 16 de dezembro de 2026, conforme especificado no edital.\nA seleção será realizada por meio de prova objetiva de múltipla escolha para todos os cargos, prevista para ser aplicada no dia 14 de março de 2027. Para cargos específicos haverá ainda prova discursiva (redação ou parecer jurídico) e prova de títulos.\nOs candidatos aprovados serão contratados sob o regime estatutário.\nO prazo de validade do concurso será de 2 anos, a contar da data de sua homologação, podendo ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1622.41,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Analista Administrativo",
     "Analista de Sistemas",
@@ -7844,14 +8828,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Dentista",
     "Médico do Trabalho",
     "Médico Generalista",
     "Médico Veterinário"
    ],
+   "cargosGerais": [
+    "Analista Administrativo",
+    "Arqueólogo",
+    "Assistente Administrativo",
+    "Auxiliar de Secretaria",
+    "Auxiliar de Serviço Educacional",
+    "Cerimonialista",
+    "Coveiro",
+    "Fiscal Ambiental"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Dentista, Médico do Trabalho, Médico Generalista. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -7898,6 +8894,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Pernambuco, a Câmara Municipal de Petrolina abriu um Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível médio e superior.\nSegundo o edital, as oportunidades são para os seguintes cargos:\nAnalista Legislativo\n• Produtor Multimídia (1 vaga)\n• Redator de Atas e Termos (1 vaga)\n• Revisor de Textos (1 vaga)\n• Tecnologia da Informação (1 vaga)\n• Tradutor e Intérprete de Libras (2 vagas)\nProcurador\n• Procurador (1 vaga)\nTécnico Legislativo\n• Área Administrativa (5 vagas)\n• Área Legislativa (5 vagas)\nA jornada é de 30 horas semanais para todos os cargos. Os vencimentos básicos variam de R$ 3.512,00 a R$ 8.561,42.\nAs inscrições serão realizadas de 6 de novembro de 2026 a 5 de dezembro de 2026, exclusivamente pelo site do IDECAN, conforme o horário oficial de Brasília. A taxa é de R$ 120,00 para nível médio e R$ 140,00 para nível superior, com pagamento até 7 de dezembro de 2026. Candidatos inscritos no CadÚnico que sejam membros de família de baixa renda e doadores de medula óssea poderão solicitar isenção de 6 a 7 de novembro de 2026.\nA seleção terá prova objetiva, eliminatória e classificatória, para todos os cargos. Haverá também prova de títulos, classificatória, para Analista Legislativo e Procurador. As provas objetivas estão previstas para 17 de janeiro de 2027. Candidatos às vagas reservadas passarão pelos procedimentos de avaliação ou verificação previstos no edital.\nOs nomeados estarão sujeitos ao regime jurídico estatutário.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final. O prazo poderá ser prorrogado uma única vez por igual período, a critério da Câmara Municipal de Petrolina.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 3512,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Produtor Multimídia",
     "Redator de Atas e Termos",
@@ -7911,11 +8909,24 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
-    "Procurador"
+    "Procurador",
+    "Tecnologia da Informação",
+    "Tradutor e Intérprete de Libras"
    ],
+   "cargosGerais": [
+    "Produtor Multimídia",
+    "Redator de Atas e Termos",
+    "Revisor de Textos",
+    "Área Administrativa",
+    "Área Legislativa",
+    "Analista Legislativo",
+    "Técnico Legislativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Procurador, Tecnologia da Informação, Tradutor e Intérprete de Libras. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -7960,6 +8971,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Consórcio Público Intermunicipal Multifinalitário da Microrregião do Circuito das Águas (CIMAG) lançou um concurso público destinado ao preenchimento de duas vagas para médicos veterinários.\nSegundo o edital, as oportunidades são para os cargos de:\n• Médico Veterinário Júnior (1 vaga)\n• Médico Veterinário Sênior (1 vaga)\nA jornada de trabalho é de 40 horas semanais. As remunerações são de R$ 4.000,00 para o Médico Veterinário Júnior e de R$ 8.300,00 para o Médico Veterinário Sênior.\nAs inscrições poderão ser feitas de 24 de outubro de 2026, às 15h, até 23 de novembro de 2026, às 15h, pelo site www.eloassessoriaeservicos.com.br ou de forma presencial na sede do CIMAG (Avenida Camilo Soares, 100, Centro, Caxambu/MG). A taxa de inscrição é de R$ 120,00 para o Médico Veterinário Júnior e de R$ 249,00 para o Médico Veterinário Sênior. Candidatos de baixa renda poderão solicitar isenção entre os dias 19 e 21 de outubro de 2026.\nA seleção será composta por prova objetiva de múltipla escolha para todos os cargos, de caráter eliminatório e classificatório, com aplicação prevista para o dia 20 de dezembro de 2026. Haverá também prova de títulos, de caráter classificatório.\nA contratação será sob o regime CLT, e os contratados estarão sujeitos ao Regime Geral de Previdência Social (RGPS).\nO concurso terá validade de 2 anos, a partir da homologação do resultado final, podendo ser prorrogado uma única vez, por igual período.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Médico Veterinário Júnior",
     "Médico Veterinário Sênior"
@@ -7967,12 +8980,15 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Veterinário Júnior",
     "Médico Veterinário Sênior"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -8017,6 +9033,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura de Campo Grande do Piauí abriu um Concurso Público para preencher vagas efetivas e formar cadastro de reserva para profissionais de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível superior\n• Auditor Fiscal de Tributos (1 vaga)\n• Analista Jurídico (1 vaga)\n• Agente de Comunicação Social (1 vaga)\n• Médico Veterinário (1 vaga)\n• Médico PSF (1 vaga)\n• Médico Clínico Geral (1 vaga)\n• Enfermeiro (1 vaga)\n• Fisioterapeuta (1 vaga)\n• Educador Físico (2 vagas)\n• Dentista (1 vaga)\n• Farmacêutico (1 vaga)\n• Psicólogo (Saúde) (1 vaga)\n• Psicólogo (Assistência Social)\n• Nutricionista (Saúde) (1 vaga)\n• Analista em Saúde Pública (1 vaga)\n• Fonoaudiólogo (1 vaga)\n• Terapeuta Ocupacional (1 vaga)\n• Assistente Social (Assistência Social) (1 vaga)\n• Assistente Social (Educação) (1 vaga)\n• Psicólogo (Educação) (1 vaga)\n• Nutricionista (Educação) (1 vaga)\n• Professor de Educação Infantil (6 vagas)\n• Professor de Ciências (1 vaga)\n• Professor de Ciências da Computação (1 vaga)\n• Professor de Educação Física (2 vagas)\n• Professor de Geografia (1 vaga)\n• Professor de História (1 vaga)\n• Professor Intérprete de Libras\n• Professor de Inglês (1 vaga)\n• Professor de Língua Portuguesa (1 vaga)\n• Professor de Matemática (2 vagas)\n• Professor Polivalente (6 vagas)\n• Psicopedagogo\n• Guarda Civil Municipal (4 vagas)\nNível médio e técnico\n• Técnico Administrativo (1 vaga)\n• Motorista de Caminhão (2 vagas)\n• Fiscal de Obras (1 vaga)\n• Técnico em Saúde Bucal (1 vaga)\n• Protético\n• Agente de Combate às Endemias (1 vaga)\n• Agente Comunitário de Saúde, microárea Sede\n• Agente Comunitário de Saúde, microárea Km 80 (1 vaga)\n• Agente Comunitário de Saúde, microárea Canela de Velho (1 vaga)\n• Agente Comunitário de Saúde, microárea Carnaiba (1 vaga)\n• Agente Comunitário de Saúde, microárea Serra do Croá, Km 84, Baixa da Cela e Buriti\n• Agente Comunitário de Saúde, microárea Crauno e Urupeu\n• Agente Comunitário de Saúde, microárea Chapada Nova I e II e Pau Ferro\n• Agente Comunitário de Saúde, microárea Serra de Dentro, Serra dos Camilos, Serra do Cajueiro e Feijão Bravo\n• Agente Comunitário de Saúde, microárea Feijão Bravo, Tiúba, Cacimbinha e Palmeiras\n• Agente Comunitário de Saúde, microárea Morrinhos, São José, Caiçara e Saco Grande\n• Agente Comunitário de Saúde, microárea Serra do Campo Grande e Coab\n• Agente Comunitário de Saúde, microárea Sede e São Domingos\n• Agente Comunitário de Saúde, microárea Carnaiba\n• Agente Comunitário de Saúde, microárea Serra de Dentro, Serra São Francisco, Béus, Serra Nova e Provisio\n• Agente Comunitário de Saúde, microárea Novo Horizonte\n• Agente Comunitário de Saúde, microárea Jatobá e Baixa do Milho\n• Técnico em Enfermagem (3 vagas)\n• Técnico em Agropecuária (1 vaga)\n• Auxiliar Administrativo Escolar (2 vagas)\nNível fundamental\n• Agente de Serviços Públicos (Administração) (1 vaga)\n• Agente de Serviços Públicos (Assistência Social) (1 vaga)\n• Agente de Serviços Públicos (Agricultura) (1 vaga)\n• Operador de Máquinas Pesadas (1 vaga)\n• Motorista da Saúde (2 vagas)\n• Motorista de Ambulância (2 vagas)\n• Agente de Serviços Públicos, Recepcionista (Saúde) (2 vagas)\n• Motorista (Assistência Social) (1 vaga)\n• Agente de Serviços Públicos, Recepcionista (Assistência Social) (1 vaga)\n• Agente de Serviços Públicos, Recepcionista (Agricultura) (1 vaga)\n• Motorista de Ônibus Escolar (1 vaga)\n• Merendeira (6 vagas)\n• Zelador (4 vagas)\n• Motorista da Educação (1 vaga)\n• Vigia (3 vagas)\nAs jornadas variam de 20 a 40 horas semanais, com remuneração de R$ 1.621,00 a R$ 8.257,00. Para Guarda Civil Municipal, o edital prevê gratificação além do vencimento de R$ 1.621,00. Para Técnico em Enfermagem, prevê complemento do piso salarial da enfermagem.\nAs inscrições serão feitas exclusivamente pelo site do Instituto Brasileiro de Estudos e Desenvolvimento (IBED), de 30 de outubro de 2026 a 25 de novembro de 2026, até às 19h, no horário de Brasília. As taxas são de R$ 80,00 para nível fundamental, R$ 90,00 para nível médio e R$ 110,00 para nível superior. Inscritos no CadÚnico que sejam membros de família de baixa renda poderão solicitar isenção de 3 a 4 de novembro de 2026, até às 19h.\nA seleção terá prova objetiva para todos os cargos e prova de títulos para os de nível superior. Para Guarda Civil Municipal, haverá ainda teste de aptidão física, avaliação psicológica, exames de saúde, investigação social e curso de formação de 200 horas. As provas objetivas estão previstas para 13 de dezembro de 2026, em Campo Grande do Piauí, com possibilidade de aplicação em municípios próximos.\nO concurso terá validade de 12 meses, contados da homologação do resultado final. O prazo poderá ser prorrogado uma vez por igual período, a critério da Administração Pública.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auditor Fiscal de Tributos",
     "Analista Jurídico",
@@ -8094,14 +9112,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Veterinário",
     "Médico PSF",
     "Médico Clínico Geral",
     "Dentista"
    ],
+   "cargosGerais": [
+    "Analista Jurídico",
+    "Agente de Comunicação Social",
+    "Analista em Saúde Pública",
+    "Psicopedagogo",
+    "Guarda Civil Municipal",
+    "Técnico Administrativo",
+    "Motorista de Caminhão",
+    "Fiscal de Obras"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Veterinário, Médico PSF, Médico Clínico Geral. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -8148,6 +9178,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Minas Gerais, a Câmara Municipal de Jacutinga abriu um concurso público com o objetivo de preencher quatro vagas e formar cadastro de reserva para profissionais de nível fundamental incompleto, médio completo, técnico ou superior completo.\nSegundo o edital, as oportunidades são para os cargos de:\n• Auxiliar de Serviços Gerais (CR)\n• Auxiliar de Secretaria (3 vagas + CR)\n• Contador Geral (1 vaga + CR)\nA jornada é de 40 horas semanais. Os salários variam de R$ 1.767,82 a R$ 8.054,31. Todos os cargos têm auxílio-alimentação mensal de R$ 519,65.\nAs inscrições serão feitas no site institutoindec.org.br, de 28 de dezembro de 2026 a 4 de fevereiro de 2027. A taxa é de R$ 65,00 para Auxiliar de Serviços Gerais, R$ 85,00 para Auxiliar de Secretaria e R$ 95,00 para Contador Geral.\nA seleção terá etapa única, com prova objetiva cuja aplicação está prevista para 7 de março de 2027.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1767.82,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Serviços Gerais",
     "Auxiliar de Secretaria",
@@ -8156,11 +9188,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Contador Geral"
    ],
+   "cargosGerais": [
+    "Auxiliar de Serviços Gerais",
+    "Auxiliar de Secretaria"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Contador Geral. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -8205,6 +9243,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Universidade Estadual do Paraná (Unespar) abriu um Processo Seletivo Simplificado para preencher vagas temporárias de Agente Universitário Profissional. Todas as funções exigem ensino superior.\nSegundo o edital, as oportunidades são para os cargos de:\nApucarana\n• Biomédico (1 vaga)\nCuritiba I\n• Comunicador Social (1 vaga)\nCuritiba II\n• Bibliotecário (1 vaga)\nParanavaí\n• Enfermeiro (1 vaga)\n• Biólogo (1 vaga)\n• Biomédico (1 vaga)\nUnião da Vitória\n• Contador (1 vaga)\n• Enfermeiro (1 vaga)\nReitoria, com lotação em Apucarana\n• Engenheiro Civil (1 vaga)\nReitoria, com lotação em Paranavaí\n• Engenheiro Civil (1 vaga)\n• Engenheiro Eletricista (1 vaga)\nReitoria, com lotação em Curitiba\n• Contador (1 vaga)\n• Assistente Social (1 vaga)\nA jornada é de 40 horas semanais, com vencimento indicado de R$ 7.997,72 para todas as funções.\nAs inscrições devem ser feitas de 16 a 30 de novembro de 2026, exclusivamente pelo site da Unespar. A taxa é de R$ 150,00. Pedidos de isenção podem ser apresentados de 16 a 17 de novembro de 2026, na ficha de inscrição, por candidatos que atendam às condições previstas no edital.\nA seleção terá prova objetiva, de caráter eliminatório e classificatório, e prova de títulos, de caráter classificatório. A prova objetiva está prevista para 21 de fevereiro de 2027, às 15h, no campus de inscrição do candidato. Os documentos para a prova de títulos deverão ser enviados pelo Menu do Candidato de 11 a 12 de março de 2027.\nO processo seletivo terá validade de 12 meses, contados da publicação da homologação do resultado final no Diário Oficial do Estado do Paraná. O prazo poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Biomédico",
     "Comunicador Social",
@@ -8223,14 +9263,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Biomédico",
     "Engenheiro Civil",
     "Engenheiro Eletricista",
-    "Enfermeiro",
-    "Contador"
+    "Bibliotecário"
    ],
+   "cargosGerais": [
+    "Comunicador Social"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -8275,6 +9320,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Universidade Estadual do Oeste do Paraná (UNIOESTE) divulgou o edital do Processo Seletivo Simplificado para a contratação temporária de agentes universitários de nível médio e superior, destinado ao Hospital Universitário do Oeste do Paraná (HUOP).\nSegundo o edital, as oportunidades são para os cargos de:\nAgente Universitário Profissional (Cadastro de Reserva)\n• Assistente Social (1 vaga)\n• Bioquímico (1 vaga)\n• Contador (1 vaga)\n• Enfermeiro (1 vaga)\n• Engenheiro de Segurança do Trabalho (1 vaga)\n• Farmacêutico (1 vaga)\n• Fisioterapeuta (1 vaga)\n• Nutricionista (1 vaga)\n• Pedagogo (1 vaga)\n• Psicólogo (1 vaga)\nAgente Universitário de Execução (Cadastro de Reserva)\n• Técnico Administrativo (1 vaga)\n• Técnico em Enfermagem (1 vaga)\n• Técnico em Higiene Dental (1 vaga)\n• Técnico em Laboratório (1 vaga)\n• Técnico em Segurança do Trabalho (1 vaga)\nA jornada é de 40 horas semanais. A remuneração é de R$ 7.997,72 para o Agente Profissional e de R$ 4.443,18 para o Agente de Execução, acrescida de Gratificação por Atividade de Saúde (GAS) no valor de R$ 1.428,03.\nAs inscrições poderão ser realizadas exclusivamente no site www.unioeste.br, de 8 de outubro de 2026 a 30 de novembro de 2026. A taxa é de R$ 150,00 para cargos de nível superior e R$ 100,00 para nível médio, com possibilidade de isenção de 8 a 19 de outubro de 2026, conforme os critérios do edital.\nA seleção será realizada em etapa única, por meio de prova escrita objetiva, de caráter eliminatório e classificatório. A prova está prevista para o dia 17 de janeiro de 2027, no Campus de Cascavel da UNIOESTE.\nO contrato de trabalho terá duração de 6 meses, podendo ser prorrogado a critério da instituição, até o limite de 2 anos, em regime especial (CRES).\nO processo seletivo terá validade de 1 ano, a partir da homologação do resultado final, podendo ser prorrogado uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Social",
     "Bioquímico",
@@ -8295,14 +9342,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Engenheiro de Segurança do Trabalho",
+    "Assistente Social",
     "Contador",
-    "Enfermeiro",
-    "Farmacêutico"
+    "Enfermeiro"
    ],
+   "cargosGerais": [
+    "Bioquímico",
+    "Técnico Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Engenheiro de Segurança do Trabalho, Assistente Social, Contador. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -8347,6 +9400,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Pinhalzinho, no Estado de São Paulo, realizará um Concurso Público para preencher vagas e formar cadastro de reserva para cargos que exigem alfabetização ou ensino fundamental, médio ou superior.\nSegundo o edital, as oportunidades são para os cargos de:\nAlfabetizado\n• Coveiro (1 vaga)\nEnsino fundamental\n• Motorista (2 vagas)\n• Tratorista (1 vaga)\nEnsino médio\n• Atendente (1 vaga)\nEnsino superior\n• Médico Neurologista (1 vaga)\n• Professor de Creche (2 vagas)\n• Professor de Educação Básica I - Fundamental (2 vagas)\n• Professor de Educação Básica II - Ciências (1 vaga)\n• Professor de Educação Básica II - Educação Física (1 vaga)\n• Professor de Educação Básica II - Geografia (1 vaga)\n• Professor de Educação Básica II - História (1 vaga)\n• Professor de Educação Básica II - Inglês (1 vaga)\n• Professor de Educação Básica II - Língua Portuguesa (1 vaga)\n• Professor de Educação Básica II - Matemática (1 vaga)\n• Professor de Educação Básica de Educação Inclusiva (1 vaga)\n• Professor de Educação Básica de Educação Inclusiva Libras (1 vaga)\nA jornada varia de 8 a 40 horas semanais, conforme o cargo. Os salários iniciais vão de R$ 1.886,70 a R$ 7.723,14. Para os cargos de professor com remuneração por hora-aula, o valor é de R$ 26,42.\nAs inscrições serão feitas de 9 a 29 de novembro de 2026, pelo site INDEPAC, observado o horário oficial de Brasília. As taxas são de R$ 40,00, R$ 50,00 ou R$ 70,00, conforme o cargo, e o boleto vence em 30 de novembro de 2026.\nTodos os candidatos farão prova objetiva, prevista para 20 de dezembro de 2026. Haverá também prova de títulos para os cargos de professor e prova prática para Coveiro, Motorista e Tratorista.\nO provimento dos cargos será pelo regime da Consolidação das Leis do Trabalho (CLT).\nO concurso terá validade de dois anos a partir da homologação, podendo ser prorrogado por mais dois anos, a critério do município.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1886.7,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Coveiro",
     "Motorista",
@@ -8368,14 +9423,22 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Neurologista",
     "Professor de Creche",
     "Professor de Educação Básica I - Fundamental",
     "Professor de Educação Básica II - Ciências"
    ],
+   "cargosGerais": [
+    "Coveiro",
+    "Motorista",
+    "Tratorista",
+    "Atendente"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Neurologista, Professor de Creche, Professor de Educação Básica I - Fundamental. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -8420,6 +9483,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Câmara Municipal de Aral Moreira, no Estado de Mato Grosso do Sul, abriu um Concurso Público para preencher quatro vagas em cargos efetivos e formar cadastro de reserva. Há oportunidades para candidatos com nível superior, médio e fundamental completo e incompleto.\nSegundo o edital, as oportunidades são para os cargos de:\nNível superior\n• Controlador Interno (1 vaga)\nNível médio\n• Técnico em Informática (cadastro de reserva)\n• Técnico Legislativo (cadastro de reserva)\nNível fundamental completo\n• Assistente Legislativo - Recepcionista (1 vaga)\nNível fundamental incompleto\n• Agente Legislativo - Auxiliar de Serviços Gerais (1 vaga)\n• Agente Legislativo - Copeira (1 vaga)\nA jornada é de 30 horas semanais para todos os cargos. Os vencimentos iniciais variam de R$ 2.294,92 a R$ 7.566,00.\nAs inscrições serão feitas exclusivamente pelo site concursos.sigmams.com.br, das 0h de 12 de novembro de 2026 às 23h59 de 22 de novembro de 2026, no horário de Mato Grosso do Sul. As taxas variam de R$ 45,00 a R$ 130,00, conforme a escolaridade. Candidatos inscritos no CadÚnico poderão solicitar isenção pelo sistema até às 23h59 de 15 de novembro de 2026, mediante envio dos documentos exigidos.\nA seleção terá prova objetiva, eliminatória e classificatória, prevista para 13 de dezembro de 2026. Os aprovados nessa etapa participarão da avaliação de títulos, de caráter classificatório.\nOs aprovados nomeados estarão sujeitos ao regime jurídico estatutário dos servidores públicos do município.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2294.92,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Controlador Interno",
     "Técnico em Informática",
@@ -8431,9 +9496,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Controlador Interno",
+    "Técnico em Informática"
+   ],
+   "cargosGerais": [
+    "Técnico Legislativo",
+    "Assistente Legislativo - Recepcionista",
+    "Agente Legislativo - Auxiliar de Serviços Gerais",
+    "Agente Legislativo - Copeira"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Controlador Interno, Técnico em Informática. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -8478,6 +9554,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Câmara Municipal de Pomerode, no Estado de Santa Catarina, divulgou o edital do Concurso Público destinado ao provimento de cargos efetivos de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Assistente Legislativo (1 vaga)\n• Analista Administrativo (1 vaga)\nA jornada de trabalho é de 40 horas semanais para ambos os cargos. A remuneração é de R$ 5.101,54 para Assistente Legislativo e de R$ 7.491,77 para Analista Administrativo, além de auxílio-transporte de R$ 380,00 e auxílio-alimentação de R$ 720,00.\nAs inscrições poderão ser realizadas das 8h do dia 26 de outubro de 2026 até às 23h59 do dia 24 de novembro de 2026, pelo site concursos.furb.br. A taxa de inscrição é de R$ 120,00 para nível médio e de R$ 170,00 para nível superior, com possibilidade de isenção conforme critérios do edital.\nA seleção será composta por prova objetiva, de caráter eliminatório e classificatório, prevista para o dia 13 de dezembro de 2026, e avaliação psicológica para os candidatos aprovados na primeira etapa.\nA contratação será pelo regime estatutário, conforme o Regime Jurídico Único dos Servidores Públicos do Município de Pomerode.\nO certame terá validade de 2 anos, a contar da homologação do resultado final, podendo ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Legislativo",
     "Analista Administrativo"
@@ -8485,9 +9563,15 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [],
+   "cargosGerais": [
+    "Assistente Legislativo",
+    "Analista Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "provavel",
+   "acessoMotivo": "Nenhum cargo de formação específica foi encontrado, então o maior salário deve ser de um cargo de nível médio ou de superior geral. Confira a tabela de cargos no edital.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -8532,6 +9616,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, o Município de Faxinal dos Guedes abriu o Concurso Público nº 01/2026 e o Processo Seletivo nº 002/2026. Os editais oferecem vagas imediatas e formação de cadastro de reserva para candidatos alfabetizados e com ensino médio ou superior, além de funções docentes que admitem estudantes de licenciatura a partir da quinta fase.\nSegundo os editais, as oportunidades são para os cargos de:\nConcurso Público nº 01/2026\n• Agente de Manutenção e Conservação (1 vaga e cadastro reserva)\n• Agente de Serviços Gerais (1 vaga e cadastro reserva)\n• Motorista (1 vaga e cadastro reserva)\n• Operador de Máquinas (1 vaga e cadastro reserva)\n• Auxiliar de Ensino (5 vagas e cadastro reserva)\n• Assistente Social (cadastro reserva)\n• Engenheiro Civil (cadastro reserva)\n• Farmacêutico (cadastro reserva)\n• Médico Especialista em Endocrinologia (1 vaga e cadastro reserva)\n• Nutricionista (1 vaga e cadastro reserva)\n• Psicólogo (cadastro reserva)\n• Professor de 1º a 5º Ano, 20 horas (cadastro reserva)\n• Professor de 1º a 5º Ano, 40 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Ensino Religioso, 20 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Língua Portuguesa, 20 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Matemática, 20 horas (cadastro reserva)\n• Professor de Arte, 20 horas (cadastro reserva)\n• Professor de Educação Especial, 20 horas (cadastro reserva)\n• Professor de Educação Especial, 40 horas (cadastro reserva)\n• Professor de Educação Física, Licenciatura, 20 horas (cadastro reserva)\n• Professor de Educação Infantil, 20 horas (cadastro reserva)\n• Psicopedagogo (1 vaga e cadastro reserva)\nProcesso Seletivo nº 002/2026\n• Agente de Serviços Gerais (cadastro reserva)\n• Cozinheira (cadastro reserva)\n• Motorista (cadastro reserva)\n• Auxiliar de Ensino (cadastro reserva)\n• Farmacêutico (cadastro reserva)\n• Professor de 1º a 5º Ano, habilitado, 20 horas (cadastro reserva)\n• Professor de 1º a 5º Ano, não habilitado, 20 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Ensino Religioso, habilitado, 20 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Ensino Religioso, habilitado, 30 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Ensino Religioso, não habilitado, 20 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Ensino Religioso, não habilitado, 30 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Matemática, habilitado, 20 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Matemática, habilitado, 40 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Matemática, não habilitado, 20 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Matemática, não habilitado, 40 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Língua Portuguesa, habilitado, 20 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Língua Portuguesa, habilitado, 40 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Língua Portuguesa, não habilitado, 20 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Ciências, habilitado, 40 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Ciências, habilitado, 20 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Ciências, não habilitado, 40 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Ciências, não habilitado, 20 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Geografia, habilitado, 40 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Geografia, habilitado, 20 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Geografia, não habilitado, 40 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, Geografia, não habilitado, 20 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, História, habilitado, 40 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, História, habilitado, 20 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, História, não habilitado, 40 horas (cadastro reserva)\n• Professor de 6º a 9º Ano, História, não habilitado, 20 horas (cadastro reserva)\n• Professor de Arte, habilitado, 20 horas (cadastro reserva)\n• Professor de Arte, habilitado, 40 horas (cadastro reserva)\n• Professor de Arte, não habilitado, 20 horas (cadastro reserva)\n• Professor de Arte, não habilitado, 40 horas (cadastro reserva)\n• Professor de Educação Especial, habilitado, 20 horas (cadastro reserva)\n• Professor de Educação Especial, habilitado, 40 horas (cadastro reserva)\n• Professor de Educação Especial, não habilitado, 20 horas (cadastro reserva)\n• Professor de Educação Especial, não habilitado, 40 horas (cadastro reserva)\n• Professor de Educação Física, Licenciatura, habilitado, 20 horas (cadastro reserva)\n• Professor de Educação Física, Licenciatura, habilitado, 40 horas (cadastro reserva)\n• Professor de Educação Infantil, habilitado, 20 horas (cadastro reserva)\n• Professor de Educação Infantil, não habilitado, 20 horas (cadastro reserva)\n• Professor de Espanhol, habilitado, 20 horas (cadastro reserva)\n• Professor de Espanhol, habilitado, 40 horas (cadastro reserva)\n• Professor de Espanhol, não habilitado, 20 horas (cadastro reserva)\n• Professor de Espanhol, não habilitado, 40 horas (cadastro reserva)\n• Professor de Língua Inglesa, habilitado, 20 horas (cadastro reserva)\n• Professor de Língua Inglesa, não habilitado, 20 horas (cadastro reserva)\n• Professor de Língua Inglesa, não habilitado, 40 horas (cadastro reserva)\nAs jornadas são de 8 a 40 horas semanais no concurso, com vencimentos iniciais de R$ 2.155,24 a R$ 7.454,79. No processo seletivo, são de 20 a 40 horas semanais, com vencimentos iniciais de R$ 2.155,24 a R$ 6.182,75.\nAs inscrições serão feitas exclusivamente pelo site do Instituto Fênix, de 7 de novembro de 2026 a 7 de dezembro de 2026. As taxas são de R$ 100,00 para cargos de nível alfabetizado, R$ 120,00 para nível médio e R$ 150,00 para nível superior. Doadores de sangue fidelizados, doadores de medula óssea e candidatos de baixa renda inscritos no Cadastro Único poderão solicitar isenção de 7 a 26 de novembro de 2026, conforme os requisitos dos editais.\nA seleção terá prova objetiva para todos os cargos, prova de títulos para as funções docentes indicadas nos editais e prova prática para Motorista e Operador de Máquinas. As provas objetivas estão previstas para 13 de dezembro de 2026. As provas práticas estão previstas para 19 de dezembro de 2026.\nO concurso terá validade de dois anos, e o processo seletivo, de um ano, contados das respectivas homologações finais. Cada prazo poderá ser prorrogado uma vez por igual período, conforme a necessidade da administração municipal.\nMais informações podem ser obtidas nos editais completos.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2155.24,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Manutenção e Conservação",
     "Agente de Serviços Gerais",
@@ -8608,14 +9694,25 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Especialista em Endocrinologia",
     "Engenheiro Civil",
-    "Farmacêutico",
-    "Nutricionista"
+    "Assistente Social",
+    "Farmacêutico"
    ],
+   "cargosGerais": [
+    "Agente de Manutenção e Conservação",
+    "Agente de Serviços Gerais",
+    "Motorista",
+    "Operador de Máquinas",
+    "Auxiliar de Ensino",
+    "Psicopedagogo",
+    "Cozinheira"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Especialista em Endocrinologia, Engenheiro Civil, Assistente Social. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -8660,6 +9757,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Câmara Municipal de Sete Barras, no Estado de São Paulo, abriu um Concurso Público para preencher três vagas e formar cadastro de reserva em empregos de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino médio\n• Motorista (cadastro de reserva)\n• Zelador (cadastro de reserva)\nNível superior\n• Agente Administrativo (1 vaga e cadastro de reserva)\n• Agente Técnico Legislativo (1 vaga e cadastro de reserva)\n• Assistente Administrativo (1 vaga e cadastro de reserva)\n• Diretor Geral Legislativo (cadastro de reserva)\n• Assessor Jurídico (cadastro de reserva)\n• Controlador Interno (cadastro de reserva)\n• Contador (cadastro de reserva)\nAs jornadas são de 20 ou 40 horas semanais, com remuneração de R$ 3.193,30 a R$ 7.434,85. Os benefícios são auxílio-alimentação de R$ 800,00, vale-refeição de R$ 30,00 por dia e vale-transporte.\nAs inscrições serão realizadas pelo site www.abconcursospublicos.org, de 4 de novembro de 2026 até às 23h59 de 7 de dezembro de 2026. A taxa é de R$ 75,00 para nível médio e R$ 95,00 para nível superior. O pagamento do boleto poderá ser feito até 8 de dezembro de 2026.\nA seleção terá prova objetiva, de caráter eliminatório e classificatório, para todos os empregos, e prova de títulos, de caráter classificatório, para os empregos de nível superior. A prova objetiva está prevista para 20 de dezembro de 2026, em Sete Barras (SP). Se necessário, poderá ocorrer em cidades próximas.\nAs contratações serão pelo regime celetista.\nO concurso terá validade de dois anos a partir da homologação, podendo ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 3193.3,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Motorista",
     "Zelador",
@@ -8674,11 +9773,23 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Controlador Interno",
     "Contador"
    ],
+   "cargosGerais": [
+    "Motorista",
+    "Zelador",
+    "Agente Administrativo",
+    "Agente Técnico Legislativo",
+    "Assistente Administrativo",
+    "Diretor Geral Legislativo",
+    "Assessor Jurídico"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Controlador Interno, Contador. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -8723,6 +9834,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Monteiro Lobato, no Estado de São Paulo, divulgou um Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino fundamental completo\n• Auxiliar de Conservação de Vias Permanentes (2 vagas)\n• Auxiliar de Serviços Gerais (4 vagas)\n• Eletricista (cadastro de reserva)\n• Motorista (4 vagas)\n• Pedreiro (cadastro de reserva)\n• Vigia (cadastro de reserva)\nEnsino médio completo\n• Agente Administrativo I (4 vagas)\n• Agente Administrativo II (cadastro de reserva)\n• Agente Administrativo III (4 vagas)\n• Agente Comunitário de Saúde Bairro São Benedito (1 vaga)\n• Agente de Endemias (cadastro de reserva)\n• Agente de Organização Escolar (cadastro de reserva)\n• Agente Educador (5 vagas)\n• Chefe de Pessoal (1 vaga)\n• Fiscal de Obras e Posturas (cadastro de reserva)\n• Mecânico (cadastro de reserva)\n• Merendeira (5 vagas)\n• Monitor Escolar (5 vagas)\n• Operador de Máquinas (cadastro de reserva)\nEnsino médio/técnico\n• Auxiliar de Saúde Bucal (cadastro de reserva)\n• Coordenador de Tributos (cadastro de reserva)\n• Fiscal de Tributos (1 vaga)\n• Técnico de Enfermagem (4 vagas)\n• Tesoureiro (cadastro de reserva)\nEnsino superior\n• Analista de Controle Interno (1 vaga)\n• Assistente Social (2 vagas)\n• Contador (1 vaga)\n• Coordenador do CRAS (1 vaga)\n• Dentista (40h) (1 vaga)\n• Enfermeiro (3 vagas)\n• Fonoaudiólogo (2 vagas)\n• Médico Veterinário (40h) (1 vaga)\n• Nutricionista (cadastro de reserva)\n• Orientador Educacional (cadastro de reserva)\n• Procurador Jurídico (1 vaga)\n• Professor de Artes (1 vaga)\n• Professor de Educação Básica I (4 vagas)\n• Professor de Educação Física (30h) (cadastro de reserva)\n• Professor de Educação Infantil (5 vagas)\n• Psicólogo (20h) (1 vaga)\n• Psicólogo (40h) (cadastro de reserva)\n• Terapeuta Ocupacional (cadastro de reserva)\nA jornada varia de 20 a 40 horas semanais. Os salários iniciais vão de R$ 1.803,38 a R$ 7.408,75.\nAs inscrições serão feitas de 23 de outubro de 2026 a 23 de novembro de 2026, pelo site do Instituto Aplicativa. As taxas variam de R$ 40,00 a R$ 60,00. Candidatos desempregados poderão solicitar isenção de 23 a 26 de outubro de 2026, mediante envio da documentação exigida pelo edital.\nA seleção terá prova objetiva para todos os empregos públicos. Haverá também prova dissertativa para Analista de Controle Interno, Contador e Procurador Jurídico; avaliação de títulos para Orientador Educacional e professores; prova prática para os empregos indicados no edital; e teste de aptidão física para Vigia. As provas escritas estão previstas para 13 de dezembro de 2026.\nAs contratações serão feitas conforme a necessidade do município, mediante contrato de trabalho sob o regime da Consolidação das Leis do Trabalho (CLT).\nO concurso terá validade de dois anos a partir da homologação, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1803.38,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Conservação de Vias Permanentes",
     "Auxiliar de Serviços Gerais",
@@ -8770,14 +9883,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Dentista",
     "Médico Veterinário",
     "Procurador Jurídico",
-    "Contador"
+    "Eletricista"
    ],
+   "cargosGerais": [
+    "Auxiliar de Conservação de Vias Permanentes",
+    "Auxiliar de Serviços Gerais",
+    "Motorista",
+    "Pedreiro",
+    "Vigia",
+    "Agente Administrativo I",
+    "Agente Administrativo II",
+    "Agente Administrativo III"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Dentista, Médico Veterinário, Procurador Jurídico. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -8824,6 +9949,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Espírito Santo, a Prefeitura Municipal de Anchieta abriu o Concurso Público nº 002/2026 com o objetivo de preencher vagas imediatas e formar cadastro de reserva para profissionais de nível médio com formação técnica ou de nível superior.\nSegundo o edital, as oportunidades são para os seguintes cargos:\nNível médio e técnico\n• Fiscal do Meio Ambiente (3 vagas)\n• Técnico de Tecnologia da Informação (1 vaga)\n• Técnico em Agrimensura (1 vaga)\n• Técnico em Agropecuária (1 vaga)\n• Técnico em Segurança do Trabalho (1 vaga)\nNível superior\n• Analista Ambiental (3 vagas)\n• Analista em Tecnologia da Informação (1 vaga)\n• Assistente Social (6 vagas)\n• Auditor de Controle Interno (1 vaga)\n• Bibliotecário (1 vaga)\n• Biólogo (1 vaga)\n• Contador (2 vagas)\n• Engenheiro, Área Civil (2 vagas)\n• Engenheiro de Segurança do Trabalho (1 vaga)\n• Fisioterapeuta (2 vagas)\n• Fonoaudiólogo (2 vagas)\n• Médico Veterinário (1 vaga)\n• Nutricionista (1 vaga)\n• Terapeuta Ocupacional (2 vagas)\nA jornada é de 30 ou 40 horas semanais, conforme o cargo. O subsídio varia de R$ 4.083,53 a R$ 7.362,50.\nAs inscrições serão realizadas pelo site www.idcap.org.br, de 18 de novembro de 2026 a 14 de dezembro de 2026. A taxa é de R$ 80,00 para cargos de nível médio e técnico e de R$ 100,00 para cargos de nível superior. O pedido de isenção poderá ser feito de 18 a 19 de novembro de 2026 por candidatos que atendam às condições previstas no edital, entre elas baixa renda, prestação de serviço à Justiça Eleitoral do Espírito Santo, doação de medula óssea ou sangue e deficiência.\nA seleção terá prova objetiva, de caráter classificatório e eliminatório, além de avaliação biopsicossocial para candidatos às vagas reservadas a pessoas com deficiência e heteroidentificação presencial para candidatos às vagas reservadas a pessoas negras. A prova objetiva está prevista para 21 de fevereiro de 2027.\nO concurso terá validade de dois anos, contados da homologação do resultado final, e poderá ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 4083.53,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Fiscal do Meio Ambiente",
     "Técnico de Tecnologia da Informação",
@@ -8848,14 +9975,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Veterinário",
     "Auditor de Controle Interno",
     "Engenheiro, Área Civil",
     "Engenheiro de Segurança do Trabalho"
    ],
+   "cargosGerais": [
+    "Fiscal do Meio Ambiente",
+    "Analista Ambiental"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Veterinário, Auditor de Controle Interno, Engenheiro, Área Civil. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -8900,6 +10033,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Alumínio, no Estado de São Paulo, abriu um Processo Seletivo para contratação temporária de profissionais da rede municipal de ensino no ano letivo de 2027 e formação de cadastro de reserva. A seleção é destinada a profissionais de nível fundamental incompleto, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino fundamental incompleto\n• Auxiliar de Serviço Educacional I - Merendeira\nEnsino médio completo\n• Inspetor de Alunos\n• Secretário de Escola\n• Auxiliar de Educação\nEnsino superior completo\n• Assistente Social da Educação\n• Psicólogo da Educação\nEducação\n• Auxiliar de Desenvolvimento Infantil ADI\n• Professor de Ciências\n• Professor de Educação Artística\n• Professor de Educação Especial\n• Professor de Educação Física\n• Professor de Ensino Básico I - Educação Infantil\n• Professor de Ensino Básico II Ciclos I e II\n• Professor de Ensino Fundamental I\n• Professor de Geografia\n• Professor de História\n• Professor de Informática I - Ciclos I e II\n• Professor de Informática II - Ciclos III e IV\n• Professor de Inglês\n• Professor de Matemática\n• Professor de Música I\n• Professor de Português\n• Professor Substituto I - Ciclos I\n• Professor Substituto II - Ciclos II e IV\nAs jornadas são de 24, 30 ou 40 horas semanais, conforme o emprego. Os vencimentos mensais variam de R$ 2.061,11 a R$ 7.285,25, e a remuneração por hora-aula é de R$ 34,84.\nAs inscrições poderão ser feitas das 8h do dia 28 de outubro de 2026 às 16h do dia 23 de novembro de 2026, pelo site do IGECS. As taxas são de R$ 32,80 para ensino fundamental incompleto, R$ 42,80 para ensino médio e R$ 62,80 para ensino superior. Não haverá isenção.\nA seleção terá prova objetiva, eliminatória e classificatória, para todos os candidatos. Para os empregos da área da educação, também haverá avaliação de títulos, opcional e classificatória. A prova objetiva está prevista para 13 de dezembro de 2026.\nA contratação será temporária, pelo regime da Consolidação das Leis do Trabalho (CLT). Cada contrato terá duração de seis meses e poderá ser prorrogado por períodos sucessivos de seis meses, até o limite de dois anos, enquanto persistir a necessidade temporária.\nO processo seletivo terá validade para o ano letivo de 2027, com vigência até 31 de dezembro de 2027, salvo disposição legal ou retificação que estabeleça prazo diferente.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2061.11,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Serviço Educacional I - Merendeira",
     "Inspetor de Alunos",
@@ -8929,14 +10064,22 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Auxiliar de Serviço Educacional I - Merendeira",
+    "Assistente Social da Educação",
     "Psicólogo da Educação",
-    "Professor de Ciências",
-    "Professor de Educação Artística",
-    "Professor de Educação Especial"
+    "Professor de Ciências"
    ],
+   "cargosGerais": [
+    "Inspetor de Alunos",
+    "Secretário de Escola",
+    "Auxiliar de Educação",
+    "Auxiliar de Desenvolvimento Infantil ADI"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Auxiliar de Serviço Educacional I - Merendeira, Assistente Social da Educação, Psicólogo da Educação. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -8983,6 +10126,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de São Paulo, a Prefeitura Municipal de São José da Bela Vista abriu um Concurso Público para formar cadastro de reserva em funções de nível médio e superior.\nUma retificação alterou o cronograma do concurso, prorrogando as inscrições e mudando a data da prova objetiva, assim como outras datas.\nSegundo o edital, as oportunidades são para os cargos de:\nNível médio completo\n• Agente Fiscal Tributário (cadastro de reserva)\n• Agente Orientador Escolar (cadastro de reserva)\n• Auxiliar de Farmácia (cadastro de reserva)\n• Fiscal de Rendas e Postura (cadastro de reserva)\nNível superior completo\n• Assistente Social (cadastro de reserva)\n• Coordenador Pedagógico de Educação Fundamental I (cadastro de reserva)\n• Farmacêutico (cadastro de reserva)\n• Fonoaudiólogo (cadastro de reserva)\n• Médico do Trabalho (cadastro de reserva)\n• Nutricionista (cadastro de reserva)\n• Nutricionista da Saúde (cadastro de reserva)\n• Professor de Educação Básica II - Artes (cadastro de reserva)\nAs jornadas variam de 20 a 40 horas semanais, conforme o cargo. Para Professor de Educação Básica II - Artes, a jornada é de 117 horas mensais. Os salários vão de R$ 1.621,00 a R$ 7.078,72. Todos os cargos têm auxílio-alimentação.\nAs inscrições serão recebidas pelo site institutoindec.org.br, de 23 de outubro de 2026 a 3 de dezembro de 2026. A taxa é de R$ 75,00 para os cargos de nível médio e de R$ 85,00 para os cargos de nível superior. O pagamento deverá ser feito até 4 de dezembro de 2026.\nTodos os candidatos farão prova objetiva, prevista para o dia 10 de janeiro de 2027. Também haverá prova de títulos, de caráter classificatório, para Coordenador Pedagógico de Educação Fundamental I e Professor de Educação Básica II - Artes. As provas estão previstas para São José da Bela Vista (SP), com possibilidade de aplicação em municípios próximos.\nOs aprovados serão admitidos sob o regime da Consolidação das Leis do Trabalho (CLT).\nO concurso terá validade de dois anos a partir da homologação, podendo ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Fiscal Tributário",
     "Agente Orientador Escolar",
@@ -9000,14 +10145,21 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico do Trabalho",
-    "Coordenador Pedagógico de Educação Fundamental I",
-    "Farmacêutico",
-    "Fonoaudiólogo"
+    "Auxiliar de Farmácia",
+    "Assistente Social",
+    "Coordenador Pedagógico de Educação Fundamental I"
    ],
+   "cargosGerais": [
+    "Agente Fiscal Tributário",
+    "Agente Orientador Escolar",
+    "Fiscal de Rendas e Postura"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico do Trabalho, Auxiliar de Farmácia, Assistente Social. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -9053,6 +10205,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Santa Branca, no Estado de São Paulo, abriu um Concurso Público para preencher vagas e formar cadastro de reserva em empregos de nível fundamental (incompleto ou completo), médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino fundamental incompleto\n• Vigilante\nEnsino fundamental completo\n• Motorista I (2 vagas)\n• Motorista de Transporte Escolar\n• Operador de Máquina Pesada\nEnsino médio e técnico completo\n• Agente Comunitário de Saúde, ESF 01, microárea 01\n• Agente Comunitário de Saúde, ESF 01, microárea 02\n• Agente Comunitário de Saúde, ESF 01, microárea 03\n• Agente Comunitário de Saúde, ESF 01, microárea 04\n• Agente Comunitário de Saúde, ESF 01, microárea 05\n• Agente Comunitário de Saúde, ESF 01, microárea 06\n• Agente Comunitário de Saúde, ESF 01, microárea 07\n• Agente Comunitário de Saúde, ESF 01, microárea 08\n• Agente Comunitário de Saúde, ESF 01, microárea 09\n• Agente Comunitário de Saúde, ESF 01, microárea 10\n• Agente Comunitário de Saúde, ESF 02, microárea 01\n• Agente Comunitário de Saúde, ESF 02, microárea 02\n• Agente Comunitário de Saúde, ESF 02, microárea 03\n• Agente Comunitário de Saúde, ESF 02, microárea 04\n• Agente Comunitário de Saúde, ESF 02, microárea 05 (1 vaga)\n• Agente Comunitário de Saúde, ESF 02, microárea 06\n• Agente Comunitário de Saúde, ESF 02, microárea 07\n• Agente Comunitário de Saúde, ESF 02, microárea 08\n• Agente Comunitário de Saúde, ESF 02, microárea 09\n• Agente Comunitário de Saúde, ESF 02, microárea 10\n• Agente Comunitário de Saúde, ESF 03, microárea 01\n• Agente Comunitário de Saúde, ESF 03, microárea 02\n• Agente Comunitário de Saúde, ESF 03, microárea 04\n• Agente Comunitário de Saúde, ESF 03, microárea 05\n• Agente Comunitário de Saúde, ESF 03, microárea 06\n• Agente Comunitário de Saúde, ESF 03, microárea 07 (1 vaga)\n• Agente Comunitário de Saúde, ESF 03, microárea 09\n• Agente Comunitário de Saúde, ESF 03, microárea 10\n• Agente Comunitário de Saúde, ESF 03, microárea 15\n• Agente Comunitário de Saúde, ESF 04, microárea 01\n• Agente Comunitário de Saúde, ESF 04, microárea 06\n• Agente Comunitário de Saúde, ESF 04, microárea 07\n• Fiscal Ambiental e de Proteção Animal (1 vaga)\n• Fiscal Sanitário\n• Monitor\n• Técnico em Farmácia\n• Técnico em Saúde Bucal\nEnsino superior completo\n• Advogado do CREAS (1 vaga)\n• Educador Físico\n• Fiscal Tributário\n• Fonoaudiólogo\n• Professor PEB III, Inglês\n• Terapeuta Ocupacional\nAs jornadas são de 20 a 40 horas semanais, conforme o emprego. Para Técnico em Farmácia, também há previsão de escala 12x36. Os salários vão de R$ 1.646,34 a R$ 6.892,33. Para Professor PEB III, Inglês, o valor é de R$ 25,65 por hora-aula. Todos os empregos têm auxílio-alimentação mensal de R$ 400,00.\nAs inscrições serão feitas pelo site do INDEC, de 9 de novembro de 2026 a 10 de dezembro de 2026, até as 23h59 do último dia. As taxas são de R$ 19,39 para os níveis fundamental incompleto e completo, R$ 24,10 para os níveis médio e técnico e R$ 31,50 para o nível superior. Candidatos inscritos no CadÚnico que sejam membros de família de baixa renda poderão solicitar isenção entre os dias 9 e 10 de novembro de 2026.\nTodos os candidatos farão prova objetiva, prevista para 17 de janeiro de 2027. O concurso também prevê teste de aptidão física para Monitor, teste de direção veicular para Motorista I, Motorista de Transporte Escolar e Operador de Máquina Pesada, e prova de títulos para os empregos de nível superior. Os testes práticos estão previstos para 21 de fevereiro de 2027.\nOs empregos efetivos serão preenchidos sob o regime da Consolidação das Leis do Trabalho (CLT).\nO concurso terá validade de dois anos, contados da homologação, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1646.34,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Vigilante",
     "Motorista I",
@@ -9105,13 +10259,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Advogado do CREAS",
-    "Fonoaudiólogo",
-    "Professor PEB III, Inglês"
+    "Agente Comunitário de Saúde, ESF 01, microárea 01",
+    "Agente Comunitário de Saúde, ESF 01, microárea 02",
+    "Agente Comunitário de Saúde, ESF 01, microárea 03"
    ],
+   "cargosGerais": [
+    "Vigilante",
+    "Motorista I",
+    "Motorista de Transporte Escolar",
+    "Operador de Máquina Pesada",
+    "Fiscal Ambiental e de Proteção Animal",
+    "Fiscal Sanitário",
+    "Monitor",
+    "Fiscal Tributário"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Advogado do CREAS, Agente Comunitário de Saúde, ESF 01, microárea 01, Agente Comunitário de Saúde, ESF 01, microárea 02. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -9156,6 +10323,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Jandira, no Estado de São Paulo, abriu o Concurso Público nº 1/2026 para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino fundamental\n• Ajudante Geral Masculino (20 vagas)\n• Auxiliar de Cozinha Hospitalar (3 vagas)\n• Coveiro (4 vagas)\n• Eletricista Predial (1 vaga)\n• Encanador (2 vagas)\n• Jardineiro (cadastro de reserva)\n• Mecânico de Automóveis (cadastro de reserva)\n• Monitor de Curso de Cabeleireiro (1 vaga)\n• Monitor de Curso em Tecidos e Fios (1 vaga)\n• Monitor de Curso Manicure e Pedicure (1 vaga)\n• Pedreiro (2 vagas)\nEnsino médio\n• Agente de Defesa Ambiental (1 vaga)\n• Agente de Trânsito (5 vagas)\n• Agente Fiscal de Postura (1 vaga)\n• Agente Social (10 vagas)\n• Assistente de Controle de Trânsito (2 vagas)\n• Assistente de Pessoal (cadastro de reserva)\n• Assistente de Tributos e Rendas (5 vagas)\n• Auxiliar Administrativo (125 vagas)\n• Auxiliar de Comunicação e Eventos (1 vaga)\n• Auxiliar de Habitação e Urbanismo (cadastro de reserva)\n• Instrutor de Curso de Violão (1 vaga)\n• Instrutor de Música Clássica (1 vaga)\n• Motorista (10 vagas)\n• Orientador Social (22 vagas)\n• Técnico em Edificações (cadastro de reserva)\n• Técnico em Tecnologia da Informação (2 vagas)\n• Topógrafo (1 vaga)\nEnsino superior\n• Agente de Contratação (2 vagas)\n• Agente Fiscal de Renda (1 vaga)\n• Analista Administrativo (6 vagas)\n• Analista de Benefícios Previdenciários (1 vaga)\n• Analista de Contratação (cadastro de reserva)\n• Analista de Controle de Convênio (1 vaga)\n• Analista de Controle Interno (cadastro de reserva)\n• Analista de Folha de Pagamento (1 vaga)\n• Analista de Rede (cadastro de reserva)\n• Arquiteto (1 vaga)\n• Arquivista (1 vaga)\n• Assistente Social (19 vagas)\n• Biólogo (1 vaga)\n• Contador (cadastro de reserva)\n• Engenheiro Ambiental (cadastro de reserva)\n• Engenheiro Civil (1 vaga)\n• Engenheiro Florestal (1 vaga)\n• Fonoaudiólogo (5 vagas)\n• Instrutor de Curso de Dança Popular (2 vagas)\n• Instrutor de Curso de Dança Clássica (1 vaga)\n• Instrutor Esportivo (8 vagas)\n• Nutricionista (9 vagas)\n• Orientador Jurídico Social (cadastro de reserva)\n• Psicólogo (25 vagas)\nAs jornadas variam de 25 a 40 horas semanais, conforme o cargo. A remuneração inicial vai de R$ 1.621,00 a R$ 6.812,14, com adicionais de insalubridade, periculosidade ou gratificação de produtividade nos cargos indicados no edital. A prefeitura oferece cartão-alimentação e auxílio-transporte.\nAs inscrições serão feitas exclusivamente pelo site da Fundação Vunesp, das 10h de 16 de novembro de 2026 às 23h59 de 4 de janeiro de 2027. As taxas são de R$ 67,00 para ensino fundamental, R$ 80,00 para ensino médio e R$ 115,00 para ensino superior. Candidatos que comprovarem duas doações de sangue nos 12 meses anteriores à inscrição poderão solicitar isenção das 10h de 16 de novembro às 23h59 de 17 de novembro de 2026.\nA seleção terá prova objetiva para todos os cargos e prova prática para Coveiro, Eletricista Predial, Encanador, Jardineiro, Mecânico de Automóveis, os três cargos de Monitor Curso, Pedreiro, Instrutor de Curso de Violão, Instrutor de Música Clássica e Motorista. As provas objetivas estão previstas para a tarde de 21 de fevereiro de 2027, para os cargos de ensino fundamental e superior, e de 28 de fevereiro de 2027, para os de ensino médio. A aplicação será em Jandira (SP), podendo ocorrer em municípios próximos.\nOs nomeados estarão sujeitos ao regime estatutário municipal.\nO concurso terá validade de dois anos, contados da publicação da homologação, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Ajudante Geral Masculino",
     "Auxiliar de Cozinha Hospitalar",
@@ -9213,14 +10382,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Engenheiro Ambiental",
     "Engenheiro Civil",
     "Engenheiro Florestal",
-    "Arquiteto"
+    "Eletricista Predial"
    ],
+   "cargosGerais": [
+    "Ajudante Geral Masculino",
+    "Auxiliar de Cozinha Hospitalar",
+    "Coveiro",
+    "Encanador",
+    "Jardineiro",
+    "Monitor de Curso de Cabeleireiro",
+    "Monitor de Curso em Tecidos e Fios",
+    "Monitor de Curso Manicure e Pedicure"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Engenheiro Ambiental, Engenheiro Civil, Engenheiro Florestal. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -9267,6 +10448,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de São Paulo, a Prefeitura do Município de Osasco abriu o Processo Seletivo nº 001/2026 para preencher vagas em empregos de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Auxiliar em Saúde Bucal (12 vagas)\n• Cirurgião Dentista - Cirurgia e Traumatologia Bucomaxilofacial (2 vagas)\n• Cirurgião Dentista - Endodontia (4 vagas)\n• Cirurgião Dentista - Odontopediatria (1 vaga)\n• Cirurgião Dentista - Periodontia (1 vaga)\n• Cirurgião Dentista - PNE (Pacientes com Necessidades Especiais) (2 vagas)\n• Cirurgião Dentista - Prótese (1 vaga)\nA jornada é de 40 horas semanais para Auxiliar em Saúde Bucal, com remuneração de R$ 2.259,21, e de 20 horas semanais para Cirurgião Dentista, com remuneração de R$ 6.781,42 mais prêmio de incentivo. Os benefícios incluem cesta básica mensal, vale cesta de Natal anual e auxílio-transporte.\nAs inscrições serão feitas exclusivamente pelo site da Fundação VUNESP, das 10h de 10 de novembro de 2026 às 23h59 de 10 de dezembro de 2026. A taxa é de R$ 71,00 para Auxiliar em Saúde Bucal e de R$ 104,00 para Cirurgião Dentista. Poderão solicitar isenção, das 10h de 10 de novembro de 2026 às 23h59 de 11 de novembro de 2026, candidatos residentes em Osasco que comprovem duas doações de sangue nos 12 meses anteriores à inscrição.\nA seleção terá fase única, com prova objetiva de caráter eliminatório e classificatório. A aplicação está prevista para 31 de janeiro de 2027.\nA contratação será por tempo determinado, sob o regime da Consolidação das Leis do Trabalho (CLT). O contrato terá duração de até 12 meses e poderá ser prorrogado por até mais 12 meses.\nO processo seletivo terá validade de um ano a partir da publicação da homologação, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar em Saúde Bucal",
     "Cirurgião Dentista - Cirurgia e Traumatologia Bucomaxilofacial",
@@ -9279,14 +10462,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Cirurgião Dentista - Cirurgia e Traumatologia Bucomaxilofacial",
     "Cirurgião Dentista - Endodontia",
     "Cirurgião Dentista - Odontopediatria",
     "Cirurgião Dentista - Periodontia"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Cirurgião Dentista - Cirurgia e Traumatologia Bucomaxilofacial, Cirurgião Dentista - Endodontia, Cirurgião Dentista - Odontopediatria. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -9333,6 +10519,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de São Roque do Canaã, no Estado do Espírito Santo, abriu um Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente Comunitário de Saúde (Área 1 ESF Santa Júlia), cadastro de reserva\n• Agente Comunitário de Saúde (Área 2 ESF Vila Verde) (3 vagas)\n• Agente Comunitário de Saúde (Área 3 ESF Sede) (2 vagas)\n• Agente Comunitário de Saúde (Área 4 ESF São Jacinto) (1 vaga)\n• Agente de Combate a Endemias (1 vaga)\n• Agente de Limpeza e Alimentação (10 vagas)\n• Agente Fiscal de Obras (1 vaga)\n• Agente Fiscal Sanitário (1 vaga)\n• Analista Tributário (1 vaga)\n• Assistente Social (3 vagas)\n• Auditor Fiscal de Receita Municipal (1 vaga)\n• Auditor Público Interno (2 vagas)\n• Auxiliar Administrativo (5 vagas)\n• Auxiliar Técnico de Laboratório (1 vaga)\n• Biólogo (1 vaga)\n• Educador Social (3 vagas)\n• Engenheiro Agrônomo (1 vaga)\n• Engenheiro Ambiental (1 vaga)\n• Engenheiro Civil (1 vaga)\n• Engenheiro Eletricista (1 vaga)\n• Instrutor de Atividades Físicas (1 vaga)\n• Monitor Escolar (10 vagas)\n• Motorista (10 vagas)\n• Nutricionista (2 vagas)\n• Operador de Máquinas Pesadas (1 vaga)\n• Pedagogo Educação Básica (40 horas) (5 vagas)\n• Pedreiro (2 vagas)\n• Procurador Municipal (1 vaga)\n• Professor PE - Educação Especial (25 horas) (5 vagas)\n• Professor PF - Ciências (15 horas) (2 vagas)\n• Professor PF - Geografia (15 horas) (1 vaga)\n• Professor PF - Matemática (25 horas) (2 vagas)\n• Professor PF - História (15 horas) (2 vagas)\n• Professor PF - Língua Portuguesa (25 horas) (2 vagas)\n• Professor PI - Anos Iniciais do Ensino Fundamental (25 horas) (9 vagas)\n• Professor PI - Anos Iniciais do Ensino Fundamental (35 horas) (3 vagas)\n• Professor PI - Educação Infantil (25 horas) (4 vagas)\n• Professor PI - Educação Infantil (35 horas) (2 vagas)\n• Professor PI/PF - Educação Infantil e Ensino Fundamental, anos iniciais e finais, Língua Estrangeira Inglês (15 horas) (1 vaga)\n• Professor PI/PF - Educação Infantil e Ensino Fundamental, anos iniciais e finais, Arte (15 horas) (1 vaga)\n• Professor PI/PF - Educação Infantil e Ensino Fundamental, anos iniciais e finais, Educação Física (20 horas) (4 vagas)\n• Professor PI/PF - Educação Infantil e Ensino Fundamental, anos iniciais e finais, Ensino Religioso (15 horas) (1 vaga)\n• Psicólogo (2 vagas)\n• Técnico em Segurança do Trabalho (1 vaga)\nA jornada varia de 15 a 40 horas semanais, conforme o cargo. Os vencimentos iniciais vão de R$ 1.514,76 a R$ 6.723,72.\nAs inscrições serão realizadas exclusivamente pelo site do IDESG, da 0h01 de 18 de novembro de 2026 às 18h de 18 de dezembro de 2026, no horário de Brasília. A taxa é de R$ 70,00 para cargos de ensino fundamental, R$ 85,00 para cargos de nível médio ou técnico e R$ 110,00 para cargos de nível superior. Candidatos inscritos no CadÚnico ou cadastrados como doadores de medula óssea poderão solicitar isenção das 0h01 de 18 de novembro de 2026 às 18h de 20 de novembro de 2026, conforme as regras do edital.\nA seleção terá prova objetiva para todos os cargos, em 21 de fevereiro de 2027. Haverá prova discursiva para Procurador Municipal e prova prática para Motorista e Operador de Máquinas Pesadas, previstas para 4 de abril de 2027. Os cargos de nível superior e magistério terão prova de títulos, de caráter classificatório. O certame também prevê procedimentos de confirmação para candidatos às vagas reservadas.\nOs candidatos convocados serão nomeados para cargos efetivos sob o regime estatutário.\nO concurso terá validade de dois anos a partir da homologação do resultado, com possibilidade de prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1514.76,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Comunitário de Saúde (Área 1 ESF Santa Júlia), cadastro de reserva",
     "Agente Comunitário de Saúde",
@@ -9379,14 +10567,28 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Auditor Fiscal de Receita Municipal",
     "Auditor Público Interno",
     "Engenheiro Agrônomo",
     "Engenheiro Ambiental"
    ],
+   "cargosGerais": [
+    "Agente Comunitário de Saúde (Área 1 ESF Santa Júlia), cadastro de reserva",
+    "Agente Comunitário de Saúde",
+    "Agente de Combate a Endemias",
+    "Agente de Limpeza e Alimentação",
+    "Agente Fiscal de Obras",
+    "Agente Fiscal Sanitário",
+    "Analista Tributário",
+    "Auxiliar Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [
+    "Analista Tributário"
+   ],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Auditor Fiscal de Receita Municipal, Auditor Público Interno, Engenheiro Agrônomo. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -9433,6 +10635,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Mato Grosso, a Prefeitura Municipal de Brasnorte abriu um Processo Seletivo Simplificado para formar cadastro de reserva em funções de nível fundamental, médio/técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Assistente de Saúde\n• Engenheiro Florestal\n• Especialista em Saúde, Enfermeiro\n• Especialista em Saúde, Farmacêutico/Bioquímico\n• Especialista em Saúde, Fisioterapeuta\n• Especialista em Saúde, Fonoaudiólogo\n• Especialista em Saúde, Odontólogo\n• Especialista em Saúde, Psicólogo\n• Especialista em Saúde, Terapeuta Ocupacional\n• Técnico Agropecuário\n• Técnico de Nível Superior, Assistente Social\n• Técnico de Nível Superior, Nutricionista\n• Técnico Florestal\nA jornada varia de 30 a 40 horas semanais, com remuneração mensal de R$ 1.836,74 a R$ 6.697,17.\nAs inscrições serão realizadas de forma online, das 8h de 12 de novembro de 2026 às 23h59 de 26 de novembro de 2026.\nA seleção terá prova objetiva, prevista para 6 de dezembro de 2026, das 8h às 11h, na Escola Municipal Pastor. Se necessário, também poderá ser utilizada a Escola Norma Lúcia Funes, de acordo com o número de inscritos.\nO processo seletivo terá validade de 365 dias a partir da homologação.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1836.74,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente de Saúde",
     "Engenheiro Florestal",
@@ -9451,14 +10655,21 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Especialista em Saúde, Odontólogo",
     "Engenheiro Florestal",
     "Especialista em Saúde, Enfermeiro",
     "Especialista em Saúde, Farmacêutico/Bioquímico"
    ],
+   "cargosGerais": [
+    "Assistente de Saúde",
+    "Técnico Agropecuário",
+    "Técnico Florestal"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Especialista em Saúde, Odontólogo, Engenheiro Florestal, Especialista em Saúde, Enfermeiro. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -9505,6 +10716,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Pilar do Sul, no Estado de São Paulo, realizará Concurso Público para preencher cinco vagas e formar cadastro de reserva em funções que exigem alfabetização ou ensino superior.\nSegundo o edital, as oportunidades são para os cargos de:\nAlfabetizado\n• Tratorista (1 vaga)\nEnsino superior\n• Agente de Fiscalização Tributária (cadastro de reserva)\n• Dentista (1 vaga)\n• Enfermeiro (cadastro de reserva)\n• Médico Ginecologista (1 vaga)\n• Médico Psiquiatra (1 vaga)\n• Nutricionista (cadastro de reserva)\n• Psicólogo (1 vaga)\nA jornada varia de 20 a 44 horas semanais, conforme o cargo. Os salários iniciais vão de R$ 2.432,71 a R$ 6.593,75.\nAs inscrições serão realizadas de 26 de novembro de 2026 a 28 de dezembro de 2026, pelo site www.aplicativa.net.br, observado o horário oficial de Brasília. A taxa é de R$ 18,65 para todos os cargos, com pagamento até 30 de dezembro de 2026. A isenção poderá ser solicitada de 26 de novembro de 2026 a 30 de novembro de 2026 por candidatos de famílias de baixa renda inscritos no CadÚnico, doadores de medula óssea e doadores regulares de sangue, conforme os critérios do edital.\nA seleção terá prova objetiva para todos os cargos, avaliação de títulos para os cargos de ensino superior e prova prática para Tratorista. A prova objetiva está prevista para 31 de janeiro de 2027.\nAs contratações para funções efetivas seguirão o regime celetista.\nO concurso terá validade de dois anos a partir da homologação, podendo ser prorrogado uma vez por igual período, a critério do município.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2432.71,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Tratorista",
     "Agente de Fiscalização Tributária",
@@ -9515,17 +10728,23 @@ window.DADOS_CONCURSOS = {
     "Nutricionista",
     "Psicólogo"
    ],
-   "temMedio": false,
+   "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Dentista",
     "Médico Ginecologista",
     "Médico Psiquiatra",
     "Enfermeiro"
    ],
+   "cargosGerais": [
+    "Tratorista",
+    "Agente de Fiscalização Tributária"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Dentista, Médico Ginecologista, Médico Psiquiatra. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -9570,6 +10789,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Guabiju, no Estado do Rio Grande do Sul, realiza um Concurso Público para preencher cinco vagas e formar cadastro de reserva em funções de nível fundamental incompleto, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente Administrativo (CR)\n• Agente de Combate a Endemias (1 vaga + CR)\n• Assistente Social (CR)\n• Atendente de Creche (CR)\n• Contador ou Técnico em Contabilidade (CR)\n• Instalador (CR)\n• Monitor de Escola e Transporte Escolar (2 vagas + CR)\n• Operário (CR)\n• Professor de Artes (1 vaga + CR)\n• Professor de Séries ou Anos Iniciais do Ensino Fundamental (CR)\n• Servente (1 vaga + CR)\nA jornada varia de 11 a 40 horas semanais, com vencimentos básicos de R$ 1.436,18 a R$ 6.483,36. Há vale-alimentação de R$ 22,20 por dia útil do mês.\nAs inscrições devem ser feitas de 11 a 30 de novembro de 2026, pelo site www.legalleconcursos.com.br, até as 18h do último dia. As taxas são de R$ 50,00 para nível fundamental, R$ 100,00 para nível médio e R$ 200,00 para nível superior. Candidatos de famílias de baixa renda inscritos no CadÚnico podem solicitar isenção de 11 a 15 de novembro de 2026, conforme as exigências do edital.\nA seleção terá prova teórico-objetiva, eliminatória e classificatória, para todos os cargos. Para os cargos de professor, haverá também prova de títulos, classificatória. A prova objetiva está prevista para 19 de dezembro de 2026, em Guabiju, com locais a serem divulgados no site do concurso. Se não houver locais suficientes ou adequados, a prova poderá ocorrer em cidades próximas.\nOs candidatos nomeados estarão sujeitos ao regime estatutário.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1436.18,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Administrativo",
     "Agente de Combate a Endemias",
@@ -9586,13 +10807,25 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Assistente Social",
     "Contador ou Técnico em Contabilidade",
     "Professor de Artes",
     "Professor de Séries ou Anos Iniciais do Ensino Fundamental"
    ],
+   "cargosGerais": [
+    "Agente Administrativo",
+    "Agente de Combate a Endemias",
+    "Atendente de Creche",
+    "Instalador",
+    "Monitor de Escola e Transporte Escolar",
+    "Operário",
+    "Servente"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Assistente Social, Contador ou Técnico em Contabilidade, Professor de Artes. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -9637,6 +10870,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Mato Grosso, a Secretaria Municipal de Educação de Campo Novo do Parecis abriu um Processo Seletivo Simplificado para formar cadastro de reserva para contratações temporárias de profissionais de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nÁrea urbana\n• Professor de Pedagogia\n• Professor de Arte\n• Professor de Educação Física\n• Professor de Letras/Inglês\n• Professor de Matemática\n• Professor de Geografia\n• Professor de História\n• Professor de Ciências Biológicas\n• Assistente Social\n• Psicólogo\n• Nutricionista\n• Agente Educacional Infantil\n• Técnico de Apoio Educacional\nÁrea rural, distrito de Itamarati Norte\n• Professor de Pedagogia\n• Professor de Arte\n• Professor de Educação Física\n• Professor de Letras/Inglês\n• Agente Educacional Infantil\nÁrea rural, distrito de Marechal Rondon\n• Professor de Pedagogia\n• Professor de Arte\n• Professor de Educação Física\n• Professor de Letras/Inglês\n• Agente Educacional Infantil\nA jornada é de 30 ou 40 horas semanais, conforme o cargo. Os vencimentos variam de R$ 4.467,92 a R$ 6.464,98.\nAs inscrições serão realizadas pelo site do Instituto Selecon, de 19 de novembro de 2026 até às 23h59 de 30 de novembro de 2026. A taxa é de R$ 95,00 para cargos de nível médio e R$ 125,00 para cargos de nível superior. O pagamento do boleto vence em 1º de dezembro de 2026. A isenção poderá ser solicitada pelo mesmo site de 19 a 20 de novembro de 2026, até às 23h59 do último dia, por candidatos desempregados, com renda de até um salário mínimo e meio ou doadores regulares de sangue, mediante comprovação.\nA seleção terá etapa única, composta por prova objetiva de múltipla escolha, de caráter eliminatório e classificatório. A aplicação está prevista para 13 de dezembro de 2026.\nOs contratos terão natureza jurídico-administrativa, serão vinculados ao Regime Geral de Previdência Social e durarão 12 meses. Poderão ser prorrogados por igual período, até o limite de 24 meses, se persistir a necessidade temporária.\nO processo seletivo terá validade de um ano a partir da publicação da homologação do resultado final. O prazo poderá ser prorrogado uma única vez por igual período, a critério da administração municipal.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 4467.92,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Professor de Pedagogia",
     "Professor de Arte",
@@ -9665,14 +10900,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Professor de Pedagogia",
     "Professor de Arte",
     "Professor de Educação Física",
     "Professor de Letras/Inglês"
    ],
+   "cargosGerais": [
+    "Agente Educacional Infantil"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Professor de Pedagogia, Professor de Arte, Professor de Educação Física. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -9719,6 +10959,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de São Paulo, a Prefeitura Municipal de Pirapozinho abriu um Concurso Público para formar cadastro de reserva em cargos efetivos que exigem alfabetização e ensino fundamental, médio ou superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente Comunitário de Saúde, área da Comunidade I\n• Agente Comunitário de Saúde, área da Comunidade II, distrito de Itororó do Paranapanema\n• Agente de Combate às Endemias, área da Comunidade I\n• Agente de Combate às Endemias, área da Comunidade II, distrito de Itororó do Paranapanema\n• Almoxarife\n• Assistente Social\n• Auxiliar Administrativo\n• Coletor de Lixo\n• Contador\n• Coveiro\n• Dentista\n• Diretor de Escola\n• Engenheiro Civil\n• Farmacêutico\n• Fonoaudiólogo\n• Monitor de Transporte Escolar\n• Motorista de Ambulância\n• Operador de Máquina\n• Operário\n• Pedreiro\n• Procurador Jurídico Municipal\n• Professor Auxiliar de Educação Infantil\n• Professor de Bordado à Máquina\n• Professor de Educação Básica I\n• Professor de Educação Básica II, Arte\n• Professor de Educação Básica II, Educação Física\n• Professor de Educação Básica II, Inglês\n• Serviços Gerais\n• Supervisor Administrativo\n• Técnico de Farmácia\n• Técnico de Segurança do Trabalho\n• Técnico em Enfermagem\n• Técnico em Radiologia\n• Terapeuta Ocupacional\n• Varredor\n• Vigia\nAs jornadas variam de 20 a 40 horas semanais. As remunerações vão de R$ 1.624,26 a R$ 6.464,59. Para os cargos de Professor de Educação Básica II, o valor é de R$ 25,65 por hora-aula.\nAs inscrições serão feitas das 9h de 9 de novembro de 2026 às 17h de 23 de novembro de 2026, pelo site do Instituto Evo. As taxas são de R$ 50,00 para cargos de nível fundamental, R$ 70,00 para nível médio e R$ 100,00 para nível superior. A isenção poderá ser solicitada das 9h de 9 de novembro de 2026 às 17h de 13 de novembro de 2026 por candidatos inscritos no CadÚnico e por doadores de sangue ou de medula óssea, conforme os critérios do edital.\nA seleção terá prova objetiva para todos os cargos, com aplicação provável em 13 de dezembro de 2026. Haverá prova prática, de caráter eliminatório, para Coveiro, Coletor de Lixo, Operário, Pedreiro, Motorista de Ambulância, Operador de Máquina e Procurador Jurídico Municipal. Para este último cargo, a prova prática consistirá na elaboração de uma peça prático-profissional. Também haverá prova de títulos, de caráter classificatório, para Procurador Jurídico Municipal.\nOs aprovados serão nomeados para cargos efetivos, sob regime estatutário.\nO concurso terá validade de dois anos a partir da publicação da homologação, podendo ser prorrogado por igual período, a critério da Prefeitura.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1624.26,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Comunitário de Saúde, área da Comunidade I",
     "Agente Comunitário de Saúde, área da Comunidade II, distrito de Itororó do Paranapanema",
@@ -9760,14 +11002,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Dentista",
     "Engenheiro Civil",
     "Procurador Jurídico Municipal",
-    "Contador"
+    "Agente Comunitário de Saúde, área da Comunidade I"
    ],
+   "cargosGerais": [
+    "Almoxarife",
+    "Auxiliar Administrativo",
+    "Coletor de Lixo",
+    "Coveiro",
+    "Monitor de Transporte Escolar",
+    "Motorista de Ambulância",
+    "Operador de Máquina",
+    "Operário"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Dentista, Engenheiro Civil, Procurador Jurídico Municipal. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -9813,18 +11067,25 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de São Paulo, a Câmara Municipal de Tambaú abriu um Concurso Público para preencher uma vaga efetiva e formar cadastro de reserva em funções de nível fundamental e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Procurador Jurídico (1 vaga)\n• Auxiliar de Limpeza e Serviços Externos (CR)\nA jornada é de 30 horas semanais para Procurador Jurídico, com vencimento inicial de R$ 6.423,46, e de 40 horas semanais para Auxiliar de Limpeza e Serviços Externos, com vencimento inicial de R$ 2.572,08. Há vale-alimentação de R$ 900,00, nas condições previstas em lei.\nAs inscrições serão realizadas exclusivamente pelo portal do CEPASF, das 00h01 de 29 de outubro de 2026 às 23h59 de 29 de novembro de 2026. As taxas são de R$ 120,00 para Procurador Jurídico e de R$ 60,00 para Auxiliar de Limpeza e Serviços Externos, com pagamento até 30 de novembro de 2026.\nA seleção terá prova objetiva, eliminatória e classificatória, para ambos os cargos. Para Procurador Jurídico, haverá também avaliação de títulos, exclusivamente classificatória. A prova objetiva está prevista para 10 de janeiro de 2027.\nO provimento será pelo regime estatutário. Os servidores nomeados estarão sujeitos a estágio probatório de três anos.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, com possibilidade de prorrogação uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Procurador Jurídico",
     "Auxiliar de Limpeza e Serviços Externos"
    ],
-   "temMedio": false,
+   "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Procurador Jurídico"
    ],
+   "cargosGerais": [
+    "Auxiliar de Limpeza e Serviços Externos"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Procurador Jurídico. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -9869,6 +11130,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Mogi Guaçu, no Estado de São Paulo, abriu três concursos públicos com o objetivo de formar cadastro de reserva para cargos que exigem desde alfabetização até o ensino superior.\nSegundo o edital, as oportunidades são para os cargos de:\nConcurso Público nº 1/2026\n• Assistente Social\n• Biólogo\n• Enfermeiro\n• Engenheiro de Segurança do Trabalho\n• Farmacêutico\n• Inspetor de Alunos\n• Nutricionista\n• Odontólogo\n• Oficial de Saneamento\n• Procurador Jurídico do Município\n• Psicólogo\n• Técnico de Enfermagem\n• Técnico de Enfermagem, Chácara Alvorada\n• Técnico de Enfermagem, Martinho Prado\n• Terapeuta Ocupacional\nConcurso Público nº 2/2026\n• Auxiliar de Gabinete Odontológico, Chácara Alvorada\n• Auxiliar de Gabinete Odontológico, Martinho Prado\n• Auxiliar de Gabinete Odontológico, Zona Urbana\n• Auxiliar de Serviços Gerais, Chácara Alvorada\n• Auxiliar de Serviços Gerais, Martinho Prado\n• Auxiliar de Serviços Gerais, Zona Urbana\n• Auxiliar de Serviços Operacionais, Martinho Prado\n• Auxiliar de Serviços Operacionais, Zona Urbana\n• Cozinheiro/Merendeiro\n• Escriturário, Chácara Alvorada\n• Escriturário, Martinho Prado\n• Escriturário, Zona Urbana\n• Motorista, Chácara Alvorada\n• Motorista, Martinho Prado\n• Motorista, Zona Urbana\n• Operador de Máquina Leve, Martinho Prado\n• Pedreiro, Martinho Prado\nConcurso Público nº 3/2026\nGrupo A\n• Coordenador Pedagógico\n• Diretor de CEI\n• Professor de Educação Especial\n• Professor de Educação Física\n• Psicopedagogo\nGrupo B\n• Médico Clínico Geral\n• Médico do Trabalho\n• Médico Ginecologista\n• Médico Pediatra\n• Médico Psiquiatra\n• Médico Veterinário\nAs jornadas variam de 100 a 220 horas mensais, com salários básicos de R$ 1.655,41 a R$ 6.316,43. Os contratados terão direito aos benefícios vigentes na prefeitura no momento da admissão: cartão-alimentação, cesta básica, plano de assistência médica e plano de assistência odontológica, conforme os critérios da legislação municipal.\nAs inscrições serão feitas exclusivamente pelo site da Publiconsult, de 14 a 27 de novembro de 2026, até às 21h no último dia. As taxas variam de R$ 7,53 a R$ 12,70, conforme o emprego. Integrantes de famílias de baixa renda inscritas no Cadastro Único poderão solicitar isenção, com envio da documentação exigida, até 17 de novembro de 2026, às 21h.\nTodos os candidatos farão prova objetiva, eliminatória e classificatória. A aplicação está prevista para 20 de dezembro de 2026. No concurso nº 1/2026, essa será a única etapa. No nº 2/2026, os classificados também farão prova prática para auxiliar de gabinete odontológico, cozinheiro/merendeiro, escriturário, motorista, operador de máquina leve e pedreiro; para auxiliar de serviços gerais e auxiliar de serviços operacionais, haverá teste de aptidão física. No nº 3/2026, haverá prova de títulos, de caráter classificatório, para os aprovados na prova objetiva.\nAs contratações serão em caráter efetivo e regidas pela Consolidação das Leis do Trabalho (CLT).\nCada concurso terá validade de dois anos após a homologação, podendo ser prorrogado por igual período.\nMais informações podem ser obtidas nos editais completos.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1655.41,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Social",
     "Biólogo",
@@ -9917,14 +11180,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Odontólogo",
     "Auxiliar de Gabinete Odontológico, Chácara Alvorada",
     "Auxiliar de Gabinete Odontológico, Martinho Prado",
     "Auxiliar de Gabinete Odontológico, Zona Urbana"
    ],
+   "cargosGerais": [
+    "Inspetor de Alunos",
+    "Oficial de Saneamento",
+    "Auxiliar de Serviços Gerais, Zona Urbana",
+    "Auxiliar de Serviços Operacionais, Zona Urbana",
+    "Cozinheiro/Merendeiro",
+    "Escriturário, Chácara Alvorada",
+    "Escriturário, Martinho Prado",
+    "Escriturário, Zona Urbana"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Odontólogo, Auxiliar de Gabinete Odontológico, Chácara Alvorada, Auxiliar de Gabinete Odontológico, Martinho Prado. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -9969,6 +11244,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Santa Rosa de Lima, no Estado de Santa Catarina, abriu um Processo Seletivo para formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente de Endemias\n• Agente Operacional de Serviços Diversos\n• Agente Operador de Máquinas\n• Agente Servente Escolar e Merendeira\n• Analista de TI\n• Assistente Social\n• Auxiliar de Sala\n• Contador\n• Educador Social\n• Engenheiro Civil\n• Farmacêutico Bioquímico\n• Fiscal de Vigilância Sanitária\n• Fisioterapeuta\n• Fonoaudiólogo\n• Mecânico\n• Médico Veterinário\n• Monitor de Dança\n• Motorista\n• Nutricionista\n• Professor Pedagogo Habilitado\n• Professor Pedagogo Não Habilitado\n• Professor de Arte Habilitado\n• Professor de Arte Não Habilitado\n• Professor de Artes Marciais\n• Professor de Ciências Habilitado\n• Professor de Ciências Não Habilitado\n• Professor de Educação Física\n• Professor de Ensino Religioso Habilitado\n• Professor de Ensino Religioso Não Habilitado\n• Professor Habilitado EJA\n• Professor Não Habilitado EJA\n• Professor de Geografia Habilitado\n• Professor de Geografia Não Habilitado\n• Professor de História Habilitado\n• Professor de História Não Habilitado\n• Professor de Informática Habilitado\n• Professor de Informática Não Habilitado\n• Professor de Libras Habilitado\n• Professor de Libras Não Habilitado\n• Professor de Língua Inglesa Habilitado\n• Professor de Língua Inglesa Não Habilitado\n• Professor de Língua Portuguesa Habilitado\n• Professor de Língua Portuguesa Não Habilitado\n• Professor de Matemática Habilitado\n• Professor de Matemática Não Habilitado\n• Professor de Música Habilitado\n• Professor de Educação Especial Habilitado\n• Professor de Educação Especial Não Habilitado\n• Psicólogo\n• Psicopedagogo\n• Técnico Administrativo\n• Técnico Agrícola\n• Treinador Desportivo\n• Vigilante Municipal\n• Vigilante Municipal Noturno\nA jornada é de 30 a 40 horas semanais, conforme o cargo. Para professores, é de até 40 horas semanais. Os vencimentos vão de R$ 1.898,02 a R$ 6.311,11. Os valores informados para professores correspondem à jornada de 40 horas.\nAs inscrições devem ser feitas de 18 de novembro de 2026 até às 17h de 2 de dezembro de 2026, pelo site da Acesse Concursos. As taxas são de R$ 50,00 para nível fundamental, R$ 70,00 para nível médio, R$ 75,00 para professores e R$ 100,00 para nível superior. O boleto poderá ser emitido e pago até 3 de dezembro de 2026. Doadores de sangue e de medula óssea podem solicitar isenção, mediante envio dos documentos exigidos, até 26 de novembro de 2026.\nA seleção terá prova objetiva para os cargos indicados no edital, prova objetiva e de títulos para outros cargos e apenas prova prática para Agente Operacional de Serviços Diversos, Agente Operador de Máquinas, Agente Servente Escolar e Merendeira, Mecânico e Motorista. As provas estão previstas para 13 de dezembro de 2026.\nO Processo Seletivo terá validade de um ano e poderá ser prorrogado uma única vez, por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1898.02,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Endemias",
     "Agente Operacional de Serviços Diversos",
@@ -10029,14 +11306,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Veterinário",
     "Engenheiro Civil",
-    "Contador",
-    "Farmacêutico Bioquímico"
+    "Analista de TI",
+    "Assistente Social"
    ],
+   "cargosGerais": [
+    "Agente de Endemias",
+    "Agente Operacional de Serviços Diversos",
+    "Agente Operador de Máquinas",
+    "Agente Servente Escolar e Merendeira",
+    "Auxiliar de Sala",
+    "Educador Social",
+    "Fiscal de Vigilância Sanitária",
+    "Monitor de Dança"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Veterinário, Engenheiro Civil, Analista de TI. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -10083,6 +11372,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Câmara Municipal de Paraíso do Tocantins abriu um Concurso Público para preencher vagas em funções de nível fundamental, médio, técnico e superior.\nConforme a retificação do cronograma, o início das inscrições e do prazo para solicitação de isenção da taxa foi alterado para dia 19 de novembro de 2026. Assim, outras datas do cronograma também foram modificadas e podem ser consultadas no documento de retificação completo.\nSegundo o edital, as oportunidades são para os cargos de:\n• Auxiliar de Serviços Gerais (4 vagas)\n• Vigia (3 vagas)\n• Assistente Administrativo (4 vagas)\n• Motorista, com CNH nas categorias A e B (1 vaga)\n• Tradutor, Intérprete e Guia-Intérprete de Libras (1 vaga)\n• Agente de Contratação (1 vaga)\nAs jornadas são de 30 a 40 horas semanais, com remuneração mensal de R$ 1.923,73 a R$ 6.244,07.\nAs inscrições serão realizadas exclusivamente pelo site www.icap-to.com.br, de 19 de novembro de 2026 até às 23h59 de 18 de dezembro de 2026. As taxas são de R$ 120,00 para nível fundamental, R$ 140,00 para nível médio e R$ 160,00 para nível superior, com pagamento até 21 de dezembro de 2026. A isenção poderá ser solicitada de 19 a 23 de novembro de 2026 por candidatos inscritos no CadÚnico e por doadores de medula óssea, conforme as condições do edital.\nA seleção terá uma única etapa: prova objetiva, de caráter eliminatório e classificatório. A aplicação está prevista para 17 de janeiro de 2027. Conforme o número de inscritos, as provas também poderão ocorrer em distritos do município ou em município limítrofe.\nOs aprovados serão nomeados para cargos do quadro permanente da Câmara Municipal, conforme a ordem de classificação e o limite de vagas.\nO concurso terá validade de dois anos, prorrogável uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1923.73,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Serviços Gerais",
     "Vigia",
@@ -10094,9 +11385,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Motorista, com CNH nas categorias A e B",
+    "Tradutor, Intérprete e Guia-Intérprete de Libras"
+   ],
+   "cargosGerais": [
+    "Auxiliar de Serviços Gerais",
+    "Vigia",
+    "Assistente Administrativo",
+    "Agente de Contratação"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Motorista, com CNH nas categorias A e B, Tradutor, Intérprete e Guia-Intérprete de Libras. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -10141,6 +11443,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Minas Gerais, a Fundação de Assistência, Estudo e Pesquisa de Uberlândia (FAEPU), em Araguari, abriu um Processo Seletivo Simplificado para formar cadastro de reserva para unidades básicas de saúde da família. A seleção é destinada a profissionais de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Assistente Social\n• Auxiliar Administrativo\n• Enfermeiro ESF\n• Farmacêutico\n• Nutricionista\n• Porteiro\n• Psicólogo\n• Técnico de Enfermagem\n• Técnico de Saúde Bucal\nA jornada semanal é de 30 horas para Assistente Social e de 40 horas para os demais cargos. Os vencimentos iniciais mensais vão de R$ 1.621,00 a R$ 6.062,29. O edital prevê prêmio de assiduidade, com valores totais de R$ 1.781,00 a R$ 6.638,88.\nAs inscrições serão realizadas pelo site www.consesp.com.br, de 4 a 22 de novembro de 2026. As taxas variam de R$ 43,68 a R$ 68,59 e poderão ser pagas até 23 de novembro de 2026. Candidatos que atendam aos critérios de baixa renda e do CadÚnico poderão solicitar isenção nos dias 5 e 6 de novembro de 2026, com envio da documentação para isencao@consesp.com.br.\nA seleção terá prova objetiva de múltipla escolha, de caráter eliminatório e classificatório, e análise de tempo de experiência profissional, de caráter classificatório, para todos os cargos. Haverá também análise de títulos, de caráter classificatório, para os cargos de nível superior. A prova objetiva está prevista para 6 de dezembro de 2026.\nA contratação será pelo regime da Consolidação das Leis do Trabalho (CLT).\nO processo seletivo terá validade de um ano, contado da homologação do resultado final, com possibilidade de prorrogação até o limite total de dois anos, a critério da FAEPU.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Social",
     "Auxiliar Administrativo",
@@ -10155,14 +11459,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Assistente Social",
     "Enfermeiro ESF",
     "Farmacêutico",
-    "Nutricionista",
-    "Psicólogo"
+    "Nutricionista"
    ],
+   "cargosGerais": [
+    "Auxiliar Administrativo",
+    "Porteiro"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Assistente Social, Enfermeiro ESF, Farmacêutico. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -10207,6 +11517,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Concórdia, no Estado de Santa Catarina, abriu um Concurso Público com o objetivo de preencher vagas e formar cadastro de reserva para profissionais de nível médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino superior\n• Analista de Gestão Administrativa (1 vaga)\n• Psicólogo (1 vaga)\n• Terapeuta Ocupacional (1 vaga)\n• Professor - Anos Iniciais\n• Professor - Artes\n• Professor - Ciências\n• Professor - Educação Física\n• Professor - Espanhol\n• Professor - Geografia\n• Professor - Inglês\n• Professor - Matemática\n• Técnico Artístico - Canto e Vocal\n• Técnico Artístico - Dança\n• Técnico Artístico - Gaita\n• Técnico Artístico - Piano\n• Técnico Artístico - Teatro\n• Técnico Artístico - Teclado\n• Técnico Artístico - Violão\n• Técnico Desportivo - Atletismo\n• Técnico Desportivo - Futebol de Campo\n• Técnico Desportivo - Futebol de Salão\n• Técnico Desportivo - Handebol\n• Técnico Desportivo - Voleibol\nEnsino médio e técnico\n• Agente de Apoio Educacional (1 vaga)\n• Auxiliar Educacional (1 vaga)\n• Auxiliar Odontológico (1 vaga)\n• Técnico em Enfermagem (1 vaga)\n• Secretário Escolar (1 vaga)\nAs jornadas variam de 20 a 40 horas semanais. Os vencimentos básicos vão de R$ 2.551,12 a R$ 6.057,51.\nAs inscrições serão feitas exclusivamente pelo site do Concurso Público, das 16h de 3 de novembro de 2026 às 16h de 3 de dezembro de 2026, no horário de Brasília. A taxa é de R$ 150,00 para cargos de nível superior e de R$ 120,00 para cargos de nível médio ou técnico. Doadores de sangue, de medula óssea e doadoras de leite humano podem solicitar isenção de 3 a 10 de novembro de 2026, conforme as regras do edital.\nTodos os candidatos farão prova objetiva, de caráter eliminatório e classificatório, prevista para 31 de janeiro de 2027. Para Professor, haverá também prova de títulos, de caráter classificatório. Para Técnico Artístico e Técnico Desportivo, haverá prova de títulos e prova prática. A prova prática está prevista para 6 e 7 de março de 2027.\nO concurso terá validade de dois anos e poderá ser prorrogado uma única vez por igual período, a critério do Município de Concórdia.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2551.12,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Analista de Gestão Administrativa",
     "Psicólogo",
@@ -10240,14 +11552,22 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Auxiliar Odontológico",
     "Psicólogo",
-    "Professor - Anos Iniciais",
-    "Professor - Artes"
+    "Terapeuta Ocupacional",
+    "Professor - Anos Iniciais"
    ],
+   "cargosGerais": [
+    "Analista de Gestão Administrativa",
+    "Agente de Apoio Educacional",
+    "Auxiliar Educacional",
+    "Secretário Escolar"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Auxiliar Odontológico, Psicólogo, Terapeuta Ocupacional. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -10292,6 +11612,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Amapá, a Prefeitura Municipal de Pedra Branca do Amapari abriu um Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível médio, médio técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Assistente Administrativo (6 vagas)\n• Fiscal de Tributos (1 vaga)\n• Advogado (2 vagas)\n• Analista Jurídico (2 vagas)\n• Guarda Municipal (30 vagas)\n• Médico (1 vaga)\n• Enfermeiro (1 vaga)\n• Psicólogo (1 vaga)\n• Biomédico (1 vaga)\n• Assistente Social (1 vaga)\n• Farmacêutico (1 vaga)\n• Técnico em Enfermagem (1 vaga)\n• Massoterapeuta (1 vaga)\n• Auxiliar Docente (Auxiliar de Turma) (40 vagas)\n• Cuidador (Profissional de Apoio Escolar) (15 vagas)\n• Auxiliar de Serviços Gerais (10 vagas)\n• Professor Fundamental (45 vagas)\n• Professor de Educação Física (1 vaga)\n• Professor AEE (10 vagas)\n• Tecnólogo em Alimentos (1 vaga)\nAs jornadas são de 20, 30 ou 40 horas semanais, conforme o cargo. Os vencimentos-base vão de R$ 1.800,00 a R$ 6.000,00. Para Enfermeiro e Técnico em Enfermagem, o edital prevê complementação do piso nacional. Para os cargos de professor, prevê complementação do piso nacional e vantagens do plano de carreira da Educação, quando cabíveis.\nAs inscrições serão realizadas de 5 de novembro de 2026 a 23 de dezembro de 2026, exclusivamente pelo site do Instituto Nazaré. A taxa é de R$ 120,00 para cargos de níveis médio e médio técnico e de R$ 150,00 para nível superior. Nos dias 9 e 10 de novembro de 2026, poderão solicitar isenção candidatos de famílias de baixa renda inscritas no CadÚnico e cadastrados como doadores voluntários de medula óssea no REDOME, conforme as regras do edital.\nTodos os candidatos farão prova objetiva em 31 de janeiro de 2027. Candidatos de nível superior também passarão por avaliação de títulos. Para Guarda Municipal, haverá ainda teste de aptidão física, avaliação documental de exames e laudos, investigação social e curso de formação. O teste de aptidão física está previsto para 13 e 14 de março de 2027.\nO concurso terá validade de dois anos, contados da homologação do resultado final de cada cargo. O prazo poderá ser prorrogado uma vez, por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1800,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Administrativo",
     "Fiscal de Tributos",
@@ -10317,14 +11639,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico",
+    "Biomédico",
     "Advogado",
-    "Enfermeiro",
-    "Psicólogo"
+    "Enfermeiro"
    ],
+   "cargosGerais": [
+    "Assistente Administrativo",
+    "Fiscal de Tributos",
+    "Analista Jurídico",
+    "Guarda Municipal",
+    "Massoterapeuta",
+    "Auxiliar Docente",
+    "Cuidador",
+    "Auxiliar de Serviços Gerais"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico, Biomédico, Advogado. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -10371,18 +11705,23 @@ window.DADOS_CONCURSOS = {
    "texto": "A Fundação de Desenvolvimento da Unicamp (Funcamp) abriu um Processo Seletivo com o objetivo de preencher uma vaga e formar cadastro de reserva para o Hospital Estadual Sumaré (HES). A função exige graduação em Enfermagem e pós-graduação em uma das áreas previstas no edital.\nSegundo o edital, a oportunidade é para o cargo de:\n• Enfermeiro C.C.I.H. (1 vaga)\nA jornada é de 180 horas mensais, com possibilidade de trabalho em período diurno, noturno ou misto, em revezamento ou escala. O salário é de R$ 5.973,89 mensais.\nAs inscrições serão feitas exclusivamente pelo site da Funcamp, das 17h06 de 5 de novembro de 2026 às 23h59 de 23 de novembro de 2026, no horário de Brasília. A taxa é de R$ 90,00, sem possibilidade de isenção parcial ou total.\nA seleção terá efetivação da inscrição, de caráter eliminatório; prova escrita, de caráter eliminatório e classificatório; entrega de documentos, de caráter eliminatório; e arguição, de caráter classificatório.\nA contratação será pelo regime da Consolidação das Leis do Trabalho (CLT), com período experimental de até 90 dias. Após esse prazo, mediante avaliação positiva de desempenho, o contrato vigorará por prazo indeterminado.\nO processo seletivo terá validade de um ano, prorrogável por igual período, a critério do diretor executivo da Funcamp.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Enfermeiro C.C.I.H."
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Enfermeiro C.C.I.H.",
     "Enfermeiro"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -10427,6 +11766,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Sarapuí, no Estado de São Paulo, divulgou os editais do Concurso Público nº 7/2026 e Processo Seletivo nº 4/2026, com o objetivo de preencher vagas e formar cadastro de reserva para profissionais de nível fundamental incompleto e superior.\nSegundo os editais, as oportunidades são para os cargos de:\nConcurso Público nº 7/2026\n• Motorista (1 vaga + CR)\nProcesso Seletivo nº 4/2026\n• Diretor de Escola\n• Professor Coordenador Pedagógico\n• Professor de Educação Básica I\n• Professor de Educação Básica II: Artes\n• Professor de Educação Básica II: Educação Física\n• Professor de Educação Básica II: Língua Inglesa\n• Professor de Atendimento Educacional Especializado (AEE)\nA jornada varia de 30 a 40 horas semanais. Os vencimentos mensais vão de R$ 2.097,40 a R$ 5.906,38. O concurso prevê cartão alimentação de R$ 444,14, e o processo seletivo prevê vale-refeição de R$ 444,14.\nAs inscrições serão feitas pelo site Publiconsult, de 28 de outubro de 2026 a 23 de novembro de 2026, até às 21h do último dia. A taxa varia de R$ 26,37 a R$ 30,64.\nNo concurso para motorista, a seleção terá prova objetiva e prova prática, ambas eliminatórias e classificatórias. A prova objetiva está prevista para 13 de dezembro de 2026, às 9h, em Sarapuí. No processo seletivo haverá prova objetiva, eliminatória e classificatória, e prova de títulos, classificatória. A prova objetiva está prevista para 13 de dezembro de 2026.\nO concurso terá validade de dois anos a partir da homologação, com possibilidade de prorrogação uma vez, por igual período. O processo seletivo terá vigência até o fim do ano letivo de 2027 e poderá ser prorrogado uma vez, por igual período.\nMais informações podem ser obtidas nos editais completos.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2097.4,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Motorista",
     "Diretor de Escola",
@@ -10437,17 +11778,22 @@ window.DADOS_CONCURSOS = {
     "Professor de Educação Básica II: Língua Inglesa",
     "Professor de Atendimento Educacional Especializado"
    ],
-   "temMedio": false,
+   "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Diretor de Escola",
     "Professor Coordenador Pedagógico",
     "Professor de Educação Básica I",
-    "Professor de Educação Básica II: Artes",
-    "Professor de Educação Básica II: Educação Física"
+    "Professor de Educação Básica II: Artes"
    ],
+   "cargosGerais": [
+    "Motorista"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Diretor de Escola, Professor Coordenador Pedagógico, Professor de Educação Básica I. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -10492,6 +11838,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Itararé, no Estado de São Paulo, abriu o Processo Seletivo nº 2/2026 para formar cadastro de reserva destinado à substituição eventual de profissionais da rede municipal de ensino durante o ano letivo de 2027. As funções exigem formação de nível médio na modalidade normal ou formação superior, conforme os requisitos de cada função.\nSegundo o edital, as oportunidades são para os cargos de:\nFunções de suporte pedagógico, exclusivas para servidores efetivos do quadro do magistério municipal\n• Coordenador Pedagógico\n• Diretor de Escola\nProfessores com habilitação legal e psicopedagogo\n• Professor de Educação Básica Infantil (PEBIN)\n• Professor de Educação Básica Ciclos I e II (PEB I)\n• Professor de Educação Básica II - Arte\n• Professor de Educação Básica II - Ciências\n• Professor de Educação Básica II - Educação Física\n• Professor de Educação Básica II - Geografia\n• Professor de Educação Básica II - História\n• Professor de Educação Básica II - Inglês\n• Professor de Educação Básica II - Língua Portuguesa\n• Professor de Educação Básica II - Matemática\n• Professor de Ensino Religioso\n• Professor de Educação Especial - AEE (Sala de Recursos Multifuncionais)\n• Professor de Educação Especial - Braile (Sala de Recursos Multifuncionais)\n• Professor de Educação Especial - Libras (Sala de Recursos Multifuncionais)\n• Psicopedagogo\nProfessores de Educação Básica II - não habilitados\n• Professor de Educação Básica II - Arte\n• Professor de Educação Básica II - Ciências\n• Professor de Educação Básica II - Geografia\n• Professor de Educação Básica II - História\n• Professor de Educação Básica II - Inglês\n• Professor de Educação Básica II - Língua Portuguesa\n• Professor de Educação Básica II - Matemática\n• Professor de Ensino Religioso\nProfessores de Educação Especial não habilitados\n• Professor de Educação Especial - AEE (Sala de Recursos Multifuncionais)\n• Professor de Educação Especial - Braile (Sala de Recursos Multifuncionais)\n• Professor de Educação Especial - Libras (Sala de Recursos Multifuncionais)\nAs jornadas são de 30 ou 40 horas semanais, ou de até 44 horas semanais para funções remuneradas por aula. Os vencimentos mensais variam de R$ 3.851,82 a R$ 5.905,92. Para as funções pagas por hora-aula, os valores vão de R$ 20,54 a R$ 25,76.\nAs inscrições devem ser feitas de 19 de novembro de 2026 a 16 de dezembro de 2026, até as 21h, exclusivamente pelo site Publiconsult. A taxa é de R$ 37,53. Estudantes, desempregados e candidatos com remuneração mensal de até dois salários mínimos podem solicitar redução de 50% da taxa, com envio dos documentos pelo site até 24 de novembro de 2026, às 21h.\nA seleção terá prova objetiva, de caráter eliminatório e classificatório. A aplicação está prevista para 10 de janeiro de 2027, em Itararé (SP), às 9h ou às 13h30, conforme a função.\nO processo seletivo terá validade até o término do ano letivo de 2027.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 3851.82,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Coordenador Pedagógico",
     "Diretor de Escola",
@@ -10525,14 +11873,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Coordenador Pedagógico",
+    "Diretor de Escola",
     "Professor de Educação Básica Infantil",
-    "Professor de Educação Básica Ciclos I e II",
-    "Professor de Educação Básica II - Arte"
+    "Professor de Educação Básica Ciclos I e II"
    ],
+   "cargosGerais": [
+    "Psicopedagogo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Coordenador Pedagógico, Diretor de Escola, Professor de Educação Básica Infantil. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -10579,6 +11932,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Barra do Garças, no Estado de Mato Grosso, abriu um Concurso Público para preencher vagas efetivas na área da educação, com exigência de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Professor de Educação Infantil (80 vagas)\n• Professor de Educação Infantil no Distrito de Indianópolis (1 vaga)\n• Professor de Educação Infantil no Distrito de Vale dos Sonhos (1 vaga)\n• Professor de Anos Iniciais (170 vagas)\n• Professor de Anos Iniciais no Distrito de Indianópolis (1 vaga)\n• Professor de Anos Iniciais no Distrito de Vale dos Sonhos (1 vaga)\n• Profissional de Apoio à Educação Infantil (58 vagas)\n• Profissional de Apoio à Inclusão Escolar (75 vagas)\nAs jornadas são de 30 ou 40 horas semanais. O subsídio inicial varia de R$ 2.100,00 a R$ 5.771,96.\nAs inscrições serão feitas exclusivamente pelo site do Instituto Selecon, de 18 de novembro de 2026 a 7 de janeiro de 2027, até às 23h59 do último dia, no horário de Brasília. A taxa é de R$ 90,00 para nível médio e R$ 120,00 para nível superior. O pagamento do boleto poderá ser feito até 8 de janeiro de 2027. Pedidos de isenção poderão ser apresentados de 18 a 19 de novembro de 2026, até às 23h59 do último dia, por candidatos que atendam às condições previstas no edital.\nTodos os candidatos farão prova objetiva. Para os cargos de professor, haverá também prova de redação e análise de títulos. Candidatos às vagas reservadas a negros passarão por heteroidentificação; candidatos indígenas e quilombolas passarão por procedimento de verificação documental. As provas objetivas e de redação estão previstas para 31 de janeiro de 2027.\nOs aprovados serão nomeados para cargos efetivos, sob o regime estatutário.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2100,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Professor de Educação Infantil",
     "Professor de Educação Infantil no Distrito de Indianópolis",
@@ -10592,14 +11947,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Professor de Educação Infantil",
     "Professor de Educação Infantil no Distrito de Indianópolis",
     "Professor de Educação Infantil no Distrito de Vale dos Sonhos",
     "Professor de Anos Iniciais"
    ],
+   "cargosGerais": [
+    "Profissional de Apoio à Educação Infantil",
+    "Profissional de Apoio à Inclusão Escolar"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Professor de Educação Infantil, Professor de Educação Infantil no Distrito de Indianópolis, Professor de Educação Infantil no Distrito de Vale dos Sonhos. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -10646,6 +12007,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Brasnorte, no Estado de Mato Grosso, abriu um Concurso Público visando preencher vagas efetivas e formar cadastro de reserva para profissionais de nível médio e superior na Secretaria Municipal de Educação.\nSegundo o edital, as oportunidades são para os cargos de:\n• Professor Classe B, sede do município (16 vagas + CR)\n• Professor Classe B, EMEB Cerejal (3 vagas + CR)\n• Professor Classe B, EMEB Terezinha Gonçalves da Silva (2 vagas + CR)\n• Professor Classe B, EMEB Maria Cândida de Lima (2 vagas + CR)\n• Professor Classe B, EMEB Mundo Novo (1 vaga + CR)\n• Professor Classe B, EMEB Adilson José Schumacher (1 vaga + CR)\n• Técnico Administrativo Educacional, sede do município (3 vagas + CR)\nA jornada é de 30 horas semanais para professor e de 40 horas para técnico administrativo educacional. Os vencimentos são de R$ 5.771,72 e R$ 2.958,54, respectivamente.\nAs inscrições serão realizadas exclusivamente pelo site do Instituto Atame, das 7h do dia 27 de outubro de 2026 às 23h59 do dia 26 de novembro de 2026, no horário de Mato Grosso. A taxa é de R$ 150,00 para professor e de R$ 100,00 para técnico. De 27 a 29 de outubro de 2026, poderão solicitar isenção candidatos que atendam aos critérios do edital relativos ao CadÚnico, à doação regular de sangue, à renda de até um salário mínimo e meio ou ao desemprego.\nTodos os candidatos farão prova objetiva, eliminatória e classificatória, prevista para o dia 13 de dezembro de 2026. Para professor, haverá também entrega e avaliação facultativa de títulos, de caráter classificatório.\nO concurso terá validade de dois anos a partir da publicação da homologação do resultado, com possibilidade de prorrogação uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Professor Classe B, sede do município",
     "Professor Classe B, EMEB Cerejal",
@@ -10658,14 +12021,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Professor Classe B, sede do município",
     "Professor Classe B, EMEB Cerejal",
     "Professor Classe B, EMEB Terezinha Gonçalves da Silva",
     "Professor Classe B, EMEB Maria Cândida de Lima"
    ],
+   "cargosGerais": [
+    "Técnico Administrativo Educacional, sede do município",
+    "Técnico Administrativo Educacional"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Professor Classe B, sede do município, Professor Classe B, EMEB Cerejal, Professor Classe B, EMEB Terezinha Gonçalves da Silva. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -10710,6 +12079,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, o Município de Ibirama abriu um Concurso Público para formar cadastro de reserva em funções de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente Comunitário de Saúde, área 002, Dalbergia\n• Agente Comunitário de Saúde, área 003, Ponto Chic\n• Agente Comunitário de Saúde, área 004, Anchieta\n• Agente Comunitário de Saúde, área 005, Progresso\n• Agente Comunitário de Saúde, área 001, Serra São Miguel\n• Agente de Combate às Endemias\n• Enfermeiro\nA jornada é de 40 horas semanais. O vencimento básico é de R$ 1.850,98 para os agentes, com complementação de R$ 1.391,02 prevista no edital, e de R$ 5.724,76 para o enfermeiro. Há vale-alimentação de R$ 600,00.\nAs inscrições serão realizadas exclusivamente pelo site HC Assessoria Administrativa, das 14h de 13 de novembro de 2026 às 23h59 de 29 de novembro de 2026, no horário de Brasília. A taxa é de R$ 80,00 para cargos de nível médio e de R$ 100,00 para o enfermeiro, com pagamento por boleto até 30 de novembro de 2026. Pedidos de isenção poderão ser feitos de 13 a 19 de novembro de 2026 por doadores de sangue, doadores de medula óssea, pessoas que prestaram serviço voluntário à Justiça Eleitoral e inscritos no CadÚnico, conforme os requisitos do edital.\nA seleção terá prova teórica objetiva, de caráter eliminatório e classificatório, com 40 questões. A aplicação está prevista para 13 de dezembro de 2026.\nOs cargos serão providos pelo regime celetista de pessoal.\nO concurso terá validade de dois anos e poderá ser prorrogado por igual período, a critério da administração municipal.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Comunitário de Saúde, área 002, Dalbergia",
     "Agente Comunitário de Saúde, área 003, Ponto Chic",
@@ -10722,11 +12093,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
-    "Enfermeiro"
+    "Agente Comunitário de Saúde, área 002, Dalbergia",
+    "Agente Comunitário de Saúde, área 003, Ponto Chic",
+    "Agente Comunitário de Saúde, área 004, Anchieta",
+    "Agente Comunitário de Saúde, área 005, Progresso"
    ],
+   "cargosGerais": [
+    "Agente de Combate às Endemias",
+    "Agente Comunitário de Saúde"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Agente Comunitário de Saúde, área 002, Dalbergia, Agente Comunitário de Saúde, área 003, Ponto Chic, Agente Comunitário de Saúde, área 004, Anchieta. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -10771,6 +12151,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, o Município de Urussanga abriu um Processo Seletivo para formar cadastro de reserva em funções temporárias de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Assistente de Sala da Educação Infantil\n• Auxiliar de Sala\n• Professor de AEE\n• Professor de Ensino Fundamental - Ciências\n• Professor de Ensino Fundamental - Ensino Religioso\n• Professor de Ensino Fundamental - Geografia\n• Professor de Ensino Fundamental - História\n• Professor de Ensino Fundamental - Língua Inglesa\n• Professor de Ensino Fundamental - Língua Portuguesa\n• Professor de Ensino Fundamental - Matemática\n• Professor de Ensino Infantil e Fundamental - Arte\n• Professor de Educação Física Infantil e Fundamental\n• Professor de Educação Infantil\n• Professor de Ensino Fundamental I\n• Professor de Libras e/ou Bilíngue\nA jornada máxima é de 40 horas semanais, com possibilidade de 10, 20 ou 30 horas e remuneração proporcional. Para 40 horas, os salários vão de R$ 2.408,61 a R$ 5.685,60. Os cargos de professor recebem adicional de 10% de regência.\nAs inscrições serão feitas exclusivamente pelo site da SC Treinamentos, de 5 de novembro de 2026 até às 23h59 de 5 de dezembro de 2026. A taxa é de R$ 60,00 para Assistente de Sala da Educação Infantil e de R$ 90,00 para os demais cargos. O pagamento poderá ser feito até 7 de dezembro de 2026. Pedidos de isenção poderão ser apresentados de 5 a 25 de novembro de 2026 por doadores de sangue, doadores de medula óssea e candidatos de baixa renda, conforme os critérios do edital.\nA seleção terá prova objetiva, eliminatória e classificatória, para todos os cargos. Haverá também prova de títulos, exclusivamente classificatória, para professores habilitados, exceto Professor de Libras e/ou Bilíngue. A prova objetiva está prevista para 20 de dezembro de 2026.\nO Processo Seletivo terá validade de um ano, contado da publicação da homologação do resultado final, e poderá ser prorrogado uma única vez, a critério da administração municipal.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2408.61,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente de Sala da Educação Infantil",
     "Auxiliar de Sala",
@@ -10791,14 +12173,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Professor de AEE",
     "Professor de Ensino Fundamental - Ciências",
     "Professor de Ensino Fundamental - Ensino Religioso",
     "Professor de Ensino Fundamental - Geografia"
    ],
+   "cargosGerais": [
+    "Assistente de Sala da Educação Infantil",
+    "Auxiliar de Sala"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Professor de AEE, Professor de Ensino Fundamental - Ciências, Professor de Ensino Fundamental - Ensino Religioso. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -10845,6 +12233,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Secretaria de Estado da Saúde de Santa Catarina (SES) abriu dois Processos Seletivos Simplificados para preencher vagas temporárias de nível médio e superior.\nSegundo os editais, as oportunidades são para os cargos de:\nFlorianópolis\n• Motorista Socorrista (1 vaga)\nAraranguá\n• Psicólogo (1 vaga)\nBalneário Camboriú\n• Psicólogo (1 vaga)\nCuritibanos\n• Psicólogo (1 vaga)\nMafra\n• Psicólogo (1 vaga)\nSão Lourenço do Oeste\n• Psicólogo (1 vaga)\nA jornada mínima é de 30 horas semanais para ambos os cargos. A remuneração total indicada é de R$ 4.448,15 para motorista socorrista e de R$ 5.670,38 para psicólogo. Os valores incluem auxílio-alimentação de R$ 550,00 e adicional de insalubridade de R$ 231,57, concedido quando couber e sujeito a variação conforme a lotação e as atividades.\nAs inscrições serão realizadas exclusivamente pelo portal de inscrições, de 10 a 24 de novembro de 2026. Não haverá cobrança de taxa de inscrição.\nA seleção terá uma única etapa, com análise da documentação e soma dos pontos atribuídos a títulos e experiência comprovada, conforme os critérios de cada edital. Não há previsão de prova.\nOs processos seletivos simplificados destinam-se à seleção de profissionais para contratação temporária pelo período de 24 meses, podendo ser prorrogados por uma única vez, pelo mesmo prazo.\nMais informações podem ser obtidas nos editais completos.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Motorista Socorrista",
     "Psicólogo",
@@ -10856,11 +12246,16 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Psicólogo"
    ],
+   "cargosGerais": [
+    "Motorista Socorrista"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Psicólogo. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Etapas de prova não detalhadas (base)",
@@ -10905,6 +12300,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Braço do Trombudo, no Estado de Santa Catarina, abriu um Processo Seletivo com o objetivo de formar cadastro de reserva para profissionais de nível fundamental, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Assistente Social\n• Auxiliar de Serviços Gerais (Merendeira/Servente)\n• Operador de Estação de Tratamento de Água (ETA)\n• Agente Administrativo\nA jornada semanal varia de 40 a 44 horas, com remuneração mensal de R$ 2.437,15 a R$ 5.615,50.\nAs inscrições serão feitas pelo site Actio Assessoria, das 10h de 5 de novembro de 2026 às 15h de 4 de dezembro de 2026. A taxa é de R$ 60,00 para Agente Administrativo, Auxiliar de Serviços Gerais e Operador de Estação de Tratamento de Água, e de R$ 90,00 para Assistente Social.\nA seleção terá prova escrita objetiva, de caráter classificatório e eliminatório, para todas as funções. A aplicação está prevista para 13 de dezembro de 2026.\nO Processo Seletivo terá validade de dois anos, contados da publicação da homologação do resultado final. O prazo poderá ser prorrogado uma vez, por igual período, a critério da administração.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2437.15,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Social",
     "Auxiliar de Serviços Gerais",
@@ -10914,9 +12311,18 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Assistente Social"
+   ],
+   "cargosGerais": [
+    "Auxiliar de Serviços Gerais",
+    "Operador de Estação de Tratamento de Água",
+    "Agente Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Assistente Social. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -10963,15 +12369,22 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Tio Hugo, no Estado do Rio Grande do Sul, abriu o Concurso Público nº 02/2026 para preencher uma vaga de nível superior e formar cadastro de reserva.\nSegundo o edital, a oportunidade é para o cargo de:\n• Tesoureiro (1 vaga)\nA jornada é de 40 horas semanais, com remuneração inicial de R$ 5.573,07 e vale-alimentação de R$ 600,00. Outros benefícios poderão ser concedidos conforme a legislação.\nAs inscrições serão realizadas das 13h de 30 de novembro de 2026 às 13h de 22 de dezembro de 2026, no site do Instituto Objetiva. Nos dias úteis desse período, haverá um posto com acesso à internet na Prefeitura, na Rua Venezuela, nº 285, Bairro Progresso, das 8h às 12h. A taxa é de R$ 180,00. Doadores de medula óssea cadastrados em entidade reconhecida pelo Ministério da Saúde e membros de famílias de baixa renda inscritos no CadÚnico poderão solicitar isenção das 13h de 30 de novembro de 2026 às 13h de 2 de dezembro de 2026.\nA seleção terá exclusivamente prova objetiva, de caráter eliminatório e classificatório, prevista para 24 de janeiro de 2027.\nO provimento do cargo será pelo regime estatutário.\nO concurso terá validade de até dois anos, contados da publicação da homologação final, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Tesoureiro"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [],
+   "cargosGerais": [
+    "Tesoureiro"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -11016,16 +12429,25 @@ window.DADOS_CONCURSOS = {
    "texto": "A Câmara Municipal da Estância Turística de Ibiúna, no Estado de São Paulo, abriu um Concurso Público para preencher duas vagas em funções de nível fundamental e superior.\nA Errata 001 substituiu Informática por Conhecimentos Gerais na prova objetiva, mantendo cinco questões dessa matéria, com valor total de um ponto. A alteração também foi aplicada ao último critério de desempate baseado no número de acertos.\nUma nova retificação (Errata 002) prorrogou as inscrições até 23 de novembro de 2026 e alterou o cronograma, inclusive a data de aplicação das provas objetivas, agora prevista para 6 de dezembro de 2026.\nSegundo o edital, as oportunidades são para os cargos de:\n• Assistente Administrativo (1 vaga + CR)\n• Controlador Interno (1 vaga + CR)\nA jornada é de 40 horas semanais para Assistente Administrativo e de 30 horas semanais para Controlador Interno. As remunerações são, respectivamente, de R$ 2.740,12 e R$ 5.570,09. Os benefícios previstos são auxílio-alimentação de R$ 696,00, abono de cesta básica de R$ 632,00, abono assiduidade de R$ 153,69 e auxílio-transporte em pecúnia para deslocamentos até cidades limítrofes, conforme as regras aplicáveis.\nAs inscrições serão realizadas pelo site abconcursospublicos.org, de 19 de outubro de 2026 até às 23h59 de 23 de novembro de 2026. A taxa é de R$ 55,00 para nível fundamental e de R$ 95,00 para nível superior, com pagamento até 24 de novembro de 2026.\nA seleção será feita por prova objetiva, de caráter eliminatório e classificatório, prevista para o dia 6 de dezembro de 2026. As etapas presenciais serão realizadas em Ibiúna (SP), com possibilidade de aplicação em cidades próximas.\nO regime de contratação será o da CLT.\nO concurso terá validade de dois anos a partir da homologação, com possibilidade de prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Administrativo",
     "Controlador Interno"
    ],
-   "temMedio": false,
+   "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Controlador Interno"
+   ],
+   "cargosGerais": [
+    "Assistente Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Controlador Interno. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -11070,6 +12492,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de São Paulo, a Prefeitura Municipal de Cubatão realiza Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível médio e superior.\nDe acordo com o documento (Retificação do Concurso Público nº 04/2026), o cargo de Agente Fiscal de Tributos foi excluído. Os demais itens permanecem inalterados.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente de Cultura (CR)\n• Analista Contábil (CR)\n• Analista de Recursos Humanos (1 vaga)\n• Analista Financeiro (CR)\n• Analista I: Analista Orçamentário (CR)\n• Especialista em Saúde: Fisioterapeuta (1 vaga)\n• Especialista em Saúde: Fonoaudiólogo (6 vagas)\n• Especialista em Saúde I: Enfermeiro (1 vaga)\n• Especialista em Saúde I: Educador Físico (CR)\n• Especialista em Saúde I: Terapeuta Ocupacional (1 vaga)\n• Especialista em Saúde: Médico do Trabalho (2 vagas)\n• Especialista em Saúde: Nutricionista (7 vagas)\n• TNM - Técnico de Defesa Civil (CR)\nA jornada varia de 20 a 40 horas semanais, conforme o cargo. Os vencimentos são de R$ 3.577,49 a R$ 5.565,00. O edital prevê vale-alimentação, vale-refeição, vale-transporte e assistência médico-hospitalar e odontológica opcionais.\nAs inscrições serão feitas exclusivamente pela internet, no site do IBAM, de 29 de outubro de 2026 a 3 de dezembro de 2026. A taxa é de R$ 77,00 para o cargo de nível médio e de R$ 96,00 para os cargos de nível superior. Candidatos que atendam aos requisitos poderão solicitar isenção em 29 e 30 de outubro de 2026.\nA seleção terá prova objetiva para todos os cargos, de caráter eliminatório e classificatório, prevista para 17 de janeiro de 2027.\nOs aprovados serão nomeados conforme a necessidade da Prefeitura e a ordem de classificação, sob regime estatutário.\nO concurso terá validade de dois anos a partir da homologação, com possibilidade de prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 3577.49,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Cultura",
     "Analista Contábil",
@@ -11088,14 +12512,22 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Especialista em Saúde: Médico do Trabalho",
+    "Analista Contábil",
     "Especialista em Saúde: Fisioterapeuta",
-    "Especialista em Saúde: Fonoaudiólogo",
-    "Especialista em Saúde I: Enfermeiro"
+    "Especialista em Saúde: Fonoaudiólogo"
    ],
+   "cargosGerais": [
+    "Agente de Cultura",
+    "Analista de Recursos Humanos",
+    "Analista Financeiro",
+    "Analista I: Analista Orçamentário"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Especialista em Saúde: Médico do Trabalho, Analista Contábil, Especialista em Saúde: Fisioterapeuta. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -11140,15 +12572,22 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Cubatão, no Estado de São Paulo, realizará um Concurso Público para formar cadastro de reserva no cargo de assistente social. É exigida graduação em Serviço Social.\nSegundo o edital, a oportunidade é para o cargo de:\n• Assistente Social (cadastro de reserva)\nA jornada é de 30 horas semanais, com vencimento de R$ 5.565,00. São previstos vale-alimentação, vale-refeição, vale-transporte e assistência médico-hospitalar e odontológica, opcionais.\nAs inscrições serão feitas exclusivamente pelo site www.ibamsp-concursos.org.br, de 11 de novembro de 2026 até às 23h59 de 17 de dezembro de 2026. A taxa é de R$ 96,00. Pedidos de isenção poderão ser apresentados nos dias 11 e 12 de novembro de 2026, por candidatos que atendam aos critérios do edital relativos à doação de sangue e ao cadastro no REDOME ou à inscrição da família no CadÚnico.\nA seleção terá prova objetiva de múltipla escolha, eliminatória e classificatória, prevista para 17 de janeiro de 2027.\nOs candidatos nomeados estarão sujeitos ao regime estatutário.\nO concurso terá validade de dois anos a partir da homologação, com possibilidade de prorrogação por igual período, a critério da administração municipal.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Social"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Assistente Social"
+   ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -11193,6 +12632,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de São Luís de Montes Belos, no Estado de Goiás, divulgou o edital do Concurso Público para o preenchimento de vagas imediatas e formação de cadastro de reserva em funções de nível fundamental incompleto e completo, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente de Manutenção Mecânica (2 vagas)\n• Agente de Serviços e Obras Públicas (3 vagas)\n• Analista Ambiental - Agronomia (1 vaga)\n• Analista Ambiental - Biologia (1 vaga)\n• Analista Ambiental - Engenharia Ambiental (1 vaga)\n• Analista Ambiental - Engenharia Civil (1 vaga)\n• Assistente Administrativo (4 vagas)\n• Cuidador (15 vagas)\n• Eletricista (1 vaga)\n• Executor de Higiene e Alimentação (41 vagas)\n• Fiscal de Obras e Posturas (1 vaga)\n• Fiscal de Saúde Pública (1 vaga)\n• Fiscal de Tributos Municipais (1 vaga)\n• Motorista (1 vaga)\n• Operador de Máquinas Leves (1 vaga)\n• Operador de Máquinas Pesadas (1 vaga)\n• Professor Nível II - Pedagogia (62 vagas)\nA jornada de trabalho é de 30 a 40 horas semanais, conforme cargo. A remuneração varia de R$ 1.557,05 a R$ 5.559,33.\nAs inscrições estarão abertas de 26 de outubro de 2026 a 25 de novembro de 2026, pelo site www.institutoverbena.ufg.br. A taxa de inscrição é de R$ 100,00 para nível fundamental, R$ 130,00 para nível médio e R$ 150,00 para nível superior. Haverá isenção conforme critérios do edital, com pedidos entre os dias 26 e 28 de outubro de 2026.\nA seleção inclui prova objetiva para todos os cargos, sendo que para Operador de Máquinas Leves e Pesadas haverá também prova prática. O cargo de Professor Nível II - Pedagogia também contará com prova de redação e de títulos. As provas objetivas e de redação estão previstas para o dia 24 de janeiro de 2027.\nO concurso terá validade de 2 anos, podendo ser prorrogado uma vez, por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1557.05,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Manutenção Mecânica",
     "Agente de Serviços e Obras Públicas",
@@ -11215,11 +12656,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
-    "Professor Nível II - Pedagogia"
+    "Analista Ambiental - Agronomia",
+    "Analista Ambiental - Biologia",
+    "Analista Ambiental - Engenharia Ambiental",
+    "Analista Ambiental - Engenharia Civil"
    ],
+   "cargosGerais": [
+    "Agente de Manutenção Mecânica",
+    "Agente de Serviços e Obras Públicas",
+    "Assistente Administrativo",
+    "Cuidador",
+    "Executor de Higiene e Alimentação",
+    "Fiscal de Obras e Posturas",
+    "Fiscal de Saúde Pública",
+    "Fiscal de Tributos Municipais"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Analista Ambiental - Agronomia, Analista Ambiental - Biologia, Analista Ambiental - Engenharia Ambiental. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -11266,6 +12722,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Consórcio Público da Região Sertão Centro Sul (CONSCENSUL) realizará um Concurso Público para preencher nove vagas de nível superior completo. Os aprovados serão lotados no município de Lavras da Mangabeira/CE.\nSegundo o edital, as oportunidades são para os cargos de:\n• Analista (3 vagas)\n• Fiscal Técnico Ambiental (3 vagas)\n• Gestor 1 (1 vaga)\n• Gestor 2 (1 vaga)\n• Procurador Autárquico (1 vaga)\nA jornada é de 40 horas semanais para todos os cargos. Os vencimentos básicos vão de R$ 4.050,00 a R$ 5.500,00.\nAs inscrições serão realizadas das 9h de 6 de novembro de 2026 às 23h59 de 29 de novembro de 2026, pelo site da Universidade Patativa do Assaré. A taxa é de R$ 150,00. O edital prevê isenção para doadores de sangue ou de medula óssea e candidatos de baixa renda. O pedido de isenção deve ser feito pelo mesmo site em 4 e 5 de novembro de 2026.\nA seleção terá prova objetiva, de caráter eliminatório e classificatório, e prova de títulos, de caráter classificatório para quem alcançar ao menos 60% de acertos na prova objetiva. A prova objetiva será aplicada em 13 de dezembro de 2026, em Lavras da Mangabeira (CE).\nO concurso terá validade de dois anos a partir da publicação da homologação. O prazo poderá ser prorrogado uma vez, por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 4050,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Analista",
     "Fiscal Técnico Ambiental",
@@ -11276,11 +12734,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Procurador Autárquico"
    ],
+   "cargosGerais": [
+    "Analista",
+    "Fiscal Técnico Ambiental",
+    "Gestor 1",
+    "Gestor 2"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -11325,6 +12791,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Câmara Municipal de Quatro Barras, no Paraná, publicou o edital de Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível médio e superior.\nConforme o cronograma retificado, as inscrições foram reabertas e podem ser realizadas entre os dias 4 e 24 de novembro de 2026.\nDe acordo com o edital, as oportunidades são para os cargos de:\n• Advogado (2 vagas)\n• Assistente de Recursos Humanos (2 vagas)\n• Assistente Legislativo (1 vaga)\n• Auxiliar Legislativo (6 vagas)\n• Contador (1 vaga)\n• Secretário da Mesa Diretiva (5 vagas)\nA jornada de trabalho varia entre 20 e 40 horas semanais, conforme o cargo. As remunerações iniciais vão de R$ 2.236,01 a R$ 5.403,69.\nAs inscrições devem ser feitas pelo site www.consulpam.com.br. O prazo inicial, de 9 de outubro de 2026 a 3 de novembro de 2026, foi reaberto de 4 a 24 de novembro de 2026. As taxas são de R$ 80,00 para nível médio e de R$ 120,00 para nível superior.\nA seleção será composta por provas objetivas para todos os cargos, previstas para o dia 31 de janeiro de 2027. Para os cargos de Advogado, Assistente de Recursos Humanos e Contador, haverá também prova de títulos.\nO concurso público terá validade de 2 anos, contados a partir da homologação do resultado final, podendo ser prorrogado uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2236.01,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Advogado",
     "Assistente de Recursos Humanos",
@@ -11336,12 +12804,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Advogado",
     "Contador"
    ],
+   "cargosGerais": [
+    "Assistente de Recursos Humanos",
+    "Assistente Legislativo",
+    "Auxiliar Legislativo",
+    "Secretário da Mesa Diretiva"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Advogado, Contador. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -11386,6 +12862,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura do Município de Rio Rufino, no Estado de Santa Catarina, abriu três processos seletivos para formar cadastro de reserva em funções de nível fundamental, médio e superior.\nSegundo os editais, as oportunidades são para os cargos de:\nEdital nº 01/2026\n• Assistente Social\n• Auxiliar de Serviços Gerais\n• Operador de Equipamentos\n• Psicólogo\n• Vigia\nEdital nº 02/2026\n• Auxiliar de Serviços Gerais\n• Auxiliar de Transporte Escolar\n• Merendeira\n• Monitor de Sala\n• Professor de Arte\n• Professor de Educação Física\n• Professor de Pedagogia Habilitado\n• Professor de Pedagogia Não Habilitado\nEdital nº 03/2026\n• Auxiliar de Serviços Gerais\n• Enfermeiro\n• Farmacêutico\n• Técnico em Enfermagem\nA jornada varia de 20 a 40 horas semanais. Os vencimentos variam de R$ 1.621,00 a R$ 5.339,50.\nAs inscrições devem ser feitas de 6 de novembro de 2026 até as 17h de 5 de dezembro de 2026, pelo site da Acesse Concursos. A taxa é de R$ 50,00 para cargos de nível fundamental, R$ 80,00 para os de nível médio e R$ 100,00 para os de nível superior. O boleto pode ser emitido e pago até 7 de dezembro de 2026. Doadores de sangue e de medula óssea podem solicitar isenção, com envio da documentação até 22 de novembro de 2026.\nTodos os candidatos farão prova objetiva, de caráter eliminatório e classificatório, em 20 de dezembro de 2026. No edital nº 01/2026, a prova objetiva ocorrerá em Rio Rufino, e os candidatos a Operador de Equipamentos também farão prova prática.Os candidatos aos cargos de professor do edital nº 02/2026 também farão prova de títulos.\nOs três processos seletivos terão validade de um ano, contado da homologação final.\nMais informações podem ser obtidas nos editais completos.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Social",
     "Auxiliar de Serviços Gerais",
@@ -11408,14 +12886,24 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Assistente Social",
     "Psicólogo",
     "Professor de Arte",
-    "Professor de Educação Física",
-    "Professor de Pedagogia Habilitado"
+    "Professor de Educação Física"
    ],
+   "cargosGerais": [
+    "Auxiliar de Serviços Gerais",
+    "Operador de Equipamentos",
+    "Vigia",
+    "Auxiliar de Transporte Escolar",
+    "Merendeira",
+    "Monitor de Sala"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Assistente Social, Psicólogo, Professor de Arte. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -11460,6 +12948,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Câmara Municipal de Laranjal, no Estado de Minas Gerais, abriu um Concurso Público para preencher quatro vagas em funções de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Auxiliar de Serviços Administrativos (1 vaga)\n• Auxiliar de Serviços Gerais (1 vaga)\n• Contador (1 vaga)\n• Procurador Legislativo (1 vaga)\nA jornada é de 40 horas semanais para os cargos de ensino médio e de 20 horas semanais para os de ensino superior. Os vencimentos iniciais vão de R$ 2.000,00 a R$ 5.296,39 por mês.\nAs inscrições deverão ser feitas pelo site www.ibgpconcursos.com.br, das 9h de 6 de janeiro de 2027 às 16h de 4 de fevereiro de 2027. A taxa é de R$ 80,00 para cargos de nível médio e de R$ 100,00 para cargos de nível superior. Candidatos que atendam às condições previstas no edital poderão solicitar isenção das 9h de 6 de janeiro de 2027 às 16h de 8 de janeiro de 2027.\nA seleção terá prova objetiva de múltipla escolha, eliminatória e classificatória, para todos os cargos. Para os cargos de nível superior, haverá também prova de títulos, classificatória. A prova objetiva está prevista para 28 de fevereiro de 2027.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2000,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Serviços Administrativos",
     "Auxiliar de Serviços Gerais",
@@ -11469,12 +12959,18 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Procurador Legislativo",
     "Contador"
    ],
+   "cargosGerais": [
+    "Auxiliar de Serviços Administrativos",
+    "Auxiliar de Serviços Gerais"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Procurador Legislativo, Contador. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -11519,6 +13015,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Câmara Municipal de Carapicuíba, no Estado de São Paulo, abriu um Concurso Público para preencher duas vagas efetivas de níveis médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Oficial de Manutenção (1 vaga)\n• Técnico em Tecnologia da Informação (1 vaga)\nA jornada é de 40 horas semanais para ambos os cargos. A remuneração é de R$ 1.749,20 para Oficial de Manutenção e de R$ 5.295,09 para Técnico em Tecnologia da Informação.\nAs inscrições serão realizadas exclusivamente pelo site do Instituto ISET, das 0h de 16 de novembro de 2026 às 23h59 de 6 de dezembro de 2026, no horário de Brasília. A taxa é de R$ 20,34 para o ensino médio e de R$ 26,23 para o ensino superior. O pagamento poderá ser feito até 7 de dezembro de 2026. Pedidos de isenção poderão ser apresentados em 16 e 17 de novembro de 2026 por candidatos de famílias de baixa renda inscritos no CadÚnico, doadores de medula óssea e doadores de sangue, conforme os requisitos do edital.\nA seleção terá prova objetiva, eliminatória e classificatória, para ambos os cargos, prevista para 17 de janeiro de 2027. Para Oficial de Manutenção, haverá também prova prática, eliminatória e classificatória, prevista para 21 de fevereiro de 2027. Os candidatos convocados passarão ainda por procedimentos pré-admissionais, incluindo apresentação de documentos e exames médicos, de caráter eliminatório.\nOs aprovados convocados serão nomeados para cargos efetivos sob o Regime Jurídico Único Estatutário do Município de Carapicuíba.\nO concurso terá validade de dois anos a partir da publicação da homologação do resultado final, podendo ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Oficial de Manutenção",
     "Técnico em Tecnologia da Informação"
@@ -11526,9 +13024,16 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Técnico em Tecnologia da Informação"
+   ],
+   "cargosGerais": [
+    "Oficial de Manutenção"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Técnico em Tecnologia da Informação. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -11573,6 +13078,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de São Paulo, a Prefeitura Municipal de Uru abriu um Concurso Público para preencher seis vagas em empregos permanentes de nível fundamental incompleto e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Cozinheira (1 vaga)\n• Escriturário (1 vaga)\n• Motorista (1 vaga)\n• Procurador Municipal (1 vaga)\n• Professor de Educação Básica I (1 vaga)\n• Tesoureiro (1 vaga)\nA jornada é de 30 horas semanais para Procurador Municipal e de 40 horas semanais para os demais empregos. Os salários mensais variam de R$ 1.655,27 a R$ 5.217,70.\nAs inscrições serão realizadas exclusivamente pelo site da CEMAT, a partir das 8h de 11 de novembro de 2026 até as 17h de 25 de novembro de 2026, no horário de Brasília. A taxa é de R$ 50,00 para Cozinheira e Motorista e de R$ 90,00 para os demais empregos.\nA seleção terá prova escrita, eliminatória e classificatória, para todos os empregos. Haverá prova prática, eliminatória e classificatória, para Motorista, e avaliação de títulos, classificatória, para Procurador Municipal, Professor de Educação Básica I e Tesoureiro. As provas estão previstas para o dia 13 de dezembro de 2026, a partir das 8h30, na Escola Estadual Paschoal Flamino, na Avenida Altino Negrisoli, nº 235, Centro, em Uru. A prova prática ocorrerá após a prova escrita, no mesmo local e data.\nO provimento será permanente, sob o regime da Consolidação das Leis do Trabalho (CLT), com vínculo ao Regime Geral de Previdência Social (RGPS).\nO concurso terá validade de dois anos, contados da homologação, e poderá ser prorrogado por igual período, a critério da administração municipal.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1655.27,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Cozinheira",
     "Escriturário",
@@ -11584,12 +13091,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Procurador Municipal",
     "Professor de Educação Básica I"
    ],
+   "cargosGerais": [
+    "Cozinheira",
+    "Escriturário",
+    "Motorista",
+    "Tesoureiro"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Procurador Municipal, Professor de Educação Básica I. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -11634,6 +13149,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Tuiuti abriu um Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível fundamental (incompleto e completo), médio, técnico e superior.\nConforme as retificações nº 01 e 02, o prazo de inscrição foi prorrogado até 23 de novembro de 2026, com pagamento da taxa até 25 de novembro de 2026. O cargo de Servidor Braçal passou a constar entre os de ensino fundamental completo, enquanto Operador de Máquinas Sênior passou a exigir ensino médio completo e CNH categoria D. Para os cargos de Agente Comunitário de Saúde, foram incluídos os requisitos de residência na área de atuação, CNH categoria B e noções básicas de informática.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino fundamental incompleto\n• Ajudante Geral (1 vaga)\n• Jardineiro (1 vaga)\n• Mantenedor de Máquinas e Veículos (CR)\n• Motorista Sênior (CR)\nEnsino fundamental completo\n• Operador de Máquinas Junior (CR)\n• Pedreiro (CR)\n• Pintor (CR)\n• Vigia (CR)\n• Servidor Braçal (1 vaga)\nEnsino médio completo\n• Agente Comunitário de Saúde, Centro (CR)\n• Agente Comunitário de Saúde, Godoy/Arraial (CR)\n• Agente Comunitário de Saúde, Lima Rico/Pantano (CR)\n• Agente Comunitário de Saúde, Passa Três/Machados/Caetanos/Rio Abaixo (CR)\n• Agente de Controle de Endemia (CR)\n• Almoxarife (CR)\n• Assistente Administrativo (CR)\n• Auxiliar Administrativo (CR)\n• Merendeira (1 vaga)\n• Operador de Máquinas Sênior (1 vaga)\n• Recepcionista (CR)\n• Servente (1 vaga)\n• Técnico de Segurança do Trabalho (1 vaga)\nEnsino médio e técnico\n• Técnico de Enfermagem (CR)\nEnsino superior\n• Assistente Social (1 vaga)\n• Assistente Social Escolar (1 vaga)\n• Coordenador Pedagógico (CR)\n• Diretor de Escola (CR)\n• Enfermeiro (CR)\n• Professor de Educação Básica I, Classe (CR)\n• Professor de Educação Básica I, Educação Infantil (CR)\n• Professor de Educação Básica II, Educação Especial Intérprete de Libras (CR)\n• Professor de Educação Básica II, Educação Especial (CR)\n• Professor de Educação Básica II, Educação Física (CR)\n• Professor de Educação Básica II, Geografia (CR)\n• Professor de Educação Básica II, História (CR)\n• Professor de Educação Básica II, Inglês (CR)\n• Professor de Educação Básica II, Matemática (CR)\n• Professor de Educação Básica II, Português (CR)\n• Psicólogo (CR)\n• Psicólogo Escolar (1 vaga)\n• Psicopedagogo 40h (1 vaga)\nAs jornadas variam de 20 a 40 horas semanais, exceto para Vigia, que trabalhará em escala 12x36. Os salários iniciais vão de R$ 1.783,03 a R$ 5.209,01. Para os cargos de Professor de Educação Básica II, a remuneração é de R$ 26,20 por hora-aula.\nAs inscrições serão feitas de 20 de outubro de 2026 a 23 de novembro de 2026, pelo site www.aplicativa.net.br, observado o horário de Brasília. As taxas são de R$ 35,50 para cargos de nível fundamental, R$ 45,50 para cargos de nível médio e técnico e R$ 65,50 para cargos de nível superior.\nA seleção terá prova objetiva para todos os cargos. Haverá também prova prática para Ajudante Geral, Jardineiro, Mantenedor de Máquinas e Veículos, Merendeira, Motorista Sênior, Operador de Máquinas Junior e Sênior, Pedreiro, Pintor, Servente e Servidor Braçal; avaliação de títulos para os cargos de nível superior; e teste de aptidão física para Vigia. A prova objetiva está prevista para o dia 20 de dezembro de 2026.\nOs aprovados serão contratados para cargos efetivos sob o regime da Consolidação das Leis do Trabalho (CLT), conforme a necessidade do município e a ordem de classificação.\nO concurso terá validade de dois anos a partir da homologação, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1783.03,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Ajudante Geral",
     "Jardineiro",
@@ -11680,14 +13197,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
-    "Coordenador Pedagógico",
-    "Enfermeiro",
-    "Professor de Educação Básica I, Classe",
-    "Professor de Educação Básica I, Educação Infantil"
+    "Agente Comunitário de Saúde, Centro",
+    "Agente Comunitário de Saúde, Godoy/Arraial",
+    "Agente Comunitário de Saúde, Lima Rico/Pantano",
+    "Agente Comunitário de Saúde, Passa Três/Machados/Caetanos/Rio Abaixo"
    ],
+   "cargosGerais": [
+    "Ajudante Geral",
+    "Jardineiro",
+    "Mantenedor de Máquinas e Veículos",
+    "Motorista Sênior",
+    "Operador de Máquinas Junior",
+    "Pedreiro",
+    "Pintor",
+    "Vigia"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Agente Comunitário de Saúde, Centro, Agente Comunitário de Saúde, Godoy/Arraial, Agente Comunitário de Saúde, Lima Rico/Pantano. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -11732,6 +13261,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Câmara Municipal de Nova Ponte, no Estado de Minas Gerais, reabriu o Concurso Público destinado ao preenchimento de cinco vagas imediatas e à formação de cadastro de reserva para profissionais de nível médio e superior.\nDe acordo com o documento (Retificações nº 001 e 002/24 e nº 001 e 002/2026), a publicação consolida alterações anteriores no edital, incluindo prazos e regras atualizadas.\nSegundo o edital, as oportunidades são para os cargos de:\n• Controlador Interno (1 vaga)\n• Secretário Parlamentar (2 vagas)\n• Auxiliar Administrativo (2 vagas)\nA jornada é de 40 horas semanais para todos os cargos. As remunerações variam de R$ 2.890,00 a R$ 5.200,00.\nAs inscrições acontecem de 27 de outubro de 2026 a 26 de novembro de 2026, pelo site www.versatilsolucoesadm.com.br, com taxas de R$ 80,00 a R$ 100,00. Haverá possibilidade de isenção para quem comprovar requisitos descritos no edital.\nA seleção será feita por meio de prova objetiva de múltipla escolha para todos os cargos, a ser aplicada no dia 27 de dezembro de 2026.\nOs candidatos aprovados serão contratados pelo regime estatutário, conforme legislação municipal vigente.\nO concurso terá validade de dois anos, podendo ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2890,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Controlador Interno",
     "Secretário Parlamentar",
@@ -11740,9 +13271,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Controlador Interno"
+   ],
+   "cargosGerais": [
+    "Secretário Parlamentar",
+    "Auxiliar Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Controlador Interno. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -11787,6 +13326,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, a Prefeitura de São Francisco do Sul, por meio da Secretaria Municipal de Educação, abriu um Processo Seletivo para a formação de cadastro de reserva em funções de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nQuadro 01\n• Professor de Educação Infantil\n• Professor de Ensino Fundamental II - Ensino Religioso\n• Professor de Ensino Fundamental II - História\n• Professor de Ensino Fundamental II - Língua Inglesa\n• Professor de Ensino Fundamental II - Matemática\n• Técnico Pedagógico - Orientador Escolar\nQuadro 02\n• Professor de Ensino Fundamental I\n• Professor de Arte\n• Professor de Ensino Fundamental II - Ciências\n• Professor de Ensino Fundamental II - Geografia\n• Professor de Ensino Fundamental II - Língua Portuguesa\n• Professor de Educação Especial\n• Professor de Educação Física\n• Técnico Pedagógico - Supervisão Escolar\nAs jornadas variam de 10 a 40 horas semanais, conforme o cargo. A remuneração mensal vai de R$ 1.299,74 a R$ 5.198,96. Para professores, há adicional de 10% de gratificação de regência de classe. São oferecidos vale-alimentação e vale-transporte.\nAs inscrições serão realizadas das 10h de 30 de outubro de 2026 às 22h de 30 de novembro de 2026, pelo site do Instituto Tupy. A taxa é de R$ 90,00 por inscrição. Podem solicitar isenção, até as 17h de 3 de novembro de 2026, doadores de sangue, medula óssea ou leite materno, candidatos economicamente hipossuficientes, voluntários da Justiça Eleitoral e jurados do Tribunal do Júri que atendam aos critérios do edital.\nA seleção terá prova objetiva, eliminatória e classificatória, e prova de títulos, classificatória, para todos os cargos. A prova objetiva está prevista para 13 de dezembro de 2026.\nAs contratações serão por prazo determinado, com vinculação ao Regime Geral da Previdência Social.\nO Processo Seletivo terá validade de um ano a partir da homologação do resultado, podendo ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1299.74,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Professor de Educação Infantil",
     "Professor de Ensino Fundamental II - Ensino Religioso",
@@ -11806,14 +13347,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Professor de Educação Infantil",
     "Professor de Ensino Fundamental II - Ensino Religioso",
     "Professor de Ensino Fundamental II - História",
     "Professor de Ensino Fundamental II - Língua Inglesa"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Professor de Educação Infantil, Professor de Ensino Fundamental II - Ensino Religioso, Professor de Ensino Fundamental II - História. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -11860,17 +13404,22 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Minas Gerais, a Câmara Municipal de Caratinga divulgou um edital de Concurso Público visando preencher uma vaga para o quadro permanente de servidores em função de nível superior.\nSegundo o edital, a oportunidade é para o cargo de:\n• Contador (1 vaga)\nA jornada de trabalho é de 30 horas semanais, com remuneração de R$ 5.182,90, acrescida de auxílio-alimentação de R$ 725,00 e outros benefícios previstos na legislação municipal.\nAs inscrições devem ser feitas exclusivamente pelo site www.institutoconsulplan.org.br, das 16h do dia 7 de dezembro de 2026 até às 16h do dia 5 de janeiro de 2027. A taxa de inscrição é de R$ 150,00. O pedido de isenção deve ser realizado entre os dias 7 e 9 de dezembro de 2026, para candidatos inscritos no CadÚnico, doadores de medula óssea ou pessoas em condição de insuficiência financeira, conforme edital.\nO processo de seleção será composto por prova objetiva prevista para o dia 31 de janeiro de 2027. Haverá ainda etapa de avaliação de títulos de caráter classificatório.\nOs aprovados serão contratados sob regime estatutário, conforme legislação municipal.\nO prazo de validade do concurso é de 2 anos a partir da homologação, podendo ser prorrogado uma única vez por igual período, a critério da Câmara Municipal de Caratinga/MG.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Contador"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Contador"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -11915,6 +13464,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, a Prefeitura Municipal de Correia Pinto abriu o Concurso Público nº 01/2026 para preencher vagas e formar cadastro de reserva no quadro de servidores. O certame é destinado a profissionais com ensino médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Assistente Técnico Pedagógico (1 vaga)\n• Auxiliar de Apoio Escolar \"B\" (5 vagas)\n• Professor de Arte (1 vaga)\n• Professor de Braille\n• Professor de Ciências (1 vaga)\n• Professor de Educação Física (1 vaga)\n• Professor de Educação Infantil (5 vagas)\n• Professor de Ensino Religioso (1 vaga)\n• Professor de Geografia (1 vaga)\n• Professor de História (1 vaga)\n• Professor de Libras\n• Professor de Língua Inglesa\n• Professor de Língua Portuguesa (1 vaga)\n• Professor de Matemática\n• Professor de Séries Iniciais para 1º Ano do Ensino Fundamental (2 vagas)\n• Professor de Séries Iniciais para 2º ao 5º Ano do Ensino Fundamental (4 vagas)\n• Professor do Atendimento Educacional Especializado (AEE) (2 vagas)\n• Profissional de Apoio à Inclusão (Segundo Professor) (3 vagas)\nA jornada é de 40 horas semanais, ou de até 40 horas semanais para os cargos de Professor de Braille, Professor de Libras, Professor de Língua Inglesa e Professor de Matemática. O vencimento básico vai de R$ 2.286,90 a R$ 5.180,14. Há vale-alimentação de R$ 530,00 para jornadas de 40 horas, proporcional para jornadas inferiores.\nAs inscrições serão realizadas de 13 a 30 de novembro de 2026, exclusivamente pelo site da Legalle Concursos, até as 18h do último dia, conforme o cronograma. A taxa é de R$ 100,00 para o cargo de nível médio e de R$ 120,00 para os cargos de nível superior. Pedidos de isenção poderão ser feitos de 13 a 17 de novembro de 2026 por candidatos de famílias de baixa renda, doadores de sangue e doadores de medula óssea, conforme as regras do edital.\nA seleção terá prova teórico-objetiva, de caráter eliminatório e classificatório, para todos os cargos, prevista para 12 de dezembro de 2026. Assistente Técnico Pedagógico, professores e Profissional de Apoio à Inclusão também passarão por prova de títulos, de caráter classificatório. Para Professor de Séries Iniciais para 1º Ano do Ensino Fundamental, haverá ainda prova de desempenho didático, de caráter eliminatório e classificatório, com envio de plano de aula e videoaula, prevista para o período de 15 a 18 de janeiro de 2027.\nOs nomeados estarão submetidos ao regime estatutário.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final para cada cargo. O prazo poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2286.9,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Técnico Pedagógico",
     "Auxiliar de Apoio Escolar \"B\"",
@@ -11938,14 +13489,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Assistente Técnico Pedagógico",
     "Professor de Arte",
     "Professor de Braille",
     "Professor de Ciências"
    ],
+   "cargosGerais": [
+    "Auxiliar de Apoio Escolar \"B\"",
+    "Profissional de Apoio à Inclusão"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Assistente Técnico Pedagógico, Professor de Arte, Professor de Braille. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -11990,6 +13547,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, o Município de Águas de Chapecó, por meio da Secretaria de Educação e Cultura, abriu um Concurso Público para preencher duas vagas em cargos efetivos e formar cadastro de reserva em funções de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Professor MAG II, área de Educação Especial (1 vaga e cadastro de reserva)\n• Professor MAG II, área de Educação Infantil (1 vaga e cadastro de reserva)\n• Professor MAG II, área de Ensino Religioso (cadastro de reserva)\n• Auxiliar de Sala (cadastro de reserva)\nA jornada poderá ser de 10, 20, 30 ou 40 horas semanais. Para 40 horas, os vencimentos-base são de R$ 2.225,66 para Auxiliar de Sala e R$ 5.147,24 para Professor MAG II. Para jornadas menores, os valores serão proporcionais.\nAs inscrições deverão ser feitas exclusivamente pelo site do concurso, das 16h de 17 de novembro de 2026 às 16h de 9 de dezembro de 2026, no horário de Brasília. A taxa é de R$ 120,00 para nível médio e R$ 150,00 para nível superior. Pedidos de isenção poderão ser feitos entre os dias 17 e 19 de novembro de 2026, nas condições previstas no edital.\nA seleção terá prova objetiva, eliminatória e classificatória, para todos os cargos, e prova de títulos, classificatória, apenas para Professor MAG II. A prova objetiva está prevista para 10 de janeiro de 2027. A aplicação será em Águas de Chapecó (SC), podendo ocorrer em municípios vizinhos ou em outras localidades da região.\nO concurso terá validade de até dois anos, podendo ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Professor MAG II, área de Educação Especial",
     "Professor MAG II, área de Educação Infantil",
@@ -11999,14 +13558,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Professor MAG II, área de Educação Especial",
     "Professor MAG II, área de Educação Infantil",
     "Professor MAG II, área de Ensino Religioso",
     "Professor MAG II"
    ],
+   "cargosGerais": [
+    "Auxiliar de Sala"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Professor MAG II, área de Educação Especial, Professor MAG II, área de Educação Infantil, Professor MAG II, área de Ensino Religioso. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -12051,6 +13615,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de São Mateus do Maranhão abriu três concursos públicos para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nSegundo os editais, as oportunidades são para os cargos de:\nCargos gerais, edital nº 001/2026\n• Agente Administrativo (16 vagas)\n• Agente de Vigilância Sanitária (2 vagas)\n• AOSD (Auxiliar Operacional de Serviços Diversos) (20 vagas)\n• Assistente Social (7 vagas)\n• Auxiliar de Saúde Bucal (2 vagas)\n• Auditor Fiscal (1 vaga)\n• Auxiliar de Turma (16 vagas)\n• Biólogo (1 vaga)\n• Biomédico (1 vaga)\n• Bioquímico (1 vaga)\n• Contador (1 vaga)\n• Dentista (2 vagas)\n• Eletricista (1 vaga)\n• Enfermeiro (12 vagas)\n• Engenheiro Ambiental (1 vaga)\n• Engenheiro Civil (1 vaga)\n• Engenheiro Elétrico (1 vaga)\n• Farmacêutico (6 vagas)\n• Fiscal Ambiental (1 vaga)\n• Fiscal de Tributos (1 vaga)\n• Fisioterapeuta (2 vagas)\n• Fonoaudiólogo (3 vagas)\n• Médico Clínico Geral (2 vagas)\n• Motorista B (2 vagas)\n• Motorista D (8 vagas)\n• Nutricionista (3 vagas)\n• Orientador Social (6 vagas)\n• Psicólogo (6 vagas)\n• Radiologista (1 vaga)\n• Recepcionista (6 vagas)\n• Secretário de Escola (8 vagas)\n• Técnico de Enfermagem (15 vagas)\n• Técnico em Radiologia (4 vagas)\n• Técnico em Segurança do Trabalho (1 vaga)\n• Técnico de Saúde Bucal (2 vagas)\n• Terapeuta Ocupacional (2 vagas)\n• Topógrafo (1 vaga)\n• Vigia (30 vagas)\nAgente de Trânsito e Guarda Municipal, edital nº 002/2026\n• Agente de Trânsito (8 vagas)\n• Guarda Municipal (10 vagas)\nMagistério, edital nº 003/2026\n• Pedagogo (6 vagas)\n• Professor do 1º ao 5º ano (20 vagas)\n• Professor Braile (1 vaga)\n• Professor de AEE (5 vagas)\n• Professor de Arte (2 vagas)\n• Professor de Ciências (3 vagas)\n• Professor de Cultura Digital (1 vaga)\n• Professor de Educação Física (2 vagas)\n• Professor de Educação Infantil (30 vagas)\n• Professor de Geografia (3 vagas)\n• Professor de História (3 vagas)\n• Professor de Língua Inglesa (3 vagas)\n• Professor de Língua Portuguesa (6 vagas)\n• Professor de Matemática (6 vagas)\n• Professor Educação Quilombola (1 vaga)\n• Professor EJAI do 1º ao 5º ano (6 vagas)\n• Professor Intérprete de Libras (2 vagas)\nAs jornadas são de 24, 30 ou 40 horas semanais, conforme o cargo. Para Vigia, o edital informa trabalho em plantão. Os salários iniciais variam de R$ 1.621,00 a R$ 5.130,65. O vencimento base de Enfermeiro e Técnico de Enfermagem poderá receber complementação por repasses federais para garantir o piso nacional das categorias.\nAs inscrições serão realizadas de 16 de novembro de 2026 a 7 de dezembro de 2026, exclusivamente pelo site do Instituto CONSULPAM. As taxas são de R$ 70,00 para nível fundamental, R$ 100,00 para nível médio, R$ 110,00 para nível técnico e R$ 140,00 para nível superior. Candidatos inscritos no CadÚnico que sejam membros de família de baixa renda e doadores de medula óssea nas condições previstas nos editais poderão solicitar isenção de 17 a 18 de novembro de 2026.\nTodos os cargos terão prova objetiva, de caráter eliminatório e classificatório, prevista para 21 de fevereiro de 2027, em São Mateus do Maranhão, com possibilidade de aplicação em municípios vizinhos. Candidatos de nível superior dos editais de cargos gerais e magistério também passarão por prova de títulos, de caráter classificatório. Para Agente de Trânsito e Guarda Municipal, haverá ainda investigação social, exames médicos, avaliação de aptidão psicológica, teste de aptidão física e curso de formação inicial, etapas eliminatórias. Candidatos às vagas reservadas a pessoas negras serão submetidos à heteroidentificação, e candidatos às vagas reservadas a pessoas com deficiência poderão passar por perícia médica.\nOs três concursos terão validade de dois anos, contados da publicação da homologação do resultado final. O prazo poderá ser prorrogado uma vez por igual período, a critério da administração municipal.\nMais informações podem ser obtidas nos editais completos.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Administrativo",
     "Agente de Vigilância Sanitária",
@@ -12113,14 +13679,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Biomédico",
     "Dentista",
     "Médico Clínico Geral",
-    "Auditor Fiscal",
-    "Engenheiro Ambiental"
+    "Auditor Fiscal"
    ],
+   "cargosGerais": [
+    "Agente Administrativo",
+    "Agente de Vigilância Sanitária",
+    "AOSD",
+    "Auxiliar de Turma",
+    "Bioquímico",
+    "Fiscal Ambiental",
+    "Fiscal de Tributos",
+    "Motorista B"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Biomédico, Dentista, Médico Clínico Geral. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -12167,6 +13745,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Paraná, o Município de Guamiranga abriu dois concursos públicos para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nSegundo os editais, as oportunidades são para os cargos de:\nConcurso Público nº 01/2026, regime estatutário\n• Enfermeiro (cadastro de reserva)\n• Fonoaudiólogo (1 vaga e cadastro de reserva)\n• Professor 40h (8 vagas e cadastro de reserva)\n• Assistente Educacional (1 vaga e cadastro de reserva)\n• Técnico em Enfermagem (cadastro de reserva)\n• Assistente Operacional (feminino) (3 vagas e cadastro de reserva)\n• Assistente Operacional (masculino) (1 vaga e cadastro de reserva)\n• Motorista (3 vagas e cadastro de reserva)\n• Operador de Máquinas (cadastro de reserva)\n• Pedreiro (cadastro de reserva)\nConcurso Público nº 02/2026, emprego sob regime celetista\n• Auxiliar de Consultório Odontológico (1 vaga e cadastro de reserva)\nA jornada é de 40 horas semanais em ambos os concursos. A remuneração inicial bruta varia de R$ 1.621,00 a R$ 5.130,63.\nAs inscrições serão feitas exclusivamente pelo site www.concursosfau.com.br, das 12h de 30 de outubro de 2026 às 23h59 de 22 de novembro de 2026. As taxas variam de R$ 60,00 a R$ 120,00. Candidatos de famílias de baixa renda e doadores de sangue ou de medula óssea poderão solicitar isenção nos dias 3 e 4 de novembro de 2026.\nOs dois concursos terão prova objetiva, de caráter eliminatório e classificatório, prevista para 13 de dezembro de 2026. No concurso nº 01/2026, haverá também prova de títulos, de caráter classificatório, para os cargos de nível superior, e prova prática, de caráter eliminatório e classificatório, para Motorista e Operador de Máquinas. No concurso nº 02/2026, a seleção terá somente prova objetiva.\nOs cargos do concurso nº 01/2026 seguem o regime estatutário. O emprego do concurso nº 02/2026 segue o regime celetista.\nCada concurso terá validade de dois anos, contados da homologação, com possibilidade de prorrogação por igual período, a critério do Município de Guamiranga.\nMais informações podem ser obtidas nos editais completos.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Enfermeiro",
     "Fonoaudiólogo",
@@ -12183,14 +13763,23 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Auxiliar de Consultório Odontológico",
     "Enfermeiro",
     "Fonoaudiólogo",
     "Professor 40h"
    ],
+   "cargosGerais": [
+    "Assistente Educacional",
+    "Assistente Operacional",
+    "Motorista",
+    "Operador de Máquinas",
+    "Pedreiro"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Auxiliar de Consultório Odontológico, Enfermeiro, Fonoaudiólogo. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -12235,6 +13824,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Blumenau, no Estado de Santa Catarina, abriu um Concurso Público para preencher vagas e formar cadastro de reserva em cargos efetivos de nível superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Coordenador Pedagógico (1 vaga)\n• Professor de Computação (1 vaga)\n• Professor I - Alemão (1 vaga)\n• Professor I - Anos Iniciais (1 vaga)\n• Professor I - Arte (1 vaga)\n• Professor I - Bandas e Fanfarras (1 vaga)\n• Professor I - Ciências (1 vaga)\n• Professor I - Educação Especial Salas Multifuncionais (1 vaga)\n• Professor I - Educação Física (1 vaga)\n• Professor I - Educação Infantil (1 vaga)\n• Professor I - Ensino Religioso (1 vaga)\n• Professor I - Geografia (1 vaga)\n• Professor I - História (1 vaga)\n• Professor I - Inglês (1 vaga)\n• Professor I - Instrutor de Libras (1 vaga)\n• Professor I - Intérprete de Libras (1 vaga)\n• Professor I - Matemática (1 vaga)\n• Professor I - Português (1 vaga)\nA jornada é de 20 ou 40 horas semanais, com vencimentos de R$ 2.535,32 a R$ 5.130,63. Há auxílio-alimentação de R$ 1.188,48 para os servidores que atenderem aos requisitos legais.\nAs inscrições serão feitas das 8h de 7 de novembro de 2026 às 23h59 de 9 de dezembro de 2026, pelo site concursos.furb.br. A taxa é de R$ 150,00, com pagamento até 10 de dezembro de 2026. A isenção poderá ser solicitada de 7 a 16 de novembro de 2026 por candidatos que comprovem doação de sangue, leite materno ou medula óssea, ausência de renda ou prestação de serviços à Justiça Eleitoral, conforme o edital.\nA seleção terá prova objetiva eliminatória e classificatória para todos os cargos, prova de títulos facultativa e classificatória e prova prática eliminatória e classificatória para Professor I - Alemão, Bandas e Fanfarras, Inglês, Instrutor de Libras e Intérprete de Libras. A prova objetiva está prevista para o dia 31 de janeiro de 2027 e a prova prática está prevista para 28 de fevereiro de 2027.\nOs aprovados serão nomeados para cargos efetivos sob regime jurídico estatutário.\nO concurso terá validade de dois anos a partir da homologação, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2535.32,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Coordenador Pedagógico",
     "Professor de Computação",
@@ -12258,14 +13849,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Coordenador Pedagógico",
     "Professor de Computação",
     "Professor I - Alemão",
     "Professor I - Anos Iniciais"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -12310,15 +13904,22 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado do Paraná, a Prefeitura Municipal de Sengés abriu um Concurso Público para preencher 14 vagas de Guarda Civil Municipal e formar cadastro de reserva. As exigências são: ensino médio completo, CNH AB e idade máxima de 50 anos.\nSegundo o edital, as oportunidades são para o cargo de:\n• Guarda Civil Municipal (8 vagas AC + CR, 3 vagas FEM, 1 vaga PcD e 1 vaga para Negros)\nA jornada é de 40 horas semanais. A remuneração é de R$ 5.097,76, composta por vencimento básico de R$ 2.832,09, gratificação pelo Regime Especial de Trabalho Policial de R$ 1.416,04 e adicional de periculosidade de R$ 849,63.\nAs inscrições serão realizadas exclusivamente pelo site do Instituto UniFil, das 8h de 23 de novembro às 23h59 de 21 de dezembro de 2026. A taxa é de R$ 100,00. A isenção poderá ser solicitada das 8h de 23 de novembro às 23h59 de 27 de novembro de 2026 por candidatos de baixa renda inscritos no CadÚnico, doadores de sangue, medula óssea ou leite humano e pessoas que prestaram serviços à Justiça Eleitoral, conforme os critérios do edital.\nA seleção terá prova objetiva e teste de aptidão física, ambos classificatórios e eliminatórios. Também haverá exame antropométrico, avaliação psicológica, avaliações médicas, odontológicas e toxicológicas, investigação social e curso de formação, todos eliminatórios. A prova objetiva está prevista para 17 de janeiro de 2027, em Sengés, e poderá ocorrer em cidades vizinhas se não houver locais suficientes.\nOs aprovados serão nomeados pelo regime estatutário, conforme a ordem de classificação e a necessidade da administração municipal.\nO concurso terá validade de dois anos a partir da publicação da homologação do resultado final e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Guarda Civil Municipal"
    ],
    "temMedio": true,
    "temSuperior": false,
    "superiorQualquerArea": false,
-   "confiancaMedio": "confirmado",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [],
+   "cargosGerais": [
+    "Guarda Civil Municipal"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "confirmado",
+   "acessoMotivo": "Todos os cargos pedem até o ensino médio, então o maior salário é de um cargo de nível médio.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -12364,6 +13965,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Cerquilho, no Estado de São Paulo, abriu um Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio ou técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino fundamental completo\n• Auxiliar de Limpeza (10 vagas)\n• Coveiro (1 vaga)\n• Merendeira Servente (10 vagas)\n• Operário de Serviços Gerais (10 vagas)\nEnsino médio ou técnico completo\n• Agente Comunitário de Saúde UBSF Barreiro Rico (1 vaga)\nEnsino superior completo\n• Fonoaudiólogo (1 vaga)\n• Terapeuta Ocupacional (2 vagas)\nAs jornadas são de 30 a 44 horas semanais. Os vencimentos base variam de R$ 1.660,20 a R$ 5.078,62, com auxílio-alimentação de R$ 500,00.\nAs inscrições serão realizadas de 6 de novembro de 2026 a 7 de dezembro de 2026, pelo site www.avancasp.org.br. As taxas são de R$ 55,00 para nível fundamental, R$ 70,00 para nível médio ou técnico e R$ 86,00 para nível superior. Inscritos no CadÚnico com renda por pessoa igual ou inferior a meio salário mínimo poderão solicitar isenção até 11 de novembro de 2026, conforme as regras do edital.\nA seleção terá prova objetiva, de caráter eliminatório e classificatório, prevista para 24 de janeiro de 2027. Após a nomeação, os servidores empossados como agentes comunitários de saúde deverão participar de curso de formação inicial.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, podendo ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Limpeza",
     "Coveiro",
@@ -12376,11 +13979,21 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
-    "Fonoaudiólogo"
+    "Fonoaudiólogo",
+    "Terapeuta Ocupacional"
    ],
+   "cargosGerais": [
+    "Auxiliar de Limpeza",
+    "Coveiro",
+    "Merendeira Servente",
+    "Operário de Serviços Gerais",
+    "Agente Comunitário de Saúde UBSF Barreiro Rico"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Fonoaudiólogo, Terapeuta Ocupacional. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -12426,17 +14039,22 @@ window.DADOS_CONCURSOS = {
    "texto": "A Câmara Municipal de Torre de Pedra, no Estado de São Paulo, divulgou o Concurso Público nº 001/2026, com o objetivo de preencher uma vaga efetiva de nível superior. São exigidos diploma de bacharelado em Direito, inscrição ativa na OAB e experiência mínima de 3 anos em atividade jurídica.\nSegundo o edital, a oportunidade é para o cargo de:\n• Procurador Legislativo (1 vaga)\nA jornada de trabalho é de 20 horas semanais, com remuneração de R$ 5.015,07.\nAs inscrições devem ser realizadas nos sites www.conscamweb.com.br e camaratorredepedra.sp.gov.br, das 10h do dia 22 de outubro de 2026 às 16h do dia 23 de novembro de 2026. A taxa de inscrição é de R$ 79,00.\nA seleção será feita por prova objetiva eliminatória e prova de títulos classificatória. A prova objetiva está prevista para o dia 6 de dezembro de 2026, a partir das 9h.\nO vínculo será regido pelo regime celetista (CLT).\nO concurso terá validade de 2 anos, podendo ser prorrogado por igual período, a contar da homologação do resultado.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Procurador Legislativo"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Procurador Legislativo"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -12481,6 +14099,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Rondônia, o Instituto de Previdência e Assistência dos Servidores do Município de Porto Velho (IPAM) realizará um Concurso Público para contratar profissionais de nível médio e superior. Instituto de Previdência e Assistência dos Servidores do Município de Porto Velho (IPAM)\nSegundo o edital, as oportunidades são para os cargos de:\nNível médio\n• Técnico Autárquico, Administrativa (30 vagas)\n• Técnico Autárquico, Informática (4 vagas)\nNível superior\n• Analista Autárquico, Administração (2 vagas)\n• Analista Autárquico, Administrativo (6 vagas)\n• Analista Autárquico, Auditor de Controle Interno (2 vagas)\n• Analista Autárquico, Auditor Enfermeiro (3 vagas)\n• Analista Autárquico, Auditor Médico (4 vagas)\n• Analista Autárquico, Auditor Odontológico (1 vaga)\n• Analista Autárquico, Ciências Atuariais (1 vaga)\n• Analista Autárquico, Ciências Contábeis (4 vagas)\n• Analista Autárquico, Direito (5 vagas)\n• Analista Autárquico, Gestão Financeira (1 vaga)\n• Analista Autárquico, Médico Perito (4 vagas)\n• Analista Autárquico, Serviço Social (2 vagas)\n• Analista Autárquico, Tecnologia da Informação (2 vagas)\nA jornada é de 40 horas semanais, exceto para Auditor Médico e Médico Perito, com 20 horas semanais. O vencimento básico é de R$ 3.000,00 para os cargos de nível médio e de R$ 5.000,00 para os de nível superior.\nAs inscrições serão realizadas pelo site do IBADE, das 10h de 3 de novembro de 2026 às 23h59 de 7 de dezembro de 2026. A taxa é de R$ 105,00 para nível médio e de R$ 140,00 para nível superior. Pessoas com deficiência, doadores de sangue e doadoras de leite materno poderão solicitar isenção de 5 a 6 de novembro de 2026, conforme os requisitos do edital.\nA seleção terá prova objetiva, eliminatória e classificatória, para todos os cargos. Para nível superior, haverá também prova discursiva, eliminatória e classificatória, e prova de títulos, classificatória. A prova objetiva de nível médio será em 21 de fevereiro de 2027, à tarde. Para nível superior, as provas objetiva e discursiva serão em 28 de fevereiro de 2027, pela manhã e à tarde, respectivamente. Candidatos às vagas reservadas para pessoas com deficiência e candidatos negros passarão, respectivamente, por perícia médica e heteroidentificação, conforme o edital.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": 3000,
    "cargosLista": [
     "Técnico Autárquico, Administrativa",
     "Técnico Autárquico, Informática",
@@ -12501,14 +14121,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Analista Autárquico, Auditor Médico",
     "Analista Autárquico, Auditor Odontológico",
     "Analista Autárquico, Médico Perito",
     "Analista Autárquico, Auditor de Controle Interno"
    ],
+   "cargosGerais": [
+    "Técnico Autárquico",
+    "Analista Autárquico"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Analista Autárquico, Auditor Médico, Analista Autárquico, Auditor Odontológico, Analista Autárquico, Médico Perito. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 2,
    "motivos": [
     "Prova objetiva (base)",
@@ -12555,6 +14181,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de São Miguel do Oeste, no Estado de Santa Catarina, abriu um Processo Seletivo Simplificado para formar cadastro de reserva em funções de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Auxiliar de Consultório Dentário\n• Médico Ginecologista\n• Técnico em Enfermagem\n• Motorista Categoria D Emergência\n• Motorista Categoria D Socorrista\nA jornada é de 40 horas semanais para os cargos de nível médio e de 10 horas semanais para Médico Ginecologista. As remunerações informadas para os cargos de nível médio vão de R$ 2.825,83 a R$ 3.626,52. Para Médico Ginecologista, o edital informa R$ 26.375,18 como remuneração referente à carga horária de 40 horas semanais, embora indique jornada de 10 horas semanais para o cargo.\nAs inscrições serão realizadas de 18 de novembro de 2026 a 7 de dezembro de 2026, pelo sistema de protocolo online ou presencialmente no Setor de Atendimento e Protocolo da Prefeitura, na Rua Marcílio Dias, nº 1199, Centro, das 7h45 às 11h45 e das 13h15 às 17h15, no horário de Brasília. Não haverá cobrança de taxa de inscrição.\nA seleção será feita por análise da qualificação profissional e do tempo de experiência na área de atuação, conforme os critérios estabelecidos no edital.\nO Processo Seletivo Simplificado terá validade de seis meses, contados da publicação da homologação do resultado final.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2825.83,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Consultório Dentário",
     "Médico Ginecologista",
@@ -12565,11 +14193,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
-    "Médico Ginecologista"
+    "Médico Ginecologista",
+    "Técnico em Enfermagem"
    ],
+   "cargosGerais": [
+    "Auxiliar de Consultório Dentário",
+    "Motorista Categoria D Emergência",
+    "Motorista Categoria D Socorrista"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Ginecologista, Técnico em Enfermagem. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Etapas de prova não detalhadas (base)",
@@ -12617,6 +14253,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura do Município de Curitibanos, no Estado de Santa Catarina, abriu dois Processos Seletivos Simplificados com o objetivo de formar cadastro de reserva para candidatos alfabetizados e com escolaridade de nível fundamental, médio ou superior, conforme a função.\nSegundo os editais, as oportunidades são para os cargos de:\nQuadro geral da administração municipal, edital nº 09/2026\n• Cozinheiro\n• Jardineiro\n• Motorista III (Ônibus)\n• Motorista II (Caminhão)\n• Operador de Máquinas Pesadas\n• Operador de Motoniveladora\n• Operador de Retroescavadeira\n• Servente de Limpeza\n• Servente de Obras\n• Servente/Merendeira\n• Vigia\n• Agente Comunitário de Saúde, para as áreas EAP Centro, UBS Aparecida/Cohab I, UBS Bom Jesus, UBS Cohab II, UBS Expocentro, UBS Getúlio Vargas, UBS São Francisco, UBS São José e UBS São Luiz\n• Agente Administrativo\n• Técnico em Enfermagem\n• Monitor de Educação Infantil\n• Arquiteto\n• Assistente Social\n• Contador II\n• Enfermeiro\n• Engenheiro Civil\n• Fonoaudiólogo\n• Médico Clínico Geral 20h\n• Médico Clínico Geral 40h\n• Médico Veterinário\n• Psicólogo\nMagistério, edital nº 08/2026\n• Professor de Educação Infantil 20h\n• Professor de Educação Infantil 40h\n• Professor de Séries Iniciais 20h\n• Professor de Séries Iniciais 40h\n• Professor de História 10h\n• Professor de História 20h\n• Professor de História 30h\n• Professor de História 40h\n• Professor de Língua Portuguesa 10h\n• Professor de Língua Portuguesa 20h\n• Professor de Língua Portuguesa 30h\n• Professor de Língua Portuguesa 40h\n• Professor de Língua Inglesa 10h\n• Professor de Língua Inglesa 20h\n• Professor de Língua Inglesa 30h\n• Professor de Língua Inglesa 40h\n• Professor de Artes 10h\n• Professor de Artes 20h\n• Professor de Artes 30h\n• Professor de Artes 40h\n• Professor de Matemática 10h\n• Professor de Matemática 20h\n• Professor de Matemática 30h\n• Professor de Matemática 40h\n• Professor de Ciências 10h\n• Professor de Ciências 20h\n• Professor de Ciências 30h\n• Professor de Ciências 40h\n• Professor de Ensino Religioso 10h\n• Professor de Ensino Religioso 20h\n• Professor de Ensino Religioso 30h\n• Professor de Ensino Religioso 40h\n• Professor de Geografia 10h\n• Professor de Geografia 20h\n• Professor de Geografia 30h\n• Professor de Geografia 40h\n• Especialista em Assuntos Educacionais 40h\n• Professor de Educação Física 10h\n• Professor de Educação Física 20h\n• Professor de Educação Física 30h\n• Professor de Educação Física 40h\nNo quadro geral, a jornada é de 20 ou 40 horas semanais, com vencimentos de R$ 1.759,34 a R$ 26.193,56. No Magistério, a jornada varia de 10 a 40 horas semanais, com vencimentos de R$ 1.282,66 a R$ 5.130,64. Os contratados terão vale-alimentação de R$ 430,00 mensais para jornada de 40 horas, proporcional nas jornadas inferiores e condicionado à assiduidade.\nAs inscrições para os dois editais serão feitas exclusivamente pelo site da Fundação FAFIPA, das 17h de 11 de novembro de 2026 às 23h59 de 25 de novembro de 2026, no horário de Brasília. A taxa é de R$ 10,00 para funções de nível fundamental ou alfabetizado, R$ 30,00 para nível médio e R$ 50,00 para nível superior e Magistério. O pagamento poderá ser feito até 26 de novembro de 2026. Poderão solicitar isenção, de 11 a 15 de novembro de 2026, candidatos desempregados, integrantes de família com renda igual ou inferior a um salário mínimo, doadores de medula óssea e doadores de sangue que cumpram os requisitos dos editais.\nTodos os candidatos farão prova objetiva, de caráter eliminatório e classificatório, prevista para 20 de dezembro de 2026, em Curitibanos, com possibilidade de aplicação em cidades próximas. No quadro geral, haverá também prova prática, de caráter eliminatório e classificatório, para Motorista II (Caminhão), Motorista III (Ônibus), Operador de Máquinas Pesadas, Operador de Motoniveladora e Operador de Retroescavadeira, prevista para 24 de janeiro de 2027. No Magistério, os candidatos inscritos como habilitados e aprovados na prova objetiva participarão de prova de títulos.\nCada processo seletivo terá validade de um ano, contado da homologação do respectivo resultado final, com possibilidade de prorrogação por igual período a critério da administração municipal.\nMais informações podem ser obtidas nos editais completos.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1282.66,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Cozinheiro",
     "Jardineiro",
@@ -12687,14 +14325,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Clínico Geral 20h",
     "Médico Clínico Geral 40h",
     "Médico Veterinário",
     "Engenheiro Civil"
    ],
+   "cargosGerais": [
+    "Cozinheiro",
+    "Jardineiro",
+    "Motorista III",
+    "Motorista II",
+    "Operador de Máquinas Pesadas",
+    "Operador de Motoniveladora",
+    "Operador de Retroescavadeira",
+    "Servente de Limpeza"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Clínico Geral 20h, Médico Clínico Geral 40h, Médico Veterinário. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -12742,6 +14392,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Fraiburgo, no Estado de Santa Catarina, abriu um Processo Seletivo para formar cadastro de reserva em funções de nível fundamental, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível superior\n• Assistente Social\n• Enfermeiro\n• Engenheiro Civil\n• Engenheiro de Segurança do Trabalho\n• Farmacêutico\n• Fisioterapeuta\n• Médico Clínico Geral\n• Médico do Trabalho\n• Médico Ginecologista/Obstetra\n• Médico Pediatra\n• Médico Psiquiatra\n• Médico de Saúde da Família\n• Nutricionista\n• Odontólogo\n• Psicólogo\nNível médio\n• Agente Comunitário de Saúde - Jardim América\n• Agente Comunitário de Saúde - Portal\n• Agente Comunitário de Saúde - Macieira\n• Agente Comunitário de Saúde - São Sebastião/Mirassol\n• Agente Comunitário de Saúde - São Miguel/Nossa Senhora Aparecida/Vila União/Assentamento São João Maria\n• Agente Comunitário de Saúde - Santo Antônio\n• Agente Comunitário de Saúde - Salete/Jardim das Hortênsias\n• Agente Comunitário de Saúde - Bela Vista\n• Agente Comunitário de Saúde - Nações\n• Agente Comunitário de Saúde - São José\n• Agente Comunitário de Saúde - Vila Fischer\n• Agente Comunitário de Saúde - X de Novembro\n• Agente Comunitário de Saúde - Linha Brasília I e II/Papuã (Linhas Adjacentes)\n• Agente Comunitário de Saúde - Faxinal dos Carvalhos\n• Agente Comunitário de Saúde - Liberata/São Luiz\n• Agente Comunitário de Saúde - Roland Mayer\n• Agente Comunitário de Saúde - Santa Mônica\n• Agente Comunitário de Saúde - São Cristóvão/Colina do Sol\n• Agente Comunitário de Saúde - Linha Bahia I e II\n• Agente Comunitário de Saúde - Assentamento Dandara\n• Agente Comunitário de Saúde - Barro Preto\n• Agente Comunitário de Saúde - Taquaruçu de Cima/Campina do Cerro/Assentamento Contestado/Assentamento Santa Helena\n• Agente Comunitário de Saúde - A ssentamento Rio Mansinho\n• Agente Comunitário de Saúde - Lau Mello\n• Agente Comunitário de Saúde - Assentamento Butiá Verde Setor I/Butiá Verde Fazenda Maciel/Gheller/Comonetti/Vacário/Vila Reflor/Vila Otávio\n• Agente Comunitário de Saúde - Assentamento Butiá Verde Setor II\n• Agente Comunitário de Saúde - Faxinal dos Domingues\n• Agente Comunitário de Saúde - Faxinal dos Domingues I e II\n• Agente Comunitário de Saúde - Gruta Nossa Senhora de Lourdes/Nossa Senhora da Saúde/Desvio\n• Agente Comunitário de Saúde - Rio Mansinho/Assentamento Chico Mendes\n• Agente Comunitário de Saúde - Centro/Jardim das Araucárias\n• Agente de Combate às Endemias\n• Assistente Administrativo\n• Auxiliar de Saúde Bucal\n• Monitor Social\n• Técnico em Enfermagem\n• Técnico em Segurança do Trabalho\nNível fundamental\n• Agente Operacional\n• Guarda do Patrimônio Público\n• Instrutor de Trabalhos Culturais\n• Instrutor de Trabalhos Manuais\n• Mecânico\n• Motorista\n• Operador de Máquina - Motoniveladora\n• Operador de Máquina - Retroescavadeira\n• Operador de Máquina - Rolo Compactador\n• Operador de Trator de Pneus\n• Zelador do Patrimônio\nAs jornadas variam de 20 a 40 horas semanais, com vencimentos de R$ 1.494,01 a R$ 25.103,42. Há vale-alimentação mensal de R$ 682,77 para jornadas de 40 horas, pago proporcionalmente nas jornadas inferiores.\nAs inscrições serão feitas exclusivamente pelo site www.ibam-concursos.org.br, de 3 de novembro de 2026 a 2 de dezembro de 2026. A taxa é de R$ 60,00 para nível fundamental, R$ 80,00 para nível médio e R$ 100,00 para nível superior. Candidatos de famílias de baixa renda e doadores de sangue que atendam aos critérios do edital poderão solicitar isenção de uma inscrição por CPF. Os documentos deverão ser enviados pelo site em 10 e 11 de novembro de 2026.\nA seleção terá prova escrita objetiva, eliminatória e classificatória, para todas as funções. A aplicação está prevista para 20 de dezembro de 2026, às 9h. Haverá também prova prática, eliminatória e classificatória, para Instrutor de Trabalhos Manuais, Mecânico, Motorista, Operador de Máquinas e Operador de Trator de Pneus. Serão convocados para essa etapa os candidatos aprovados e classificados até a 30ª posição na prova objetiva. O cronograma prevê as provas práticas para 24 de janeiro de 2027.\nO Processo Seletivo terá validade de um ano, podendo ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1494.01,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Social",
     "Enfermeiro",
@@ -12806,14 +14458,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Clínico Geral",
     "Médico do Trabalho",
     "Médico Ginecologista/Obstetra",
     "Médico Pediatra"
    ],
+   "cargosGerais": [
+    "Agente de Combate às Endemias",
+    "Assistente Administrativo",
+    "Monitor Social",
+    "Agente Operacional",
+    "Guarda do Patrimônio Público",
+    "Motorista",
+    "Operador de Trator de Pneus",
+    "Zelador do Patrimônio"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Clínico Geral, Médico do Trabalho, Médico Ginecologista/Obstetra. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -12861,6 +14525,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município da Estância Balneária de Praia Grande, no Estado de São Paulo, abriu um Concurso Público para preencher vagas em funções de nível fundamental (incompleto ou completo), médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente Administrativo (10 vagas)\n• Agente de Combate às Endemias (1 vaga)\n• Carpinteiro (1 vaga)\n• Coveiro (1 vaga)\n• Dentista, Clínico Geral (1 vaga)\n• Dentista, Protesista (1 vaga)\n• Eletricista de Autos (1 vaga)\n• Instrutor de Dança (1 vaga)\n• Mecânico de Veículos Pesados (1 vaga)\n• Médico Mensalista, Alergista (1 vaga)\n• Médico Mensalista, Endocrinologista (1 vaga)\n• Médico Mensalista, Gastroenterologista (1 vaga)\n• Médico Mensalista, Neurologista (1 vaga)\n• Médico Mensalista, Ortopedista (1 vaga)\n• Médico Mensalista, Pneumologista (1 vaga)\n• Médico Mensalista, Proctologista (1 vaga)\n• Médico Mensalista, Psiquiatra Infantil (1 vaga)\n• Médico Mensalista, Reumatologista (1 vaga)\n• Médico Plantonista, Clínico de Pronto Socorro (1 vaga)\n• Operador de Máquinas, Retro, Patrol e Poclain (1 vaga)\n• Porteiro (1 vaga)\n• Técnico em Farmácia (1 vaga)\n• Tecnólogo de Geoprocessamento (1 vaga)\n• Telefonista (1 vaga)\nA jornada varia de 20 a 44 horas semanais. Os vencimentos vão de R$ 2.269,43 a R$ 7.223,95. Para médicos mensalistas, a remuneração pode chegar a R$ 25.000,00 por produtividade. Para médico plantonista, pode chegar a R$ 22.769,87 nas condições previstas no edital.\nAs inscrições serão feitas exclusivamente pelo site do IBAM, de 20 de novembro de 2026 até às 23h59 de 21 de dezembro de 2026, no horário de Brasília. A taxa varia de R$ 59,00 a R$ 96,00, conforme o cargo. Pedidos de isenção poderão ser enviados pelo mesmo site de 23 a 27 de novembro de 2026, por candidatos que atendam aos critérios do edital.\nA seleção terá prova objetiva para todos os cargos, prevista para 21 de fevereiro de 2027. Haverá também prova prática, prevista para 11 de abril de 2027, para Coveiro, Eletricista de Autos, Mecânico de Veículos Pesados e Operador de Máquinas.\nO concurso terá validade de um ano, contado da homologação, e poderá ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2269.43,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Administrativo",
     "Agente de Combate às Endemias",
@@ -12890,14 +14556,25 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Dentista, Clínico Geral",
     "Dentista, Protesista",
     "Médico Mensalista, Alergista",
     "Médico Mensalista, Endocrinologista"
    ],
+   "cargosGerais": [
+    "Agente Administrativo",
+    "Agente de Combate às Endemias",
+    "Carpinteiro",
+    "Coveiro",
+    "Porteiro",
+    "Tecnólogo de Geoprocessamento",
+    "Telefonista"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Dentista, Clínico Geral, Dentista, Protesista, Médico Mensalista, Alergista. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -12943,6 +14620,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado do Paraná, o Município de Palmital abriu um Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível fundamental completo, médio ou técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível superior completo\n• Agente Sanitário (1 vaga)\n• Assistente Social (2 vagas)\n• Arquiteto Urbanista (1 vaga)\n• Enfermeiro (3 vagas)\n• Enfermeiro 12/36 (2 vagas)\n• Engenheiro Agrônomo (1 vaga)\n• Farmacêutico (1 vaga)\n• Fiscal de Tributos (1 vaga)\n• Fisioterapeuta (2 vagas)\n• Fonoaudiólogo (1 vaga)\n• Jornalista (1 vaga)\n• Médico Veterinário (2 vagas)\n• Médico Clínico Geral, 40 horas (2 vagas)\n• Médico Clínico Geral, 20 horas (2 vagas)\n• Médico Ginecologista (1 vaga)\n• Médico Neuropediatra (1 vaga)\n• Médico Pediatra (1 vaga)\n• Nutricionista (1 vaga)\n• Odontólogo (3 vagas)\n• Profissional em TI (1 vaga)\n• Psicólogo (2 vagas)\n• Técnico - Controle Administração (cadastro reserva)\n• Técnico - Controle Agricultura (cadastro reserva)\n• Técnico - Controle Central Controles (cadastro reserva)\n• Técnico - Controle Educação (cadastro reserva)\n• Técnico - Controle Finanças (cadastro reserva)\n• Técnico - Controle Licitação (cadastro reserva)\n• Técnico - Controle Saúde (cadastro reserva)\n• Técnico - Controle Procuradoria (cadastro reserva)\n• Professor - Licenciatura Plena (30 vagas)\nNível médio ou técnico\n• Agente Comunitário de Saúde (8 vagas)\n• Atendente de Farmácia (1 vaga)\n• Educador Social (2 vagas)\n• Eletricista (1 vaga)\n• Fiscal de Obras (1 vaga)\n• Mecânico de Máquinas Pesadas (1 vaga)\n• Técnico Ambiental (1 vaga)\n• Técnico de Enfermagem (7 vagas)\n• Técnico em Radiologia (1 vaga)\nNível fundamental completo\n• Agente de Combate a Endemias (2 vagas)\n• Auxiliar Consultório Dentário (3 vagas)\n• Auxiliar Administrativo (8 vagas)\n• Agente Coletor de Resíduos (3 vagas)\n• Lavador de Veículos (1 vaga)\n• Motorista (10 vagas)\n• Operador de Máquinas (6 vagas)\n• Pedreiro (1 vaga)\n• Vigia (3 vagas)\n• Vigia 12X36 (4 vagas)\nAs jornadas variam de 20 a 44 horas semanais, conforme o cargo. Enfermeiro 12/36 e Vigia cumprem escala de 12 x 36. As remunerações iniciais brutas vão de R$ 1.690,00 a R$ 22.836,51. O cargo de Agente Comunitário de Saúde tem direito a complemento de insalubridade.\nAs inscrições serão feitas exclusivamente pelo site da Fundação de Apoio ao Desenvolvimento da UNICENTRO, das 12h de 25 de novembro de 2026 às 23h59 de 27 de dezembro de 2026, no horário de Brasília. As taxas são de R$ 100,00 para nível fundamental, R$ 150,00 para nível médio ou técnico e R$ 200,00 para nível superior. O pagamento poderá ser feito até 28 de dezembro de 2026. Candidatos de famílias de baixa renda e doadores de medula óssea que atendam aos requisitos poderão solicitar isenção pela área do candidato nos dias 26 e 27 de novembro de 2026.\nTodos os candidatos farão prova objetiva, prevista para 21 de fevereiro de 2027 em Palmital, com possibilidade de aplicação em cidades vizinhas. Haverá prova de títulos para cargos de nível superior e para Motorista; redação para Professor Licenciatura Plena; e prova prática para Enfermeiro, Enfermeiro 12/36, Motorista, Operador de Máquinas e Técnico de Enfermagem.\nO concurso terá validade de dois anos a partir da homologação, podendo ser prorrogado por igual período, a critério do Município de Palmital.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1690,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Sanitário",
     "Assistente Social",
@@ -12997,14 +14676,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Veterinário",
     "Médico Clínico Geral, 40 horas",
     "Médico Clínico Geral, 20 horas",
     "Médico Ginecologista"
    ],
+   "cargosGerais": [
+    "Agente Sanitário",
+    "Fiscal de Tributos",
+    "Agente Comunitário de Saúde",
+    "Educador Social",
+    "Fiscal de Obras",
+    "Técnico Ambiental",
+    "Agente de Combate a Endemias",
+    "Auxiliar Consultório Dentário"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Veterinário, Médico Clínico Geral, 40 horas, Médico Clínico Geral, 20 horas. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -13052,6 +14743,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de São Carlos, no Estado de Santa Catarina, abriu dois Processos Seletivos Simplificados para formar cadastro de reserva em funções de nível fundamental (incompleto ou completo), médio, técnico e superior.\nSegundo os editais, as oportunidades são para os cargos de:\nEducação, edital nº 002/2026\n• Agente Escolar\n• Motorista, Transporte Escolar\n• Auxiliar de Sala\n• Professor(a) de Educação Especial, habilitado\n• Professor(a) de Educação Física, habilitado\n• Professor(a) de Educação Infantil, Pedagogia, habilitado\n• Professor(a) de Ensino Fundamental, Anos Iniciais, habilitado\n• Professor(a) de Informática, habilitado\n• Professor(a) de Ensino Fundamental, Artes, habilitado\n• Professor de Ensino Fundamental, Ciências, habilitado\n• Professor de Ensino Fundamental, Ensino Religioso, habilitado\n• Professor de Ensino Fundamental, Geografia, habilitado\n• Professor de Ensino Fundamental, História, habilitado\n• Professor de Ensino Fundamental, Língua Inglesa, habilitado\n• Professor de Ensino Fundamental, Língua Portuguesa, habilitado\n• Professor(a) de Educação Infantil, Pedagogia, não habilitado\n• Professor(a) de Ensino Fundamental, Anos Iniciais, não habilitado\n• Professor(a) de Informática, não habilitado\n• Professor(a) de Ensino Fundamental, Artes, não habilitado\n• Professor de Ensino Fundamental, Ciências, não habilitado\n• Professor de Ensino Fundamental, Ensino Religioso, não habilitado\n• Professor de Ensino Fundamental, Geografia, não habilitado\n• Professor de Ensino Fundamental, História, não habilitado\n• Professor de Ensino Fundamental, Língua Inglesa, não habilitado\n• Professor de Ensino Fundamental, Língua Portuguesa, não habilitado\nCargos gerais, edital nº 003/2026\n• Motorista\n• Motorista, SAMU\n• Operador de Máquinas\n• Auxiliar de Serviços Gerais\n• Agente Administrativo\n• Instrutor de Artes e Pinturas, CAPS\n• Monitor de Artes Marciais\n• Monitor de Música, violão, teclado ou percussão\n• Monitor de Artesanato\n• Técnico em Enfermagem, SAMU\n• Enfermeiro\n• Facilitador de Atividade Física\n• Fonoaudiólogo\n• Médico Clínico Geral II\n• Psicólogo\nAs jornadas variam de 10 a 40 horas semanais, conforme o cargo, com escalas de revezamento previstas para funções do SAMU. As remunerações vão de R$ 748,10 a R$ 22.623,36, de acordo com a função e a carga horária. Os editais preveem vale-alimentação de R$ 500,00 para jornada de 40 horas semanais, pago proporcionalmente nas demais jornadas.\nAs inscrições serão feitas de 16 a 30 de novembro de 2026, exclusivamente pelo site www.institutodom.com. As taxas são de R$ 50,00 para nível fundamental, R$ 70,00 para nível médio e R$ 90,00 para nível técnico e superior. A isenção poderá ser solicitada de 16 a 18 de novembro de 2026 por candidatos que atendam aos critérios do CadÚnico ou sejam doadores de medula óssea, mediante envio da documentação pela Área do Candidato.\nTodos os candidatos farão prova objetiva, de caráter eliminatório e classificatório, em 20 de dezembro de 2026. Haverá prova veicular, também eliminatória e classificatória, para os cargos de motorista e operador de máquinas, prevista para 19 e 20 de dezembro de 2026. No edital da Educação, haverá ainda prova de títulos, de caráter classificatório, para professores habilitados, teste de aptidão física e avaliação psicológica online, ambos eliminatórios, para Agente Escolar. O teste físico está previsto para 19 e 20 de dezembro de 2026, e a avaliação psicológica para 23 e 24 de janeiro de 2027.\nO processo seletivo da Educação terá validade até 31 de dezembro de 2027, a partir da publicação da homologação, sem prorrogação. O processo seletivo de cargos gerais terá validade de um ano a partir da publicação da homologação, podendo ser prorrogado por igual período.\nMais informações podem ser obtidas nos editais completos.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 748.1,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Escolar",
     "Motorista, Transporte Escolar",
@@ -13097,14 +14790,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Clínico Geral II",
+    "Motorista, Transporte Escolar",
     "Professor(a) de Educação Especial, habilitado",
-    "Professor(a) de Educação Física, habilitado",
-    "Professor(a) de Educação Infantil, Pedagogia, habilitado"
+    "Professor(a) de Educação Física, habilitado"
    ],
+   "cargosGerais": [
+    "Agente Escolar",
+    "Auxiliar de Sala",
+    "Motorista",
+    "Operador de Máquinas",
+    "Auxiliar de Serviços Gerais",
+    "Agente Administrativo",
+    "Monitor de Artes Marciais",
+    "Monitor de Artesanato"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Clínico Geral II, Motorista, Transporte Escolar, Professor(a) de Educação Especial, habilitado. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -13152,6 +14857,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Mato Grosso, a Prefeitura Municipal de Santa Rita do Trivelato abriu um Processo Seletivo Simplificado para a contratação de profissionais de nível fundamental, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente de Alimentação da Rede Educacional - Merendeira\n• Agente de Manutenção e Infraestrutura Educacional - Limpeza - Zona Rural\n• Agente de Manutenção e Infraestrutura Educacional - Zelador de Limpeza\n• Assistente Social\n• Auxiliar de Laboratório\n• Auxiliar de Serviços Gerais\n• Auxiliar em Saúde Bucal\n• Eletricista Predial\n• Enfermeiro\n• Fonoaudiólogo\n• Médico Clínico Geral\n• Motorista Cat. C\n• Motorista Cat. D\n• Motorista Escolar\n• Nutricionista\n• Odontólogo\n• Operador de Máquinas Pesadas\n• Professor Licenciatura em Ciências\n• Professor Licenciatura em Ciências - Zona Rural\n• Professor Licenciatura em Educação Física\n• Professor Licenciatura em Educação Física - Zona Rural\n• Professor Licenciatura em Geografia\n• Professor Licenciatura em Geografia - Zona Rural\n• Professor Licenciatura em História\n• Professor Licenciatura em História - Zona Rural\n• Professor Licenciatura em Língua Inglesa\n• Professor Licenciatura em Língua Inglesa - Zona Rural\n• Professor Licenciatura em Língua Portuguesa\n• Professor Licenciatura em Língua Portuguesa - Zona Rural\n• Professor Licenciatura em Matemática\n• Professor Licenciatura em Matemática - Zona Rural\n• Psicólogo\n• Recepcionista\n• Técnico de Desenvolvimento Educacional - Monitor\n• Técnico de Desenvolvimento Educacional - Monitor - Zona Rural\n• Técnico em Enfermagem\n• Zelador de Limpeza\n• Zelador de Patrimônio\nAs jornadas são de 30 ou 40 horas semanais, com salários de R$ 2.059,15 a R$ 21.825,31. Há auxílio-refeição mensal de R$ 650,00 para servidores em efetivo exercício, conforme os requisitos legais.\nAs inscrições serão recebidas de 30 de outubro de 2026 a 22 de novembro de 2026, pelo site da Prefeitura, até às 23h59, ou presencialmente, em dias úteis, das 7h às 11h e das 13h às 16h, na Avenida Flávio Luiz, 2.640, bairro Cidade Alta, Santa Rita do Trivelato (MT). A taxa é de R$ 10,00. Doadores regulares de sangue, candidatos hipossuficientes e inscritos no CadÚnico que sejam membros de família de baixa renda podem solicitar isenção presencialmente até 13 de novembro de 2026, mediante comprovação dos requisitos.\nA seleção terá prova objetiva para todos os cargos, prova dissertativa para os de nível superior e prova prática a depender do cargo. As provas estão previstas para 29 de novembro de 2026.\nAs contratações serão temporárias, pelo regime jurídico administrativo especial, por até 12 meses, com possibilidade de prorrogação por igual período.\nO processo seletivo terá validade de 12 meses a partir da homologação do resultado final, podendo ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2059.15,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Alimentação da Rede Educacional - Merendeira",
     "Agente de Manutenção e Infraestrutura Educacional - Limpeza - Zona Rural",
@@ -13195,14 +14902,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Clínico Geral",
     "Odontólogo",
-    "Enfermeiro",
-    "Fonoaudiólogo"
+    "Agente de Alimentação da Rede Educacional - Merendeira",
+    "Agente de Manutenção e Infraestrutura Educacional - Zelador de Limpeza"
    ],
+   "cargosGerais": [
+    "Agente de Manutenção e Infraestrutura Educacional - Limpeza - Zona Rural",
+    "Auxiliar de Serviços Gerais",
+    "Motorista Cat. C",
+    "Motorista Cat. D",
+    "Motorista Escolar",
+    "Operador de Máquinas Pesadas",
+    "Recepcionista",
+    "Zelador de Limpeza"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Clínico Geral, Odontólogo, Agente de Alimentação da Rede Educacional - Merendeira. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -13250,6 +14969,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Patrocínio Paulista, no Estado de São Paulo, abriu um Concurso Público e um Processo Seletivo com o objetivo de preencher duas vagas e formar cadastro de reserva para profissionais de nível fundamental, médio, técnico e superior.\nSegundo os editais, as oportunidades são para os cargos de:\nConcurso Público nº 01/2026\n• Ajudante de Obras e Serviços\n• Auditor de Controle Interno (1 vaga)\n• Auxiliar de Serviços Gerais\n• Cirurgião Dentista\n• Coveiro\n• Cozinheira\n• Dentista ESF\n• Fiscal de Posturas (1 vaga)\n• Inspetor de Alunos\n• Lavador e Lubrificador\n• Médico ESF\n• Motorista\n• Operador de Máquinas\n• Pedreiro\n• Técnico em Higiene Bucal\nProcesso Seletivo nº 01/2026\n• Ajudante de Obras e Serviços\n• Auxiliar de Educação Infantil\n• Auxiliar de Serviços Gerais\n• Cozinheira\n• Dentista ESF\n• Encanador\n• Inspetor de Alunos\n• Motorista\n• Operador da ETA/ETE\n• Operador de Máquinas\n• Pedreiro\n• Químico\n• Técnico em Higiene Bucal\n• Terapeuta Ocupacional\nAs jornadas variam de 20 a 40 horas semanais. No concurso, os vencimentos vão de R$ 2.502,15 a R$ 21.296,07. No processo seletivo, vão de R$ 2.502,15 a R$ 6.197,04. O pagamento do vencimento de Médico ESF está sujeito ao teto remuneratório constitucional, quando cabível.\nAs inscrições para os dois certames serão feitas exclusivamente pelo site portal.imperioconcursos.com.br, das 8h de 10 de novembro de 2026 às 23h59 de 9 de dezembro de 2026. As taxas são de R$ 80,00 para nível fundamental, R$ 100,00 para nível médio e técnico e R$ 120,00 para nível superior. Inscritos no CadÚnico que atendam ao critério de renda do edital e doadores de medula óssea poderão solicitar isenção para um cargo, de 10 a 12 de novembro de 2026.\nOs dois certames terão prova escrita objetiva, prevista para 17 de janeiro de 2027. Haverá prova de títulos para Auditor de Controle Interno, Cirurgião Dentista, Dentista ESF, Fiscal de Posturas e Médico ESF no concurso, e para Auxiliar de Educação Infantil, Dentista ESF, Químico e Terapeuta Ocupacional no processo seletivo. Haverá também prova prática para Motorista, Operador de Máquinas, Cozinheira, Encanador, Operador da ETA/ETE, Pedreiro e Técnico em Higiene Bucal. A aplicação das provas práticas está prevista para 14 de fevereiro de 2027.\nO concurso terá validade de dois anos a partir da homologação, com possibilidade de prorrogação por igual período. O processo seletivo terá validade de um ano a partir da homologação, também prorrogável por igual período.\nMais informações podem ser obtidas nos editais completos.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2502.15,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Ajudante de Obras e Serviços",
     "Auditor de Controle Interno",
@@ -13284,14 +15005,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Cirurgião Dentista",
     "Dentista ESF",
     "Médico ESF",
     "Auditor de Controle Interno"
    ],
+   "cargosGerais": [
+    "Ajudante de Obras e Serviços",
+    "Auxiliar de Serviços Gerais",
+    "Coveiro",
+    "Cozinheira",
+    "Fiscal de Posturas",
+    "Inspetor de Alunos",
+    "Lavador e Lubrificador",
+    "Motorista"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Cirurgião Dentista, Dentista ESF, Médico ESF. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -13337,6 +15070,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Rio Grande do Sul, a Prefeitura Municipal de Ipê abriu o Concurso Público nº 01/2026 para preencher vagas e formar cadastro de reserva em funções que exigem escolaridade desde a alfabetização até o ensino superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente Administrativo (1 vaga + CR)\n• Agente Comunitário de Saúde para ESF Centro (CR)\n• Agente Comunitário de Saúde para ESF Interior (CR)\n• Agente Comunitário de Saúde para ESF Porteirinha (CR)\n• Agente de Combate a Endemias (CR)\n• Agente de Controle Interno (CR)\n• Agente de Fiscalização Tributária (CR)\n• Assistente Social (CR)\n• Atendente de Consultório Dentário do PSF (1 vaga + CR)\n• Atendente de Creche (2 vagas + CR)\n• Atendente de Farmácia (CR)\n• Auxiliar de Serviços Gerais (3 vagas + CR)\n• Contador (CR)\n• Coordenador do CRAS (CR)\n• Eletricista (CR)\n• Enfermeiro (CR)\n• Engenheiro Agrônomo (CR)\n• Engenheiro Ambiental (CR)\n• Engenheiro Civil (CR)\n• Farmacêutico (CR)\n• Fiscal (CR)\n• Fiscal Ambiental (CR)\n• Fiscal Sanitário (CR)\n• Fisioterapeuta (CR)\n• Mecânico (CR)\n• Médico 20 horas (CR)\n• Médico 40 horas (1 vaga + CR)\n• Médico Ginecologista e Obstetra (1 vaga + CR)\n• Médico Pediatra (1 vaga + CR)\n• Merendeiro (2 vagas + CR)\n• Monitor Escolar (CR)\n• Motorista (3 vagas + CR)\n• Nutricionista (CR)\n• Odontólogo do PSF (CR)\n• Operador de Máquinas (5 vagas + CR)\n• Operário (2 vagas + CR)\n• Operário Especializado (CR)\n• Pedagogo (1 vaga + CR)\n• Pedreiro (1 vaga + CR)\n• Professor de Ciências (CR)\n• Professor de Educação Infantil (CR)\n• Professor de Geografia (1 vaga + CR)\n• Professor de Matemática (1 vaga + CR)\n• Psicólogo 20 horas (CR)\n• Recepcionista (1 vaga + CR)\n• Técnico em Enfermagem (CR)\n• Tesoureiro (CR)\n• Vigilante (1 vaga + CR)\nAs jornadas variam de 20 a 44 horas semanais, com remuneração inicial de R$ 1.623,53 a R$ 20.745,08. O edital prevê vale-alimentação, nos termos da legislação municipal.\nAs inscrições devem ser feitas de 23 de outubro de 2026, às 13h, até 23 de novembro de 2026, às 13h, no site do Instituto Objetiva. Durante os dias úteis do período, haverá computador com internet disponível na Recepção da Prefeitura, na Rua Frei Casimiro Zaffonato, nº 1.060, Centro, das 7h45 às 11h45. As taxas variam de R$ 50,00 a R$ 150,00 e devem ser pagas até 23 de novembro de 2026, em horário bancário. Candidatos de famílias de baixa renda inscritos no CadÚnico podem solicitar isenção de 23 a 27 de outubro de 2026.\nA seleção terá prova objetiva para todos os candidatos, prevista para o dia 17 de janeiro de 2027. Haverá prova prática para Mecânico, Motorista, Operador de Máquinas, Operário, Operário Especializado e Pedreiro, prevista para o dia 7 de março de 2027. Para os cargos de Professor e Psicopedagogo haverá prova de títulos.\nOs aprovados serão nomeados pelo regime estatutário.\nO concurso terá validade de até dois anos, contados da publicação da homologação final, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1623.53,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Administrativo",
     "Agente Comunitário de Saúde para ESF Centro",
@@ -13390,14 +15125,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico 20 horas",
     "Médico 40 horas",
     "Médico Ginecologista e Obstetra",
     "Médico Pediatra"
    ],
+   "cargosGerais": [
+    "Agente Administrativo",
+    "Agente Comunitário de Saúde para ESF Centro",
+    "Agente Comunitário de Saúde para ESF Interior",
+    "Agente Comunitário de Saúde para ESF Porteirinha",
+    "Agente de Combate a Endemias",
+    "Agente de Controle Interno",
+    "Agente de Fiscalização Tributária",
+    "Atendente de Consultório Dentário do PSF"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico 20 horas, Médico 40 horas, Médico Ginecologista e Obstetra. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -13443,6 +15190,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Minas Gerais, a Prefeitura Municipal de Santana dos Montes realiza um Concurso Público para preencher vagas em cargos efetivos e formar cadastro de reserva. O certame exige escolaridade de nível elementar, fundamental, médio, técnico ou superior, conforme a função.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente de Ações Turísticas e Culturais (1 vaga)\n• Agente Social (CR)\n• Assistente Social (1 vaga)\n• Auxiliar Administrativo (CR)\n• Auxiliar de Bombeiro (CR)\n• Auxiliar de Contabilidade (CR)\n• Auxiliar de Dentista (CR)\n• Auxiliar de Informática (1 vaga)\n• Auxiliar de Obras e Serviços (7 vagas)\n• Auxiliar de Serviços Gerais (5 vagas)\n• Bombeiro (1 vaga)\n• Calceteiro (1 vaga)\n• Contador (1 vaga)\n• Coordenador do CRAS (1 vaga)\n• Enfermeiro (CR)\n• Fiscal Sanitário (1 vaga)\n• Fisioterapeuta (1 vaga)\n• Médico Clínico Geral, 20 horas (CR)\n• Médico Clínico Geral, 40 horas (CR)\n• Médico Ginecologista (1 vaga)\n• Médico Pediatra (1 vaga)\n• Médico Veterinário (1 vaga)\n• Monitor de Creche (1 vaga)\n• Monitor de Transporte, Saúde (1 vaga)\n• Monitor de Transporte, Educação (1 vaga)\n• Motorista I, carteira A (1 vaga)\n• Motorista II, carteira D (3 vagas)\n• Nutricionista (1 vaga)\n• Odontólogo (1 vaga)\n• Oficial de Obras e Serviços (CR)\n• Oficial Eletricista (CR)\n• Operador de Máquina I (CR)\n• Operador de Máquina II (1 vaga)\n• Orientador Pedagógico (1 vaga)\n• Professor I, do início até o 5º ano (CR)\n• Professor II, do 6º ao 9º ano, Ciências (1 vaga)\n• Professor II, do 6º ao 9º ano, Ensino Religioso (1 vaga)\n• Professor II, do 6º ao 9º ano, Matemática (1 vaga)\n• Professor II, do 6º ao 9º ano, Inglês (1 vaga)\n• Professor II, do 6º ao 9º ano, Português (1 vaga)\n• Psicólogo (1 vaga)\n• Recepcionista (1 vaga)\n• Técnico em Edificação (1 vaga)\n• Técnico em Enfermagem, 30 horas (CR)\n• Zelador (CR)\nAs jornadas variam de 20 a 40 horas semanais, com vencimentos de R$ 1.621,00 a R$ 20.418,44. Para os cargos de Professor II, o vencimento é de R$ 35,63 por hora-aula, com jornada de 25 horas semanais.\nAs inscrições devem ser feitas das 15h do dia 23 de dezembro de 2026 às 15h do dia 21 de janeiro de 2027, no site Elo Assessoria. Candidatos com dificuldade de acesso à internet ou de uso de tecnologia poderão receber auxílio para inscrição presencial na sede da Prefeitura. A taxa varia de R$ 50,00 a R$ 120,00, conforme o cargo, e deve ser paga por boleto até 21 de janeiro de 2027. Candidatos inscritos no CadÚnico ou que comprovem hipossuficiência podem solicitar isenção das 15h do dia 7 de dezembro de 2026 às 15h do dia 9 de dezembro de 2026.\nA seleção terá prova objetiva de múltipla escolha para todos os candidatos. Para cargos específicos haverá também prova prática e prova de títulos. As provas objetivas e práticas estão previstas para o dia 21 de fevereiro de 2027.\nOs cargos são de provimento efetivo, sob regime estatutário.\nO concurso terá validade de dois anos a partir da homologação do resultado final, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Ações Turísticas e Culturais",
     "Agente Social",
@@ -13493,14 +15242,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Auxiliar de Dentista",
     "Médico Clínico Geral, 20 horas",
     "Médico Clínico Geral, 40 horas",
     "Médico Ginecologista"
    ],
+   "cargosGerais": [
+    "Agente de Ações Turísticas e Culturais",
+    "Agente Social",
+    "Auxiliar Administrativo",
+    "Auxiliar de Bombeiro",
+    "Auxiliar de Obras e Serviços",
+    "Auxiliar de Serviços Gerais",
+    "Bombeiro",
+    "Calceteiro"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Auxiliar de Dentista, Médico Clínico Geral, 20 horas, Médico Clínico Geral, 40 horas. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -13546,6 +15307,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, o Município de Ibirama abriu um Concurso Público para preencher vagas em cargos efetivos e formar cadastro de reserva em funções que exigem alfabetização ou os níveis fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente Administrativo (1 vaga e cadastro reserva)\n• Arquiteto e Urbanista (cadastro reserva)\n• Arquivista (cadastro reserva)\n• Assistente Social (cadastro reserva)\n• Contador (cadastro reserva)\n• Engenheiro Agrônomo (cadastro reserva)\n• Engenheiro Civil (1 vaga e cadastro reserva)\n• Fiscal de Posturas (cadastro reserva)\n• Fiscal de Tributos (cadastro reserva)\n• Fonoaudiólogo (1 vaga e cadastro reserva)\n• Mecânico (cadastro reserva)\n• Médico Clínico Geral (1 vaga e cadastro reserva)\n• Médico Pediatra (cadastro reserva)\n• Médico Psiquiatra (cadastro reserva)\n• Merendeiro(a) (1 vaga e cadastro reserva)\n• Monitor (1 vaga e cadastro reserva)\n• Museólogo (cadastro reserva)\n• Nutricionista (cadastro reserva)\n• Odontólogo (1 vaga e cadastro reserva)\n• Operador de Máquinas e Veículos (1 vaga e cadastro reserva)\n• Pedreiro (cadastro reserva)\n• Professor de Educação Física (cadastro reserva)\n• Professor de Educação Infantil e dos Anos Iniciais do Ensino Fundamental (cadastro reserva)\n• Professor de Artes (cadastro reserva)\n• Professor de Língua Estrangeira, Alemão (cadastro reserva)\n• Professor de Língua Estrangeira, Inglês (cadastro reserva)\n• Professor de Música (cadastro reserva)\n• Psicólogo (cadastro reserva)\n• Servente de Obras e Serviços (1 vaga e cadastro reserva)\n• Técnico de Segurança do Trabalho (1 vaga)\n• Vigia (cadastro reserva)\nAs jornadas variam de 30 a 44 horas semanais; para professores, são de até 40 horas. Os vencimentos básicos dos demais cargos vão de R$ 1.620,84 a R$ 20.364,15. Para professores, o salário-base varia de R$ 1.132,85, para 10 horas, a R$ 4.531,43, para 40 horas, com complementação prevista no edital. Há vale-alimentação de R$ 600,00 para jornadas de até 44 horas semanais e de R$ 300,00 para jornadas de até 20 horas. O edital também prevê gratificação por atribuição para monitor e gratificação de produtividade para operador de máquinas e veículos.\nAs inscrições serão feitas exclusivamente pelo site da HC Assessoria Administrativa, das 12h de 6 de novembro de 2026 às 23h59 de 29 de novembro de 2026, no horário de Brasília. As taxas variam de R$ 50,00 a R$ 100,00, com pagamento até 30 de novembro de 2026. A isenção pode ser solicitada de 6 a 16 de novembro de 2026 por doadores de sangue ou de medula óssea, voluntários da Justiça Eleitoral e inscritos no CadÚnico, conforme os requisitos do edital.\nA seleção terá prova teórica objetiva para todos os cargos. Professores também passarão por prova de títulos. Para operador de máquinas e veículos, pedreiro e servente de obras e serviços, haverá prova prática. A prova objetiva está prevista para 13 de dezembro de 2026. A prova prática está prevista para 10 de janeiro de 2027.\nO Concurso Público terá validade de dois anos, podendo ser prorrogado por igual período, a critério da administração municipal.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1620.84,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Administrativo",
     "Arquiteto e Urbanista",
@@ -13582,14 +15345,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Clínico Geral",
     "Médico Pediatra",
     "Médico Psiquiatra",
     "Odontólogo"
    ],
+   "cargosGerais": [
+    "Agente Administrativo",
+    "Fiscal de Posturas",
+    "Fiscal de Tributos",
+    "Merendeiro",
+    "Monitor",
+    "Operador de Máquinas e Veículos",
+    "Pedreiro",
+    "Servente de Obras e Serviços"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Clínico Geral, Médico Pediatra, Médico Psiquiatra. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -13635,6 +15410,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Paraguaçu, em Minas Gerais, publicou o edital do Concurso Público nº 01/2026, visando contratar profissionais para cargos efetivos de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Auxiliar Cozinheira (1 vaga)\n• Auxiliar de Saúde Bucal (3 vagas)\n• Barqueiro MAF Nível 2 (3 vagas)\n• Cozinheira (1 vaga)\n• Monitor de Transporte Escolar (15 vagas)\n• Motorista (4 vagas)\n• Operador de Máquinas Leves (2 vagas)\n• Operador de Máquinas Pesadas (2 vagas)\n• Servente Contínuo (5 vagas)\n• Auxiliar de Educador (5 vagas)\n• Educador (5 vagas)\n• Guarda Civil Municipal (10 vagas)\n• Técnico de Enfermagem (2 vagas)\n• Técnico de Enfermagem (ESF) (19 vagas)\n• Terapeuta Ocupacional (1 vaga)\n• Enfermeiro (ESF) (8 vagas)\n• Farmacêutico (1 vaga)\n• Médico (ESF) (9 vagas)\n• Médico Psiquiatra (1 vaga)\n• Médico Regulador (1 vaga)\n• Médico Veterinário\n• Assistente Social\n• Nutricionista (2 vagas)\nA jornada semanal varia de 20 a 44 horas, podendo haver regimes especiais em alguns cargos (inclusive escala 12x36 para funções específicas). As remunerações vão de R$ 1.638,83 a R$ 20.128,27, acrescidas de abono de R$ 100,00 para todos os cargos.\nAs inscrições poderão ser realizadas de 21 de dezembro de 2026, às 9h, até 19 de janeiro de 2027, às 23h59, pelo site www.ibdoprojetos.org.br. A taxa de inscrição é de R$ 80,00 para cargos de nível fundamental e médio e de R$ 150,00 para cargos de nível superior. Haverá isenção para candidatos que comprovem hipossuficiência, desemprego ou doação regular de sangue, conforme critérios do edital. Para quem não tem acesso à internet, haverá posto de atendimento presencial na Rua Edward Eustáquio de Andrade, 220, Centro, Paraguaçu, das 13h às 17h.\nA seleção será composta por prova objetiva para todos os cargos, prevista para o dia 28 de fevereiro de 2027. Cargos como Guarda Civil Municipal, Educador e Auxiliar de Educador terão ainda etapas de aptidão física, investigação social, avaliação psicológica, avaliação clínica e curso de formação profissional, conforme o edital.\nO prazo de validade do concurso será de 2 anos, contados da data da homologação do resultado final, podendo ser prorrogado uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1638.83,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar Cozinheira",
     "Auxiliar de Saúde Bucal",
@@ -13663,14 +15440,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico",
     "Médico Psiquiatra",
     "Médico Regulador",
     "Médico Veterinário"
    ],
+   "cargosGerais": [
+    "Auxiliar Cozinheira",
+    "Barqueiro MAF Nível 2",
+    "Cozinheira",
+    "Monitor de Transporte Escolar",
+    "Motorista",
+    "Operador de Máquinas Leves",
+    "Operador de Máquinas Pesadas",
+    "Servente Contínuo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico, Médico Psiquiatra, Médico Regulador. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -13718,6 +15507,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, a Prefeitura Municipal de Agronômica realiza um Concurso Público para preencher vagas efetivas e formar cadastro de reserva. As oportunidades exigem escolaridade desde a alfabetização até o ensino superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Professor de Artes\n• Professor de Educação Física (20 horas)\n• Professor de Educação Física (40 horas)\n• Professor de Educação Infantil (20 horas)\n• Professor de Educação Infantil (40 horas, 1 vaga)\n• Professor de Anos Iniciais (20 horas)\n• Professor de Anos Iniciais (40 horas)\n• Professor de Inglês\n• Professor de Ensino Religioso\n• Professor AEE\n• Orientador Pedagógico\n• Farmacêutico\n• Psicólogo\n• Assistente Social\n• Orientador Social\n• Enfermeiro (1 vaga)\n• Engenheiro Agrônomo\n• Médico Veterinário (1 vaga)\n• Médico\n• Cirurgião-Dentista\n• Nutricionista\n• Agente de Controle Interno\n• Contador\n• Técnico em Agrimensura\n• Gerente Técnico Administrativo (1 vaga)\n• Auxiliar Administrativo (1 vaga)\n• Técnico Administrativo (2 vagas)\n• Técnico em Enfermagem (1 vaga)\n• Técnico em Vigilância Sanitária\n• Auxiliar de Sala\n• Auxiliar de Consultório Odontológico\n• Agente Comunitário de Saúde, área 06 (1 vaga)\n• Agente Comunitário de Endemias\n• Motorista (4 vagas)\n• Pedreiro\n• Merendeira (20 horas, 2 vagas)\n• Merendeira (40 horas, 2 vagas)\n• Operador de Equipamento Pesado\n• Inseminador\n• Fiscal de Meio Ambiente\n• Arquiteto\nAs jornadas variam de 20 a 40 horas semanais, com remunerações de R$ 1.270,06 a R$ 19.660,06. Há vale-alimentação de R$ 334,00 para jornada de 40 horas, calculado proporcionalmente nas demais jornadas, e vale-feira de R$ 30,00.\nAs inscrições serão feitas de 4 de novembro de 2026 a 4 de dezembro de 2026, pelo site Talent Concursos. As taxas são de R$ 80,00 para nível fundamental, R$ 120,00 para nível médio e técnico e R$ 140,00 para nível superior. O pagamento poderá ser feito até 7 de dezembro de 2026. Pessoas inscritas no CadÚnico que atendam ao critério de renda do edital, doadores de sangue e doadores de medula óssea poderão solicitar isenção de 4 a 6 de novembro de 2026, com envio dos documentos até as 23h59 do último dia.\nA seleção terá prova objetiva para todos os cargos, prevista para 13 de dezembro de 2026. Haverá prova de títulos para professores e orientador pedagógico, com envio dos documentos durante as inscrições. Os 30 primeiros classificados de cada cargo de motorista, pedreiro, merendeira e operador de equipamento pesado serão convocados para prova prática, prevista para 10 de janeiro de 2027.\nA validade do concurso será de até dois anos, prorrogável uma vez por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1270.06,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Professor de Artes",
     "Professor de Educação Física",
@@ -13764,14 +15555,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Veterinário",
     "Médico",
     "Cirurgião-Dentista",
     "Auxiliar de Consultório Odontológico"
    ],
+   "cargosGerais": [
+    "Orientador Social",
+    "Agente de Controle Interno",
+    "Gerente Técnico Administrativo",
+    "Auxiliar Administrativo",
+    "Técnico Administrativo",
+    "Auxiliar de Sala",
+    "Agente Comunitário de Endemias",
+    "Motorista"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Veterinário, Médico, Cirurgião-Dentista. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -13817,6 +15620,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, a Prefeitura Municipal de Navegantes e a Fundação Cultural de Navegantes abriram dois processos seletivos para formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nUma errata do edital nº 0172/2026 excluiu os cargos de Auditor, Auditor Fiscal, Contador, Fiscal de Defesa do Consumidor, Fiscal de Posturas, Fiscal de Obras e Edificações e Médico Auditor 10h, bem como as disposições referentes a essas funções nos anexos do edital. As demais disposições permanecem inalteradas.\nSegundo os editais, as oportunidades são para os cargos de:\nPrefeitura Municipal de Navegantes, edital nº 0172/2026\n• Operador de Equipamentos de Grande Porte\n• Operador de Equipamentos de Médio Porte\n• Operador de Equipamentos de Pequeno Porte\n• Motorista de Caminhão\n• Agente Comunitário de Saúde ESF (Areias)\n• Agente Comunitário de Saúde ESF (Central)\n• Agente Comunitário de Saúde ESF (Escalvados)\n• Agente Comunitário de Saúde ESF (Escalvadinhos)\n• Agente Comunitário de Saúde ESF (Gravatá)\n• Agente Comunitário de Saúde ESF (Hugo de Almeida)\n• Agente Comunitário de Saúde ESF (Machados)\n• Agente Comunitário de Saúde ESF (Meia Praia)\n• Agente Comunitário de Saúde ESF (Nossa Senhora das Graças)\n• Agente Comunitário de Saúde ESF (Pedreiras)\n• Agente Comunitário de Saúde ESF (Porto das Balsas)\n• Agente Comunitário de Saúde ESF (Porto Escalvados)\n• Agente Comunitário de Saúde ESF (São Domingos I)\n• Agente Comunitário de Saúde ESF (São Domingos II)\n• Agente Comunitário de Saúde ESF (São Paulo)\n• Agente Comunitário de Saúde ESF (São Pedro)\n• Agente Comunitário de Saúde ESF (Volta Grande)\n• Agente de Combate a Endemias\n• Atendente de Posto de Saúde\n• Auxiliar Administrativo\n• Auxiliar de Consultório Dentário ESF\n• Monitora do Abrigo\n• Orientador Social\n• Técnico em Enfermagem\n• Técnico em Enfermagem ESF\n• Técnico em Radiologia\n• Técnico em Saúde Bucal\n• Agente Técnico em Serviços Públicos\n• Arquiteto\n• Assistente Social\n• Assistente Social do CREAS/SUAS\n• Enfermeiro\n• Enfermeiro ESF\n• Engenheiro Civil\n• Engenheiro Eletricista\n• Engenheiro Sanitarista\n• Engenheiro de Segurança do Trabalho\n• Farmacêutico\n• Fisioterapeuta\n• Fonoaudiólogo\n• Médico Clínico Geral 20h\n• Médico Clínico Geral 30h\n• Médico Clínico Geral 40h\n• Médico ESF 40h\n• Médico Ginecologista 10h\n• Médico Ginecologista 20h\n• Médico Infectologista 10h\n• Médico Infectologista 20h\n• Médico Mastologista 10h\n• Médico Neurologista 10h\n• Médico Neurologista 20h\n• Médico Ortopedista 10h\n• Médico Ortopedista 20h\n• Médico Pediatra 10h\n• Médico Pediatra 20h\n• Médico Proctologista 10h\n• Médico Psiquiatra 20h\n• Médico Psiquiatra 40h\n• Médico Regulador 20h\n• Nutricionista\n• Odontólogo Cirurgião e Traumatologista Bucomaxilofacial 20h\n• Odontólogo Endodontista\n• Odontólogo ESF\n• Odontólogo Paciente com Necessidades Especiais\n• Odontólogo Periodontista\n• Psicólogo\n• Psicólogo da Gestão SUAS\n• Psicólogo do CREA/SUAS\n• Terapeuta Ocupacional\nFundação Cultural de Navegantes, edital nº 0180/2026\n• Assistente de Biblioteca\n• Assistente de Produção Cultural\n• Auxiliar Administrativo\n• Monitor de Oficinas de Artes Culturais\n• Monitor de Telecentro\n• Técnico de Cinema\n• Técnico de Teatro\n• Agente Técnico em Serviços Públicos\n• Produtor Cultural\nAs jornadas variam de 10 a 40 horas semanais, além da escala de 12 por 36 horas para alguns cargos. Os salários vão de R$ 1.784,60 a R$ 19.199,16.\nAs inscrições para ambos os processos seletivos serão feitas pelo site concursos.furb.br, de 27 de outubro de 2026 a 25 de novembro de 2026. As taxas variam de R$ 80,00 a R$ 130,00.\nAmbos os processos terão prova objetiva, eliminatória e classificatória, em 13 de dezembro de 2026. O edital da Prefeitura prevê ainda prova prática, eliminatória e classificatória, em 24 de janeiro de 2027, para Motorista de Caminhão e Operador de Equipamentos de Grande, Médio e Pequeno Porte.\nCada processo seletivo terá validade de 12 meses a partir da homologação, com possibilidade de prorrogação por até igual período.\nMais informações podem ser obtidas nos editais completos.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1784.6,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Operador de Equipamentos de Grande Porte",
     "Operador de Equipamentos de Médio Porte",
@@ -13902,14 +15707,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Clínico Geral 20h",
     "Médico Clínico Geral 30h",
     "Médico Clínico Geral 40h",
     "Médico ESF 40h"
    ],
+   "cargosGerais": [
+    "Operador de Equipamentos de Grande Porte",
+    "Operador de Equipamentos de Médio Porte",
+    "Operador de Equipamentos de Pequeno Porte",
+    "Motorista de Caminhão",
+    "Agente Comunitário de Saúde ESF",
+    "Agente de Combate a Endemias",
+    "Atendente de Posto de Saúde",
+    "Auxiliar Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Clínico Geral 20h, Médico Clínico Geral 30h, Médico Clínico Geral 40h. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -13957,6 +15774,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Novo Cabrais, no Rio Grande do Sul, abriu o Concurso Público nº 01/2026 para preencher vagas e formar cadastro de reserva em funções de nível fundamental incompleto, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente Comunitário de Saúde, microárea 02 (CR)\n• Agente Comunitário de Saúde, microárea 03 (CR)\n• Agente Comunitário de Saúde, microárea 05 (CR)\n• Agente Comunitário de Saúde, microárea 06 (CR)\n• Agente Comunitário de Saúde, microárea 08 (CR)\n• Agente de Combate às Endemias (1 vaga + CR)\n• Assistente Social (CR)\n• Biólogo (1 vaga + CR)\n• Fonoaudiólogo (1 vaga + CR)\n• Médico do PSF (CR)\n• Médico Pediatra (1 vaga + CR)\n• Monitor Geral (CR)\n• Motorista (CR)\n• Professor de Informática (1 vaga + CR)\n• Professor de Inglês (1 vaga + CR)\n• Professor de Língua Portuguesa (CR)\n• Professor de Matemática (1 vaga + CR)\n• Professor de Música (1 vaga + CR)\n• Técnico em Contabilidade (CR)\n• Técnico em Informática (1 vaga + CR)\nA jornada varia de 8 a 40 horas semanais, conforme o cargo. A remuneração inicial vai de R$ 2.339,27 a R$ 19.089,94. O edital também prevê vale-alimentação de valor variável.\nAs inscrições poderão ser feitas das 13h do dia 23 de outubro de 2026 às 13h do dia 23 de novembro de 2026, pelo site do Instituto Objetiva. Durante os dias úteis desse período, haverá um computador com acesso à internet na Prefeitura Municipal, na Avenida 28 de dezembro, nº 1.200, Centro, das 8h às 12h. A taxa varia de R$ 81,80 a R$ 245,40.\nA seleção terá prova objetiva para todos os candidatos, prevista para o dia 10 de janeiro de 2027. Haverá também prova prática para Motorista, prevista para o dia 14 de fevereiro de 2027, e prova de títulos para os cargos de Professor. As provas presenciais serão aplicadas em Novo Cabrais (RS), conforme convocação oficial, e poderão ocorrer em cidades vizinhas se não houver locais suficientes ou adequados.\nOs candidatos nomeados ingressarão no regime estatutário.\nO concurso terá validade de até dois anos, contados da publicação da homologação final. O prazo poderá ser prorrogado uma vez, por igual período, a critério da autoridade competente.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2339.27,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Comunitário de Saúde, microárea 02",
     "Agente Comunitário de Saúde, microárea 03",
@@ -13982,14 +15801,21 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico do PSF",
     "Médico Pediatra",
-    "Fonoaudiólogo",
-    "Professor de Informática"
+    "Agente Comunitário de Saúde, microárea 02",
+    "Agente Comunitário de Saúde, microárea 03"
    ],
+   "cargosGerais": [
+    "Agente de Combate às Endemias",
+    "Monitor Geral",
+    "Motorista"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico do PSF, Médico Pediatra, Agente Comunitário de Saúde, microárea 02. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -14035,6 +15861,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal da Estância Turística de Guaratinguetá, no Estado de São Paulo, abriu um Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Ajudante Geral (CR)\n• Auxiliar de Serviços Gerais (5 vagas)\n• Carpinteiro (CR)\n• Coveiro (CR)\n• Eletricista (CR)\n• Encanador (CR)\n• Padeiro (CR)\n• Pedreiro (CR)\n• Pintor (CR)\n• Vigia (2 vagas)\n• Agente de Trânsito (1 vaga)\n• Agente Sanitário (CR)\n• Auxiliar de Desenvolvimento Infantil (2 vagas)\n• Auxiliar em Saúde Bucal (4 vagas)\n• Escriturário (20 vagas)\n• Fiscal de Feiras e Mercados (2 vagas)\n• Fiscal de Posturas (1 vaga)\n• Inspetor de Alunos (1 vaga)\n• Motorista (CR)\n• Secretário de Escola (2 vagas)\n• Técnico de Enfermagem (2 vagas)\n• Técnico de Enfermagem do Trabalho (1 vaga)\n• Técnico de Segurança do Trabalho (CR)\n• Técnico em Prótese Oral (1 vaga)\n• Topógrafo (1 vaga)\n• Analista de Sistemas (1 vaga)\n• Arquiteto (CR)\n• Assistente Social (5 vagas)\n• Auxiliar Jurídico (5 vagas)\n• Bibliotecário (1 vaga)\n• Contador (1 vaga)\n• Coordenador Pedagógico (3 vagas)\n• Dentista (5 vagas)\n• Dentista de Saúde da Família (1 vaga)\n• Diretor de Escola (1 vaga)\n• Enfermeiro (CR)\n• Engenheiro Agrônomo (CR)\n• Engenheiro Ambiental (CR)\n• Engenheiro Civil (CR)\n• Engenheiro de Segurança do Trabalho (CR)\n• Engenheiro de Tráfego (1 vaga)\n• Engenheiro Eletricista (CR)\n• Farmacêutico (2 vagas)\n• Fiscal de Tributos (CR)\n• Fisioterapeuta (1 vaga)\n• Fonoaudiólogo (CR)\n• Jornalista (1 vaga)\n• Médico Cardiologista (1 vaga)\n• Médico Clínico Geral (1 vaga)\n• Médico Cirurgião Pediátrico (1 vaga)\n• Médico Cirurgião Vascular (1 vaga)\n• Médico Coloproctologista (1 vaga)\n• Médico Dermatologista (1 vaga)\n• Médico do Trabalho (1 vaga)\n• Médico Gastroenterologista (CR)\n• Médico Geriatra (1 vaga)\n• Médico Ginecologista/Obstetrícia (1 vaga)\n• Médico Infectologista (1 vaga)\n• Médico Neurologista (1 vaga)\n• Médico Neurologista Pediátrico (1 vaga)\n• Médico Oftalmologista (1 vaga)\n• Médico Ortopedista (1 vaga)\n• Médico Otorrinolaringologista (1 vaga)\n• Médico Pediatra (1 vaga)\n• Médico Pneumologista (1 vaga)\n• Médico Psiquiatra (1 vaga)\n• Médico de Saúde da Família (2 vagas)\n• Procurador Municipal (1 vaga)\n• Professor de Educação Básica I - Educação Infantil (CR)\n• Professor de Educação Básica I - Ensino Fundamental (CR)\n• Professor de Educação Básica II - Artes (1 vaga)\n• Professor de Educação Básica II - Ciências Físicas e Biológicas (CR)\n• Professor de Educação Básica II - Educação Especial Deficiência Auditiva (CR)\n• Professor de Educação Básica II - Educação Especial Deficiência Intelectual (2 vagas)\n• Professor de Educação Básica II - Educação Especial Deficiência Visual (CR)\n• Professor de Educação Básica II - Educação Física (CR)\n• Professor de Educação Básica II - Geografia (1 vaga)\n• Professor de Educação Básica II - História (CR)\n• Professor de Educação Básica II - Inglês (1 vaga)\n• Professor de Educação Básica II - Matemática (CR)\n• Professor de Educação Básica II - Português (CR)\n• Professor Monitor de Creche (3 vagas)\n• Psicólogo (2 vagas)\n• Publicitário (1 vaga)\n• Terapeuta Ocupacional (1 vaga)\n• Vice-diretor de Escola (1 vaga)\nAs jornadas variam de 20 a 44 horas semanais, com possibilidade de escala de 12 por 36 horas em alguns cargos. Para professores, a jornada segue o estatuto do magistério. Os vencimentos mensais vão de R$ 1.840,36 a R$ 18.540,71. Dentista recebe R$ 32,64 por hora; as especialidades médicas recebem R$ 101,52 por hora; e Professor de Educação Básica II recebe R$ 25,65 por hora-aula. Os benefícios são vale-transporte e cartão-alimentação de R$ 850,00, ambos mediante adesão e com descontos previstos no edital.\nAs inscrições serão feitas exclusivamente pelo site da Fundação VUNESP, das 10h de 16 de novembro de 2026 às 23h59 de 15 de dezembro de 2026. A taxa é de R$ 65,00 para nível fundamental, R$ 80,00 para nível médio e R$ 115,00 para nível superior, com pagamento até 16 de dezembro de 2026. Pedidos de isenção poderão ser feitos das 10h de 16 de novembro de 2026 às 23h59 de 20 de novembro de 2026 por candidatos que atendam aos critérios do edital relativos ao CadÚnico, à doação de sangue, medula óssea ou leite materno, ou à atuação como mesário ou chefe de seção eleitoral.\nA seleção terá prova objetiva para todos os cargos, prova de títulos para coordenador pedagógico, diretor e vice-diretor de escola e professores, e prova prático-profissional para procurador municipal. As provas objetivas e prático-profissionais estão previstas para 21 de fevereiro de 2027. Haverá procedimento presencial de heteroidentificação para candidatos autodeclarados negros que concorram às vagas reservadas, após a classificação prévia.\nAs contratações seguirão o regime celetista.\nO concurso terá validade de dois anos, contados da publicação da homologação, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1840.36,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Ajudante Geral",
     "Auxiliar de Serviços Gerais",
@@ -14120,14 +15948,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Dentista",
     "Dentista de Saúde da Família",
     "Médico Cardiologista",
     "Médico Clínico Geral"
    ],
+   "cargosGerais": [
+    "Ajudante Geral",
+    "Auxiliar de Serviços Gerais",
+    "Carpinteiro",
+    "Coveiro",
+    "Encanador",
+    "Padeiro",
+    "Pedreiro",
+    "Pintor"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Dentista, Dentista de Saúde da Família, Médico Cardiologista. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -14175,6 +16015,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Alvinópolis, em Minas Gerais, publicou o edital do Concurso Público destinado ao preenchimento de vagas para profissionais de nível fundamental, médio, técnico e superior.\nConforme a Retificação I, o requisito mínimo para o cargo de Auxiliar de Saúde Bucal - ASB passou a ser ensino médio completo, curso de Auxiliar em Saúde Bucal e registro no Conselho de Classe - CRO, sem exigência de curso técnico.\nConforme a Retificação II, o vencimento básico do cargo de Fiscal de Tributos Municipais foi corrigido de R$ 1.770,11 para R$ 3.445,18. Os demais itens do edital permanecem inalterados.\nSegundo o edital, as oportunidades são para os cargos de:\n• Ajudante de Obras (5 vagas)\n• Borracheiro (1 vaga)\n• Bombeiro Hidráulico (1 vaga)\n• Coveiro (3 vagas)\n• Faxineiro (10 vagas)\n• Pedreiro (2 vagas)\n• Pintor (1 vaga)\n• Vigia (1 vaga)\n• Auxiliar de Serviços Gerais (3 vagas)\n• Condutor de Veículos Pesados (9 vagas)\n• Eletricista (1 vaga)\n• Mecânico (1 vaga)\n• Motorista B (8 vagas)\n• Operador de Máquinas Pesadas (2 vagas)\n• Agente de Administração (3 vagas)\n• Agente de Saúde (7 vagas)\n• Auxiliar de Saúde Bucal - ASB (5 vagas)\n• Monitor de Transporte de Saúde (1 vaga)\n• Oficial de Administração (6 vagas)\n• Profissional de Apoio (20 vagas)\n• Técnico em Enfermagem (7 vagas)\n• Técnico em Meio Ambiente (1 vaga)\n• Técnico em Segurança do Trabalho (1 vaga)\n• Advogado (1 vaga)\n• Assistente Judiciário (2 vagas)\n• Dentista (5 vagas)\n• Enfermeiro ESF (7 vagas)\n• Farmacêutico (2 vagas)\n• Fisioterapeuta (1 vaga)\n• Médico ESF (5 vagas)\n• Nutricionista (1 vaga)\n• Psicólogo (2 vagas)\n• Especialista em Educação (1 vaga)\n• Professor (30 vagas)\n• Professor de Educação Física (5 vagas)\n• Professor de Artes (5 vagas)\n• Profissional da sala de AEE (2 vagas)\n• Contador (1 vaga)\n• Fiscal de Tributos Municipais (1 vaga)\n• Assistente Social (1 vaga)\n• Orientador Social (1 vaga)\nA jornada de trabalho varia de 20 a 40 horas semanais, com remuneração de R$ 1.770,11 a R$ 17.954,23, podendo haver complementação do piso nacional para determinados cargos.\nAs inscrições serão realizadas exclusivamente via Internet, no site www.institutoconsulplan.org.br, das 16h do dia 16 de novembro de 2026 às 16h do dia 15 de dezembro de 2026. A taxa de inscrição é de R$ 130,00 para nível superior, R$ 100,00 para nível médio/técnico e R$ 70,00 para nível fundamental. O pedido de isenção poderá ser feito entre os dias 16 e 18 de novembro de 2026, conforme critérios previstos no edital.\nA seleção será composta por provas objetivas de múltipla escolha para todos os cargos, provas discursivas para Advogado e Assistente Judiciário, provas práticas para funções específicas e avaliação de títulos para cargos de nível superior. As provas objetivas e discursivas estão previstas para o dia 24 de janeiro de 2027.\nO regime de contratação será estatutário, conforme Lei Complementar Municipal nº 1.724/2006.\nO concurso público terá validade de dois anos, contados da homologação do resultado final, podendo ser prorrogado uma vez por igual período, a critério da Administração Municipal.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1770.11,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Ajudante de Obras",
     "Borracheiro",
@@ -14221,14 +16063,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Dentista",
     "Médico ESF",
     "Advogado",
-    "Enfermeiro ESF"
+    "Eletricista"
    ],
+   "cargosGerais": [
+    "Ajudante de Obras",
+    "Borracheiro",
+    "Bombeiro Hidráulico",
+    "Coveiro",
+    "Faxineiro",
+    "Pedreiro",
+    "Pintor",
+    "Vigia"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Dentista, Médico ESF, Advogado. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -14276,6 +16130,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de São Pedro da União, no Estado de Minas Gerais, divulgou o edital do Concurso Público nº 001/2026 visando o preenchimento de vagas e a formação de cadastro de reserva em funções de níveis: fundamental incompleto, fundamental completo, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino Fundamental Incompleto\n• Auxiliar de Serviços Gerais (1 vaga)\n• Coveiro (1 vaga)\n• Cozinheiro Escolar (1 vaga)\n• Pedreiro (1 vaga)\n• Motorista (1 vaga)\n• Operador de Máquinas (1 vaga)\n• Tratorista (1 vaga)\nEnsino Fundamental Completo\n• Ajudante Geral (1 vaga)\nEnsino Médio Completo\n• Auxiliar Administrativo (1 vaga)\n• Fiscal da Vigilância Sanitária (1 vaga)\n• Fiscal de Tributos (1 vaga)\n• Monitor Escolar (1 vaga)\n• Profissional de Apoio Escolar (1 vaga)\n• Auxiliar de Consultório Dentário (1 vaga)\nEnsino Médio/Técnico\n• Técnico em Enfermagem (Cadastro Reserva)\nEnsino Superior\n• Professor de Educação Básica (1 vaga)\n• Supervisor Escolar (1 vaga)\n• Contador (1 vaga)\n• Engenheiro Civil (1 vaga)\n• Fisioterapeuta (1 vaga)\n• Fonoaudiólogo (1 vaga)\n• Professor Conteúdo Específico - Educação Física (1 vaga)\n• Médico do PSF (1 vaga)\n• Nutricionista (1 vaga)\n• Cirurgião Dentista (1 vaga)\n• Cirurgião Dentista do PSF (1 vaga)\n• Professor de Atendimento Especializado (1 vaga)\n• Psicólogo (1 vaga)\n• Assistente Social (1 vaga)\n• Psicopedagogo (1 vaga)\nA carga horária varia de 20 a 40 horas semanais, com remunerações iniciais de R$ 1.655,40 a R$ 17.612,87, conforme o cargo.\nAs inscrições devem ser realizadas exclusivamente via internet, no site www.institutoaplicativa.org.br, de 28 de novembro de 2026 a 28 de dezembro de 2026. Os valores das taxas de inscrição são de R$ 40,00, R$ 50,00 ou R$ 80,00, de acordo com o nível de escolaridade. Os pedidos de isenção da taxa podem ser feitos entre 28 de novembro de 2026 e 3 de dezembro de 2026, conforme as normas do edital.\nA seleção será composta por prova objetiva para todos os cargos, prevista para o dia 17 de janeiro de 2027. Os cargos de Cozinheiro Escolar, Motorista, Operador de Máquinas, Pedreiro e Tratorista também terão prova prática. Para os cargos de nível superior haverá prova de títulos.\nO prazo de validade do concurso é de dois anos, a contar da homologação, podendo ser prorrogado uma única vez, por igual período.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1655.4,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Serviços Gerais",
     "Coveiro",
@@ -14311,14 +16167,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico do PSF",
     "Cirurgião Dentista",
     "Cirurgião Dentista do PSF",
     "Engenheiro Civil"
    ],
+   "cargosGerais": [
+    "Auxiliar de Serviços Gerais",
+    "Coveiro",
+    "Cozinheiro Escolar",
+    "Pedreiro",
+    "Motorista",
+    "Operador de Máquinas",
+    "Tratorista",
+    "Ajudante Geral"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico do PSF, Cirurgião Dentista, Cirurgião Dentista do PSF. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -14364,6 +16232,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Umuarama, no Estado do Paraná, abriu um Concurso Público com o objetivo de preencher quatro vagas para médicos generalistas.\nSegundo o edital, as oportunidades são para os cargos de:\n• Médico Generalista, 20 horas semanais (2 vagas)\n• Médico Generalista, 40 horas semanais (2 vagas)\nAs jornadas são de 20 ou 40 horas semanais, com remuneração mensal de R$ 7.401,76 e R$ 14.994,61, respectivamente. O edital prevê adicional de insalubridade de 20% quando houver exposição a agentes nocivos no ambiente de trabalho.\nAs inscrições serão realizadas exclusivamente pela internet, no site do Instituto Unicampo, de 14 de novembro de 2026 a 2 de dezembro de 2026. A taxa é de R$ 70,00, com pagamento até 3 de dezembro de 2026. É possível solicitar isenção até 24 de novembro de 2026 nas hipóteses previstas no edital, incluindo inscrição no CadÚnico, doação de leite materno, medula óssea ou sangue e prestação de serviços eleitorais.\nA seleção terá prova objetiva, eliminatória e classificatória, para todos os candidatos, e heteroidentificação para candidatos autodeclarados pretos ou pardos que optarem pelas vagas reservadas. A prova objetiva está prevista para 20 de dezembro de 2026. Os convocados também passarão por avaliações médicas e psicológicas antes da nomeação.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, com possibilidade de prorrogação uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Médico Generalista, 20 horas semanais",
     "Médico Generalista, 40 horas semanais"
@@ -14371,13 +16241,16 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Generalista, 20 horas semanais",
     "Médico Generalista, 40 horas semanais",
     "Médico Generalista"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -14423,6 +16296,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Inúbia Paulista, no Estado de São Paulo, abriu um Concurso Público e um Processo Seletivo para formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nSegundo os editais, as oportunidades são para os cargos de:\nConcurso Público nº 01/2026\n• Serviços Gerais\n• Eletricista\n• Pedreiro\n• Tratorista\n• Operador de Máquinas Pesadas\n• Merendeira\n• Pintor\n• Motorista II\n• Padeiro\n• Inspetor de Alunos\n• Auxiliar Administrativo\n• Auxiliar de Enfermagem\n• Controlador Interno\n• Médico II\nProcesso Seletivo nº 02/2026\n• Auxiliar de Vida Escolar e Educação Inclusiva\n• Professor de Educação Básica II com Habilitação em Informática\n• Professor Educação Básica PEB I\n• Médico ESF\n• Enfermeiro ESF\nAs jornadas variam de 20 a 40 horas semanais, com salários de R$ 1.691,87 a R$ 14.980,00. Para Médico ESF, a remuneração está sujeita ao redutor ou teto constitucional e à lei municipal citada no edital.\nAs inscrições para ambos os certames serão feitas exclusivamente pelo site www.ipell.com.br, no período de 16 de novembro de 2026 a 16 de dezembro de 2026. As taxas são de R$ 30,00 ou R$ 50,00, conforme o emprego. Não haverá isenção da taxa de inscrição.\nAmbos os certames terão prova objetiva, prevista para 10 de janeiro de 2027, às 9h. No Concurso Público, haverá também prova prática para Eletricista, Pedreiro, Tratorista, Operador de Máquinas Pesadas, Merendeira, Pintor, Motorista II, Padeiro e Auxiliar Administrativo, além de teste de aptidão física para Serviços Gerais.\nAs contratações seguirão a ordem de classificação e as necessidades da Prefeitura, sob o regime da Consolidação das Leis do Trabalho (CLT).\nO Concurso Público terá validade de dois anos, e o Processo Seletivo, de um ano, ambos contados da homologação. Cada prazo poderá ser prorrogado uma vez por igual período, a critério da Prefeitura.\nMais informações podem ser obtidas nos editais completos.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1691.87,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Serviços Gerais",
     "Eletricista",
@@ -14447,14 +16322,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico II",
     "Médico ESF",
-    "Professor de Educação Básica II com Habilitação em Informática",
-    "Professor Educação Básica PEB I"
+    "Eletricista",
+    "Auxiliar de Enfermagem"
    ],
+   "cargosGerais": [
+    "Serviços Gerais",
+    "Pedreiro",
+    "Tratorista",
+    "Operador de Máquinas Pesadas",
+    "Merendeira",
+    "Pintor",
+    "Motorista II",
+    "Padeiro"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico II, Médico ESF, Eletricista. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -14500,6 +16387,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Corumbataí, no Estado de São Paulo, abriu um Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino fundamental\n• Pedreiro (1 vaga)\n• Servente (1 vaga)\n• Serviços Gerais (1 vaga)\nEnsino médio ou técnico\n• Monitor de Creche (1 vaga)\n• Monitor de Esportes (1 vaga)\n• Químico (cadastro de reserva)\n• Técnico em Enfermagem (1 vaga)\n• Tratorista (1 vaga)\nEnsino superior\n• Enfermeiro (1 vaga)\n• Enfermeiro Saúde da Família (cadastro de reserva)\n• Médico Plantonista (1 vaga)\n• Médico Saúde da Família (cadastro de reserva)\n• PEB I: Educação Infantil (1 vaga)\n• PEB I: Ensino Fundamental do 1º ao 5º ano (1 vaga)\n• PEB II: Geografia (cadastro de reserva)\n• PEB II: Inglês (cadastro de reserva)\n• PEB II: Língua Portuguesa (cadastro de reserva)\n• PEB II: Matemática (cadastro de reserva)\n• Psicólogo (1 vaga)\n• Técnico Desportivo (1 vaga)\nAs jornadas variam de 20 a 44 horas semanais, conforme o cargo. Para Médico Plantonista, o edital prevê plantões de 12 horas. Os salários mensais vão de R$ 1.750,68 a R$ 14.955,58. A remuneração é de R$ 150,04 por hora para Médico Plantonista e de R$ 28,57 ou R$ 28,59 por hora para os cargos de PEB.\nAs inscrições serão realizadas exclusivamente pela internet, no site da GL Consultoria, das 13h de 12 de novembro de 2026 às 13h de 26 de novembro de 2026. As taxas são de R$ 40,00 para ensino fundamental, R$ 65,00 para ensino médio ou técnico e R$ 80,00 para ensino superior.\nTodos os candidatos farão prova objetiva, prevista para 20 de dezembro de 2026. Haverá avaliação de títulos, de caráter classificatório, para os cargos de PEB I e PEB II. Para Tratorista, haverá também prova prática, de caráter eliminatório, com convocação posterior dos candidatos habilitados conforme os critérios do edital.\nAs contratações serão regidas pela Consolidação das Leis do Trabalho (CLT).\nO concurso terá validade de dois anos a partir da publicação da homologação do resultado final. O prazo poderá ser prorrogado uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1750.68,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Pedreiro",
     "Servente",
@@ -14525,14 +16414,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Plantonista",
     "Médico Saúde da Família",
-    "Enfermeiro",
-    "Enfermeiro Saúde da Família"
+    "Químico",
+    "Técnico em Enfermagem"
    ],
+   "cargosGerais": [
+    "Pedreiro",
+    "Servente",
+    "Serviços Gerais",
+    "Monitor de Creche",
+    "Monitor de Esportes",
+    "Tratorista",
+    "PEB I: Educação Infantil",
+    "PEB I: Ensino Fundamental do 1º ao 5º ano"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Plantonista, Médico Saúde da Família, Químico. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -14578,6 +16479,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Catiguá, no Estado de São Paulo, abriu o Concurso Público nº 01/2026 para preencher vagas efetivas e formar cadastro de reserva em funções de nível fundamental, médio/técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino fundamental\n• Abastecedor, Lavador e Lubrificador de Máquinas e Veículos (1 vaga)\n• Agente de Serviços Escolares (2 vagas)\n• Auxiliar de Cozinha (2 vagas)\n• Coletor de Lixo (1 vaga)\n• Condutor de Ambulância (6 vagas)\n• Motorista (4 vagas)\n• Operador de Máquinas (1 vaga)\n• Pedreiro (1 vaga)\n• Roçador (1 vaga)\n• Tratorista (1 vaga)\n• Vigia (1 vaga)\nEnsino médio e/ou técnico\n• Agente Comunitário de Saúde (1 vaga)\n• Agente de Apoio Escolar (2 vagas)\n• Agente de Combate às Endemias (1 vaga)\n• Auxiliar de Eletricista (1 vaga)\n• Escriturário\n• Fiscal de Obras, Posturas e Serviços (1 vaga)\nEnsino superior\n• Analista Técnico-Administrativo (1 vaga)\n• Assistente Social (1 vaga)\n• Bibliotecário (1 vaga)\n• Farmacêutico (1 vaga)\n• Fisioterapeuta (1 vaga)\n• Fonoaudiólogo\n• Médico Generalista - ESF (1 vaga)\n• Psicólogo (1 vaga)\n• Psicopedagogo (1 vaga)\n• Terapeuta Ocupacional (1 vaga)\nAs jornadas variam de 20 a 40 horas semanais, com salário-base de R$ 1.950,00 a R$ 14.750,00. Para Condutor de Ambulância, a jornada é em escala de 12 x 36 horas.\nAs inscrições serão feitas exclusivamente pela internet, no site do INEPAM, das 10h de 30 de novembro de 2026 às 16h de 21 de dezembro de 2026. As taxas são de R$ 45,00 para ensino fundamental, R$ 60,00 para ensino médio ou técnico e R$ 75,00 para ensino superior. O pedido de isenção poderá ser feito das 10h de 30 de novembro de 2026 às 16h de 2 de dezembro de 2026 por candidatos inscritos no registro de doadores voluntários de medula óssea e por doadores regulares de sangue, conforme as exigências do edital.\nA seleção terá prova objetiva, eliminatória e classificatória, para todos os cargos. Haverá prova prática, também eliminatória e classificatória, para Agente de Serviços Escolares, Coletor de Lixo, Condutor de Ambulância, Motorista, Operador de Máquinas, Pedreiro, Roçador e Tratorista. O cargo de Psicopedagogo terá prova de títulos, de caráter classificatório. A prova objetiva está prevista para 17 de janeiro de 2027. A prova prática está prevista para 14 de fevereiro de 2027.\nOs cargos serão providos em caráter efetivo, sob o regime estatutário.\nO concurso terá validade de dois anos a partir da homologação. O prazo poderá ser prorrogado uma única vez por igual período, a critério da administração municipal.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1950,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Abastecedor, Lavador e Lubrificador de Máquinas e Veículos",
     "Agente de Serviços Escolares",
@@ -14610,14 +16513,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Generalista - ESF",
-    "Farmacêutico",
-    "Fisioterapeuta",
-    "Fonoaudiólogo"
+    "Abastecedor, Lavador e Lubrificador de Máquinas e Veículos",
+    "Auxiliar de Eletricista",
+    "Fiscal de Obras, Posturas e Serviços"
    ],
+   "cargosGerais": [
+    "Agente de Serviços Escolares",
+    "Auxiliar de Cozinha",
+    "Coletor de Lixo",
+    "Condutor de Ambulância",
+    "Motorista",
+    "Operador de Máquinas",
+    "Pedreiro",
+    "Roçador"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Generalista - ESF, Abastecedor, Lavador e Lubrificador de Máquinas e Veículos, Auxiliar de Eletricista. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -14663,6 +16578,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, o Município de Nova Trento abriu três processos seletivos para formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nSegundo os editais, as oportunidades são para os cargos de:\nProcesso Seletivo Público nº 001/2026\n• Agente Comunitário de Saúde, Aguti/Pitanga\n• Agente Comunitário de Saúde, Besenello\n• Agente Comunitário de Saúde, Centro\n• Agente Comunitário de Saúde, Claraíba\n• Agente Comunitário de Saúde, Trinta Réis\n• Agente de Combate às Endemias\nProcesso Seletivo nº 002/2026, Secretaria de Educação\n• Coordenador Escolar\n• Monitor de Educação Especial\n• Monitor de Educação Infantil\n• Motorista de Transporte Escolar\n• Orientador Escolar\n• Professor AEE, Atendimento Educacional Especializado, Habilitado\n• Professor AEE, Atendimento Educacional Especializado, Não Habilitado\n• Professor de Libras e Braile Habilitado\n• Professor de Libras e Braile Não Habilitado\n• Professor de Educação Infantil Creche e Pré-Escola Habilitado\n• Professor de Educação Infantil Creche e Pré-Escola Não Habilitado\n• Professor de Ensino Fundamental, Anos Iniciais, Habilitado\n• Professor de Ensino Fundamental, Anos Iniciais, Não Habilitado\n• Professor de Ensino Fundamental, Artes, Habilitado\n• Professor de Ensino Fundamental, Artes, Não Habilitado\n• Professor de Ensino Fundamental, Ciências, Habilitado\n• Professor de Ensino Fundamental, Ciências, Não Habilitado\n• Professor de Ensino Fundamental, Educação Física\n• Professor de Ensino Fundamental, Educação Física, Não Habilitado\n• Professor de Ensino Fundamental, Ensino Religioso, Habilitado\n• Professor de Ensino Fundamental, Ensino Religioso, Não Habilitado\n• Professor de Ensino Fundamental, Geografia, Habilitado\n• Professor de Ensino Fundamental, Geografia, Não Habilitado\n• Professor de Ensino Fundamental, História, Habilitado\n• Professor de Ensino Fundamental, História, Não Habilitado\n• Professor de Ensino Fundamental, Inglês, Habilitado\n• Professor de Ensino Fundamental, Inglês, Não Habilitado\n• Professor de Ensino Fundamental, Língua Portuguesa, Habilitado\n• Professor de Ensino Fundamental, Língua Portuguesa, Não Habilitado\n• Professor de Ensino Fundamental, Matemática, Habilitado\n• Professor de Ensino Fundamental, Matemática, Não Habilitado\n• Psicopedagogo\n• Secretário(a) Escolar\n• Supervisor Escolar\nProcesso Seletivo nº 003/2026, demais secretarias\n• Assistente Administrativo\n• Assistente Social\n• Auxiliar de Consultório Odontológico\n• Auxiliar de Manutenção e Conservação\n• Auxiliar de Serviços Gerais\n• Cirurgião Dentista\n• Educador Físico\n• Enfermeiro\n• Farmacêutico\n• Fiscal Sanitário\n• Fisioterapeuta\n• Fonoaudiólogo\n• Médico\n• Motorista I\n• Motorista II\n• Motorista III\n• Motorista III, para trabalhar no Aguti\n• Nutricionista\n• Operador de Máquinas\n• Psicólogo\n• Técnico de Enfermagem\n• Técnico de Informática\n• Técnico em Radiologia\n• Turismólogo\nAs jornadas variam de 15 a 40 horas semanais, conforme o cargo, e os vencimentos vão de R$ 1.154,40 a R$ 14.189,97.\nAs inscrições estarão abertas de 30 de outubro de 2026 até as 17h de 28 de novembro de 2026, pelo site da Acesse Concursos. A taxa pode ser de R$ 40,00, R$ 60,00 ou R$ 80,00, conforme o cargo. Doadores de sangue e de medula óssea podem solicitar isenção mediante envio dos documentos exigidos até 20 de novembro de 2026.\nTodos os cargos terão prova objetiva, de caráter eliminatório e classificatório, prevista para o dia 13 de dezembro de 2026. No edital da educação, os cargos indicados também terão prova de títulos, de caráter classificatório, e Motorista de Transporte Escolar terá prova prática, de caráter eliminatório e classificatório. No edital das demais secretarias, haverá prova prática, também eliminatória e classificatória, para Motorista I, Motorista II, Motorista III e Operador de Máquinas. As provas práticas ocorrerão em 13 de dezembro de 2026, em locais e horários a serem divulgados.\nOs três processos seletivos terão validade até 31 de dezembro de 2027.\nMais informações podem ser obtidas nos editais completos.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1154.4,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Comunitário de Saúde, Aguti/Pitanga",
     "Agente Comunitário de Saúde, Besenello",
@@ -14732,14 +16649,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Auxiliar de Consultório Odontológico",
     "Cirurgião Dentista",
     "Médico",
-    "Professor AEE, Atendimento Educacional Especializado, Habilitado"
+    "Agente Comunitário de Saúde, Aguti/Pitanga"
    ],
+   "cargosGerais": [
+    "Agente de Combate às Endemias",
+    "Coordenador Escolar",
+    "Monitor de Educação Especial",
+    "Monitor de Educação Infantil",
+    "Motorista de Transporte Escolar",
+    "Orientador Escolar",
+    "Psicopedagogo",
+    "Secretário(a) Escolar"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Auxiliar de Consultório Odontológico, Cirurgião Dentista, Médico. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -14787,6 +16716,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Santa Catarina, a Prefeitura Municipal de Luzerna abriu um Concurso Público para preencher quatro vagas imediatas e formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente de Copa e Limpeza (1 vaga)\n• Agente de Obras e Serviços (1 vaga)\n• Merendeira\n• Motorista\n• Operador de Máquinas\n• Assistente Administrativo\n• Fiscal de Vigilância Sanitária\n• Atendente de Farmácia\n• Auxiliar de Saúde Bucal\n• Monitor de Informática\n• Monitor Social\n• Técnico em Enfermagem\n• Técnico em Segurança do Trabalho\n• Procurador Municipal\n• Professor para Atendimento Educacional Especializado (Educação Especial)\n• Professor de Ensino Fundamental - Artes\n• Professor de Ensino Fundamental - Ciências\n• Professor de Ensino Fundamental - Dança\n• Professor de Educação Física\n• Professor de Educação Infantil\n• Professor de Ensino Religioso\n• Professor de Ensino Fundamental - Inglês\n• Professor de Ensino Fundamental - História\n• Professor de Ensino Fundamental - Matemática\n• Professor de Ensino Fundamental - Português\n• Professor de Música\n• Professor de Séries Iniciais do Ensino Fundamental\n• Professor de Espanhol (1 vaga)\n• Professor de Informática\n• Psicólogo Educacional\n• Arquiteto e Urbanista\n• Auditor Fiscal da Receita Municipal\n• Contador\n• Controlador Interno\n• Engenheiro Agrônomo\n• Engenheiro Civil\n• Fiscal de Obras e Posturas (1 vaga)\n• Assistente Social\n• Enfermeiro\n• Farmacêutico\n• Fonoaudiólogo\n• Médico Pediatra\n• Médico Veterinário\n• Nutricionista\n• Odontólogo\n• Profissional de Educação Física\nAs jornadas variam de 12 a 44 horas semanais, com remuneração de R$ 2.060,82 a R$ 14.004,25.\nAs inscrições serão feitas exclusivamente pelo site do Instituto DOM, de 3 de novembro de 2026 a 3 de dezembro de 2026. As taxas são de R$ 50,00 para nível fundamental, R$ 70,00 para nível médio e técnico e R$ 100,00 para nível superior. Candidatos inscritos no CadÚnico que atendam ao critério de renda do edital e doadores de medula óssea poderão solicitar isenção de 3 a 5 de novembro de 2026.\nA seleção terá prova objetiva para todos os cargos, prevista para 17 de janeiro de 2027. Haverá prova veicular para Motorista e Operador de Máquinas, e prova prática para Agente de Copa e Limpeza, Agente de Obras e Serviços e Merendeira, previstas para 13 e 14 de fevereiro de 2027. Os cargos de Professor terão prova de títulos, de caráter classificatório e participação facultativa.\nO concurso terá validade de dois anos, contados da homologação, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2060.82,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Copa e Limpeza",
     "Agente de Obras e Serviços",
@@ -14838,14 +16769,28 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Pediatra",
     "Médico Veterinário",
     "Odontólogo",
     "Procurador Municipal"
    ],
+   "cargosGerais": [
+    "Agente de Copa e Limpeza",
+    "Agente de Obras e Serviços",
+    "Merendeira",
+    "Motorista",
+    "Operador de Máquinas",
+    "Assistente Administrativo",
+    "Fiscal de Vigilância Sanitária",
+    "Monitor Social"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [
+    "Auditor Fiscal da Receita Municipal"
+   ],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Pediatra, Médico Veterinário, Odontólogo. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -14891,6 +16836,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Anchieta, no Estado do Espírito Santo, abriu o Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível médio e técnico\n• Agente de Combate a Endemias (cadastro de reserva)\n• Técnico de Enfermagem (5 vagas e cadastro de reserva)\n• Técnico de Enfermagem Plantonista (1 vaga e cadastro de reserva)\n• Técnico de Imobilização Ortopédica (1 vaga e cadastro de reserva)\n• Técnico de Laboratório (2 vagas e cadastro de reserva)\n• Técnico em Saúde Bucal (2 vagas e cadastro de reserva)\nNível superior\n• Dentista/Área 20H (1 vaga e cadastro de reserva)\n• Dentista/Área 40H (cadastro de reserva)\n• Enfermeiro (3 vagas e cadastro de reserva)\n• Enfermeiro Plantonista (1 vaga e cadastro de reserva)\n• Farmacêutico (2 vagas e cadastro de reserva)\n• Farmacêutico Plantonista (1 vaga e cadastro de reserva)\n• Médico Especialista/Área - Cardiologia (1 vaga e cadastro de reserva)\n• Médico Clínico (2 vagas e cadastro de reserva)\n• Médico Especialista/Área - Ginecologia (1 vaga e cadastro de reserva)\n• Médico Especialista/Área - Ortopedia (1 vaga e cadastro de reserva)\n• Médico Especialista/Área - Pediatria (1 vaga e cadastro de reserva)\nAs jornadas são de 20 ou 40 horas semanais. Para os cargos de plantonista, as escalas totalizam 180 horas mensais. Os subsídios variam de R$ 3.500,00 a R$ 14.000,00.\nAs inscrições serão realizadas exclusivamente pelo site do Instituto de Desenvolvimento e Capacitação (IDCAP), de 18 de novembro a 14 de dezembro de 2026. A taxa é de R$ 80,00 para cargos de nível médio e técnico e de R$ 100,00 para cargos de nível superior. Os pedidos de isenção poderão ser feitos de 18 a 19 de novembro de 2026, nas condições previstas no edital.\nA seleção terá prova objetiva, de caráter classificatório e eliminatório, avaliação biopsicossocial para candidatos às vagas reservadas a pessoas com deficiência e heteroidentificação presencial para candidatos às vagas reservadas a pessoas negras. A prova objetiva está prevista para 28 de fevereiro de 2027, das 8h às 12h ou das 14h às 18h, conforme o cargo.\nO concurso terá validade de dois anos, contados da homologação do resultado final, e poderá ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 3500,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Combate a Endemias",
     "Técnico de Enfermagem",
@@ -14913,14 +16860,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Dentista/Área 20H",
     "Dentista/Área 40H",
     "Médico Especialista/Área - Cardiologia",
     "Médico Clínico"
    ],
+   "cargosGerais": [
+    "Agente de Combate a Endemias"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Dentista/Área 20H, Dentista/Área 40H, Médico Especialista/Área - Cardiologia. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -14966,6 +16918,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Minas Gerais, o Município de Água Boa abriu um Concurso Público para preencher vagas de nível fundamental (incompleto ou completo), médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino fundamental incompleto\n• Condutor de Máquinas II (3 vagas)\n• Condutor de Veículos I (5 vagas)\n• Condutor de Veículos II (7 vagas)\n• Oficial de Serviços Públicos: Eletricista (1 vaga)\n• Oficial de Serviços Públicos: Pedreiro (2 vagas)\n• Servente Escolar (10 vagas)\nEnsino fundamental completo\n• Agente Administrativo (2 vagas)\n• Assistente de Apoio ao Ensino (4 vagas)\n• Auxiliar Administrativo (4 vagas)\n• Fiscal de Obras e Posturas (1 vaga)\nEnsino médio completo\n• Assistente Administrativo (4 vagas)\n• Assistente Educacional (1 vaga)\n• Fiscal de Rendas (1 vaga)\n• Professor PI (10 vagas)\n• Técnico Administrativo: Administrativo (1 vaga)\nEnsino médio e técnico completos\n• Técnico Administrativo: Contabilidade (1 vaga)\n• Técnico em Enfermagem (10 vagas)\nEnsino superior completo\n• Médico (2 vagas)\n• Médico PSF (2 vagas)\n• Odontólogo 20h (2 vagas)\n• Odontólogo PSF (1 vaga)\n• Pedagogo (5 vagas)\n• Professor PII (6 vagas)\n• Psicólogo (CRAS/Saúde/CAPS) (1 vaga)\n• Técnico de Nível Superior: Assistente Social (1 vaga)\n• Técnico de Nível Superior: Enfermeiro (2 vagas)\n• Técnico de Nível Superior: Enfermeiro PSF (2 vagas)\nAs jornadas variam de 20 a 40 horas semanais. Os vencimentos mensais vão de R$ 1.621,00 a R$ 13.945,21.\nAs inscrições serão realizadas exclusivamente pelo site do IBGP, das 9h de 11 de janeiro de 2027 às 16h de 11 de fevereiro de 2027, no horário de Brasília. As taxas são de R$ 60,00 para nível fundamental, R$ 80,00 para nível médio ou técnico e R$ 100,00 para nível superior. O pagamento poderá ser feito até 12 de fevereiro de 2027. A isenção poderá ser solicitada das 9h de 11 de janeiro de 2027 às 16h de 13 de janeiro de 2027 por candidatos que atendam aos critérios.\nA seleção terá prova objetiva para todos os cargos, prevista para 21 de março de 2027, pela manhã ou à tarde, conforme o cargo. Haverá também redação para Professor PI, Pedagogo e Professor PII; prova de títulos para os cargos de nível superior; prova prática para Condutor de Máquinas II e Condutor de Veículos I e II; e procedimento de heteroidentificação para candidatos aprovados que concorrerem às vagas reservadas a pessoas negras.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, com possibilidade de uma única prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Condutor de Máquinas II",
     "Condutor de Veículos I",
@@ -14998,14 +16952,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico",
     "Médico PSF",
     "Odontólogo 20h",
     "Odontólogo PSF"
    ],
+   "cargosGerais": [
+    "Condutor de Máquinas II",
+    "Condutor de Veículos I",
+    "Condutor de Veículos II",
+    "Oficial de Serviços Públicos: Pedreiro",
+    "Servente Escolar",
+    "Agente Administrativo",
+    "Assistente de Apoio ao Ensino",
+    "Auxiliar Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico, Médico PSF, Odontólogo 20h. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -15053,6 +17019,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Birigui, no Estado de São Paulo, abriu um Concurso Público com o objetivo de preencher vagas e formar cadastro de reserva para profissionais de nível fundamental (incompleto ou completo), médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Apreensor de Animais (CR)\n• Aferidor de Hidrômetro (CR)\n• Auxiliar de Serviços Gerais, Feminino (30 vagas)\n• Auxiliar de Serviços Gerais, Masculino (30 vagas)\n• Auxiliar de Topografia e Agrimensura (1 vaga)\n• Auxiliar em Saúde Bucal (3 vagas)\n• Borracheiro (1 vaga)\n• Carpinteiro (1 vaga)\n• Coletor de Lixo (10 vagas)\n• Coveiro (1 vaga)\n• Cozinheiro (2 vagas)\n• Eletricista (CR)\n• Encanador (4 vagas)\n• Ferreiro Armador (1 vaga)\n• Frentista (1 vaga)\n• Instrutor de Corte e Costura (CR)\n• Leiturista (CR)\n• Mecânico (1 vaga)\n• Mecânico de Manutenção (CR)\n• Motorista de Veículos Leves (CR)\n• Motorista de Veículos Pesados (5 vagas)\n• Operador da Vaca Mecânica (CR)\n• Operador de Bombas (1 vaga)\n• Operador de Máquinas (3 vagas)\n• Padeiro (1 vaga)\n• Pedreiro (5 vagas)\n• Pintor (2 vagas)\n• Soldador (1 vaga)\n• Telefonista (CR)\n• Tratorista (3 vagas)\n• Vigia (CR)\n• Agente Comunitário de Saúde (CR)\n• Agente de Combate a Endemias (CR)\n• Almoxarife (CR)\n• Auxiliar de Veterinário (1 vaga)\n• Cuidador Social, Feminino (2 vagas)\n• Cuidador Social, Masculino (2 vagas)\n• Desenhista (CR)\n• Fiscal de Obras e Posturas (CR)\n• Fiscal de Tributos (CR)\n• Oficial Administrativo (4 vagas)\n• Operador de Estação de Tratamento de Água (3 vagas)\n• Orientador Social (CR)\n• Recepcionista (4 vagas)\n• Salva-Vidas (CR)\n• Técnico Agrícola (CR)\n• Técnico em Agrimensura (CR)\n• Técnico em Contabilidade (CR)\n• Técnico em Edificações (CR)\n• Técnico em Enfermagem (CR)\n• Técnico em Enfermagem ESF (11 vagas)\n• Técnico em Farmácia (4 vagas)\n• Técnico em Informática (1 vaga)\n• Técnico em Nutrição (1 vaga)\n• Técnico em Segurança do Trabalho (CR)\n• Acupunturista (CR)\n• Analista de Tecnologia da Informação (1 vaga)\n• Arquiteto (CR)\n• Assistente Social (4 vagas)\n• Assistente Social Educacional (1 vaga)\n• Cirurgião-Dentista (CR)\n• Contador (1 vaga)\n• Controlador Interno (1 vaga)\n• Enfermeiro (CR)\n• Enfermeiro ESF (11 vagas)\n• Engenheiro Ambiental (CR)\n• Engenheiro Civil (CR)\n• Engenheiro Elétrico (CR)\n• Engenheiro Químico (CR)\n• Farmacêutico (6 vagas)\n• Fisioterapeuta (1 vaga)\n• Fonoaudiólogo (1 vaga)\n• Médico Veterinário (CR)\n• Museólogo (1 vaga)\n• Nutricionista (1 vaga)\n• Preparador Físico (1 vaga)\n• Procurador Jurídico (CR)\n• Psicólogo (CR)\n• Psicólogo Educacional (1 vaga)\n• Terapeuta Ocupacional (CR)\nAs jornadas variam de 20 a 40 horas semanais, conforme o cargo. A remuneração inicial varia de R$ 1.621,05 a R$ 13.881,85. A Prefeitura oferece vale-alimentação e prêmio assiduidade de até R$ 1.250,00, conforme a legislação municipal.\nAs inscrições serão feitas exclusivamente pelo site do Instituto ACCESS, das 14h do dia 22 de outubro às 23h59 do dia 10 de dezembro de 2026. A taxa é de R$ 54,00 para nível fundamental, R$ 56,00 para nível médio ou técnico e R$ 58,00 para nível superior. A isenção poderá ser solicitada em 22 e 23 de outubro de 2026 por candidatos que atendam aos requisitos previstos no edital, como doadores de sangue residentes em Birigui, pessoas que prestaram serviços à Justiça Eleitoral ou pessoas cadastradas como doadoras de medula óssea.\nA seleção terá prova objetiva para todos os cargos; prova discursiva para Procurador Jurídico; prova prática para Borracheiro, Carpinteiro, Cozinheiro, Eletricista, Encanador, Ferreiro Armador, Mecânico, Mecânico de Manutenção, Motorista de Veículos Leves, Motorista de Veículos Pesados, Operador de Máquinas, Padeiro, Pedreiro, Pintor, Soldador e Tratorista; e teste de aptidão física para Agente Comunitário de Saúde, Agente de Combate a Endemias, Auxiliar de Serviços Gerais, Feminino e Masculino, Coletor de Lixo e Leiturista. As provas objetivas e discursivas estão previstas para 14 de fevereiro de 2027, em Birigui, com possibilidade de aplicação em cidades vizinhas.\nOs aprovados nomeados integrarão o quadro de servidores efetivos da Prefeitura, sob regime estatutário.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621.05,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Apreensor de Animais",
     "Aferidor de Hidrômetro",
@@ -15138,14 +17106,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Cirurgião-Dentista",
     "Médico Veterinário",
     "Engenheiro Ambiental",
     "Engenheiro Civil"
    ],
+   "cargosGerais": [
+    "Apreensor de Animais",
+    "Aferidor de Hidrômetro",
+    "Borracheiro",
+    "Carpinteiro",
+    "Coletor de Lixo",
+    "Coveiro",
+    "Cozinheiro",
+    "Encanador"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Cirurgião-Dentista, Médico Veterinário, Engenheiro Ambiental. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -15193,6 +17173,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Contagem, no Estado de Minas Gerais, em conjunto com o Instituto Brasileiro de Gestão e Pesquisa (IBGP), anunciou a abertura de um Concurso Público destinado ao provimento de vagas para profissionais de nível médio, técnico e superior.\nO documento de Retificação Nº 01 alterou tópicos referentes às vagas reservadas, à nomenclatura para o cargo de Engenheiro de Automação, que passou a constar como Engenheiro de Controle e Automação. Além disso, houve a inclusão do cargo de Engenheiro Geotécnico, a alteração da distribuição das vagas para Assistente Administrativo, Arquiteto e Engenheiro Civil, e a alteração dos requisitos para Arquivista, Auditor de Controle Interno - Tecnologia da Informação, Engenheiro Cartográfico, Engenheiro de Controle e Automação, Engenheiro Sanitarista e Engenheiro de Segurança do Trabalho. Além das alterações citadas, o documento traz mudanças no quadro de provas e no conteúdo programático.\nA Retificação Nº 02 esclareceu que as reservas de vagas são calculadas sobre o total de oportunidades do concurso, e não isoladamente por cargo. O documento também atualizou a distribuição das vagas, incluiu o Anexo X, que estabelece a ordem de convocação por cargo, reduziu o número de provas discursivas a serem corrigidas para Arquiteto e Engenheiro Civil em algumas modalidades de concorrência e esclareceu que, no conteúdo programático, serão consideradas as normas, suas alterações e a jurisprudência vigentes até a data de publicação do edital.\nA Retificação Nº 03 reduziu o total de oportunidades de 272 para 269 vagas e revogou o cargo de Técnico Superior em Gestão Pública Municipal, que oferecia três vagas. O documento também prorrogou as inscrições até 3 de dezembro de 2026, com pagamento da taxa até 4 de dezembro de 2026, e atualizou os anexos referentes às vagas, provas, conteúdo programático e ordem de convocação.\nSegundo o edital, as oportunidades são para os cargos de:\n• Assistente Administrativo (150 vagas)\n• Fiscal de Atividades Urbanas (20 vagas)\n• Técnico em Segurança do Trabalho (3 vagas)\n• Analista de TI (1 vaga)\n• Arquiteto (14 vagas)\n• Arquivista (2 vagas)\n• Assistente Social (5 vagas)\n• Auditor de Controle Interno - Ciências Contábeis (1 vaga)\n• Auditor de Controle Interno - Direito (1 vaga)\n• Auditor de Controle Interno - Engenharia Civil (1 vaga)\n• Auditor de Controle Interno - Tecnologia da Informação (1 vaga)\n• Biólogo (7 vagas)\n• Contador (3 vagas)\n• Economista (1 vaga)\n• Engenheiro Agrimensor (1 vaga)\n• Engenheiro Agrônomo (1 vaga)\n• Engenheiro Ambiental (5 vagas)\n• Engenheiro Cartográfico (1 vaga)\n• Engenheiro Civil (18 vagas)\n• Engenheiro de Controle e Automação (1 vaga)\n• Engenheiro Eletricista (3 vagas)\n• Engenheiro Florestal (1 vaga)\n• Engenheiro Mecânico (1 vaga)\n• Engenheiro Químico (3 vagas)\n• Engenheiro Sanitarista (2 vagas)\n• Geógrafo (5 vagas)\n• Jornalista (1 vaga)\n• Psicólogo (5 vagas)\n• Publicitário (1 vaga)\n• Relações Públicas (2 vagas)\n• Sociólogo (2 vagas)\n• Técnico Superior em Gestão da Informação (1 vaga)\n• Engenheiro de Segurança do Trabalho (1 vaga)\n• Médico do Trabalho (2 vagas)\n• Engenheiro Geotécnico (2 vagas)\nA jornada de trabalho varia de 25 a 40 horas semanais, conforme o cargo. A remuneração inicial varia de R$ 2.698,73 a R$ 13.305,57 mensais, acrescida de benefícios como auxílio-alimentação e, para algumas funções, gratificações ou estipêndio de locomoção, conforme legislação municipal vigente.\nAs inscrições devem ser realizadas entre 19 de outubro de 2026, às 9h, e 3 de dezembro de 2026, às 16h, pelo site www.ibgpconcursos.com.br. A taxa de inscrição é de R$ 70,00 para nível médio/técnico e de R$ 100,00 para nível superior, com pagamento até 4 de dezembro de 2026.\nA seleção será composta por prova objetiva para todos os cargos, prevista para o dia 24 de janeiro de 2027, em Contagem/MG, podendo ocorrer também em cidades vizinhas caso necessário. Para cargos de nível superior, haverá ainda prova discursiva e prova de títulos, além do procedimento de heteroidentificação para os classificados nas vagas reservadas. As retificações estabelecem linhas de corte por cargo e por modalidade de concorrência para a participação nas etapas seguintes.\nO concurso terá validade de dois anos, a contar da homologação do resultado final, podendo ser prorrogado por igual período, uma única vez.\nMais informações podem ser obtidas no edital completo e em suas retificações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Administrativo",
     "Fiscal de Atividades Urbanas",
@@ -15233,14 +17215,23 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico do Trabalho",
     "Auditor de Controle Interno - Ciências Contábeis",
     "Auditor de Controle Interno - Direito",
     "Auditor de Controle Interno - Engenharia Civil"
    ],
+   "cargosGerais": [
+    "Assistente Administrativo",
+    "Fiscal de Atividades Urbanas",
+    "Relações Públicas",
+    "Sociólogo",
+    "Técnico Superior em Gestão da Informação"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico do Trabalho, Auditor de Controle Interno - Ciências Contábeis, Auditor de Controle Interno - Direito. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -15288,6 +17279,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura do Município de Curitibanos, no Estado de Santa Catarina, abriu um Concurso Público destinado a preencher vagas e formar cadastro de reserva para candidatos alfabetizados e com ensino fundamental, médio ou superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível fundamental e alfabetizado\n• Servente de Obras (1 vaga)\n• Motorista II (Caminhão) (1 vaga)\n• Motorista III (Ônibus) (1 vaga)\n• Cozinheiro (1 vaga)\n• Servente de Limpeza (1 vaga)\n• Operador de Máquinas Pesadas (1 vaga)\nNível médio\n• Monitor de Educação Infantil (1 vaga)\n• Agente Comunitário de Saúde da UBS São Luiz (1 vaga)\n• Agente Comunitário de Saúde da UBS Expocentro (1 vaga)\nNível superior\n• Enfermeiro (1 vaga)\n• Fonoaudiólogo (1 vaga)\n• Médico Psiquiatra 10h (1 vaga)\n• Médico Psiquiatra 20h (1 vaga)\n• Médico Pediatra 20h (1 vaga)\nA jornada varia de 10 a 40 horas semanais, com vencimentos iniciais de R$ 1.759,34 a R$ 13.096,78. Os nomeados também terão vale-alimentação de R$ 430,00 mensais para jornadas de 40 horas semanais, observada a assiduidade. Para jornadas menores, o valor será proporcional.\nAs inscrições serão realizadas das 8h de 16 de novembro de 2026 às 23h59 de 16 de dezembro de 2026, pelo site da Fundação FAFIPA, no horário de Brasília. As taxas são de R$ 50,00, R$ 100,00 ou R$ 120,00, conforme o nível do cargo, e poderão ser pagas até 17 de dezembro de 2026. A isenção poderá ser solicitada das 8h de 16 de novembro às 23h59 de 22 de novembro de 2026 por candidatos desempregados, integrantes de famílias de baixa renda, doadores de medula óssea e doadores de sangue, conforme os critérios do edital.\nA seleção terá prova objetiva, eliminatória e classificatória, para todos os cargos, prevista para 31 de janeiro de 2027. Também haverá prova prática, eliminatória e classificatória, para Motorista II (Caminhão), Motorista III (Ônibus) e Operador de Máquinas Pesadas, prevista para 28 de fevereiro de 2027.\nOs aprovados serão nomeados para cargos efetivos sob regime estatutário, conforme a classificação e as regras do edital. O estágio probatório será de três anos.\nO concurso terá validade de dois anos a partir da homologação do resultado final e poderá ser prorrogado por igual período, a critério da administração municipal.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1759.34,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Servente de Obras",
     "Motorista II",
@@ -15307,14 +17300,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Psiquiatra 10h",
     "Médico Psiquiatra 20h",
     "Médico Pediatra 20h",
     "Enfermeiro"
    ],
+   "cargosGerais": [
+    "Servente de Obras",
+    "Motorista II",
+    "Motorista III",
+    "Cozinheiro",
+    "Servente de Limpeza",
+    "Operador de Máquinas Pesadas",
+    "Monitor de Educação Infantil",
+    "Agente Comunitário de Saúde da UBS São Luiz"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Psiquiatra 10h, Médico Psiquiatra 20h, Médico Pediatra 20h. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -15360,6 +17365,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Rio de Janeiro, a Prefeitura Municipal de Italva abriu um Concurso Público para preencher vagas em cargos efetivos e formar cadastro de reserva. O certame é destinado a profissionais de nível médio, médio técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível médio\n• Agente Comunitário de Saúde (5 vagas)\n• Agente de Combate às Endemias (6 vagas)\n• Agente de Defesa Civil (1 vaga)\n• Agente de Trânsito (3 vagas)\n• Fiscal de Posturas (1 vaga)\n• Guarda Municipal (20 vagas)\nNível médio técnico\n• Técnico em Enfermagem Diarista (3 vagas)\n• Técnico em Enfermagem ESF (4 vagas)\n• Técnico em Enfermagem Plantonista (6 vagas)\n• Técnico em Imobilização Ortopédica (1 vaga)\n• Agente de Fiscalização Sanitária (1 vaga)\n• Técnico em Radiologia (1 vaga)\n• Professor de Educação Especial (2 vagas)\n• Professor do 1º ao 5º Ano (26 vagas)\nNível superior\n• Analista de Compras Públicas (1 vaga)\n• Analista Processual (1 vaga)\n• Analista de Sistemas (1 vaga)\n• Assistente Social (1 vaga)\n• Auditor de Controle Interno (1 vaga)\n• Enfermeiro Diarista (4 vagas)\n• Enfermeiro ESF (4 vagas)\n• Enfermeiro Plantonista 24x72 (2 vagas)\n• Engenheiro Agrônomo (1 vaga)\n• Engenheiro Ambiental (1 vaga)\n• Farmacêutico (1 vaga)\n• Fisioterapeuta (2 vagas)\n• Fiscal Sanitário (1 vaga)\n• Fiscal de Tributos (1 vaga)\n• Fonoaudiólogo (1 vaga)\n• Historiador (1 vaga)\n• Médico ESF (1 vaga)\n• Médico Clínico-Geral Plantonista (2 vagas)\n• Médico Gastroenterologista (1 vaga)\n• Médico Geriatra (1 vaga)\n• Médico Ginecologista Obstetra (1 vaga)\n• Médico Neurologista (1 vaga)\n• Médico Otorrinolaringologista (1 vaga)\n• Médico Pediatra Diarista (2 vagas)\n• Médico Pediatra Plantonista (1 vaga)\n• Médico Psiquiatra (1 vaga)\n• Médico Trauma-Ortopedista (1 vaga)\n• Nutricionista (1 vaga)\n• Pedagogo (1 vaga)\n• Professor I de Artes (1 vaga)\n• Professor I de Ciências (2 vagas)\n• Professor I de Educação Física (2 vagas)\n• Professor I de Geografia (2 vagas)\n• Professor I de História (2 vagas)\n• Professor I de Língua Inglesa (1 vaga)\n• Professor I de Língua Portuguesa (3 vagas)\n• Professor I de Matemática (2 vagas)\n• Psicólogo (1 vaga)\n• Orientador Educacional (2 vagas)\nAs jornadas variam de 20 a 40 horas semanais, conforme o cargo. Há também cargos com escala de 24 horas de trabalho por 72 horas de descanso. Os vencimentos vão de R$ 2.536,99 a R$ 12.132,37.\nAs inscrições serão realizadas de 16 de novembro de 2026 a 16 de dezembro de 2026, pelo site do Instituto Ação. A taxa é de R$ 80,00 para os níveis médio e técnico e de R$ 120,00 para o nível superior. Candidatos que comprovarem hipossuficiência financeira poderão solicitar isenção em 16 e 17 de novembro de 2026, pela área do candidato no mesmo site.\nA seleção terá prova objetiva para todos os cargos e prova discursiva para os de nível superior, com aplicação prevista para 24 de janeiro de 2027. Haverá prova de títulos para os cargos de nível superior, comprovação documental de residência para Agente Comunitário de Saúde e teste de aptidão física para Guarda Municipal. O edital também prevê formação inicial de, no mínimo, 40 horas para Agente Comunitário de Saúde e Agente de Combate às Endemias, além de avaliação médica admissional e checagem de requisitos e documentos.\nOs aprovados serão nomeados para cargos efetivos sob regime estatutário, conforme a classificação e as regras de convocação do edital.\nO concurso terá validade de um ano, contado da homologação do resultado final, e poderá ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2536.99,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Comunitário de Saúde",
     "Agente de Combate às Endemias",
@@ -15418,14 +17425,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico ESF",
     "Médico Clínico-Geral Plantonista",
     "Médico Gastroenterologista",
     "Médico Geriatra"
    ],
+   "cargosGerais": [
+    "Agente Comunitário de Saúde",
+    "Agente de Combate às Endemias",
+    "Agente de Defesa Civil",
+    "Agente de Trânsito",
+    "Fiscal de Posturas",
+    "Guarda Municipal",
+    "Agente de Fiscalização Sanitária",
+    "Analista de Compras Públicas"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico ESF, Médico Clínico-Geral Plantonista, Médico Gastroenterologista. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -15473,6 +17492,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de São Paulo, a Prefeitura Municipal de Suzano realizará um Concurso Público destinado a preencher vagas e formar cadastro de reserva para profissionais de nível fundamental, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino fundamental completo\n• Agente de Segurança Escolar (1 vaga)\n• Agente Escolar (10 vagas)\n• Cozinheiro Escolar (10 vagas)\n• Motorista de Transporte Escolar (1 vaga)\nEnsino médio completo\n• Auxiliar de Atividades Escolares (6 vagas)\n• Auxiliar de Secretaria (6 vagas)\n• Secretário de Escola (3 vagas)\nEnsino superior completo\n• Contador (CR)\n• Diretor de Escola (1 vaga)\n• Médico do Trabalho 20h (1 vaga)\n• Médico Ginecologista 10h (CR)\n• Médico Ginecologista 20h (CR)\n• Médico Neurologista 10h (CR)\n• Médico Neurologista 20h (CR)\n• Médico Pediatra 10h (CR)\n• Médico Pediatra 20h (CR)\n• Médico Pediatra Plantonista 24h (2 vagas)\n• Médico Urologista 20h (1 vaga)\n• Procurador Jurídico (CR)\n• Professor de Educação Básica Adjunto (1 vaga)\n• Professor de Educação Básica I 30h (30 vagas)\n• Professor de Educação Básica II Artes (CR)\n• Professor de Educação Básica II Educação Física (CR)\nAs jornadas variam de 10 a 40 horas semanais, com salários iniciais de R$ 2.105,38 a R$ 12.062,91. Todos os cargos têm vale-alimentação. O edital também prevê cesta básica para cargos específicos, adicional de periculosidade para Agente de Segurança Escolar e adicional de insalubridade para cargos médicos, conforme as regras de concessão dos benefícios.\nAs inscrições serão realizadas das 10h do dia 29 de outubro de 2026 às 23h59 do dia 25 de novembro de 2026, pelo site www.nossorumo.org.br. As taxas são de R$ 60,93 para nível fundamental, R$ 79,42 para nível médio e R$ 106,62 para nível superior. A isenção poderá ser solicitada das 10h de 29 de outubro às 23h59 de 30 de outubro de 2026 por candidatos desempregados, por candidatos com renda pessoal de até um salário mínimo mensal ou por doadores regulares de sangue do município de Suzano, mediante comprovação.\nA seleção terá prova objetiva para todos os cargos, prevista para 13 de dezembro de 2026. Haverá peça processual para Procurador Jurídico, avaliação de títulos para Diretor de Escola, Procurador Jurídico e cargos de professor, e prova prática para Cozinheiro Escolar e Motorista de Transporte Escolar. Candidatos inscritos na cota racial passarão por avaliação presencial. As provas práticas e a avaliação presencial dos candidatos inscritos na cota racial estão previstas para 30 e/ou 31 de janeiro de 2027.\nOs candidatos nomeados serão regidos pelo regime estatutário.\nO concurso terá validade de um ano a partir da homologação, com possibilidade de prorrogação por igual período, a critério da Prefeitura de Suzano.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2105.38,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Segurança Escolar",
     "Agente Escolar",
@@ -15501,14 +17522,25 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico do Trabalho 20h",
     "Médico Ginecologista 10h",
     "Médico Ginecologista 20h",
     "Médico Neurologista 10h"
    ],
+   "cargosGerais": [
+    "Agente de Segurança Escolar",
+    "Agente Escolar",
+    "Cozinheiro Escolar",
+    "Motorista de Transporte Escolar",
+    "Auxiliar de Atividades Escolares",
+    "Auxiliar de Secretaria",
+    "Secretário de Escola"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico do Trabalho 20h, Médico Ginecologista 10h, Médico Ginecologista 20h. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -15556,6 +17588,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Belém do Piauí abriu um Concurso Público para preencher vagas efetivas e formar cadastro de reserva em funções de nível fundamental, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível superior\n• Agente de Controle Interno (1 vaga)\n• Psicopedagogo (1 vaga)\n• Engenheiro Ambiental (1 vaga)\n• Assistente Social (1 vaga)\n• Odontólogo (PSF) (1 vaga)\n• Enfermeiro (1 vaga)\n• Fisioterapeuta (1 vaga e cadastro de reserva)\n• Nutricionista, Secretaria Municipal de Saúde (1 vaga e cadastro de reserva)\n• Psicólogo, Secretaria Municipal de Saúde (1 vaga)\n• Professor de Educação Infantil (5 vagas)\n• Professor dos Anos Iniciais (7 vagas)\n• Professor de Matemática (1 vaga e cadastro de reserva)\n• Professor de Português (1 vaga e cadastro de reserva)\n• Professor de Geografia (1 vaga e cadastro de reserva)\n• Farmacêutico (1 vaga e cadastro de reserva)\n• Médico (PSF) (1 vaga e cadastro de reserva)\n• Nutricionista, Secretaria Municipal de Educação (1 vaga e cadastro de reserva)\n• Psicólogo, Secretaria Municipal de Educação (1 vaga e cadastro de reserva)\n• Professor de Educação Física (2 vagas e cadastro de reserva)\nNível médio e técnico\n• Técnico de Informática (1 vaga e cadastro de reserva)\n• Fiscal Ambiental (1 vaga e cadastro de reserva)\n• Técnico de Enfermagem (2 vagas e cadastro de reserva)\n• Auxiliar Administrativo (2 vagas e cadastro de reserva)\n• Fiscal de Tributos (1 vaga e cadastro de reserva)\nNível fundamental\n• Auxiliar de Serviços Gerais (6 vagas e cadastro de reserva)\n• Gari (2 vagas e cadastro de reserva)\n• Motorista Categoria B, Secretaria Municipal de Saúde (1 vaga e cadastro de reserva)\n• Motorista Categoria D, Secretaria Municipal de Saúde (1 vaga e cadastro de reserva)\n• Motorista Categoria B, Secretaria Municipal de Administração (1 vaga e cadastro de reserva)\n• Motorista Categoria D, Secretaria Municipal de Administração (1 vaga e cadastro de reserva)\nAs jornadas variam de 20 a 40 horas semanais, com remunerações de R$ 1.621,00 a R$ 12.000,00. O edital prevê complemento do piso nacional para enfermeiro e técnico de enfermagem, adicional de 20% de responsabilidade técnica para farmacêutico e gratificação por produtividade para médico.\nAs inscrições serão realizadas exclusivamente pelo site do Instituto Brasileiro de Estudos e Desenvolvimento (IBED), de 30 de outubro de 2026 a 25 de novembro de 2026, até as 19h, no horário de Brasília. As taxas são de R$ 80,00 para nível fundamental, R$ 90,00 para nível médio e R$ 110,00 para nível superior. O pagamento poderá ser feito até 26 de novembro de 2026. Candidatos inscritos no Cadastro Único para Programas Sociais do Governo Federal e integrantes de família de baixa renda poderão solicitar isenção pelo sistema eletrônico de 3 a 4 de novembro de 2026, até as 19h, no horário de Brasília.\nA seleção terá prova objetiva eliminatória e classificatória para todos os cargos. Haverá também prova de títulos, exclusivamente classificatória, para cargos de nível superior. A prova objetiva está prevista para 13 de dezembro de 2026, em Belém do Piauí, com possibilidade de aplicação em municípios próximos. Candidatos às vagas reservadas para pessoas com deficiência, se não eliminados, serão convocados para avaliação biopsicossocial.\nO concurso terá validade de 12 meses a partir da homologação do resultado final. O prazo poderá ser prorrogado uma vez, por igual período, a critério da administração pública.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Controle Interno",
     "Psicopedagogo",
@@ -15591,14 +17625,25 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Odontólogo",
     "Médico",
     "Engenheiro Ambiental",
-    "Enfermeiro"
+    "Assistente Social"
    ],
+   "cargosGerais": [
+    "Agente de Controle Interno",
+    "Psicopedagogo",
+    "Fiscal Ambiental",
+    "Auxiliar Administrativo",
+    "Fiscal de Tributos",
+    "Auxiliar de Serviços Gerais",
+    "Gari"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Odontólogo, Médico, Engenheiro Ambiental. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -15644,6 +17689,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Câmara Municipal de Cuiabá, no Estado de Mato Grosso, abriu um Concurso Público com o objetivo de preencher vagas e formar cadastro de reserva para profissionais de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Técnico Legislativo (11 vagas)\n• Técnico Legislativo - Sonorização (2 vagas)\n• Técnico Legislativo - Cerimonial (2 vagas)\n• Analista Legislativo (1 vaga)\n• Analista Legislativo - Tecnologia da Informação (5 vagas)\n• Analista Legislativo - Segurança do Trabalho (1 vaga)\n• Analista Legislativo - Psicólogo (1 vaga)\n• Analista Legislativo - Assistente Social (1 vaga)\n• Analista Legislativo - Jornalismo (1 vaga)\n• Contador (cadastro de reserva)\n• Controlador Interno (1 vaga)\nA jornada é de 30 horas semanais. Os vencimentos iniciais variam de R$ 5.518,91 a R$ 11.629,67. Os servidores também recebem auxílio-alimentação de R$ 1.500,00 e auxílio-saúde de R$ 1.000,00 mensais.\nAs inscrições serão feitas exclusivamente pelo site do Instituto Selecon, no período de 29 de outubro de 2026 até as 23h59 do dia 30 de novembro de 2026, no horário de Cuiabá. A taxa é de R$ 90,00 para cargos de nível médio e de R$ 120,00 para cargos de nível superior, com pagamento até 1º de dezembro de 2026. Haverá isenção para candidatos que atendam às condições previstas no edital, mediante pedido eletrônico e envio dos documentos exigidos.\nA seleção terá provas objetivas e discursivas, de caráter eliminatório e classificatório, para todos os cargos. Para os cargos de nível superior, haverá também avaliação de títulos, de caráter classificatório. As provas estão previstas para 13 de dezembro de 2026, em Cuiabá (MT), podendo ocorrer também em municípios limítrofes caso não haja locais suficientes ou adequados.\nOs cargos seguem o regime estatutário. Os nomeados ficarão em estágio probatório por três anos.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, e poderá ser prorrogado uma vez por igual período, a critério da Câmara Municipal.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 5518.91,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Técnico Legislativo",
     "Técnico Legislativo - Sonorização",
@@ -15660,12 +17707,21 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
-    "Analista Legislativo - Psicólogo",
-    "Contador"
+    "Técnico Legislativo - Sonorização",
+    "Analista Legislativo - Tecnologia da Informação",
+    "Analista Legislativo - Segurança do Trabalho",
+    "Analista Legislativo - Psicólogo"
    ],
+   "cargosGerais": [
+    "Técnico Legislativo",
+    "Técnico Legislativo - Cerimonial",
+    "Analista Legislativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Técnico Legislativo - Sonorização, Analista Legislativo - Tecnologia da Informação, Analista Legislativo - Segurança do Trabalho. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -15711,17 +17767,22 @@ window.DADOS_CONCURSOS = {
    "texto": "A SETEC - Serviços Técnicos Gerais, autarquia do município de Campinas/SP, divulgou o edital do Concurso Público nº 02/2026, destinado ao preenchimento de uma vaga imediata e à formação de cadastro de reserva para Procurador. O certame exige ensino superior em Direito com registro ativo na Ordem dos Advogados do Brasil (OAB).\nSegundo o edital, a oportunidade é para o cargo de:\n• Procurador (1 vaga + cadastro reserva)\nA jornada é de 36 horas semanais ou até 180 horas mensais, com remuneração inicial de R$ 11.427,98, acrescida de vale-alimentação/refeição no valor de R$ 2.150,12.\nAs inscrições deverão ser realizadas exclusivamente pela internet, no site indepac.selecao.net.br, do dia 8 de setembro de 2026 ao dia 4 de dezembro de 2026, observado o horário oficial de Brasília. A taxa é de R$ 78,00. Será possível solicitar isenção da taxa entre 8 e 18 de setembro de 2026, para quem se enquadrar nas condições previstas no edital.\nA seleção será composta por prova objetiva, prova prático-profissional e prova de títulos, todas de caráter eliminatório e/ou classificatório. As provas objetivas e prático-profissionais estão previstas para o dia 17 de janeiro de 2027.\nO regime de contratação será estatutário, conforme legislação municipal.\nO concurso terá validade de 2 anos, podendo ser prorrogado por igual período, a contar da homologação.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Procurador"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Procurador"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)"
@@ -15765,15 +17826,22 @@ window.DADOS_CONCURSOS = {
    "texto": "O Corpo de Bombeiros Militar da Paraíba (CBMPB) abriu um concurso público para preencher 20 vagas no Curso de Formação de Oficiais Bombeiros Militares de 2027. Os candidatos devem possuir ensino superior completo.\nSegundo o edital, as oportunidades são para o cargo de:\n• Oficial Bombeiro Militar (20 vagas)\nO curso de formação terá duração de três anos letivos, em regime de dedicação exclusiva. A remuneração de referência varia de R$ 3.669,03, para cadete do primeiro ano, a R$ 11.142,96, para o segundo-tenente.\nAs inscrições para os exames complementares serão realizadas pelo site www.bombeiros.pb.gov.br, das 9h de 19 de novembro de 2026 às 23h59 de 11 de dezembro de 2026, no horário de Brasília. A taxa é de R$ 120,00, com pagamento até 14 de dezembro de 2026.\nA seleção ocorrerá em duas fases: a primeira será composta por exame intelectual, realizado mediante utilização das notas do ENEM 2026; a segunda fase ocorrerá por exames complementares, compreendendo exames de saúde, de aptidão física e psicológico.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Oficial Bombeiro Militar"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [],
+   "cargosGerais": [
+    "Oficial Bombeiro Militar"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 3,
    "motivos": [
     "Etapas de prova não detalhadas (base)",
@@ -15818,6 +17886,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado do Rio Grande do Sul, a Fundação Escola Técnica Liberato Salzano Vieira da Cunha, em Novo Hamburgo, realiza um Concurso Público para preencher vagas em empregos de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente Administrativo (8 vagas)\n• Orientador Educacional (5 vagas)\n• Professor de Artes (1 vaga)\n• Professor de Ciência da Computação (1 vaga)\n• Professor de Design de Interiores (1 vaga)\n• Professor de Educação Física (1 vaga)\n• Professor de Eletrônica (1 vaga)\n• Professor de Eletrotécnica (2 vagas)\n• Professor de Filosofia (1 vaga)\n• Professor de Física (1 vaga)\n• Professor de Geografia (1 vaga)\n• Professor de Gestão e Empreendedorismo (1 vaga)\n• Professor de História (1 vaga)\n• Professor de Língua Portuguesa/Inglesa (1 vaga)\n• Professor de Manutenção Automotiva (1 vaga)\n• Professor de Matemática (1 vaga)\n• Professor de Mecânica (1 vaga)\n• Professor de Química (1 vaga)\n• Professor de Segurança do Trabalho (1 vaga)\n• Professor de Sociologia (1 vaga)\n• Supervisor Escolar (1 vaga)\n• Psicólogo (1 vaga)\nA jornada é de 40 horas semanais para todos os empregos. O vencimento básico é de R$ 4.999,82 para Agente Administrativo e de R$ 10.370,94 para os demais empregos.\nAs inscrições devem ser feitas de 9 de novembro de 2026 a 8 de dezembro de 2026, até às 18h do último dia, pelo site www.legalleconcursos.com.br. A taxa é de R$ 124,02 para o emprego de nível médio e de R$ 282,79 para os de nível superior. Pessoas com deficiência com renda familiar mensal por pessoa de até um salário mínimo e meio podem solicitar isenção de 9 a 15 de novembro de 2026.\nA seleção terá prova teórico-objetiva, eliminatória e classificatória, para todos os empregos. Para os empregos de nível superior, haverá também prova de títulos, classificatória. A prova objetiva está prevista para 7 de março de 2027, em Novo Hamburgo, com possibilidade de aplicação em cidades próximas.\nO Concurso Público terá validade de um ano, contado da publicação da homologação do resultado final, e poderá ser prorrogado uma única vez, a critério da Fundação.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Administrativo",
     "Orientador Educacional",
@@ -15845,14 +17915,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Orientador Educacional",
     "Professor de Artes",
     "Professor de Ciência da Computação",
-    "Professor de Design de Interiores",
-    "Professor de Educação Física"
+    "Professor de Design de Interiores"
    ],
+   "cargosGerais": [
+    "Agente Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Orientador Educacional, Professor de Artes, Professor de Ciência da Computação. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)"
@@ -15896,6 +17971,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Subsecretaria de Assuntos Administrativos do Ministério da Saúde (SAA MS) abriu um Processo Seletivo Simplificado para preencher vagas e formar cadastro de reserva em funções de nível superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Técnico Administrativo (28 vagas imediatas, 62 vagas para cadastro de reserva)\n• Analista de Dados e Controle de Qualidade (12 vagas imediatas e 39 para cadastro de reserva)\n• Analista de Requisitos Processuais, Normativos, Econômicos, Financeiros e Políticas de Saúde (218 vagas imediatas e 236 para cadastro de reserva)\n• Analista Técnico em Edificações (8 vagas imediatas e 25 para cadastro de reserva)\n• Analista Técnico em Equipamentos (18 vagas imediatas e 50 para cadastro de reserva)\n• Gestor (16 vagas imediatas e 47 para cadastro de reserva)\nA jornada é de 40 horas semanais. A remuneração inicial vai de R$ 4.740,51 a R$ 10.354,29.\nAs inscrições serão realizadas de 12 de novembro de 2026 a 14 de dezembro de 2026, pelo site do Instituto Avalia. A taxa é de R$ 60,00 para todos os cargos. Os pedidos de isenção poderão ser feitos de 12 a 16 de novembro de 2026, nos casos previstos no edital.\nA seleção terá prova objetiva e prova de títulos. A prova objetiva está prevista para 17 de janeiro de 2027, em Belém (PA), Brasília (DF), Belo Horizonte (MG), Curitiba (PR), Goiânia (GO), Recife (PE) e São Paulo (SP), conforme a escolha do candidato na inscrição.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 4740.51,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Técnico Administrativo",
     "Analista de Dados e Controle de Qualidade",
@@ -15906,9 +17983,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Analista Técnico em Edificações",
+    "Analista Técnico em Equipamentos"
+   ],
+   "cargosGerais": [
+    "Técnico Administrativo",
+    "Analista de Dados e Controle de Qualidade",
+    "Gestor"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -15955,15 +18042,22 @@ window.DADOS_CONCURSOS = {
    "texto": "O Serviço de Apoio às Micro e Pequenas Empresas de São Paulo (Sebrae-SP) abriu um processo seletivo com o objetivo de preencher uma vaga para profissional com nível superior completo nas áreas previstas.\nSegundo o edital, a oportunidade é para o cargo de:\n• Analista de Marketing Pleno (1 vaga)\nA jornada é de 40 horas semanais, com salário de R$ 9.365,00. Os benefícios incluem seguro saúde extensivo a dependentes, previdência privada complementar, seguro de vida em grupo, auxílio-alimentação e/ou refeição, auxílio-creche e vale-transporte, conforme as normas internas.\nAs inscrições devem ser feitas de 17 a 24 de novembro de 2026, às 23h59, pelo site da RBO.\nA seleção terá inscrição, avaliação de conhecimentos e prova de redação, comprovação documental, avaliação de habilidades e atitudes, e banca examinadora. A avaliação de conhecimentos e a redação serão realizadas online em 30 de novembro de 2026, às 13h30. A avaliação de habilidades e atitudes será presencial em 12 de janeiro de 2027. A banca examinadora está prevista para 14 de janeiro de 2027, presencialmente ou online.\nA contratação será pelo regime da Consolidação das Leis do Trabalho (CLT), por prazo indeterminado. Os primeiros 90 dias serão considerados período de experiência.\nO processo seletivo terá validade de seis meses, contados da divulgação do resultado. O prazo poderá ser prorrogado uma única vez por mais seis meses, a critério do Sebrae-SP.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Analista de Marketing Pleno"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [],
+   "cargosGerais": [
+    "Analista de Marketing Pleno"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 3,
    "motivos": [
     "Etapas de prova não detalhadas (base)",
@@ -16009,6 +18103,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Câmara Municipal de Unaí, no Estado de Minas Gerais, abriu um Concurso Público visando preencher vagas imediatas e formar cadastro de reserva para profissionais de nível superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Analista de Atividades da Secretaria - Analista de Sistemas (1 vaga + cadastro de reserva)\n• Analista de Atividades da Secretaria - Consultor Jurídico (cadastro de reserva)\n• Analista de Atividades da Secretaria - Contador (1 vaga + cadastro de reserva)\nA jornada de trabalho será de 30 horas semanais. A remuneração é de R$ 9.193,89, acrescida de auxílio-alimentação de R$ 1.200,00 e outros benefícios previstos.\nAs inscrições estarão abertas das 16h do dia 30 de outubro de 2026 até às 16h do dia 1º de dezembro de 2026, pelo site www.institutoconsulplan.org.br. A taxa de inscrição é de R$ 80,00 para todos os cargos. Haverá isenção de taxa conforme critérios do edital, com pedido de 30 de outubro de 2026 a 3 de novembro de 2026.\nA seleção será composta por prova objetiva de múltipla escolha e prova discursiva, ambas de caráter eliminatório e classificatório. As provas estão previstas para o dia 10 de janeiro de 2027.\nO regime de contratação é estatutário, conforme legislação municipal.\nO concurso terá validade de 2 anos, prorrogável uma vez por igual período, a critério da Administração Pública.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Analista de Atividades da Secretaria - Analista de Sistemas",
     "Analista de Atividades da Secretaria - Consultor Jurídico",
@@ -16017,11 +18113,18 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Analista de Atividades da Secretaria - Analista de Sistemas",
+    "Analista de Atividades da Secretaria - Consultor Jurídico",
     "Analista de Atividades da Secretaria - Contador"
    ],
+   "cargosGerais": [
+    "Analista de Atividades da Secretaria"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -16067,6 +18170,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Companhia Ambiental do Estado de São Paulo (CETESB) abriu inscrições para dois editais de Concurso Público destinados a preencher vagas em funções de nível médio, técnico ou superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível médio e técnico, edital nº 02/2026\n• Técnico Administrativo (17 vagas)\n• Técnico Ambiental, Técnico em Eletrônica (1 vaga)\n• Técnico Ambiental, Técnico em Química (2 vagas)\n• Técnico Ambiental, Técnico em Meio Ambiente (3 vagas)\nNível superior, edital nº 01/2026\n• Advogado (2 vagas)\n• Analista Administrativo, Administração (7 vagas)\n• Analista Administrativo, Contabilidade (2 vagas)\n• Analista Administrativo, Psicologia (1 vaga)\n• Analista Ambiental, Biologia (13 vagas)\n• Analista Ambiental, Engenharia Agronômica (3 vagas)\n• Analista Ambiental, Engenharia Ambiental e Sanitária (22 vagas)\n• Analista Ambiental, Engenharia Civil (2 vagas)\n• Analista Ambiental, Engenharia Florestal (1 vaga)\n• Analista Ambiental, Engenharia Mecânica (4 vagas)\n• Analista Ambiental, Engenharia Química (4 vagas)\n• Analista Ambiental, Oceanografia (2 vagas)\n• Analista Ambiental, Geografia (4 vagas)\n• Analista Ambiental, Geologia (3 vagas)\n• Analista Ambiental, Química (8 vagas)\n• Analista de Tecnologia da Informação, Redes e Telecomunicação (1 vaga)\n• Analista de Tecnologia da Informação, Sistemas (3 vagas)\n• Engenheiro, Engenharia Civil (2 vagas)\nA jornada é de 40 horas semanais. A remuneração inicial é de R$ 5.614,38 para os empregos de níveis médio e técnico e de R$ 8.971,98 para os de nível superior. Para as modalidades indicadas nos editais, há acréscimo de R$ 3.051,54 referente ao piso salarial da formação. Os contratados terão direito às vantagens e aos benefícios vigentes na data da admissão.\nAs inscrições serão feitas exclusivamente pela internet, no site www.concursosfcc.com.br, das 10h de 12 de novembro de 2026 às 23h59 de 14 de dezembro de 2026, no horário de Brasília. A taxa é de R$ 60,00 para os empregos de níveis médio e técnico e de R$ 90,00 para os de nível superior. Doadores de sangue que atendam aos requisitos podem pedir isenção. Estudantes com renda mensal inferior a dois salários mínimos ou desempregados podem solicitar redução de 50% da taxa. Os pedidos serão recebidos no mesmo site, das 10h de 12 de novembro às 23h59 de 14 de novembro de 2026.\nA seleção para os empregos de níveis médio e técnico terá provas objetivas de conhecimentos básicos e específicos, de caráter habilitatório e classificatório. Para os empregos de nível superior, haverá provas objetivas e prova discursiva de redação, de caráter eliminatório e classificatório. As provas estão previstas para 21 de fevereiro de 2027, pela manhã para os níveis médio e técnico e à tarde para o nível superior. A aplicação ocorrerá em Araçatuba, Bauru, Campinas, Presidente Prudente, Ribeirão Preto, Santos, São José do Rio Preto, São José dos Campos, São Paulo e Sorocaba, conforme a opção do candidato. Os editais também preveem avaliação biopsicossocial dos candidatos com deficiência e verificação da autodeclaração dos candidatos que optarem pelo sistema de pontuação diferenciada para pretos, pardos e indígenas.\nOs aprovados serão contratados como empregados públicos pelo regime da Consolidação das Leis do Trabalho (CLT).\nOs concursos terão validade de 18 meses a partir da publicação da homologação do resultado final, podendo ser prorrogada.\nMais informações podem ser obtidas nos editais completos.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 5614.38,
+   "salarioMedioTexto": 5614.38,
    "cargosLista": [
     "Técnico Administrativo",
     "Técnico Ambiental, Técnico em Eletrônica",
@@ -16094,14 +18199,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Advogado",
     "Engenheiro, Engenharia Civil",
-    "Analista Administrativo, Psicologia",
-    "Analista de Tecnologia da Informação, Redes e Telecomunicação"
+    "Técnico Ambiental, Técnico em Eletrônica",
+    "Técnico Ambiental, Técnico em Química"
    ],
+   "cargosGerais": [
+    "Técnico Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Advogado, Engenheiro, Engenharia Civil, Técnico Ambiental, Técnico em Eletrônica. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -16147,6 +18257,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado do Paraná, o Município de Realeza abriu um Concurso Público para preencher duas vagas de nível superior no quadro de servidores efetivos.\nSegundo o edital, as oportunidades são para os cargos de:\n• Controlador Interno (1 vaga)\n• Procurador Jurídico (1 vaga)\nA jornada é de 40 horas semanais para Controlador Interno, com vencimento inicial de R$ 8.800,00 e vale-alimentação de R$ 525,00. Para Procurador Jurídico, são 20 horas semanais, com vencimento inicial de R$ 5.564,91 e vale-alimentação de R$ 262,50.\nAs inscrições serão realizadas das 8h de 3 de novembro de 2026 às 23h59 de 3 de dezembro de 2026, pelo site da Fundação FAFIPA, no horário de Brasília. A taxa é de R$ 130,00, com pagamento até 4 de dezembro de 2026. A isenção poderá ser solicitada de 3 a 8 de novembro de 2026 por candidatos elegíveis inscritos no CadÚnico, doadores de medula óssea, sangue ou leite humano e eleitores convocados pela Justiça Eleitoral do Paraná, conforme os requisitos do edital.\nA seleção terá prova objetiva, eliminatória e classificatória, e prova de títulos, classificatória, para ambos os cargos. Os candidatos a Procurador Jurídico também farão prova discursiva, eliminatória e classificatória. As provas objetivas e discursivas estão previstas para 17 de janeiro de 2027, em Realeza (PR). Caso necessário, os locais poderão ser distribuídos em cidades próximas.\nOs aprovados serão nomeados para cargos efetivos sob regime estatutário.\nO concurso terá validade de dois anos, contados da homologação do resultado final, podendo ser prorrogado por igual período a critério da administração municipal.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Controlador Interno",
     "Procurador Jurídico"
@@ -16154,11 +18266,15 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
-    "Procurador Jurídico"
+    "Procurador Jurídico",
+    "Controlador Interno"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -16204,6 +18320,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Tapiraí, no Estado de São Paulo, realizará Concurso Público para preencher vagas imediatas e formar cadastro de reserva em empregos de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino fundamental completo\n• Agente de Limpeza (2 vagas)\n• Gari (2 vagas)\n• Coveiro (1 vaga)\n• Coletor de Resíduos (2 vagas)\n• Oficial de Manutenção (1 vaga)\nEnsino médio completo\n• Motorista (3 vagas)\n• Mecânico (cadastro de reserva)\n• Operador de Máquinas (cadastro de reserva)\nEnsino médio completo com curso técnico\n• Auxiliar de Consultório Dentário (cadastro de reserva)\n• Fiscal de Obras e Posturas (1 vaga)\n• Técnico Eletricista (1 vaga)\nEnsino superior completo\n• Advogado (cadastro de reserva)\n• Analista de Patrimônio (1 vaga)\n• Assistente Social (1 vaga)\n• Enfermeiro (cadastro de reserva)\n• Engenheiro Civil (cadastro de reserva)\n• Farmacêutico (cadastro de reserva)\n• Fiscal Ambiental (cadastro de reserva)\n• Fiscal Sanitário (cadastro de reserva)\n• Fonoaudiólogo (1 vaga)\n• Psicólogo (cadastro de reserva)\n• Terapeuta Ocupacional (1 vaga)\n• Tesoureiro (1 vaga)\n• Turismólogo (1 vaga)\nEnsino superior completo para professores\n• Professor de Educação Básica - Inglês (1 vaga)\n• Professor de Educação Especial - PEB I - Classe Especial (2 vagas)\nEnsino superior completo para médicos\n• Médico (cadastro de reserva)\n• Médico Ginecologista (1 vaga)\n• Médico Veterinário (1 vaga)\nAs jornadas variam de 8 a 40 horas semanais. Os vencimentos vão de R$ 1.720,70 a R$ 7.991,27. A Prefeitura também concederá ticket de R$ 630,00, valor correspondente a 2026.\nAs inscrições serão feitas das 18h de 11 de novembro de 2026 às 16h de 14 de dezembro de 2026, pelo site do IGECS. As taxas são de R$ 45,00 para nível fundamental, R$ 60,00 para nível médio e técnico e R$ 90,00 para nível superior. Candidatos de famílias inscritas no CadÚnico, com renda mensal por pessoa de até meio salário mínimo, poderão solicitar isenção pelo mesmo site, das 18h de 11 de novembro de 2026 às 16h de 13 de novembro de 2026.\nTodos os candidatos farão prova objetiva, prevista para 24 de janeiro de 2027. O cargo de Advogado terá também prova discursiva, aplicada no mesmo dia. Haverá prova prática para Coveiro, Coletor de Resíduos, Oficial de Manutenção, Motorista, Mecânico e Operador de Máquinas. Agente de Limpeza e Gari terão teste de aptidão física.\nAs admissões serão regidas pela Consolidação das Leis do Trabalho (CLT) e pela legislação municipal aplicável.\nO concurso terá validade de dois anos, contados da homologação de cada emprego, e poderá ser prorrogado por igual período a critério da Prefeitura.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1720.7,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Limpeza",
     "Gari",
@@ -16238,14 +18356,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico",
     "Médico Ginecologista",
     "Médico Veterinário",
     "Advogado"
    ],
+   "cargosGerais": [
+    "Agente de Limpeza",
+    "Gari",
+    "Coveiro",
+    "Coletor de Resíduos",
+    "Oficial de Manutenção",
+    "Motorista",
+    "Operador de Máquinas",
+    "Auxiliar de Consultório Dentário"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico, Médico Ginecologista, Médico Veterinário. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -16291,6 +18421,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Companhia Ituana de Saneamento (CIS), no Estado de São Paulo, abriu um Concurso Público para preencher vagas em funções de nível fundamental, médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Ajudante de Serviços Gerais (2 vagas)\n• Agente Administrativo (2 vagas)\n• Técnico em Informática (1 vaga)\n• Técnico em Operação de Tratamento (21 vagas)\n• Técnico em Segurança do Trabalho (1 vaga)\n• Controlador Interno (1 vaga)\nA jornada é de 40 horas semanais, com remuneração de R$ 1.954,45 a R$ 7.553,69. Os benefícios incluem vale-alimentação, vale-transporte, licença-prêmio por assiduidade e progressões por antiguidade e aperfeiçoamento profissional.\nAs inscrições serão realizadas exclusivamente pelo site www.integribrasil.com.br, de 7 de novembro de 2026 a 7 de dezembro de 2026. As taxas são de R$ 42,00 para o cargo de nível fundamental, R$ 52,00 para os de nível médio ou técnico e R$ 60,00 para o de nível superior.\nA seleção terá prova objetiva, eliminatória e classificatória, com 40 questões de múltipla escolha. A aplicação está prevista para 17 de janeiro de 2027.\nO concurso terá validade de dois anos a partir da homologação, podendo ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1954.45,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Ajudante de Serviços Gerais",
     "Agente Administrativo",
@@ -16302,9 +18434,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Técnico em Informática",
+    "Técnico em Operação de Tratamento",
+    "Técnico em Segurança do Trabalho",
+    "Controlador Interno"
+   ],
+   "cargosGerais": [
+    "Ajudante de Serviços Gerais",
+    "Agente Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Técnico em Informática, Técnico em Operação de Tratamento, Técnico em Segurança do Trabalho. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)"
@@ -16348,6 +18491,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Câmara Municipal de Cachoeiro de Itapemirim, no Estado do Espírito Santo, abriu um Concurso Público para preencher vagas em funções de nível superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Procurador Legislativo (1 vaga)\n• Auditor Interno Público (1 vaga)\n• Analista Legislativo - Especialista em Contabilidade (2 vagas)\n• Analista Legislativo - Especialista Financeiro (1 vaga)\n• Analista Legislativo - Especialista em Recursos Humanos (2 vagas)\n• Analista Legislativo - Especialista em Comunicação (1 vaga)\n• Analista Legislativo - Especialista em Direito (2 vagas)\n• Analista Legislativo Geral (5 vagas)\nA jornada é de 30 horas semanais para todos os cargos. Os vencimentos mensais vão de R$ 3.412,50 a R$ 7.046,62. Os servidores nomeados também terão auxílio-alimentação de R$ 1.314,82.\nAs inscrições serão realizadas exclusivamente pelo site www.access.org.br, das 14h de 10 de novembro de 2026 às 23h59 de 17 de dezembro de 2026. A taxa é de R$ 100,00 para Procurador Legislativo e de R$ 60,00 para os demais cargos. Poderão solicitar isenção em 10 e 11 de novembro de 2026 os candidatos que atenderem aos critérios previstos no edital.\nA seleção terá provas objetivas e discursivas, ambas eliminatórias e classificatórias, e avaliação de títulos, apenas classificatória. As provas estão previstas para 28 de fevereiro de 2027, em Cachoeiro de Itapemirim e, se necessário, em cidades próximas. Para Analista Legislativo nas especialidades de Direito, Financeiro e Comunicação e para Auditor Interno Público, ocorrerão das 8h às 12h. Para os demais cargos, serão das 14h às 18h.\nOs candidatos nomeados serão submetidos ao regime estatutário.\nO concurso terá validade de dois anos a partir da homologação do resultado final, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 3412.5,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Procurador Legislativo",
     "Auditor Interno Público",
@@ -16361,12 +18506,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Procurador Legislativo",
-    "Auditor Interno Público"
+    "Auditor Interno Público",
+    "Analista Legislativo - Especialista em Contabilidade",
+    "Analista Legislativo - Especialista Financeiro"
    ],
+   "cargosGerais": [
+    "Analista Legislativo Geral"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -16412,6 +18564,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Câmara Municipal de Aracruz, no Estado do Espírito Santo, abriu um Concurso Público para preencher nove vagas em funções de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível médio\n• Agente Administrativo e Legislativo (2 vagas)\n• Agente de Informática, Manutenção e Suporte (1 vaga)\nNível superior\n• Auditor Interno Contábil (1 vaga)\n• Analista Administrativo Legislativo, Administrador (1 vaga)\n• Analista Administrativo e Legislativo (2 vagas)\n• Contador (2 vagas)\nA jornada é de 30 horas semanais para todos os cargos. Os vencimentos básicos vão de R$ 2.904,38 a R$ 6.614,93. Há auxílio-alimentação de R$ 1.280,00, desde que atendidos os requisitos legais.\nAs inscrições serão realizadas pelo site do Instituto Referência, das 10h de 16 de novembro de 2026 às 23h59 de 30 de novembro de 2026, no horário de Brasília. A taxa é de R$ 70,00 para cargos de nível médio e de R$ 90,00 para cargos de nível superior. Poderão pedir isenção candidatos de baixa renda, doadores de medula óssea ou pessoas com deficiência. O pedido e o envio dos documentos deverão ocorrer de 16 a 17 de novembro de 2026.\nA seleção terá prova objetiva para todos os cargos, além de prova discursiva e avaliação de títulos para os cargos de nível superior. O edital também prevê avaliação biopsicossocial para candidatos que se declararem pessoas com deficiência. As provas estão previstas para 20 de dezembro de 2026: a objetiva pela manhã e a discursiva à tarde.\nOs aprovados serão nomeados pelo regime estatutário, conforme a ordem de classificação e as regras do edital.\nO concurso terá validade de dois anos a partir da publicação da homologação do resultado final. O prazo poderá ser prorrogado uma vez, por igual período, a critério da Câmara Municipal.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2904.38,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente Administrativo e Legislativo",
     "Agente de Informática, Manutenção e Suporte",
@@ -16423,12 +18577,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Auditor Interno Contábil",
+    "Agente de Informática, Manutenção e Suporte",
+    "Analista Administrativo Legislativo, Administrador",
     "Contador"
    ],
+   "cargosGerais": [
+    "Agente Administrativo e Legislativo",
+    "Analista Administrativo e Legislativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Auditor Interno Contábil, Agente de Informática, Manutenção e Suporte, Analista Administrativo Legislativo, Administrador. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -16474,15 +18636,23 @@ window.DADOS_CONCURSOS = {
    "texto": "A UNESP abriu um concurso público visando preencher uma vaga para o cargo de Assistente Administrativo II, na condição de técnico-administrativo substituto, na Faculdade de Odontologia do campus de Araçatuba/SP. O certame exige ensino médio completo.\nSegundo o edital, a oportunidade é para o cargo de:\n• Assistente Administrativo II, na área de Materiais (1 vaga)\nA jornada é de 40 horas semanais, com remuneração mensal de R$ 6.537,74.\nAs inscrições devem ser realizadas exclusivamente via internet, no site inscricoes.unesp.br, das 8h do dia 19 de novembro de 2026 às 17h do dia 3 de dezembro de 2026. A taxa de inscrição é de R$ 141,00.\nO concurso contará com prova objetiva, composta por questões de conhecimentos gerais e específicos.\nA validade do concurso será de um ano, a contar da data de homologação, podendo ser prorrogado uma única vez por igual período, a critério da Administração.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Administrativo II, na área de Materiais"
    ],
    "temMedio": true,
    "temSuperior": false,
    "superiorQualquerArea": false,
-   "confiancaMedio": "confirmado",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [],
+   "cargosGerais": [
+    "Assistente Administrativo II, na área de Materiais",
+    "Assistente Administrativo II"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "confirmado",
+   "acessoMotivo": "Todos os cargos pedem até o ensino médio, então o maior salário é de um cargo de nível médio.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)"
@@ -16526,6 +18696,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Saneamento Ambiental de Águas de Lindóia (SAAE), no Estado de São Paulo, abriu um Concurso Público para preencher vagas em empregos públicos efetivos e formar cadastro de reserva. Há oportunidades para candidatos alfabetizados e com ensino fundamental, médio ou superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Auxiliar de Limpeza (1 vaga e cadastro de reserva)\n• Auxiliar de Serviços de Saneamento (1 vaga e cadastro de reserva)\n• Encanador (cadastro de reserva)\n• Auxiliar de Manutenção (1 vaga e cadastro de reserva)\n• Motorista (cadastro de reserva)\n• Operador de Máquinas (cadastro de reserva)\n• Pedreiro (1 vaga e cadastro de reserva)\n• Auxiliar Administrativo (1 vaga)\n• Leiturista (cadastro de reserva)\n• Operador de Tratamento (2 vagas e cadastro de reserva)\n• Procurador Jurídico (cadastro de reserva)\n• Controlador Interno (cadastro de reserva)\nA jornada semanal varia de 30 a 44 horas. Os salários vão de R$ 2.342,00 a R$ 6.112,00. O SAAE também concederá cesta básica no valor de R$ 700,00, conforme a legislação municipal.\nAs inscrições serão feitas exclusivamente pelo portal do CEPASF, das 00h01 de 20 de novembro de 2026 às 23h59 de 21 de dezembro de 2026. As taxas variam de R$ 19,35 a R$ 39,30, com pagamento até 22 de dezembro de 2026. Pedidos de isenção integral para candidatos de baixa renda inscritos no CadÚnico ou doadores de sangue, e de redução de 50% para estudantes que atendam aos critérios de renda ou desemprego, poderão ser apresentados de 20 a 22 de novembro de 2026.\nTodos os candidatos farão prova objetiva, de caráter eliminatório e classificatório. Procurador Jurídico e Controlador Interno também farão prova discursiva; Encanador, Auxiliar de Manutenção, Motorista, Operador de Máquinas e Pedreiro farão prova prática; Auxiliar de Serviços de Saneamento e Operador de Tratamento passarão por teste de aptidão física. As provas objetivas e discursivas estão previstas para 17 e 24 de janeiro de 2027. As provas práticas e os testes de aptidão física estão previstos para 13 e 14 de fevereiro de 2027, conforme convocação.\nO concurso terá validade de dois anos, contados da publicação da homologação, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2342,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Limpeza",
     "Auxiliar de Serviços de Saneamento",
@@ -16543,11 +18715,24 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
-    "Procurador Jurídico"
+    "Procurador Jurídico",
+    "Controlador Interno"
    ],
+   "cargosGerais": [
+    "Auxiliar de Limpeza",
+    "Auxiliar de Serviços de Saneamento",
+    "Encanador",
+    "Auxiliar de Manutenção",
+    "Motorista",
+    "Operador de Máquinas",
+    "Pedreiro",
+    "Auxiliar Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Procurador Jurídico, Controlador Interno. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -16593,15 +18778,22 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura do Município de Santana de Parnaíba, no Estado de São Paulo, abriu um Concurso Público para preencher duas vagas de vice-diretor de escola e formar cadastro de reserva. O cargo exige ensino superior completo e, no mínimo, três anos de efetivo exercício em funções do magistério.\nSegundo o edital, as oportunidades são para o cargo de:\n• Vice-Diretor de Escola (2 vagas e cadastro de reserva)\nA jornada é de 40 horas semanais, com vencimento mensal de R$ 6.020,35. Os nomeados receberão vale-alimentação de R$ 650,00 e gratificação por complexidade de R$ 1.000,00, R$ 1.500,00 ou R$ 2.000,00, conforme o enquadramento.\nAs inscrições serão feitas exclusivamente no site do Instituto Mais, das 10h de 16 de novembro de 2026 às 17h de 15 de dezembro de 2026, pelo horário de Brasília. A taxa é de R$ 81,00. Pedidos de isenção poderão ser feitos no mesmo site, das 10h de 16 de novembro de 2026 às 17h de 17 de novembro de 2026, por candidatos elegíveis inscritos no CadÚnico, doadores de sangue e pessoas com deficiência.\nA seleção terá prova objetiva e prova dissertativa, ambas eliminatórias e classificatórias, além de prova de títulos, de caráter classificatório. As provas objetivas e dissertativas estão previstas para 17 de janeiro de 2027.\nOs nomeados serão submetidos ao regime estatutário e ao estágio probatório de três anos.\nO concurso terá validade de dois anos, contados da homologação do resultado final, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Vice-Diretor de Escola"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Vice-Diretor de Escola"
+   ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -16647,6 +18839,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Fundação Universidade Regional de Blumenau (FURB), no Estado de Santa Catarina, abriu um Processo Seletivo Público Simplificado para formar cadastro de reserva e contratar temporariamente servidores técnico-administrativos. A seleção é destinada a candidatos de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível médio\n• Auxiliar de Laboratório - Botânica\n• Técnico de Laboratório - Química\nNível superior\n• Assistente Social\n• Instrutor de Idiomas - Inglês\n• Instrutor de Idiomas - Italiano\n• Jornalista\nA jornada varia de 10 a 40 horas semanais, conforme o cargo. Os salários vão de R$ 2.433,49 a R$ 5.906,88.\nAs inscrições serão realizadas pelo site concursos.furb.br, das 8h de 14 de novembro de 2026 às 23h59 de 2 de dezembro de 2026. A taxa é de R$ 115,17 para nível médio e de R$ 230,34 para nível superior. A isenção poderá ser solicitada das 8h de 14 de novembro de 2026 às 23h59 de 16 de novembro de 2026 por candidatos que comprovem os requisitos previstos no edital, como doação de sangue, leite materno ou medula óssea, ausência de renda ou prestação de serviços à Justiça Eleitoral.\nA seleção terá prova objetiva, de caráter eliminatório e classificatório, para todos os cargos, em 20 de dezembro de 2026. Candidatos aos cargos de Instrutor de Idiomas - Inglês e Instrutor de Idiomas - Italiano também passarão por prova prática, de caráter eliminatório e classificatório, em 31 de janeiro de 2027.\nAs contratações serão por prazo determinado, em caráter temporário, conforme a necessidade da FURB e a ordem de classificação. Os contratados serão regidos pela Lei Ordinária Municipal n.º 7.564/2010 e pela Consolidação das Leis do Trabalho (CLT).\nO processo seletivo terá validade de dois anos, contados da homologação.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2433.49,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Laboratório - Botânica",
     "Técnico de Laboratório - Química",
@@ -16658,9 +18852,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Auxiliar de Laboratório - Botânica",
+    "Técnico de Laboratório - Química",
+    "Assistente Social",
+    "Instrutor de Idiomas - Inglês"
+   ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Auxiliar de Laboratório - Botânica, Técnico de Laboratório - Química, Assistente Social. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -16706,6 +18908,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Câmara Municipal de Tupaciguara, em Minas Gerais, divulgou o edital do Concurso Público 01/2026 para preencher 10 vagas em funções de nível fundamental, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Analista de Comunicação Social (1 vaga)\n• Assessor Jurídico Parlamentar (1 vaga)\n• Assistente de Compras e Licitações Públicas (1 vaga)\n• Auxiliar de Secretaria (1 vaga)\n• Contador (1 vaga)\n• Controle Interno (1 vaga)\n• Motorista (1 vaga)\n• Oficial Administrativo (1 vaga)\n• Procurador Jurídico (1 vaga)\n• Secretário do Legislativo (1 vaga)\nA jornada de trabalho para todos os cargos é de 40 horas semanais. A remuneração varia de R$ 2.569,17 a R$ 5.627,27.\nAs inscrições devem ser feitas exclusivamente pela internet, no site portal.iadhedconcursos.org, das 0h do dia 7 de novembro de 2026 às 23h59 do dia 7 de dezembro de 2026. A taxa de inscrição é de R$ 60,00 para nível fundamental, R$ 80,00 para nível médio e R$ 120,00 para nível superior. Haverá possibilidade de isenção do valor entre os dias 7 e 8 de novembro de 2026, conforme regras do edital.\nO concurso terá as seguintes etapas: prova objetiva de múltipla escolha para todos os cargos (prevista para o dia 27 de dezembro de 2026); prova discursiva (para os cargos de Analista de Comunicação Social, Assessor Jurídico Parlamentar, Contador, Controlador Interno e Procurador Jurídico), aplicada no mesmo dia da objetiva; prova de títulos (apenas para nível superior); prova prática (para os cargos de Assistente de Compras e Licitações Públicas, Auxiliar de Secretaria, Motorista, Oficial Administrativo e Secretário do Legislativo); avaliação médica; e apresentação de documentos.\nA contratação será pelo regime estatutário.\nO prazo de validade do concurso será de 2 anos, a contar da data da homologação, podendo ser prorrogado por igual período, a critério da Câmara.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2569.17,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Analista de Comunicação Social",
     "Assessor Jurídico Parlamentar",
@@ -16721,12 +18925,24 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Procurador Jurídico",
     "Contador"
    ],
+   "cargosGerais": [
+    "Analista de Comunicação Social",
+    "Assessor Jurídico Parlamentar",
+    "Assistente de Compras e Licitações Públicas",
+    "Auxiliar de Secretaria",
+    "Controle Interno",
+    "Motorista",
+    "Oficial Administrativo",
+    "Secretário do Legislativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Procurador Jurídico, Contador. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -16772,17 +18988,22 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Cubatão, no Estado de São Paulo, abriu um concurso público para preencher uma vaga de nível superior em Direito, com exigência de inscrição na OAB.\nSegundo o edital, a oportunidade é para o seguinte cargo:\n• Procurador Jurídico Administrativo I (1 vaga)\nO vencimento é de R$ 5.565,00. Vale-alimentação, vale-refeição, vale-transporte e assistência médica, hospitalar e odontológica são opcionais.\nAs inscrições serão feitas pelo site do IBAM, de 29 de outubro de 2026 a 3 de dezembro de 2026, no horário de Brasília. A taxa é de R$ 118,00.\nA seleção terá prova objetiva e prova prático-profissional, ambas eliminatórias e classificatórias, além de prova de títulos, classificatória. A prova prático-profissional consistirá em uma peça jurídica escrita e quatro questões discursivas. As provas objetiva e prático-profissional estão previstas para 17 de janeiro de 2027. Se necessário, candidatos poderão ser alocados em cidades próximas a Cubatão.\nOs aprovados serão nomeados conforme a necessidade da administração municipal, sob regime estatutário.\nO concurso terá validade de dois anos a partir da homologação do resultado final, com possibilidade de prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Procurador Jurídico Administrativo I"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Procurador Jurídico Administrativo I"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -16828,6 +19049,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Paraná, a Prefeitura de Mariluz abriu um Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente de Endemias (1 vaga)\n• Assistente Administrativo (CR)\n• Assistente Social (CR)\n• Arquiteto (CR)\n• Auditor Fiscal da Receita Municipal (CR)\n• Auxiliar de Consultório Dentário (1 vaga)\n• Auxiliar de Serviços Gerais (1 vaga)\n• Construtor Civil (CR)\n• Educador Social (1 vaga)\n• Enfermeiro (1 vaga)\n• Fiscal de Obras e Posturas (CR)\n• Fisioterapeuta (1 vaga)\n• Fonoaudiólogo (1 vaga)\n• Motorista (1 vaga)\n• Mecânico (1 vaga)\n• Nutricionista (1 vaga)\n• Operário Masculino (1 vaga)\n• Professor em Educação Infantil (CR)\n• Professor Fundamental (CR)\n• Psicólogo (1 vaga)\n• Técnico em Enfermagem (CR)\n• Terapeuta Ocupacional (1 vaga)\nAs jornadas são de 20 ou 40 horas semanais, com salários de R$ 1.448,86 a R$ 5.358,58.\nAs inscrições serão realizadas de 31 de outubro de 2026 a 22 de novembro de 2026, pelo site do Instituto Omni. As taxas são de R$ 60,00, R$ 75,00 ou R$ 120,00, conforme o cargo, e devem ser pagas por boleto bancário até 23 de novembro de 2026. Candidatos inscritos no CadÚnico que atendam ao critério de renda do edital e doadores de medula óssea podem solicitar isenção pela área do candidato, de 31 de outubro de 2026 a 5 de novembro de 2026.\nA seleção terá prova objetiva para todos os cargos, além de prova discursiva, avaliação de títulos e prova prática para cargos específicos. A prova objetiva está prevista para o dia 6 de dezembro de 2026. A prova discursiva ocorrerá na mesma data e no mesmo horário da objetiva. As provas práticas estão previstas para 19 e 20 de dezembro de 2026.\nOs candidatos nomeados estarão sujeitos ao regime jurídico estatutário do município.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1448.86,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Endemias",
     "Assistente Administrativo",
@@ -16855,14 +19078,28 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Auditor Fiscal da Receita Municipal",
+    "Assistente Social",
     "Arquiteto",
-    "Enfermeiro",
-    "Fisioterapeuta"
+    "Enfermeiro"
    ],
+   "cargosGerais": [
+    "Agente de Endemias",
+    "Assistente Administrativo",
+    "Auxiliar de Consultório Dentário",
+    "Auxiliar de Serviços Gerais",
+    "Construtor Civil",
+    "Educador Social",
+    "Fiscal de Obras e Posturas",
+    "Motorista"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [
+    "Auditor Fiscal da Receita Municipal"
+   ],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Auditor Fiscal da Receita Municipal, Assistente Social, Arquiteto. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -16908,6 +19145,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Irmandade da Santa Casa de Misericórdia e Maternidade de Dracena, no Estado de São Paulo, abriu um Processo Seletivo para preencher 15 vagas de nível médio, técnico e superior na Santa Casa, no AME e na ESF.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino superior\n• Enfermeiro(a) (2 vagas)\n• Farmacêutico(a) (1 vaga)\nEnsino médio e/ou técnico\n• Auxiliar de Enfermagem (10 vagas)\n• Técnico de Enfermagem (2 vagas)\nAs jornadas variam de 20 a 44 horas semanais, conforme a função e a carga horária disponível na convocação. Os vencimentos informados no edital variam de R$ 1.508,80 a R$ 5.231,08. Há adicional de insalubridade, ticket cesta ou cesta básica, conforme a função, além de complemento do piso nacional da enfermagem nos casos previstos.\nAs inscrições serão feitas exclusivamente pelo site www.consesp.com.br, de 19 de novembro de 2026 a 10 de dezembro de 2026, no horário de Brasília. A taxa é de R$ 90,00 para ensino superior e R$ 70,00 para ensino médio ou técnico. O boleto poderá ser pago até 11 de dezembro de 2026.\nA seleção terá prova objetiva de língua portuguesa e matemática e prova discursiva com estudos de caso. As provas estão previstas para 20 de dezembro de 2026, em Dracena, em locais a serem divulgados. Os portões abrirão às 7h15 e fecharão às 7h45. As provas começarão às 8h.\nA validade do Processo Seletivo será de seis meses, contados da homologação final dos resultados, com possibilidade de prorrogação uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1508.8,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Enfermeiro",
     "Farmacêutico",
@@ -16917,12 +19156,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Enfermeiro",
-    "Farmacêutico"
+    "Farmacêutico",
+    "Auxiliar de Enfermagem",
+    "Técnico de Enfermagem"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Enfermeiro, Farmacêutico, Auxiliar de Enfermagem. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -16968,6 +19212,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Fundação Universidade Federal de Mato Grosso do Sul (UFMS) abriu um Concurso Público para preencher vagas em cargos efetivos técnico-administrativos em educação, com exigência de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível superior, 40 horas semanais\n• Administrador, Campo Grande (2 vagas)\n• Analista de Tecnologia da Informação, Governança, Segurança, Operações e Infraestrutura de Redes, Campo Grande (3 vagas)\n• Analista de Tecnologia da Informação, Web Designer, Campo Grande (1 vaga)\n• Analista de Tecnologia da Informação, Gestão de Projetos de Software, Campo Grande (1 vaga)\n• Analista de Tecnologia da Informação, Sistemas Embarcados e IoT, Campo Grande (1 vaga)\n• Analista de Tecnologia da Informação, Inteligência Artificial, Campo Grande (1 vaga)\n• Analista de Tecnologia da Informação, Desenvolvimento de Software, Campo Grande (2 vagas)\n• Arquivista, Campo Grande (1 vaga)\n• Analista em Educação, Biblioteconomia, Campo Grande (1 vaga)\n• Analista em Educação, Comunicação Digital, Campo Grande (2 vagas)\n• Analista em Educação, Comunicação Social, Campo Grande (1 vaga)\n• Analista em Educação, Publicidade, Campo Grande (1 vaga)\n• Analista em Educação, Produção Audiovisual, Campo Grande (1 vaga)\n• Analista em Educação, Rádio e TV, Campo Grande (1 vaga)\n• Analista em Educação, Relações Públicas, Campo Grande (1 vaga)\n• Contador, Campo Grande (1 vaga)\n• Enfermeiro, Campo Grande (1 vaga)\n• Enfermeiro do Trabalho, Campo Grande (2 vagas)\n• Analista em Educação, Educação Física, Campo Grande (1 vaga)\n• Analista em Educação, Engenharia Mecânica, Campo Grande (1 vaga)\n• Analista em Educação, Engenharia Ambiental, Campo Grande (1 vaga)\n• Engenheiro Agrônomo, Chapadão do Sul (1 vaga)\n• Analista em Educação, Produção Cultural, Campo Grande (1 vaga)\n• Analista em Educação, Gestão Pública, Campo Grande (29 vagas)\n• Analista em Educação, Gestão Pública, Aquidauana (1 vaga)\n• Analista em Educação, Gestão Pública, Corumbá (1 vaga)\n• Analista em Educação, Gestão Pública, Três Lagoas (1 vaga)\n• Odontólogo, Endodontia, Campo Grande (1 vaga)\n• Analista em Educação, Reabilitação Oral, Campo Grande (1 vaga)\n• Analista em Educação, Psicopedagogia, Campo Grande (2 vagas)\n• Analista em Educação, Psicopedagogia, Aquidauana (1 vaga)\n• Analista em Educação, Psicopedagogia, Corumbá (1 vaga)\n• Analista em Educação, Psicopedagogia, Coxim (1 vaga)\n• Analista em Educação, Psicopedagogia, Chapadão do Sul (1 vaga)\n• Analista em Educação, Psicopedagogia, Naviraí (1 vaga)\n• Analista em Educação, Psicopedagogia, Nova Andradina (1 vaga)\n• Analista em Educação, Psicopedagogia, Paranaíba (1 vaga)\n• Analista em Educação, Psicopedagogia, Ponta Porã (1 vaga)\n• Analista em Educação, Psicopedagogia, Três Lagoas (1 vaga)\n• Analista em Educação, Pedagogia, Campo Grande (1 vaga)\n• Analista em Educação, Psicologia Organizacional e do Trabalho, Campo Grande (2 vagas)\n• Analista em Educação, Psicologia, Aquidauana (1 vaga)\n• Analista em Educação, Psicologia, Naviraí (1 vaga)\n• Analista em Educação, Psicologia, Nova Andradina (1 vaga)\n• Psicologia, Ponta Porã (1 vaga)\n• Analista em Educação, Serviço Social, Educação, Campo Grande (1 vaga)\n• Analista em Educação, Serviço Social, Gestão de Pessoas e Saúde do Trabalhador, Campo Grande (1 vaga)\n• Analista em Educação, Serviço Social, Coxim (1 vaga)\n• Analista em Educação, Serviço Social, Ponta Porã (1 vaga)\nNível superior, 20 horas semanais\n• Médico, Psiquiatria, Campo Grande (1 vaga)\n• Médico, Campo Grande (1 vaga)\n• Médico, Pediatria, Três Lagoas (1 vaga)\n• Médico, Três Lagoas (1 vaga)\nNível médio, 40 horas semanais\n• Técnico em Educação, Agropecuária, Terenos (1 vaga)\n• Técnico em Educação, Agropecuária, Chapadão do Sul (1 vaga)\n• Técnico em Educação, Agropecuária, Paranaíba (1 vaga)\n• Técnico em Educação, Análises Clínicas, Campo Grande (1 vaga)\n• Técnico em Educação, Suporte Tecnológico e Audiovisual, Campo Grande (2 vagas)\n• Técnico em Educação, Suporte Tecnológico e Audiovisual, Aquidauana (1 vaga)\n• Técnico em Educação, Suporte Tecnológico e Audiovisual, Corumbá (1 vaga)\n• Técnico em Educação, Suporte Tecnológico e Audiovisual, Três Lagoas (1 vaga)\n• Técnico em Educação, Biologia, Corumbá (1 vaga)\n• Técnico em Educação, Edificações, Naviraí (1 vaga)\n• Técnico em Enfermagem, Saúde do Trabalhador, Campo Grande (2 vagas)\n• Técnico em Enfermagem, Campo Grande (2 vagas)\n• Técnico em Educação, Farmácia, Campo Grande (1 vaga)\n• Técnico em Educação, Biotério, Campo Grande (1 vaga)\n• Técnico em Educação, Química, Aquidauana (1 vaga)\n• Técnico em Educação, Química, Corumbá (1 vaga)\n• Técnico em Educação, Química, Chapadão do Sul (1 vaga)\n• Técnico em Educação, Química, Paranaíba (1 vaga)\n• Técnico em Educação, Química, Três Lagoas (1 vaga)\n• Técnico em Tecnologia da Informação, Campo Grande (15 vagas)\n• Técnico em Educação, Tecnologia da Informação, Paranaíba (1 vaga)\n• Técnico em Educação, Tecnologia da Informação, Ponta Porã (1 vaga)\n• Técnico em Educação, Veterinária e Zootecnia, Campo Grande (1 vaga)\n• Técnico em Educação, Veterinária e Zootecnia, Paranaíba (1 vaga)\n• Técnico em Educação, Assuntos Estudantis, Campo Grande (18 vagas)\n• Técnico em Educação, Assuntos Estudantis, Aquidauana (1 vaga)\n• Técnico em Educação, Assuntos Estudantis, Corumbá (1 vaga)\n• Técnico em Educação, Assuntos Estudantis, Coxim (1 vaga)\n• Técnico em Educação, Assuntos Estudantis, Chapadão do Sul (1 vaga)\n• Técnico em Educação, Assuntos Estudantis, Ponta Porã (1 vaga)\n• Técnico em Educação, Assuntos Estudantis, Três Lagoas (1 vaga)\nA jornada é de 20 ou 40 horas semanais. O vencimento básico inicial varia de R$ 3.181,39 a R$ 5.215,39. Há auxílio-alimentação de R$ 596,00 para jornadas de 20 horas e de R$ 1.192,00 para jornadas de 40 horas. Também poderá ser concedido incentivo à qualificação, conforme os requisitos legais.\nAs inscrições serão realizadas de 4 de novembro de 2026 a 4 de dezembro de 2026, exclusivamente pelo site da Fundação de Apoio à Pesquisa, ao Ensino e à Cultura (Fapec). A taxa é de R$ 150,00 para nível superior e de R$ 120,00 para nível médio, com pagamento até 7 de dezembro de 2026. O pedido de isenção poderá ser feito de 4 a 11 de novembro de 2026 por candidatos inscritos no CadÚnico que atendam ao critério de renda do edital ou por doadores de medula óssea em entidades reconhecidas pelo Ministério da Saúde. Todos os horários seguem o horário oficial de Mato Grosso do Sul.\nA seleção terá prova objetiva, de caráter eliminatório e classificatório. A aplicação está prevista para 17 de janeiro de 2027, em Aquidauana, Campo Grande, Chapadão do Sul, Corumbá, Coxim, Naviraí, Nova Andradina, Paranaíba, Ponta Porã e Três Lagoas.\nO concurso terá validade de dois anos a partir da publicação da homologação do resultado final no Diário Oficial da União. O prazo poderá ser prorrogado uma vez, por igual período.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 3181.39,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Administrador, Campo Grande",
     "Analista de Tecnologia da Informação, Web Designer, Campo Grande",
@@ -17053,14 +19299,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Odontólogo, Endodontia, Campo Grande",
     "Médico, Psiquiatria, Campo Grande",
     "Médico, Campo Grande",
     "Médico, Pediatria, Três Lagoas"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Odontólogo, Endodontia, Campo Grande, Médico, Psiquiatria, Campo Grande, Médico, Campo Grande. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 3,
    "motivos": [
     "Prova objetiva (base)",
@@ -17106,6 +19355,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Rio Grande do Sul, o Município de Caxias do Sul abriu dois Concursos Públicos para preencher vagas e formar cadastro de reserva em funções de nível médio e superior.\nSegundo os editais, as oportunidades são para os seguintes cargos:\nEdital nº 02/2026\n• Procurador (1 vaga)\nEdital nº 03/2026\n• Médico Endocrinologista Pediatra (1 vaga)\n• Médico Ginecologista e Obstetra (3 vagas)\n• Médico Neurologista Pediatra (1 vaga)\n• Médico Otorrinolaringologista (cadastro de reserva)\n• Médico Pediatra (4 vagas)\n• Médico Psiquiatra (3 vagas)\n• Médico Psiquiatra Forense (1 vaga)\n• Médico Psiquiatra da Infância e Adolescência (1 vaga)\n• Médico Reumatologista (1 vaga)\n• Médico Urologista (1 vaga)\n• Médico Estratégia da Saúde da Família (6 vagas)\n• Técnico em Agrimensura (1 vaga)\nAs jornadas são de 12 a 40 horas semanais. Os vencimentos básicos vão de R$ 5.722,43 a R$ 19.787,77. Para Procurador, o vencimento básico é de R$ 11.714,68, acrescido de verba de representação de R$ 5.857,34 e de honorários sucumbenciais, conforme as regras do edital. Os cargos contam com auxílio-alimentação de R$ 1.020,36. O edital nº 03/2026 também menciona plano de saúde e vale-transporte opcionais.\nAs inscrições serão realizadas somente pelo site da Fundatec, das 9h de 4 de novembro de 2026 às 17h de 29 de novembro de 2026, no horário de Brasília. A taxa é de R$ 230,00 para Procurador, R$ 120,00 para Técnico em Agrimensura e R$ 180,00 para os demais cargos. Doadores de sangue e pessoas cadastradas como doadoras de medula óssea podem solicitar isenção, conforme os requisitos de cada edital, até o dia 10 de novembro de 2026.\nNo edital nº 02/2026, a seleção terá prova objetiva e prova prática, ambas eliminatórias e classificatórias, além de prova de títulos classificatória. A prova prática, composta por uma peça processual e duas questões discursivas, está prevista para 28 de março de 2027. No edital nº 03/2026, a seleção terá prova objetiva. Em ambos os concursos, a prova objetiva está prevista para 24 de janeiro de 2027. Os candidatos inscritos nas vagas reservadas a afrodescendentes poderão passar por avaliação da autodeclaração, conforme as regras dos respectivos concursos.\nCada concurso terá validade de dois anos a partir da homologação do resultado final, com possibilidade de prorrogação por igual período, a critério do Município.\nMais informações podem ser obtidas nos editais completos.\nDê o play e acompanhe esta notícia no formato podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 5722.43,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Procurador",
     "Médico Endocrinologista Pediatra",
@@ -17124,14 +19375,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Endocrinologista Pediatra",
     "Médico Ginecologista e Obstetra",
     "Médico Neurologista Pediatra",
     "Médico Otorrinolaringologista"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Endocrinologista Pediatra, Médico Ginecologista e Obstetra, Médico Neurologista Pediatra. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -17178,6 +19432,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de São Paulo, o Instituto de Previdência do Município de Jundiaí (IPREJUN) abriu um Concurso Público para preencher quatro vagas em funções de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Assistente de Administração (1 vaga)\n• Analista de Planejamento, Gestão e Orçamento - Ciências Contábeis (1 vaga)\n• Analista de Planejamento, Gestão e Orçamento - Direito (1 vaga)\n• Analista de Planejamento, Gestão e Orçamento - Informática (1 vaga)\nA jornada é de 40 horas semanais para todos os cargos. Os salários vão de R$ 4.199,87 a R$ 15.123,99. Também são oferecidos auxílio-transporte de R$ 492,00 e auxílio-alimentação de R$ 1.300,00.\nAs inscrições serão feitas exclusivamente pelo site www.vunesp.com.br, das 10h de 16 de novembro de 2026 às 23h59 de 15 de dezembro de 2026. A taxa é de R$ 80,00 para nível médio e de R$ 115,00 para nível superior.\nA seleção terá prova objetiva, de caráter eliminatório e classificatório, prevista para 21 de fevereiro de 2027, em Jundiaí (SP). Se não for possível aplicar a prova no município, ela poderá ocorrer em cidades vizinhas.\nOs aprovados serão nomeados conforme a necessidade do IPREJUN, sob regime estatutário.\nO concurso terá validade de dois anos a partir da homologação. O prazo poderá ser prorrogado uma vez, por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 4199.87,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente de Administração",
     "Analista de Planejamento, Gestão e Orçamento - Ciências Contábeis",
@@ -17187,9 +19443,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Analista de Planejamento, Gestão e Orçamento - Ciências Contábeis",
+    "Analista de Planejamento, Gestão e Orçamento - Direito",
+    "Analista de Planejamento, Gestão e Orçamento - Informática"
+   ],
+   "cargosGerais": [
+    "Assistente de Administração",
+    "Analista de Planejamento",
+    "Gestão e Orçamento"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Analista de Planejamento, Gestão e Orçamento - Ciências Contábeis, Analista de Planejamento, Gestão e Orçamento - Direito, Analista de Planejamento, Gestão e Orçamento - Informática. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -17236,6 +19503,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Maranhão, a Secretaria de Estado da Administração (SEAD) abriu um Concurso Público para preencher vagas em funções de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nInstituto Maranhense de Estudos Socioeconômicos e Cartográficos (IMESC)\n• Pesquisador em Biologia\n• Pesquisador em Economia (6 vagas)\n• Pesquisador em Estatística (1 vaga)\n• Pesquisador em Geografia (6 vagas)\n• Pesquisador em História\n• Pesquisador em Oceanografia\n• Pesquisador em Sociologia\n• Pesquisador em Turismo (1 vaga)\n• Técnico em Pesquisa (3 vagas)\nSecretaria de Estado da Educação (SEDUC)\n• Especialista em Educação, Supervisão Escolar (170 vagas)\n• Professor de Arte (79 vagas)\n• Professor de Atendimento Educacional Especializado (188 vagas)\n• Professor de Biologia (167 vagas)\n• Professor de Educação Física (118 vagas)\n• Professor de Filosofia (102 vagas)\n• Professor de Física (123 vagas)\n• Professor de Geografia (141 vagas)\n• Professor de História (163 vagas)\n• Professor Instrutor de Libras (3 vagas)\n• Professor Intérprete de Libras (4 vagas)\n• Professor de Língua Estrangeira, Inglês (121 vagas)\n• Professor de Língua Portuguesa (291 vagas)\n• Professor de Matemática (277 vagas)\n• Professor de Química (142 vagas)\n• Professor Revisor de Braille (4 vagas)\n• Professor de Sociologia (76 vagas)\n• Professor Transcritor de Braille (1 vaga)\nSecretaria de Estado do Planejamento e Orçamento (SEPLAN)\n• Especialista em Gestão Pública (8 vagas)\n• Analista de Planejamento e Finanças Públicas, Planejamento e Orçamento (5 vagas)\n• Analista de Planejamento e Finanças Públicas, Finanças e Controle (6 vagas)\nSecretaria de Transparência e Controle (STC)\n• Auditor, Área Geral (14 vagas)\n• Auditor, Tecnologia da Informação (3 vagas)\n• Auditor, Engenharia (3 vagas)\nSecretaria de Estado da Administração (SEAD)\n• Assistente Técnico, Assistente de Administração (30 vagas)\n• Assistente Técnico, Técnico em Agrimensura (8 vagas)\n• Assistente Técnico, Técnico em Agropecuária (7 vagas)\n• Assistente Técnico em Saúde, Técnico de Enfermagem do Trabalho (10 vagas)\n• Assistente Técnico, Técnico em Edificações (1 vaga)\n• Assistente Técnico, Técnico em Informática (10 vagas)\n• Assistente Técnico, Técnico em Segurança do Trabalho (12 vagas)\n• Assistente Técnico, Técnico em Contabilidade (13 vagas)\nA jornada é de 30 ou 40 horas semanais, conforme o cargo. Os vencimentos iniciais vão de R$ 1.631,76 a R$ 14.950,78.\nAs inscrições serão feitas exclusivamente pelo site www.concursosfcc.com.br, das 10h de 14 de dezembro de 2026 às 23h59 de 29 de janeiro de 2027, no horário de Brasília. As taxas variam de R$ 60,00 a R$ 250,00. Os pedidos de isenção poderão ser apresentados das 10h de 14 de dezembro de 2026 às 23h59 de 16 de dezembro de 2026, nas condições previstas no edital.\nA seleção terá provas objetivas para todos os cargos. Os cargos de nível superior também terão prova discursiva, de redação ou estudo de caso, e avaliação de títulos. Está prevista avaliação biopsicossocial para candidatos com deficiência e heteroidentificação para candidatos negros, conforme as regras do edital. As provas estão previstas para 4 de abril de 2027, em Balsas, Barra do Corda, Caxias, Colinas, Imperatriz, Pinheiro e São Luís, no Maranhão.\nO concurso terá validade de dois anos a partir da publicação da homologação do resultado final. O prazo poderá ser prorrogado uma vez, por igual período.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1631.76,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Pesquisador em Biologia",
     "Pesquisador em Economia",
@@ -17282,14 +19551,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Auditor, Área Geral",
     "Auditor, Tecnologia da Informação",
     "Auditor, Engenharia",
-    "Professor de Arte"
+    "Pesquisador em Biologia"
    ],
+   "cargosGerais": [
+    "Especialista em Gestão Pública",
+    "Assistente Técnico, Assistente de Administração"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Auditor, Área Geral, Auditor, Tecnologia da Informação, Auditor, Engenharia. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -17336,6 +19611,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Boa Viagem, no Estado do Ceará, abriu um Concurso Público para preencher vagas efetivas e formar cadastro de reserva em funções de nível fundamental incompleto, fundamental completo, médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível fundamental incompleto\n• Auxiliar de Serviços Gerais (200 vagas)\n• Auxiliar de Serviços Gerais CSAM (5 vagas)\n• Auxiliar de Serviços Gerais SAAE (2 vagas)\n• Maqueiro CSAM (2 vagas)\nNível fundamental completo\n• Auxiliar de Gesso CSAM (2 vagas)\n• Merendeira (40 vagas)\n• Motorista B (10 vagas)\n• Motorista D (20 vagas)\n• Motorista D CSAM (6 vagas)\n• Motorista D SAAE (1 vaga)\n• Vigia (100 vagas)\n• Vigia CSAM (5 vagas)\n• Vigia SAAE (2 vagas)\nNível médio\n• Agente Administrativo (60 vagas)\n• Agente Administrativo CSAM (8 vagas)\n• Agente Fiscal de Tributos (5 vagas)\n• Agente Municipal de Trânsito (10 vagas)\n• Agente Sanitarista (2 vagas)\n• Assistente Técnico SAAE (2 vagas)\n• Auxiliar de Administração SAAE (6 vagas)\n• Auxiliar em Saúde Bucal (10 vagas)\n• Encanador SAAE (8 vagas)\n• Laboratorista SAAE (1 vaga)\n• Leiturista SAAE (4 vagas)\n• Operador de ETA SAAE (4 vagas)\n• Orientador Social (6 vagas)\n• Secretário Escolar (15 vagas)\n• Técnico Agrícola (3 vagas)\n• Técnico Cultural (3 vagas)\n• Técnico de Enfermagem (15 vagas)\n• Técnico de Enfermagem CSAM (15 vagas)\n• Técnico de Radiologia CSAM (2 vagas)\n• Técnico em Tomografia CSAM (2 vagas)\nNível superior\n• Administrador (4 vagas)\n• Advogado (4 vagas)\n• Analista Ambiental I (1 vaga)\n• Analista Ambiental II (1 vaga)\n• Analista de Controle Interno (1 vaga)\n• Arquiteto (1 vaga)\n• Assistente Social (10 vagas)\n• Assistente Social CSAM (1 vaga)\n• Bibliotecário (1 vaga)\n• Educador Físico (3 vagas)\n• Enfermeiro CSAM (10 vagas)\n• Enfermeiro UAPS (15 vagas)\n• Engenheiro Agrônomo (1 vaga)\n• Engenheiro Ambiental (1 vaga)\n• Engenheiro Civil (4 vagas)\n• Engenheiro Civil SAAE (1 vaga)\n• Farmacêutico (3 vagas)\n• Farmacêutico CSAM (1 vaga)\n• Fiscal Ambiental I (1 vaga)\n• Fiscal Ambiental II (1 vaga)\n• Fiscal de Obras (2 vagas)\n• Fisioterapeuta (6 vagas)\n• Fisioterapeuta CSAM (1 vaga)\n• Fonoaudiólogo (2 vagas)\n• Fonoaudiólogo CSAM (1 vaga)\n• Médico Cardiologista (1 vaga)\n• Médico Cirurgião Geral CSAM (1 vaga)\n• Médico Clínico Geral CSAM (4 vagas)\n• Médico Neuropediatra (1 vaga)\n• Médico Pediatra (1 vaga)\n• Médico Psiquiatra (1 vaga)\n• Médico Reumatologista (1 vaga)\n• Médico UAPS (10 vagas)\n• Médico Vascular (1 vaga)\n• Médico Veterinário (1 vaga)\n• Museólogo (1 vaga)\n• Nutricionista (5 vagas)\n• Nutricionista CSAM (1 vaga)\n• Odontólogo (10 vagas)\n• Programador T.I. (5 vagas)\n• Psicólogo (10 vagas)\n• Psicólogo CSAM (1 vaga)\n• Terapeuta Ocupacional (3 vagas)\n• Turismólogo (1 vaga)\n• Zootecnista (1 vaga)\nNível superior específico da educação\n• Coordenador Pedagógico (20 vagas)\n• Professor de Ciências (3 vagas)\n• Professor de Educação Física (10 vagas)\n• Professor de História (5 vagas)\n• Professor de Língua Portuguesa (10 vagas)\n• Professor de Matemática (10 vagas)\n• Professor de Pedagogia (210 vagas)\n• Psicopedagogo (20 vagas)\nA jornada varia de 20 a 40 horas semanais, com remunerações de R$ 1.621,00 a R$ 14.718,92.\nAs inscrições serão feitas exclusivamente pelo site da Fundação CETREDE, de 6 de novembro de 2026 a 7 de dezembro de 2026. As taxas são de R$ 80,00 para nível fundamental, R$ 100,00 para nível médio e R$ 125,00 para nível superior. Candidatos inscritos no CadÚnico que atendam aos critérios de baixa renda do edital poderão solicitar isenção de 12 a 13 de novembro de 2026.\nA seleção terá provas objetivas para todos os cargos, prova discursiva de produção textual para coordenador pedagógico, professores e psicopedagogo, e avaliação de títulos para os cargos de nível superior. Para agente municipal de trânsito, também haverá exame médico, avaliação física e curso de formação, de caráter eliminatório. As provas objetivas e discursivas estão previstas para 10 de janeiro de 2027.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Serviços Gerais",
     "Auxiliar de Serviços Gerais CSAM",
@@ -17421,14 +19698,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Cardiologista",
     "Médico Cirurgião Geral CSAM",
     "Médico Clínico Geral CSAM",
     "Médico Neuropediatra"
    ],
+   "cargosGerais": [
+    "Auxiliar de Serviços Gerais",
+    "Auxiliar de Serviços Gerais CSAM",
+    "Auxiliar de Serviços Gerais SAAE",
+    "Maqueiro CSAM",
+    "Auxiliar de Gesso CSAM",
+    "Merendeira",
+    "Motorista B",
+    "Motorista D"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico Cardiologista, Médico Cirurgião Geral CSAM, Médico Clínico Geral CSAM. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -17477,18 +19766,23 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Barra do Garças, no Estado de Mato Grosso, abriu um concurso público com o objetivo de preencher seis vagas e formar cadastro de reserva para médicos. A exigência é de curso superior em Medicina e registro no conselho regional.\nSegundo o edital, as oportunidades são para os cargos de:\n• Médico da Estratégia Saúde da Família (6 vagas)\nA jornada é de 40 horas semanais, com remuneração inicial de R$ 13.800,00.\nAs inscrições serão realizadas de 18 de novembro de 2026 a 7 de janeiro de 2027, até às 23h59 do último dia, pelo site do Instituto Selecon. A taxa é de R$ 120,00. Poderão solicitar isenção, de 18 a 19 de novembro de 2026, candidatos inscritos no CadÚnico, desempregados ou com renda de até 1,5 salário mínimo, doadores de sangue e eleitores convocados pela Justiça Eleitoral que atendam aos critérios do edital.\nA seleção terá prova objetiva de múltipla escolha e prova de redação, ambas eliminatórias e classificatórias. Os candidatos às vagas reservadas a pessoas negras passarão por heteroidentificação. As provas estão previstas para a manhã de 31 de janeiro de 2027, em Barra do Garças.\nA contratação será pelo regime estatutário.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, e poderá ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Médico da Estratégia Saúde da Família"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico da Estratégia Saúde da Família",
     "Médico"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -17535,6 +19829,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Município de Leme, no Estado de São Paulo, realizará um Concurso Público para preencher vagas e formar cadastro de reserva para profissionais alfabetizados e com ensino fundamental, médio, técnico ou superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino alfabetizado\n• Operador de Serviços Públicos - Lavador (1 vaga)\n• Operador de Serviços Públicos - Servente de Pedreiro (1 vaga)\nEnsino fundamental\n• Oficial de Manutenção (1 vaga)\n• Oficial de Manutenção - Borracheiro (1 vaga)\n• Oficial de Manutenção - Eletricista (1 vaga)\n• Oficial de Manutenção - Encanador (1 vaga)\n• Oficial de Manutenção - Operador de Motosserra (1 vaga)\n• Oficial de Manutenção - Pedreiro (1 vaga)\n• Oficial de Manutenção - Podador (1 vaga)\n• Oficial de Manutenção - Serralheiro (1 vaga)\n• Operador de Máquinas (1 vaga)\n• Tratador de Animais (1 vaga)\n• Tratorista (1 vaga)\nEnsino médio e técnico\n• Técnico em Enfermagem - Saúde da Família (1 vaga)\n• Técnico em Enfermagem (1 vaga)\n• Técnico em Segurança do Trabalho (1 vaga)\n• Topógrafo (1 vaga)\nEnsino superior\n• Advogado do SUAS (1 vaga)\n• Analista de Tecnologia da Informação (1 vaga)\n• Biólogo (1 vaga)\n• Biomédico (1 vaga)\n• Enfermeiro (180 horas) (1 vaga)\n• Engenheiro Agrimensor (1 vaga)\n• Engenheiro de Segurança do Trabalho (CR)\n• Fiscal de Rendas (1 vaga)\n• Médico do Trabalho (1 vaga)\n• Médico Horista (CR)\n• Médico Horista Ginecologista e Obstetra (1 vaga)\n• Médico Horista Oftalmologista (CR)\n• Médico Horista Psiquiatra Infantil (1 vaga)\n• Médico Psiquiatra de CAPS (1 vaga)\n• Médico Sanitarista (1 vaga)\nAs jornadas variam de 20 a 40 horas semanais, exceto para Enfermeiro, com 180 horas mensais, e para os médicos horistas, com mínimo de 4 e máximo de 20 horas semanais. Os salários iniciais vão de R$ 2.065,11 a R$ 13.359,44. Para os médicos horistas, o valor é de R$ 149,33 por hora, acrescido de abono de R$ 434,25. Todos os cargos têm vale-alimentação de R$ 417,04.\nAs inscrições serão realizadas de 30 de outubro de 2026 a 30 de novembro de 2026, pelo site do INDEPAC, conforme o horário oficial de Brasília. As taxas variam de R$ 32,00 a R$ 80,00. Poderão solicitar isenção, de 30 de outubro de 2026 a 4 de novembro de 2026, candidatos que se enquadrem nos requisitos estabelecidos no edital.\nA seleção terá prova objetiva para todos os cargos. Conforme a função, também haverá prova prática, discursiva, redação ou avaliação de títulos. As provas escritas estão previstas para 20 de dezembro de 2026.\nO Concurso Público terá validade de dois anos, contados da homologação, e poderá ser prorrogado por mais dois anos, a critério do município.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2065.11,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Operador de Serviços Públicos - Lavador",
     "Operador de Serviços Públicos - Servente de Pedreiro",
@@ -17572,14 +19868,23 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Biomédico",
     "Médico do Trabalho",
     "Médico Horista",
-    "Médico Horista Ginecologista e Obstetra",
-    "Médico Horista Oftalmologista"
+    "Médico Horista Ginecologista e Obstetra"
    ],
+   "cargosGerais": [
+    "Oficial de Manutenção",
+    "Operador de Máquinas",
+    "Tratador de Animais",
+    "Tratorista",
+    "Fiscal de Rendas"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Biomédico, Médico do Trabalho, Médico Horista. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -17626,6 +19931,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Grupo Hospitalar Conceição (GHC), no município de Porto Alegre/RS, abriu um Concurso Público para formar cadastro de reserva em funções de nível fundamental, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Auxiliar de Higienização\n• Vigia\n• Técnico de Enfermagem (Centro Cirúrgico, Sala de Recuperação e/ou Centro de Material e Esterilização)\n• Técnico em Prótese Dentária\n• Técnico em Saúde Bucal\n• Administrador\n• Analista (Gestão Hospitalar)\n• Analista (Sanitarista)\n• Biólogo/Biomédico (Patologia Cirúrgica)\n• Enfermeiro (Centro Cirúrgico, Sala de Recuperação e/ou Centro de Material e Esterilização)\n• Enfermeiro (Generalista)\n• Enfermeiro (Intensivista Adulto)\n• Enfermeiro (Intensivista Neonatal)\n• Enfermeiro (Intensivista Pediátrico)\n• Físico (Medicina Nuclear)\n• Técnico em Educação (Pedagogia)\n• Médico (Anestesiologia)\n• Médico (Anestesiologia Cardiovascular)\n• Médico (Cirurgia da Mão)\n• Médico (Cirurgia do Trauma)\n• Médico (Cirurgia Vascular)\n• Médico (Dermatologia)\n• Médico (Gastroenterologia)\n• Médico (Gastroenterologia: Endoscopia)\n• Médico (Ginecologia e Obstetrícia)\n• Médico (Hematologia e Hemoterapia)\n• Médico (Hematologia e Hemoterapia Pediátrica)\n• Médico (Infectologia)\n• Médico (Mamografia)\n• Médico (Mastologia)\n• Médico (Medicina da Dor)\n• Médico (Medicina de Emergência: UPA)\n• Médico (Medicina do Adolescente)\n• Médico (Medicina Intensiva Pediátrica)\n• Médico (Neurologia Pediátrica)\n• Médico (Nutrição Parenteral e Enteral)\n• Médico (Oftalmologia: Glaucoma)\n• Médico (Oftalmologia: Pediatria)\n• Médico (Oftalmologia: Retina)\n• Médico (Oftalmologia: Segmento Anterior)\n• Médico (Oftalmologia: Uveíte)\n• Médico (Oncologia Pediátrica)\n• Médico (Ortopedia e Traumatologia: Oncológica)\n• Médico (Ortopedia e Traumatologia Pediátrica)\n• Médico (Otorrinolaringologia: Laringologia)\n• Médico (Otorrinolaringologia: Otologia/Otoneurocirurgia)\n• Médico (Otorrinolaringologia Pediátrica)\n• Médico (Patologia: Citopatologia)\n• Médico (Pneumologia)\n• Médico (Radiologia Intervencionista e Angiorradiologia)\n• Médico (Radioterapia)\n• Médico (Reumatologia Pediátrica)\nA jornada varia entre 120, 150 e 180 horas mensais, conforme o cargo e a modalidade de trabalho. A remuneração vai de R$ 2.010,60 a R$ 12.974,40, de acordo com o cargo e a jornada.\nAs inscrições serão realizadas de 5 de novembro de 2026 a 4 de dezembro de 2026, pelo site www.fundatec.org.br. A taxa é de R$ 146,46 para cargos de nível superior, R$ 109,09 para cargos de nível técnico e R$ 19,90 para cargos de nível fundamental. O edital prevê solicitação de isenção da taxa entre 9 e 10 de novembro de 2026.\nA seleção terá prova teórico-objetiva para todos os cargos. Os cargos de nível superior também terão prova de títulos.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2010.6,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Higienização",
     "Vigia",
@@ -17680,15 +19987,25 @@ window.DADOS_CONCURSOS = {
     "Médico",
     "Médico"
    ],
-   "temMedio": false,
+   "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Biólogo/Biomédico",
     "Médico",
-    "Enfermeiro"
+    "Técnico de Enfermagem",
+    "Técnico em Prótese Dentária"
    ],
+   "cargosGerais": [
+    "Auxiliar de Higienização",
+    "Vigia",
+    "Analista",
+    "Físico"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Biólogo/Biomédico, Médico, Técnico de Enfermagem. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -17734,6 +20051,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Pernambuco, a Secretaria de Administração e a Secretaria de Defesa Social anunciaram um concurso público visando preencher vagas para profissionais de nível médio e superior, distribuídas entre Soldado e 2º Tenente.\nConforme o Primeiro Termo de Retificação do Edital, o período de inscrições foi alterado e será das 9h do dia 5 de outubro de 2026 até às 14h do dia 23 de novembro de 2026. Outras alterações incluem a confirmação de que a altura mínima é de 1,60 m para homens e 1,55 m para mulheres; atualização da tabela de pontuação máxima da prova de redação; entre outras especificadas no termo publicado. Recomenda-se a leitura detalhada do documento de retificação para mais informações.\nSegundo o edital, as oportunidades são para os cargos de:\n• Qualificação Bombeiro Militar Geral - QBMG - Soldado do Corpo de Bombeiros Militar (510 vagas)\n• Quadro de Oficiais Combatentes - QOC - 2º Tenente do Corpo de Bombeiros Militar (60 vagas)\nA jornada de trabalho será de 40 horas semanais, com remuneração de R$ 5.617,92 para Soldado e de R$ 12.937,33 para 2º Tenente. Durante o Curso de Formação, os valores da bolsa-auxílio são de R$ 1.450,00 para Soldado e R$ 2.900,00 para 2º Tenente.\nAs inscrições deverão ser feitas de 5 de outubro de 2026, às 9h, até 23 de novembro de 2026, às 14h, pelo site www.institutoaocp.org.br. A taxa é de R$ 180,00 para Soldado e R$ 220,00 para 2º Tenente, com possibilidade de isenção conforme critérios do edital.\nO processo seletivo será composto por prova objetiva e redação (prevista para o dia 28 de fevereiro de 2027), avaliação médica, exame de aptidão física e avaliação psicológica. Haverá ainda curso de formação profissional e investigação social, conforme etapas previstas no edital.\nO contrato será regido pelo regime estatutário.\nO concurso terá validade de dois anos, a contar da data da primeira homologação do resultado final, podendo ser prorrogado uma vez por igual período, a critério da administração.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Qualificação Bombeiro Militar Geral - QBMG - Soldado do Corpo de Bombeiros Militar",
     "Quadro de Oficiais Combatentes - QOC - 2º Tenente do Corpo de Bombeiros Militar"
@@ -17741,9 +20060,18 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Quadro de Oficiais Combatentes - QOC - 2º Tenente do Corpo de Bombeiros Militar",
+    "2º Tenente"
+   ],
+   "cargosGerais": [
+    "Qualificação Bombeiro Militar Geral - QBMG - Soldado do Corpo de Bombeiros Militar",
+    "Soldado"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Quadro de Oficiais Combatentes - QOC - 2º Tenente do Corpo de Bombeiros Militar, 2º Tenente. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -17792,6 +20120,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Instituto do Meio Ambiente do Estado de Santa Catarina (IMA) abriu um Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível técnico ou superior.\nSegundo o edital, as oportunidades são para os cargos de:\nAssistente de Controle e Fiscalização Ambiental\n• Técnico em Análise Ambiental, Técnico em Laboratório (1 vaga)\n• Técnico em Atividades de Engenharia, Técnico em Agrimensura\n• Técnico em Atividades de Engenharia, Técnico de serviços de campo (1 vaga)\n• Técnico em Informática (1 vaga)\nAnalista de Controle e Fiscalização Ambiental\n• Administrador (1 vaga)\n• Biólogo (1 vaga)\n• Economista (1 vaga)\n• Engenheiro Agrônomo\n• Engenheiro Civil (1 vaga)\n• Engenheiro Florestal\n• Engenheiro Químico\n• Engenheiro Sanitarista e/ou Ambiental\n• Geógrafo (1 vaga)\n• Geólogo (1 vaga)\n• Médico Veterinário (1 vaga)\n• Oceanógrafo (1 vaga)\n• Químico (1 vaga)\nAnalista de Controle Administrativo\n• Analista de Informática (5 vagas)\n• Analista Administrativo (1 vaga)\nA jornada é de 40 horas semanais, com trabalho presencial. Os subsídios vão de R$ 7.810,00 a R$ 12.300,00, além de auxílio-alimentação de R$ 550,00.\nAs inscrições serão feitas exclusivamente pelo site concursos.furb.br, das 8h de 13 de novembro de 2026 às 23h59 de 14 de dezembro de 2026. A taxa é de R$ 100,00 para os cargos de nível técnico e R$ 160,00 para os de nível superior, com pagamento até 15 de dezembro de 2026. A isenção poderá ser solicitada das 8h de 13 de novembro de 2026 às 23h59 de 19 de novembro de 2026 por doadores de sangue, medula óssea ou leite humano, pessoas hipossuficientes e candidatos que prestaram serviços à Justiça Eleitoral ou ao Tribunal do Júri, conforme os requisitos do edital.\nA seleção terá prova objetiva eliminatória e classificatória para todos os cargos, prova de títulos facultativa e classificatória para os cargos de nível superior e exame toxicológico eliminatório para os aprovados convocados à nomeação. A prova objetiva está prevista para 14 de fevereiro de 2027.\nOs cargos serão providos sob regime estatutário.\nO concurso terá validade de dois anos a partir da homologação, com possibilidade de uma prorrogação por igual período, a critério do IMA.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Técnico em Análise Ambiental, Técnico em Laboratório",
     "Técnico em Atividades de Engenharia, Técnico em Agrimensura",
@@ -17816,14 +20146,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico Veterinário",
     "Engenheiro Agrônomo",
     "Engenheiro Civil",
     "Engenheiro Florestal"
    ],
+   "cargosGerais": [
+    "Analista Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -17868,6 +20203,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Prefeitura Municipal de Jandira, no Estado de São Paulo, abriu três concursos públicos para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio e superior.\nSegundo os editais, as oportunidades são para os seguintes cargos:\nConcurso Público nº 2/2026\n• Auxiliar de Apoio Administrativo e Jurídico (5 vagas)\n• Analista Técnico Jurídico (3 vagas)\n• Procurador Jurídico (2 vagas)\nConcurso Público nº 3/2026\n• Cozinheiro (2 vagas)\n• Agente Comunitário de Saúde, UBS Alvorada (4 vagas)\n• Agente Comunitário de Saúde, UBS Analândia (7 vagas)\n• Agente Comunitário de Saúde, UBS Jardim Brotinho (8 vagas)\n• Agente Comunitário de Saúde, UBS Jardim Gabriela (11 vagas)\n• Agente Comunitário de Saúde, UBS Nossa Senhora de Fátima (5 vagas)\n• Agente Comunitário de Saúde, UBS Ouro Verde (4 vagas)\n• Agente Comunitário de Saúde, UBS Parque Santa Tereza (4 vagas)\n• Agente Comunitário de Saúde, UBS Sagrado Coração (6 vagas)\n• Agente Comunitário de Saúde, UBS Vale do Sol (6 vagas)\n• Agente Comunitário de Saúde, UBS Vila Eunice (6 vagas)\n• Agente Controlador de Zoonoses (10 vagas)\n• Agente de Vigilância Sanitária (2 vagas)\n• Atendente de Unidade Básica de Saúde (20 vagas)\n• Auxiliar de Farmácia (20 vagas)\n• Encarregado de Faturamento Hospitalar (cadastro de reserva)\n• Motorista de Ambulância (8 vagas)\n• Oficineiro (1 vaga)\n• Técnico de Enfermagem Estratégia Saúde da Família (20 vagas)\n• Técnico de Enfermagem Sistema Municipal de Saúde (80 vagas)\n• Técnico de Imobilização Ortopédica (5 vagas)\n• Técnico em Higiene Dental (8 vagas)\n• Técnico em Radiologia (9 vagas)\n• Analista de Saúde Pública (4 vagas)\n• Dentista do Sistema Municipal de Saúde (2 vagas)\n• Enfermeiro Estratégia Saúde da Família (12 vagas)\n• Enfermeiro Sistema Municipal de Saúde (46 vagas)\n• Farmacêutico (2 vagas)\n• Fisioterapeuta (8 vagas)\n• Médico do Sistema Municipal de Saúde, Médico Cardiologista (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico Colpocopista (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico de Urgência e Emergência Clínico Geral (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico Dermatologista (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico Endocrinologista (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico Gastroenterologista (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico Ginecologista (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico Mastologista (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico Neurologista Adulto (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico Neurologista Pediátrico (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico Oftalmologista (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico Ortopedista (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico Pediatra (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico Psiquiatra (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico Reumatologista (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico Ultrassonografista (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico Vascular (1 vaga)\n• Médico do Sistema Municipal de Saúde, Médico Veterinário (1 vaga)\n• Médico do Sistema Municipal de Saúde, Medicina do Trabalho (1 vaga)\n• Terapeuta Ocupacional (5 vagas)\nConcurso Público nº 4/2026\n• Merendeira (42 vagas)\n• Motorista de Ônibus Escolar (10 vagas)\n• Atendente de Desenvolvimento Educacional (100 vagas)\n• Inspetor de Alunos (20 vagas)\n• Intérprete de Libras (1 vaga)\n• Monitor de Educação Básica (200 vagas)\n• Oficial de Escola (20 vagas)\n• Secretário Escolar (10 vagas)\n• Fonoaudiólogo Escolar (2 vagas)\n• Pedagogo (2 vagas)\n• Professor Coordenador de Artes (1 vaga)\n• Professor Coordenador de Ciência (1 vaga)\n• Professor Coordenador de Gestão Escolar (3 vagas)\n• Professor Coordenador de História (1 vaga)\n• Professor Coordenador de Língua Portuguesa (2 vagas)\n• Professor Coordenador de Matemática (2 vagas)\n• Professor de Apoio de Inclusão (30 vagas)\n• Professor de Atendimento Educacional Especializado, AEE (20 vagas)\n• Professor de Educação Artística (7 vagas)\n• Professor de Educação Básica, PEB I (175 vagas)\n• Professor de Educação Física (11 vagas)\n• Professor de Língua Inglesa (9 vagas)\n• Professor Substituto (43 vagas)\n• Psicólogo Escolar, 30 horas (2 vagas)\n• Psicopedagogo (4 vagas)\nAs jornadas variam de 21 a 40 horas semanais, conforme o cargo, com previsão de escalas para algumas funções. A remuneração mensal inicial varia de R$ 1.621,00 a R$ 12.213,03. Para dentista, o valor é de R$ 48,04 por hora; para os cargos médicos e de médico veterinário, de R$ 58,96 por hora. Os editais também preveem adicionais de insalubridade para determinados cargos, gratificação especial por desempenho para dentista, médico de urgência e emergência e médico veterinário, honorários de sucumbência para procurador jurídico, além de cartão-alimentação e auxílio-transporte.\nAs inscrições serão feitas exclusivamente pela internet, no site da Fundação VUNESP, das 10h de 16 de novembro de 2026 às 23h59 de 4 de janeiro de 2027. As taxas variam de R$ 67,00 a R$ 115,00 para ensino superior. Candidatos que comprovarem duas doações de sangue nos 12 meses anteriores à inscrição poderão solicitar isenção das 10h de 16 de novembro às 23h59 de 17 de novembro de 2026, com envio da documentação pelo site da VUNESP.\nA seleção terá prova objetiva para todos os cargos. Para alguns cargos haverá também prova prática, redação, prova de títulos e prova prático-profissional. As provas objetivas estão previstas para 21 de fevereiro de 2027, à tarde, para os cargos de ensino fundamental e superior, e 28 de fevereiro de 2027, à tarde, para os de ensino médio. A redação e a prova prático-profissional ocorrerão simultaneamente às respectivas provas objetivas. As provas serão aplicadas em Jandira, com possibilidade de aplicação em municípios próximos.\nOs nomeados estarão sujeitos ao regime estatutário municipal.\nOs concursos terão validade de dois anos a partir da publicação da homologação, com possibilidade de uma prorrogação por igual período, a critério da administração.\nMais informações podem ser obtidas nos editais completos.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 1621,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar de Apoio Administrativo e Jurídico",
     "Analista Técnico Jurídico",
@@ -17950,14 +20287,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Dentista do Sistema Municipal de Saúde",
     "Médico do Sistema Municipal de Saúde, Médico Cardiologista",
     "Médico do Sistema Municipal de Saúde, Médico Colpocopista",
     "Médico do Sistema Municipal de Saúde, Médico de Urgência e Emergência Clínico Geral"
    ],
+   "cargosGerais": [
+    "Auxiliar de Apoio Administrativo e Jurídico",
+    "Analista Técnico Jurídico",
+    "Cozinheiro",
+    "Agente Controlador de Zoonoses",
+    "Agente de Vigilância Sanitária",
+    "Atendente de Unidade Básica de Saúde",
+    "Encarregado de Faturamento Hospitalar",
+    "Motorista de Ambulância"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Dentista do Sistema Municipal de Saúde, Médico do Sistema Municipal de Saúde, Médico Cardiologista, Médico do Sistema Municipal de Saúde, Médico Colpocopista. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -18006,6 +20355,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Universidade de São Paulo (USP) abriu 10 concursos públicos com o objetivo de preencher vagas para profissionais de nível médio e superior.\nSegundo os editais, as oportunidades são para os cargos de:\n• Especialista em Laboratório, especialidade: Aceleradores de Partículas: Instrumentação/Automação (1 vaga)\n• Especialista em Laboratório, especialidade: Operação em Laboratórios de Radiojornalismo e Telejornalismo (1 vaga)\n• Locutor/Operador (1 vaga)\n• Médico, especialidade: Patologia para atuação em anatomia patológica (1 vaga)\n• Médico Veterinário, especialidade: Animais de experimentação/biotérios (1 vaga)\n• Técnico de Laboratório, especialidade: Biologia Celular e Molecular (2 vagas)\n• Técnico de Laboratório, especialidade: Biologia Marinha (1 vaga)\n• Técnico de Laboratório, especialidade: Operações de campo em sistemas agrícolas e ambientais (1 vaga)\n• Técnico de Laboratório, especialidade: Práticas em métodos de diagnóstico laboratorial de marcadores fisiológicos de saúde e bem-estar animal e de doenças transmissíveis por métodos diretos e indiretos (1 vaga)\nA jornada varia de 24 a 40 horas semanais, com salário inicial de R$ 6.264,04 a R$ 11.778,84.\nAs inscrições serão feitas no site da Fuvest, das 12h de 1º de dezembro de 2026 às 12h de 7 de janeiro de 2027. A taxa varia de R$ 220,00 a R$ 250,00. Há previsão de isenção e redução da taxa para os candidatos que atendam aos requisitos estabelecidos nos editais.\nA seleção poderá ocorrer por meio de prova objetiva, prova dissertativa e/ou prova prática, conforme cada edital.\nMais informações podem ser obtidas nos editais completos.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 6264.04,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Locutor/Operador",
     "Médico, especialidade: Patologia para atuação em anatomia patológica",
@@ -18016,12 +20367,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico, especialidade: Patologia para atuação em anatomia patológica",
-    "Médico Veterinário, especialidade: Animais de experimentação/biotérios"
+    "Médico Veterinário, especialidade: Animais de experimentação/biotérios",
+    "Locutor/Operador",
+    "Técnico de Laboratório, especialidade: Biologia Celular e Molecular"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico, especialidade: Patologia para atuação em anatomia patológica, Médico Veterinário, especialidade: Animais de experimentação/biotérios, Locutor/Operador. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -18066,6 +20422,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de São Paulo, a SETEC - Serviços Técnicos Gerais, no município de Campinas, abriu um Concurso Público para preencher vagas imediatas e formar cadastro de reserva em funções de nível fundamental, médio/técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente de Apoio Operacional (6 vagas + CR)\n• Agente de Suporte Funerário (3 vagas + CR)\n• Agente Funerário (4 vagas + CR)\n• Condutor de Veículos e Máquinas (1 vaga + CR)\n• Motorista Especializado (3 vagas + CR)\n• Oficial de Serviços (1 vaga + CR)\nEnsino médio/técnico\n• Agente Administrativo (8 vagas + CR)\n• Agente de Fiscalização (5 vagas + CR)\n• Agente de Suporte Técnico (4 vagas + CR)\n• Assistente de S.V.O. (2 vagas + CR)\n• Técnico em Segurança do Trabalho (1 vaga + CR)\nEnsino superior\n• Analista Técnico (Informática) (1 vaga + CR)\n• Assistente Social (CR)\n• Engenheiro Civil (CR)\nA jornada semanal será de 36 horas ou até 180 horas mensais em regime de escala para a maioria dos cargos, exceto para Assistente Social (30 horas semanais ou até 150 horas mensais). A remuneração inicial varia de R$ 2.571,28 a R$ 10.428,05, somada ao vale-alimentação/refeição no valor de R$ 2.150,12. Para o cargo de Agente de Fiscalização pode haver prêmio de produtividade de até 85%.\nAs inscrições estarão abertas de 8 de setembro de 2026 a 4 de dezembro de 2026, pelo site indepac.selecao.net.br. As taxas de inscrição variam conforme o cargo ( R$ 48,00 para fundamental, R$ 55,00 para médio/técnico, R$ 78,00 para superior). Haverá possibilidade de isenção conforme critérios do edital, com solicitações entre 8 e 18 de setembro de 2026.\nA seleção terá as seguintes etapas, dependendo do cargo: prova objetiva, prova dissertativa, prova de títulos, prova prática e teste de aptidão física, conforme o edital. As provas objetivas estão previstas para 17 de janeiro de 2027.\nO regime de contratação será estatutário.\nO concurso público terá validade de 2 anos, contados da data de homologação, podendo ser prorrogado uma vez por igual período, a critério da SETEC.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Apoio Operacional",
     "Agente de Suporte Funerário",
@@ -18085,11 +20443,25 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
-    "Engenheiro Civil"
+    "Engenheiro Civil",
+    "Técnico em Segurança do Trabalho",
+    "Assistente Social"
    ],
+   "cargosGerais": [
+    "Agente de Apoio Operacional",
+    "Agente de Suporte Funerário",
+    "Agente Funerário",
+    "Condutor de Veículos e Máquinas",
+    "Motorista Especializado",
+    "Oficial de Serviços",
+    "Agente Administrativo",
+    "Agente de Fiscalização"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Engenheiro Civil, Técnico em Segurança do Trabalho, Assistente Social. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -18134,6 +20506,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Paraná, a Terminais Aéreos de Maringá (SBMG S.A.) abriu um Concurso para Emprego Público destinado a preencher cinco vagas e formar cadastro de reserva em funções de nível médio, técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nEnsino médio\n• Auxiliar Administrativo/Financeiro (1 vaga)\n• Assistente de Operações Aeroportuárias/Rodoviárias (1 vaga)\nNível técnico\n• Técnico em Meteorologia\n• Controlador de Tráfego Aéreo (1 vaga)\nNível superior\n• Advogado\n• Assistente Contábil (1 vaga)\n• Biólogo (1 vaga)\n• Engenheiro Civil\nAs jornadas variam de 20 a 40 horas semanais, conforme o cargo, com possibilidade de turnos de 12 x 36 horas para funções de ensino médio. Os vencimentos iniciais vão de R$ 2.906,97 a R$ 9.921,22. Os admitidos terão vale-alimentação mensal de R$ 1.420,77, vale-refeição de R$ 46,15 por dia trabalhado, vale-cultura mensal de R$ 50,00, anuênio e plano de saúde conforme acordo coletivo.\nAs inscrições serão realizadas exclusivamente pelo site da Universidade Estadual do Oeste do Paraná (Unioeste), de 24 de novembro de 2026 a 17 de dezembro de 2026. A taxa é de R$ 90,00 para cargos de ensino médio e nível técnico e de R$ 120,00 para cargos de nível superior, com pagamento até 18 de dezembro de 2026. Os pedidos de isenção poderão ser feitos de 24 a 27 de novembro de 2026 por candidatos que atendam às condições previstas no edital, incluindo inscritos no CadÚnico, doadores de sangue, pessoas com deficiência e candidatos enquadrados nos critérios de renda e situação de trabalho.\nA seleção terá prova objetiva para todos os cargos, prova de redação para Auxiliar Administrativo/Financeiro, Assistente de Operações Aeroportuárias/Rodoviárias, Assistente Contábil, Biólogo e Engenheiro Civil, e prova dissertativa para Advogado. As provas estão previstas para 24 de janeiro de 2027. Após a convocação, os aprovados passarão por exame médico admissional de caráter eliminatório.\nAs admissões serão pelo regime da Consolidação das Leis do Trabalho (CLT).\nO concurso terá validade de dois anos a partir da publicação da homologação do resultado final. O prazo poderá ser prorrogado por mais dois anos, a critério da administração.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2906.97,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Auxiliar Administrativo/Financeiro",
     "Assistente de Operações Aeroportuárias/Rodoviárias",
@@ -18147,12 +20521,21 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Advogado",
-    "Engenheiro Civil"
+    "Engenheiro Civil",
+    "Técnico em Meteorologia",
+    "Assistente Contábil"
    ],
+   "cargosGerais": [
+    "Auxiliar Administrativo/Financeiro",
+    "Assistente de Operações Aeroportuárias/Rodoviárias",
+    "Controlador de Tráfego Aéreo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Advogado, Engenheiro Civil, Técnico em Meteorologia. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -18197,6 +20580,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Instituto de Pesquisas Ambientais (IPA), no Estado de São Paulo, abriu um Concurso Público para preencher vagas de Pesquisador Científico I A, com exigência de nível superior pertinente a cada área de especialização.\nSegundo o edital, as oportunidades são para os cargos de:\n• Pesquisador Científico I A, área de Agroecologia e manejo sustentável: I, Agroecologia (5 vagas)\n• Pesquisador Científico I A, área de Agroecologia e manejo sustentável: II, Sistemas Agroflorestais (1 vaga)\n• Pesquisador Científico I A, área de Algas e cianobactérias de águas continentais (1 vaga)\n• Pesquisador Científico I A, área de Algas marinhas (1 vaga)\n• Pesquisador Científico I A, área de Anatomia e identificação de madeira (2 vagas)\n• Pesquisador Científico I A, área de Anatomia ecológica vegetal (2 vagas)\n• Pesquisador Científico I A, área de Biodiversidade animal (2 vagas)\n• Pesquisador Científico I A, área de Bioeconomia (2 vagas)\n• Pesquisador Científico I A, área de Bioinformática aplicada à biodiversidade (2 vagas)\n• Pesquisador Científico I A, área de Bioprospecção e fitoquímica (2 vagas)\n• Pesquisador Científico I A, área de Biorremediação (3 vagas)\n• Pesquisador Científico I A, área de Biotecnologia vegetal (1 vaga)\n• Pesquisador Científico I A, área de Botânica funcional e mudanças climáticas (2 vagas)\n• Pesquisador Científico I A, área de Climatologia (2 vagas)\n• Pesquisador Científico I A, área de Conservação de sementes nativas brasileiras (2 vagas)\n• Pesquisador Científico I A, área de Conservação e melhoramento genético florestal (2 vagas)\n• Pesquisador Científico I A, área de Ecofisiologia de sementes nativas brasileiras (1 vaga)\n• Pesquisador Científico I A, área de Ecologia aquática (1 vaga)\n• Pesquisador Científico I A, área de Ecologia reprodutiva e produção de sementes de espécies brasileiras (1 vaga)\n• Pesquisador Científico I A, área de Ecologia terrestre (1 vaga)\n• Pesquisador Científico I A, área de Educação ambiental (1 vaga)\n• Pesquisador Científico I A, área de Etnobotânica e sociobiodiversidade (1 vaga)\n• Pesquisador Científico I A, área de Finanças verdes e bioprospecção (2 vagas)\n• Pesquisador Científico I A, área de Fitossociologia e fitogeografia (3 vagas)\n• Pesquisador Científico I A, área de Fungos em ecossistemas aquáticos (1 vaga)\n• Pesquisador Científico I A, área de Fungos terrestres (1 vaga)\n• Pesquisador Científico I A, área de Geologia geral (2 vagas)\n• Pesquisador Científico I A, área de Geomorfologia (1 vaga)\n• Pesquisador Científico I A, área de Geomorfologia e hidrologia de sistemas cársticos (1 vaga)\n• Pesquisador Científico I A, área de Geoprocessamento e geotecnologias (2 vagas)\n• Pesquisador Científico I A, área de Hidrogeologia (3 vagas)\n• Pesquisador Científico I A, área de Hidrologia florestal (1 vaga)\n• Pesquisador Científico I A, área de Paleontologia (1 vaga)\n• Pesquisador Científico I A, área de Palinologia (2 vagas)\n• Pesquisador Científico I A, área de Pedologia (2 vagas)\n• Pesquisador Científico I A, área de Processos geodinâmicos e gestão de risco e desastres (6 vagas)\n• Pesquisador Científico I A, área de Recursos minerais (2 vagas)\n• Pesquisador Científico I A, área de Resiliência e adaptação de ecossistemas às mudanças climáticas e poluentes (2 vagas)\n• Pesquisador Científico I A, área de Restauração de ecossistemas (10 vagas)\n• Pesquisador Científico I A, área de Sustentabilidade energética baseada em biodiversidade (2 vagas)\n• Pesquisador Científico I A, área de Taxonomia de plantas avasculares (2 vagas)\n• Pesquisador Científico I A, área de Taxonomia de plantas vasculares: I, angiospermas (9 vagas)\n• Pesquisador Científico I A, área de Taxonomia de plantas vasculares: II, samambaias e licófitas (1 vaga)\n• Pesquisador Científico I A, área de Tecnologia e propriedades físicas da madeira (1 vaga)\n• Pesquisador Científico I A, área de Uso e ocupação do solo e processos antrópicos aplicados à gestão de riscos e desastres (3 vagas)\nA jornada é de 40 horas semanais, em regime de dedicação exclusiva. O subsídio inicial é de R$ 9.052,47.\nAs inscrições serão feitas pelo site da Fundação VUNESP, das 10h do dia 18 de novembro de 2026 às 23h59 do dia 22 de dezembro de 2026. A taxa é de R$ 150,00. Estudantes que também recebam menos de dois salários mínimos ou estejam desempregados podem solicitar redução de 50%. Doadores de sangue que atendam aos critérios do edital podem pedir isenção. Os pedidos de redução e isenção serão recebidos das 10h do dia 18 de novembro de 2026 às 23h59 do dia 19 de novembro de 2026.\nA seleção terá prova objetiva e prova dissertativa, ambas eliminatórias e classificatórias, além de prova de títulos, classificatória. A aplicação está prevista para o dia 14 de fevereiro de 2027, no período da tarde.\nO concurso terá validade de dois anos a partir da publicação da homologação, prorrogável uma vez por igual período, a critério do Governo do Estado de São Paulo.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Pesquisador Científico I A, área de Agroecologia e manejo sustentável: I, Agroecologia",
     "Pesquisador Científico I A, área de Algas e cianobactérias de águas continentais",
@@ -18242,9 +20627,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Pesquisador Científico I A, área de Agroecologia e manejo sustentável: I, Agroecologia",
+    "Pesquisador Científico I A, área de Algas e cianobactérias de águas continentais",
+    "Pesquisador Científico I A, área de Algas marinhas",
+    "Pesquisador Científico I A, área de Anatomia e identificação de madeira"
+   ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -18291,6 +20684,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Instituto de Defesa Agropecuária e Florestal do Espírito Santo (IDAF) abriu um concurso público com o objetivo de preencher vagas em cargos efetivos e formar cadastro de reserva para profissionais de nível médio técnico e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível médio técnico\n• Técnico de Fiscalização e Desenvolvimento Agropecuário, formação em Agropecuária ou Técnico Agrícola (13 vagas e cadastro de reserva)\n• Técnico de Fiscalização e Desenvolvimento Agropecuário, formação em Cartografia, Agrimensura, Geomática ou Geoprocessamento (1 vaga e cadastro de reserva)\n• Técnico de Fiscalização e Desenvolvimento Agropecuário, formação em Laboratório (cadastro de reserva)\nNível superior\n• Fiscal Estadual Agropecuário, formação em Engenharia Agronômica (cadastro de reserva)\n• Fiscal Estadual Agropecuário, formação em Medicina Veterinária (cadastro de reserva)\n• Fiscal Estadual Agropecuário, formação em Engenharia Florestal (cadastro de reserva)\n• Fiscal Estadual Agropecuário, formação em Engenharia Cartográfica ou Agrimensura (cadastro de reserva)\n• Fiscal Estadual Agropecuário, formação em Geografia (cadastro de reserva)\n• Fiscal Estadual Agropecuário, formação em Engenharia Química (cadastro de reserva)\n• Fiscal Estadual Agropecuário, formação em Engenharia Civil (cadastro de reserva)\n• Fiscal Estadual Agropecuário, formação em Engenharia de Alimentos (cadastro de reserva)\n• Fiscal Estadual Agropecuário, formação em Química (cadastro de reserva)\nA jornada é de 40 horas semanais. O subsídio é de R$ 4.698,45 para nível médio técnico e de R$ 8.477,66 para nível superior. Ambos recebem auxílio-alimentação de R$ 800,00.\nAs inscrições serão realizadas de 6 de novembro de 2026 a 6 de dezembro de 2026, exclusivamente pelo site www.idcap.org.br. A taxa é de R$ 73,00 para Técnico de Fiscalização e Desenvolvimento Agropecuário e de R$ 83,00 para Fiscal Estadual Agropecuário, com pagamento até 7 de dezembro de 2026. A isenção poderá ser solicitada de 6 a 7 de novembro de 2026 por candidatos que se enquadrem nas condições previstas no edital.\nA seleção terá provas objetivas e discursivas, de caráter classificatório e eliminatório, além de avaliação biopsicossocial para pessoas com deficiência, heteroidentificação para candidatos negros e comprovação de vínculo étnico ou comunitário para candidatos indígenas. As provas estão previstas para 24 de janeiro de 2027, preferencialmente em Vitória (ES).\nO concurso terá validade de dois anos a partir da homologação do resultado final, podendo ser prorrogado uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": 4698.45,
    "cargosLista": [
     "Técnico de Fiscalização e Desenvolvimento Agropecuário, formação em Laboratório",
     "Fiscal Estadual Agropecuário, formação em Engenharia Agronômica",
@@ -18306,11 +20701,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
-    "Fiscal Estadual Agropecuário, formação em Medicina Veterinária"
+    "Fiscal Estadual Agropecuário, formação em Medicina Veterinária",
+    "Técnico de Fiscalização e Desenvolvimento Agropecuário, formação em Laboratório",
+    "Fiscal Estadual Agropecuário, formação em Engenharia Agronômica",
+    "Fiscal Estadual Agropecuário, formação em Engenharia Florestal"
    ],
+   "cargosGerais": [
+    "Fiscal Estadual Agropecuário"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -18355,6 +20758,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Banco do Estado do Espírito Santo (Banestes) abriu um Concurso Público para formar cadastro de reserva em cargos de nível superior. Os candidatos contratados trabalharão em Vitória.\nSegundo o edital, as oportunidades são para os cargos de:\n• Analista Econômico-Financeiro em Gestão Contábil (cadastro de reserva)\n• Analista Econômico-Financeiro em Gestão Financeira (cadastro de reserva)\n• Analista Econômico-Financeiro em Gestão Estatística (cadastro de reserva)\n• Analista de Tecnologia da Informação - Desenvolvimento de Sistemas (cadastro de reserva)\n• Analista de Tecnologia da Informação - Suporte e Infraestrutura (cadastro de reserva)\n• Analista de Tecnologia da Informação - Segurança da Informação (cadastro de reserva)\n• Assistente Social (cadastro de reserva)\n• Analista de Comunicação (cadastro de reserva)\nA jornada é de 30 horas semanais, com remuneração inicial de R$ 4.936,44 a R$ 6.393,38. O edital também prevê auxílio-refeição de R$ 1.283,04, auxílio-cesta-alimentação de R$ 1.045,64, auxílio-creche ou auxílio-babá de R$ 733,60 mensais, vale-transporte, participação nos lucros ou resultados, remuneração variável e acesso a plano assistencial, previdenciário complementar e odontológico, conforme as regras aplicáveis.\nAs inscrições serão feitas exclusivamente pelo site da Fundação Carlos Chagas, das 10h de 12 de novembro de 2026 às 23h59 de 11 de dezembro de 2026, no horário de Brasília. A taxa é de R$ 87,00, com pagamento até 14 de dezembro de 2026. Os pedidos de isenção poderão ser feitos pelo mesmo site, das 10h de 12 de novembro às 23h59 de 14 de novembro de 2026, nas condições previstas no edital.\nA seleção terá provas objetivas de conhecimentos gerais e específicos. A aplicação está prevista para a manhã de 21 de fevereiro de 2027, em Vitória, São Mateus e Cachoeiro de Itapemirim. O edital também prevê avaliação biopsicossocial para candidatos com deficiência e procedimento de heteroidentificação para candidatos inscritos nas vagas reservadas.\nAs contratações serão regidas pela Consolidação das Leis do Trabalho (CLT).\nO concurso terá validade de dois anos a partir da publicação da homologação do resultado final. O prazo poderá ser prorrogado uma vez, por igual período, a critério do Banestes.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 4936.44,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Analista Econômico-Financeiro em Gestão Contábil",
     "Analista Econômico-Financeiro em Gestão Financeira",
@@ -18368,13 +20773,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
+    "Analista Econômico-Financeiro em Gestão Contábil",
+    "Analista Econômico-Financeiro em Gestão Estatística",
     "Analista de Tecnologia da Informação - Desenvolvimento de Sistemas",
-    "Analista de Tecnologia da Informação - Suporte e Infraestrutura",
-    "Analista de Tecnologia da Informação - Segurança da Informação"
+    "Analista de Tecnologia da Informação - Suporte e Infraestrutura"
    ],
+   "cargosGerais": [
+    "Analista Econômico-Financeiro em Gestão Financeira",
+    "Analista de Comunicação"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -18419,18 +20831,23 @@ window.DADOS_CONCURSOS = {
    "texto": "O Hospital das Clínicas da Faculdade de Medicina de Ribeirão Preto da Universidade de São Paulo (HCFMRP - USP) publicou um edital de concurso público destinado ao preenchimento de 1 vaga na função de Médico I - Alergia e Imunologia.\nSegundo o edital, a oportunidade é para o cargo de:\n• Médico I - Alergia e Imunologia (1 vaga)\nA jornada de trabalho é de 20 horas semanais, com remuneração total de R$ 5.979,93, composta por salário-base, gratificação executiva e prêmio por produtividade médica.\nAs inscrições estarão abertas das 0h de 9 de novembro de 2026 até as 14h do dia 27 de novembro de 2026, pelo site www.hcribeirao.sp.gov.br. A taxa de inscrição é de R$ 126,79. Será possível solicitar isenção ou redução da taxa até as 23h59 do dia 11 de novembro de 2026.\nA seleção será composta por prova objetiva e dissertativa (classificatória e eliminatória), além de avaliação de títulos (classificatória).\nO concurso terá validade de dois anos, contados a partir da publicação da homologação no Diário Oficial do Estado, prorrogável uma vez, por igual período.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Médico I - Alergia e Imunologia"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico I - Alergia e Imunologia",
     "Médico I"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -18475,6 +20892,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Hospital das Clínicas da Faculdade de Medicina de Ribeirão Preto da Universidade de São Paulo (HCFMRP-USP) abriu três concursos públicos com o objetivo de preencher três vagas para médicos.\nSegundo os editais, as oportunidades são para os cargos de:\n• Médico I, área de Clínica Cirúrgica, com ênfase no diagnóstico e tratamento endoscópico (1 vaga)\n• Médico I, Fisiatra (1 vaga)\n• Médico I, Cirurgia de Cabeça e Pescoço, para atuação na Unidade de Emergência (1 vaga)\nA jornada é de 20 horas semanais, com vencimentos informados de R$ 5.979,93. Os contratados receberão auxílio-alimentação de R$ 360,00 mensais e terão direito a vale-transporte. Poderá ser concedido adicional de insalubridade de 20% a 40% do salário mínimo, conforme laudo técnico.\nAs inscrições serão realizadas somente pelo site do HCFMRP-USP, das 0h de 9 de novembro de 2026 às 14h de 27 de novembro de 2026. A taxa é de R$ 126,79 por edital. Doadores de sangue podem solicitar isenção, e estudantes que recebam menos de dois salários mínimos ou estejam desempregados podem pedir redução de 50%. Os pedidos devem ser feitos das 0h de 9 de novembro de 2026 às 23h59 de 11 de novembro de 2026.\nOs três concursos terão provas objetivas e dissertativas, de caráter eliminatório e classificatório, além de avaliação de títulos, de caráter classificatório. A prova será aplicada em 10 de dezembro de 2026.\nOs aprovados serão admitidos pelo regime da Consolidação das Leis do Trabalho (CLT).\nCada concurso terá validade de dois anos, contados da publicação da homologação, com possibilidade de prorrogação uma vez por igual período.\nMais informações podem ser obtidas nos editais completos.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Médico I, área de Clínica Cirúrgica, com ênfase no diagnóstico e tratamento endoscópico",
     "Médico I, Fisiatra",
@@ -18483,14 +20902,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico I, área de Clínica Cirúrgica, com ênfase no diagnóstico e tratamento endoscópico",
     "Médico I, Fisiatra",
     "Médico I, Cirurgia de Cabeça e Pescoço, para atuação na Unidade de Emergência",
     "Médico I"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -18535,6 +20957,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Banco do Estado do Espírito Santo (Banestes) e a Banestes Seguros abriram concursos públicos para formar cadastro de reserva em funções de nível médio e técnico.\nA retificação do concurso do Banestes, referente ao edital nº 02/2026, alterou a distribuição do cadastro de reserva para Assistente Securitário. Além disso, as inscrições foram prorrogadas até às 23h59 do dia 23 de novembro de 2026, com pagamento da taxa até o dia 24 de novembro de 2026. O documento ainda incluiu itens referentes à reserva de vagas.\nDe acordo com a retificação do concurso da Banestes Seguros, referente ao edital nº 01/2026, também houve alteração na distribuição do cadastro de reserva, prorrogação das inscrições e da data para pagamento da taxa, além da inclusão de tópicos referentes às vagas reservadas.\nSegundo os editais, as oportunidades são para os cargos de:\nBanestes\n• Técnico Bancário\n• Técnico em Segurança do Trabalho\nBanestes Seguros\n• Assistente Securitário\nA jornada é de 30 horas semanais no Banestes, com remuneração mensal de R$ 4.552,43 para Técnico Bancário e R$ 5.618,71 para Técnico em Segurança do Trabalho. Na Banestes Seguros, são 40 horas semanais e remuneração mensal de R$ 4.444,43. Também estão previstos benefícios.\nAs inscrições para os dois concursos serão feitas exclusivamente pelo site da Fundação Carlos Chagas. Após retificações dos editais, o prazo para ambos vai das 10h do dia 19 de outubro de 2026 às 23h59 do dia 23 de novembro de 2026, no horário de Brasília. O boleto poderá ser gerado até as 22h do dia 24 de novembro de 2026, e o pagamento da taxa de R$ 67,00 poderá ser feito até essa data.\nA seleção terá provas objetivas de conhecimentos gerais e específicos. Para candidatos às vagas reservadas, haverá avaliação biopsicossocial ou procedimento de heteroidentificação, conforme o caso. As provas estão previstas para a manhã de 24 de janeiro de 2027, em Vitória, São Mateus e Cachoeiro de Itapemirim.\nOs contratados integrarão o quadro de empregados da respectiva instituição, sob o regime da Consolidação das Leis do Trabalho (CLT). Os primeiros 90 dias do contrato serão considerados período de experiência.\nCada concurso terá validade de dois anos a partir da publicação da homologação do resultado final, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas nos editais completos.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Técnico Bancário",
     "Técnico em Segurança do Trabalho",
@@ -18543,9 +20967,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": false,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Técnico em Segurança do Trabalho"
+   ],
+   "cargosGerais": [
+    "Técnico Bancário",
+    "Assistente Securitário"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Técnico em Segurança do Trabalho. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -18591,15 +21023,22 @@ window.DADOS_CONCURSOS = {
    "texto": "A Polícia Militar do Estado de São Paulo (PM-SP) abriu um Concurso Público para preencher 2.000 vagas de Aluno-Soldado PM, destinadas a candidatos de ambos os sexos. O edital exige ensino médio completo, idade entre 17 e 30 anos, estatura mínima de 1,55 m para mulheres e de 1,60 m para homens, entre outros requisitos.\nSegundo o edital, as oportunidades são para o cargo de:\n• Aluno-Soldado PM (2.000 vagas)\nA remuneração básica inicial é de R$ 5.482,21, composta por padrão, Regime Especial de Trabalho Policial e adicional de insalubridade.\nAs inscrições serão feitas pelo site da Fundação Vunesp, das 10h de 9 de novembro de 2026 às 23h59 de 22 de dezembro de 2026. A taxa é de R$ 110,00.\nA seleção terá exames de conhecimentos, com prova objetiva e prova dissertativa, exames de aptidão física, exames de saúde, exames psicológicos, avaliação da conduta social, da reputação e da idoneidade, além de análise de documentos.\nO estágio probatório terá duração de três anos, com início no exercício do cargo.\nO concurso terá validade de três meses, a contar da homologação, e poderá ser prorrogado, a critério da administração, por igual período.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Aluno-Soldado PM"
    ],
    "temMedio": true,
    "temSuperior": false,
    "superiorQualquerArea": false,
-   "confiancaMedio": "confirmado",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [],
+   "cargosGerais": [
+    "Aluno-Soldado PM"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "confirmado",
+   "acessoMotivo": "Todos os cargos pedem até o ensino médio, então o maior salário é de um cargo de nível médio.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -18646,6 +21085,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP) abriu Concurso Público para preencher seis vagas em cargos técnico-administrativos. As oportunidades exigem formação técnica de nível médio ou ensino superior, conforme o cargo.\nSegundo o edital, as oportunidades são para os cargos de:\n• Técnico de Laboratório, área Informática (3 vagas)\n• Técnico de Laboratório, área Mecatrônica (1 vaga)\n• Analista de Tecnologia da Informação, Ciência de Dados (1 vaga)\n• Engenheiro de Segurança do Trabalho (1 vaga)\nA jornada é de 40 horas semanais. O vencimento básico varia de R$ 3.181,39 a R$ 5.215,39, conforme o nível do cargo, e pode ser acrescido de incentivo à qualificação. Os servidores poderão receber auxílio-alimentação, atualmente de R$ 1.192,00, além de auxílio-transporte, auxílio-pré-escolar e auxílio para saúde suplementar, conforme a legislação.\nAs inscrições serão feitas de 17 de novembro de 2026 a 4 de janeiro de 2027, exclusivamente pelo site concursopublico.ifsp.edu.br. A taxa é de R$ 120,00 para cargos de nível D e de R$ 150,00 para cargos de nível E. Poderão pedir isenção, de 17 a 19 de novembro de 2026, candidatos de família inscrita no CadÚnico que atendam ao critério de renda do edital e doadores de medula óssea em entidades reconhecidas pelo Ministério da Saúde.\nA seleção terá etapa única de prova objetiva de conhecimentos básicos e específicos, de caráter eliminatório e classificatório. A aplicação está prevista para 31 de janeiro de 2027, no período da tarde, na cidade de São Paulo e, se necessário, em cidades adjacentes. Candidatos às vagas reservadas passarão pelos procedimentos de avaliação ou confirmação previstos no edital.\nO concurso terá validade de 12 meses a partir da publicação da homologação do resultado final, com possibilidade de prorrogação uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 3181.39,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Técnico de Laboratório, área Informática",
     "Técnico de Laboratório, área Mecatrônica",
@@ -18655,13 +21096,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Engenheiro de Segurança do Trabalho",
-    "Analista de Tecnologia da Informação, Ciência de Dados",
-    "Analista de Tecnologia da Informação"
+    "Técnico de Laboratório, área Informática",
+    "Técnico de Laboratório, área Mecatrônica",
+    "Analista de Tecnologia da Informação, Ciência de Dados"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -18706,6 +21151,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Instituto Federal de Educação, Ciência e Tecnologia de Goiás (IFG) abriu um Concurso Público para preencher vagas de técnicos-administrativos em educação. Há oportunidades para candidatos com ensino médio, formação técnica ou ensino superior.\nSegundo o edital, as oportunidades são para os cargos de:\nNível médio\n• Assistente de Alunos (3 vagas)\nNível médio ou técnico\n• Assistente em Administração (14 vagas)\n• Técnico em Agropecuária (1 vaga)\n• Técnico em Contabilidade (1 vaga)\n• Técnico de Laboratório/Área Edificações (1 vaga)\n• Técnico de Laboratório/Área Topografia (1 vaga)\n• Técnico de Laboratório/Área Eletrônica (1 vaga)\n• Técnico de Laboratório/Área Informática (1 vaga)\n• Técnico de Laboratório/Área Química (1 vaga)\n• Técnico de Laboratório/Área Mineração (1 vaga)\n• Técnico de Tecnologia da Informação (3 vagas)\nNível superior\n• Analista de Tecnologia da Informação (2 vagas)\n• Auditor (1 vaga)\n• Bibliotecário-Documentalista (1 vaga)\n• Médico/Clínico Geral (2 vagas)\n• Médico/Psiquiatra (2 vagas)\nA jornada varia de 20 a 40 horas semanais. Os vencimentos básicos vão de R$ 2.607,70 a R$ 5.215,39. Há auxílio-alimentação de R$ 1.192,00 e auxílio pré-escolar de R$ 526,64 para dependentes menores de seis anos, além de incentivo à qualificação e outras vantagens quando cabíveis.\nAs inscrições serão feitas exclusivamente pelo site www.institutoaocp.org.br, das 9h de 24 de novembro de 2026 às 23h59 de 23 de dezembro de 2026. As taxas são de R$ 140,00 para o nível C, R$ 160,00 para o nível D e R$ 180,00 para o nível E. Candidatos inscritos no CadÚnico que atendam ao critério de renda e doadores de medula óssea poderão solicitar isenção das 9h de 24 de novembro de 2026 às 16h de 25 de novembro de 2026.\nA seleção terá prova objetiva, de caráter eliminatório e classificatório, prevista para 14 de fevereiro de 2027. A aplicação ocorrerá em Águas Lindas de Goiás, Anápolis, Aparecida de Goiânia, Cidade de Goiás, Formosa, Goiânia, Itumbiara, Jataí, Luziânia, Senador Canedo, Uruaçu e Valparaíso de Goiás, podendo incluir cidades vizinhas. Candidatos às vagas reservadas aprovados na prova poderão ser convocados para avaliação biopsicossocial, heteroidentificação ou verificação documental, conforme a modalidade.\nOs aprovados serão nomeados para cargos efetivos sob o regime estatutário.\nO concurso terá validade de dois anos, contados da homologação, e poderá ser prorrogado por igual período a critério do IFG.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 2607.7,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente de Alunos",
     "Assistente em Administração",
@@ -18727,14 +21174,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Médico/Clínico Geral",
     "Médico/Psiquiatra",
     "Auditor",
-    "Analista de Tecnologia da Informação"
+    "Técnico em Agropecuária"
    ],
+   "cargosGerais": [
+    "Assistente de Alunos",
+    "Assistente em Administração"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Médico/Clínico Geral, Médico/Psiquiatra, Auditor. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 4,
    "motivos": [
     "Prova objetiva (base)",
@@ -18779,6 +21232,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Tribunal de Justiça do Estado de Santa Catarina (TJSC) publicou o edital de concurso público para ingresso na carreira da Magistratura. O certame visa preencher 15 vagas imediatas e formar cadastro de reserva para o cargo de Juiz Substituto. É exigido nível superior em Direito e, no mínimo, três anos de atividade jurídica.\nSegundo o edital, as oportunidades são para o cargo de:\n• Juiz Substituto (15 vagas + CR)\nO subsídio inicial para o cargo de Juiz Substituto é de R$ 35.874,14.\nAs inscrições poderão ser efetuadas exclusivamente via internet, no site conhecimento.fgv.br, das 16h do dia 19 de outubro de 2026 até às 16h do dia 26 de novembro de 2026, horário de Brasília. O valor da taxa de inscrição é de R$ 358,00. Haverá possibilidade de isenção conforme critérios do edital, com pedidos entre 19 e 21 de outubro de 2026.\nA seleção será composta por cinco etapas:\n• Primeira Etapa: prova objetiva seletiva (prevista para o dia 31 de janeiro de 2027)\n• Segunda Etapa: provas escritas (discursiva e de sentenças)\n• Terceira Etapa: sindicância da vida pregressa, investigação social, exames de sanidade física e mental, e exame psicotécnico\n• Quarta Etapa: prova oral\n• Quinta Etapa: avaliação de títulos\nAs provas objetivas ocorrerão na cidade de Florianópolis, podendo ser aplicadas em cidades próximas caso necessário.\nO concurso será válido por 2 anos, podendo ser prorrogado uma vez por igual período.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Juiz Substituto",
     "Primeira Etapa: prova objetiva seletiva",
@@ -18789,11 +21244,19 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Juiz Substituto"
    ],
+   "cargosGerais": [
+    "Primeira Etapa: prova objetiva seletiva",
+    "Segunda Etapa: provas escritas",
+    "Quarta Etapa: prova oral",
+    "Quinta Etapa: avaliação de títulos"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 5,
    "motivos": [
     "Prova objetiva (base)",
@@ -18842,6 +21305,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Tribunal Regional Federal da 3ª Região (TRF3) abriu um Concurso Público destinado a preencher vagas e formar cadastro de reserva para profissionais de nível superior.\nConforme retificação do edital, o pagamento da taxa de inscrição deverá ser feito pela plataforma PagTesouro, exclusivamente pelas opções nela disponíveis, até as 21h59 do dia 24 de novembro de 2026. O documento também inclui a exigência de envio de autodeclaração para candidatos às vagas reservadas a negros e retifica disposições sobre as provas e os recursos.\nSegundo o edital, as oportunidades são para os cargos de:\nTribunal Regional Federal da 3ª Região\n• Analista Judiciário, especialidade: Análise de Sistemas de Informação (1 vaga)\n• Analista Judiciário, especialidade: Suporte em Tecnologia da Informação (1 vaga)\n• Técnico Judiciário, especialidade: Desenvolvimento de Sistemas de Informação (5 vagas)\n• Técnico Judiciário, especialidade: Suporte Técnico (4 vagas)\nSeção Judiciária do Estado de São Paulo\n• Analista Judiciário, especialidade: Oficial de Justiça - Avaliador Federal, para cadastro de reserva\n• Técnico Judiciário, especialidade: Contabilidade, para cadastro de reserva\nSeção Judiciária do Estado de Mato Grosso do Sul\n• Analista Judiciário, área Judiciária, para cadastro de reserva\n• Técnico Judiciário, especialidade: Tecnologia da Informação, para cadastro de reserva\nA jornada é de 40 horas semanais. A remuneração inicial para Analista Judiciário é de R$ 16.040,87, ressalvada a remuneração inicial de R$ 20.013,11 para a Especialidade: Oficial de Justiça - Avaliador Federal, devido à gratificação de atividade externa. Para Técnico Judiciário a remuneração inicial é de R$ 9.776,73.\nAs inscrições serão feitas exclusivamente pelo site www.vunesp.com.br, das 10h do dia 4 de novembro de 2026 às 23h59 do dia 23 de novembro de 2026. A taxa varia de R$ 100,00 a R$ 160,00.\nA seleção terá prova objetiva e prova discursiva, ambas de caráter eliminatório e classificatório. A prova discursiva consistirá em um estudo de caso para Analista Judiciário e em uma redação para Técnico Judiciário.\nMais informações podem ser obtidas no edital completo.\nQuer se aprofundar? Ouça agora o podcast relacionado.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Analista Judiciário, especialidade: Análise de Sistemas de Informação",
     "Analista Judiciário, especialidade: Suporte em Tecnologia da Informação",
@@ -18854,9 +21319,21 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Analista Judiciário, especialidade: Análise de Sistemas de Informação",
+    "Analista Judiciário, especialidade: Suporte em Tecnologia da Informação",
+    "Técnico Judiciário, especialidade: Desenvolvimento de Sistemas de Informação",
+    "Técnico Judiciário, especialidade: Suporte Técnico"
+   ],
+   "cargosGerais": [
+    "Analista Judiciário, área Judiciária, para cadastro de reserva",
+    "Analista Judiciário",
+    "Técnico Judiciário"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 5,
    "motivos": [
     "Prova objetiva (base)",
@@ -18905,6 +21382,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Polícia Civil do Estado do Acre (PCAC) e a Secretaria de Estado de Administração (SEAD) abriram Concurso Público para preencher vagas de nível superior.\nSegundo o edital, as oportunidades são para os cargos de:\nDelegado de Polícia Civil\n• Alto Acre (2 vagas)\n• Envira (3 vagas)\n• Juruá (1 vaga)\n• Purus (2 vagas)\nOficial Investigador de Polícia\n• Acrelândia (3 vagas)\n• Assis Brasil (6 vagas)\n• Capixaba (2 vagas)\n• Epitaciolândia (3 vagas)\n• Feijó (3 vagas)\n• Jordão (4 vagas)\n• Mâncio Lima (2 vagas)\n• Manoel Urbano (8 vagas)\n• Marechal Thaumaturgo (5 vagas)\n• Plácido de Castro (6 vagas)\n• Porto Acre (2 vagas)\n• Porto Walter (4 vagas)\n• Rodrigues Alves (2 vagas)\n• Santa Rosa do Purus (5 vagas)\n• Sena Madureira (8 vagas)\n• Tarauacá (9 vagas)\n• Xapuri (2 vagas)\nAuxiliar de Necropsia\n• Alto Acre (2 vagas)\n• Baixo Acre (1 vaga)\n• Juruá (4 vagas)\nPerito Criminal\n• Ambiental, Alto Acre (3 vagas)\n• Ciências Biológicas, Baixo Acre (2 vagas)\n• Engenharia Civil, Alto Acre (2 vagas)\n• Informática Forense, Baixo Acre (1 vaga)\n• Medicina Veterinária, Baixo Acre (1 vaga)\n• Química, Baixo Acre (2 vagas)\nPerito Médico-Legista\n• Medicina Legal Geral, Baixo Acre (1 vaga)\n• Medicina Legal Geral, Juruá (2 vagas)\n• Psiquiatria, Baixo Acre (1 vaga)\nPapiloscopista Policial\n• Alto Acre (5 vagas)\n• Baixo Acre (14 vagas)\n• Envira (5 vagas)\n• Juruá (6 vagas)\n• Purus (5 vagas)\nA jornada de trabalho é de até 40 horas semanais, em regime de dedicação exclusiva e tempo integral. A remuneração inicial varia de R$ 6.342,07 a R$ 19.505,66.\nAs inscrições serão realizadas de 11 de novembro de 2026 a 14 de dezembro de 2026, exclusivamente pelo site do IDECAN. A taxa é de R$ 133,00 para Delegado de Polícia Civil e de R$ 105,00 para os demais cargos. O pedido de isenção poderá ser feito de 11 a 12 de novembro de 2026, pelo mesmo site, por candidatos que atendam aos critérios do edital relativos ao CadÚnico, à doação de sangue, medula óssea ou leite materno, ou ao serviço prestado à Justiça Eleitoral do Acre.\nA seleção terá provas objetivas e discursivas, prova de títulos, prova de aptidão física, exame psicotécnico, exame médico e toxicológico e investigação criminal e social. Para Delegado de Polícia Civil, haverá também prova oral. As provas objetivas e discursivas estão previstas para 24 de janeiro de 2027, em Brasiléia, Cruzeiro do Sul, Feijó, Jordão, Manoel Urbano, Marechal Thaumaturgo, Plácido de Castro, Porto Walter, Rio Branco, Santa Rosa do Purus, Sena Madureira, Tarauacá e Xapuri, conforme a cidade escolhida na inscrição.\nOs aprovados que ingressarem no quadro efetivo da PCAC serão submetidos ao regime jurídico estatutário. O estágio probatório terá duração de três anos.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, com possibilidade de uma prorrogação por igual período, a critério da Administração.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 6342.07,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Alto Acre",
     "Envira",
@@ -18948,11 +21427,26 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
-    "Medicina Veterinária, Baixo Acre"
+    "Medicina Veterinária, Baixo Acre",
+    "Medicina Legal Geral, Baixo Acre",
+    "Medicina Legal Geral, Juruá",
+    "Ambiental, Alto Acre"
    ],
+   "cargosGerais": [
+    "Alto Acre",
+    "Envira",
+    "Juruá",
+    "Purus",
+    "Acrelândia",
+    "Assis Brasil",
+    "Capixaba",
+    "Epitaciolândia"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 5,
    "motivos": [
     "Prova objetiva (base)",
@@ -19000,6 +21494,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Tribunal de Contas do Estado do Espírito Santo (TCEES) abriu Processo Seletivo Simplificado para preencher 16 vagas e formar cadastro de reserva em funções de nível superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Técnico de Nível Superior, área de atuação: Desenvolvedor C# Full Stack (15 vagas e cadastro de reserva)\n• Técnico de Nível Superior, área de atuação: Inteligência Artificial (cadastro de reserva)\n• Técnico de Nível Superior, área de atuação: Infraestrutura de Tecnologia da Informação (1 vaga e cadastro de reserva)\nA jornada é de 40 horas semanais, na modalidade presencial. A remuneração atual é de R$ 17.645,21, além de auxílio-alimentação de R$ 2.217,82, auxílio-saúde de valor variável conforme a idade, e auxílio-creche de R$ 1.194,94, quando aplicável.\nAs inscrições serão feitas exclusivamente pelo site do TCEES, das 10h de 16 de novembro de 2026 às 17h de 18 de dezembro de 2026, no horário de Brasília.\nA seleção terá inscrição, publicação da classificação, entrega de documentos para comprovar as informações declaradas, publicação do resultado da análise documental, pedido de reconsideração e formalização do contrato.\nA contratação será em regime de designação temporária, por até 36 meses, com possibilidade de prorrogação por igual período.\nO processo seletivo terá validade de 24 meses a partir da divulgação do resultado com a classificação dos candidatos, podendo ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Técnico de Nível Superior, área de atuação: Desenvolvedor C# Full Stack",
     "Técnico de Nível Superior, área de atuação: Inteligência Artificial",
@@ -19008,11 +21504,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
-    "Técnico de Nível Superior, área de atuação: Desenvolvedor C# Full Stack"
+    "Técnico de Nível Superior, área de atuação: Desenvolvedor C# Full Stack",
+    "Técnico de Nível Superior, área de atuação: Inteligência Artificial",
+    "Técnico de Nível Superior, área de atuação: Infraestrutura de Tecnologia da Informação",
+    "Técnico de Nível Superior"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 5,
    "motivos": [
     "Etapas de prova não detalhadas (base)",
@@ -19059,6 +21561,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Rio Grande do Sul, o Tribunal Regional do Trabalho da 4ª Região (TRT4) divulgou o edital de concurso público destinado a formar cadastro de reserva para profissionais de nível superior.\nSegundo o edital, as oportunidades são para os cargos de:\nAnalista Judiciário\n• Analista Judiciário - Área Judiciária\n• Analista Judiciário - Área Judiciária - Especialidade Oficial de Justiça Avaliador Federal\n• Analista Judiciário - Área Administrativa\n• Analista Judiciário - Área Administrativa - Especialidade Contabilidade\n• Analista Judiciário - Área Apoio Especializado - Especialidade Arquitetura\n• Analista Judiciário - Área Apoio Especializado - Especialidade Engenharia (Civil)\n• Analista Judiciário - Área Apoio Especializado - Especialidade Engenharia (Elétrica)\n• Analista Judiciário - Área Apoio Especializado - Especialidade Engenharia (Segurança do Trabalho)\n• Analista Judiciário - Área Apoio Especializado - Especialidade Estatística\n• Analista Judiciário - Área Apoio Especializado - Especialidade Medicina (Clínico Geral)\n• Analista Judiciário - Área Apoio Especializado - Especialidade Medicina (Cardiologia)\n• Analista Judiciário - Área Apoio Especializado - Especialidade Medicina (do Trabalho)\n• Analista Judiciário - Área Apoio Especializado - Especialidade Medicina (Psiquiatria)\n• Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação\n• Analista Judiciário - Área Apoio Especializado - Especialidade Biblioteconomia\n• Analista Judiciário - Área Apoio Especializado - Especialidade Comunicação Social\n• Analista Judiciário - Área Apoio Especializado - Especialidade Serviço Social\n• Analista Judiciário - Área Apoio Especializado - Especialidade Psicologia\nTécnico Judiciário\n• Técnico Judiciário - Área Administrativa\n• Técnico Judiciário - Área Apoio Especializado - Especialidade Enfermagem\n• Técnico Judiciário - Área Apoio Especializado - Especialidade Enfermagem do Trabalho\n• Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação\n• Técnico Judiciário - Área Administrativa - Especialidade Agente de Polícia Judicial\nA jornada prevista é de 40 horas semanais, salvo disposições específicas. A remuneração inicial é de R$ 9.776,71 para técnico judiciário e de R$ 16.040,88 para analista judiciário.\nAs inscrições serão feitas exclusivamente pelo site da Fundação Carlos Chagas, das 10h do dia 26 de outubro de 2026 às 23h59 do dia 25 de novembro de 2026, no horário de Brasília. A taxa é de R$ 90,00 para técnico e R$ 110,00 para analista. Candidatos inscritos no CadÚnico que sejam membros de família de baixa renda e doadores de medula óssea poderão solicitar isenção, pelo mesmo site, das 10h de 26 de outubro de 2026 às 23h59 de 30 de outubro de 2026.\nA seleção terá provas objetivas de conhecimentos gerais e específicos e prova discursiva. Para analista da Área Judiciária, inclusive para a especialidade Oficial de Justiça Avaliador Federal, a discursiva será um estudo de caso; para os demais cargos, será uma redação. As provas estão previstas para 31 de janeiro de 2027, em Porto Alegre. Candidatos a agente de polícia judicial também farão teste de aptidão física, previsto para 8 e 9 de maio de 2027, em Porto Alegre. Candidatos às vagas reservadas passarão pelos procedimentos de avaliação previstos no edital.\nO concurso terá validade de dois anos a partir da publicação da homologação do resultado final. O prazo poderá ser prorrogado uma vez, por igual período, a critério do TRT4.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 9776.71,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Analista Judiciário - Área Judiciária",
     "Analista Judiciário - Área Administrativa",
@@ -19086,12 +21590,25 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
-    "Analista Judiciário - Área Apoio Especializado - Especialidade Arquitetura",
-    "Analista Judiciário - Área Apoio Especializado - Especialidade Psicologia"
+    "Analista Judiciário - Área Apoio Especializado - Especialidade Medicina",
+    "Analista Judiciário - Área Judiciária",
+    "Analista Judiciário - Área Administrativa",
+    "Analista Judiciário - Área Administrativa - Especialidade Contabilidade"
    ],
+   "cargosGerais": [
+    "Técnico Judiciário - Área Administrativa",
+    "Analista Judiciário",
+    "Técnico Judiciário"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [
+    "Analista Judiciário - Área Administrativa",
+    "Técnico Judiciário - Área Administrativa",
+    "Técnico Judiciário - Área Administrativa - Especialidade Agente de Polícia Judicial"
+   ],
+   "acesso": "provavel",
+   "acessoMotivo": "O cargo Analista Judiciário - Área Administrativa normalmente aceita superior em qualquer área, mas a notícia não confirma. Confira o requisito e o salário no edital.",
    "esforco": 5,
    "motivos": [
     "Prova objetiva (base)",
@@ -19141,6 +21658,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Associação das Pioneiras Sociais (APS) abriu um processo seletivo para preencher 11 vagas e formar cadastro de reserva para Analista de Tecnologia da Informação, com exigência de graduação completa.\nSegundo o edital, as oportunidades são para os cargos de:\n• Analista de Tecnologia da Informação, área de Desenvolvimento, Brasília (4 vagas)\n• Analista de Tecnologia da Informação, área de Infraestrutura, Brasília (4 vagas)\n• Analista de Tecnologia da Informação, área de Infraestrutura, Rio de Janeiro (1 vaga)\n• Analista de Tecnologia da Informação, área de Infraestrutura, Salvador (1 vaga)\n• Analista de Tecnologia da Informação, área de Infraestrutura, São Luís (1 vaga)\nA jornada é de 40 horas semanais presenciais, com salário inicial de R$ 14.972,56. Durante o treinamento, os candidatos receberão bolsa mensal de R$ 7.843,38.\nAs inscrições serão realizadas exclusivamente pela internet, no site da Rede SARAH, de 23 de novembro de 2026 a 17 de dezembro de 2026. A taxa é de R$ 120,00, sem isenção ou redução.\nA seleção terá prova objetiva e prova discursiva, ambas eliminatórias e classificatórias, seguidas de treinamento eliminatório. As provas estão previstas para 31 de janeiro de 2027, em Brasília, Rio de Janeiro, Salvador e São Luís. A aplicação também poderá ocorrer em Belo Horizonte e Fortaleza, no caso de a amostra de candidatos justificar a alocação.\nO treinamento poderá durar até seis meses e não gera vínculo empregatício. Os candidatos aprovados nessa etapa serão contratados pelo regime da Consolidação das Leis do Trabalho (CLT), após exames pré-admissionais e apresentação dos documentos exigidos.\nO processo seletivo terá validade de dois anos, contados da divulgação do resultado da habilitação e classificação nas provas. O prazo poderá ser prorrogado uma vez, por igual período, a critério da APS.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Analista de Tecnologia da Informação, área de Desenvolvimento, Brasília",
     "Analista de Tecnologia da Informação, área de Infraestrutura, Brasília",
@@ -19151,14 +21670,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Analista de Tecnologia da Informação, área de Desenvolvimento, Brasília",
     "Analista de Tecnologia da Informação, área de Infraestrutura, Brasília",
     "Analista de Tecnologia da Informação, área de Infraestrutura, Rio de Janeiro",
     "Analista de Tecnologia da Informação, área de Infraestrutura, Salvador"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 5,
    "motivos": [
     "Prova objetiva (base)",
@@ -19206,6 +21728,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Associação das Pioneiras Sociais (APS) abriu um processo seletivo para preencher duas vagas de Estatísticos, com exigência de graduação em Estatística e registro no conselho de classe.\nSegundo o edital, as oportunidades são para os cargos de:\n• Estatístico em Brasília (1 vaga)\n• Estatístico em Fortaleza (1 vaga)\nA jornada é de 40 horas semanais presenciais. O salário inicial é de R$ 14.700,93. Durante o treinamento, o candidato receberá bolsa mensal de R$ 7.701,08.\nAs inscrições serão feitas exclusivamente pela internet, no site da Rede SARAH, de 23 de novembro de 2026 a 17 de dezembro de 2026. A taxa é de R$ 120,00, sem isenção ou redução.\nA seleção terá prova objetiva e prova discursiva, ambas eliminatórias e classificatórias, seguidas de treinamento eliminatório. As provas presenciais estão previstas para 31 de janeiro de 2027, no turno da manhã, em Brasília e Fortaleza. A aplicação também poderá ocorrer em Belo Horizonte, Rio de Janeiro, Salvador e São Luís, no caso de a amostra de candidatos justificar a alocação.\nO treinamento poderá durar até seis meses, a contar da data de assinatura do termo de treinamento. Após a aprovação nessa etapa, a contratação será pelo regime da Consolidação das Leis do Trabalho (CLT), condicionada a exames pré-admissionais e à apresentação dos documentos exigidos.\nO processo seletivo terá validade de dois anos, contados da divulgação do resultado da habilitação e classificação nas provas. O prazo poderá ser prorrogado uma vez, por igual período, a critério da APS.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Estatístico em Brasília",
     "Estatístico em Fortaleza"
@@ -19213,9 +21737,16 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Estatístico em Brasília",
+    "Estatístico em Fortaleza",
+    "Estatístico"
+   ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 5,
    "motivos": [
     "Prova objetiva (base)",
@@ -19263,6 +21794,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Pernambuco, a Secretaria de Administração e a Secretaria de Defesa Social publicaram um edital de concurso público para o preenchimento de 1.315 vagas de nível superior.\nUma retificação do edital esclarece que candidatos negros, indígenas e quilombolas aprovados dentro do número de vagas da ampla concorrência também constarão das listas de vagas reservadas, mas não serão computados para o preenchimento dessas vagas. A retificação também altera a regra de convocação para os exames médicos caso o número de candidatos aprovados na prova discursiva nas modalidades de reserva seja inferior ao previsto, além de atualizar o conteúdo de Noções de Direito Penal para Agente e Escrivão de Polícia, com a inclusão do Estatuto da Juventude e das disposições constitucionais aplicáveis ao direito penal.\nSegundo o edital, as oportunidades são para os cargos de:\n• Agente de Polícia (1.200 vagas)\n• Delegado de Polícia (45 vagas)\n• Escrivão de Polícia (70 vagas)\nA jornada de trabalho para todos os cargos é de 8 horas diárias ou 40 horas semanais, podendo haver regime de plantão conforme a Administração. As remunerações são de R$ 5.667,92 para Agente de Polícia e Escrivão de Polícia e de R$ 13.560,00 para Delegado de Polícia.\nAs inscrições devem ser realizadas exclusivamente pelo site www.cebraspe.org.br, das 10h do dia 15 de outubro de 2026 às 18h do dia 16 de dezembro de 2026 (horário de Brasília). As taxas são de R$ 250,00 para Agente de Polícia e Escrivão de Polícia e de R$ 350,00 para Delegado de Polícia. Candidatos podem solicitar isenção conforme as regras do edital.\nO processo de seleção terá as seguintes etapas: provas objetivas e discursivas para todos os cargos; exames médicos; prova de capacidade física; investigação social; avaliação psicológica; além de prova oral (somente para Delegado de Polícia), prova prática de digitação (somente para Escrivão de Polícia) e avaliação de títulos (somente para Delegado de Polícia). O curso de formação profissional é obrigatório para os aprovados. As provas escritas estão previstas para os dias 7 de março de 2027 (Agente de Polícia e Escrivão de Polícia) e 14 de março de 2027 (Delegado de Polícia), conforme cronograma.\nO concurso terá validade de dois anos, contados da homologação do resultado final, podendo ser prorrogado uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.\nTenha a notícia completa em áudio: ouça agora o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Agente de Polícia",
     "Delegado de Polícia",
@@ -19271,11 +21804,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Delegado de Polícia"
    ],
+   "cargosGerais": [
+    "Agente de Polícia",
+    "Escrivão de Polícia"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [
+    "Agente de Polícia",
+    "Escrivão de Polícia"
+   ],
+   "acesso": "provavel",
+   "acessoMotivo": "O cargo Agente de Polícia normalmente aceita superior em qualquer área, mas a notícia não confirma. Confira o requisito e o salário no edital.",
    "esforco": 5,
    "motivos": [
     "Prova objetiva (base)",
@@ -19325,6 +21867,8 @@ window.DADOS_CONCURSOS = {
    "texto": "No Estado de Pernambuco, a Secretaria de Administração e a Secretaria de Defesa Social abriram um concurso público para o preenchimento de vagas no Quadro de Oficiais da Polícia Militar de Pernambuco (PMPE) e na Qualificação Policial Militar Geral.\nConforme o Primeiro Termo de Retificação do Edital de Abertura, o prazo para inscrição foi alterado para o período de 9h do dia 5 de outubro de 2026 até às 14h do dia 23 de novembro de 2026. Demais normas e requisitos do edital também sofreram alterações; recomenda-se conferir o documento completo e atualizado para obter informações detalhadas.\nSegundo o edital, as oportunidades são para os cargos de:\nQualificação Policial Militar Geral (QPMG)\n• Soldado (Praça da Polícia Militar QPMG) (1.250 vagas)\nQuadro de Oficiais Policiais Militares (QOPM)\n• 2º Tenente (Oficial da Polícia Militar QOPM) (40 vagas)\nQuadro de Oficiais Médicos (QOM)\n• 2º Tenente (Oficial da Polícia Militar QOM) - Clínica Geral (15 vagas)\n• 2º Tenente (Oficial da Polícia Militar QOM) - Cirurgia Geral (5 vagas)\nQuadro de Oficiais Dentistas (QOD)\n• 2º Tenente (Oficial da Polícia Militar QOD) - Dentista (10 vagas)\nA jornada de trabalho será de 8 horas diárias, totalizando 40 horas semanais, observadas as jornadas especiais conforme a legislação. O soldo inicial será de R$ 5.617,92 para Soldado e de R$ 12.937,33 para 2º Tenente.\nAs inscrições deverão ser realizadas exclusivamente pelo site www.institutoaocp.org.br, no período de 5 de outubro de 2026, a partir das 9h, até 23 de novembro de 2026, às 14h. A taxa de inscrição é de R$ 180,00 para Soldado e de R$ 220,00 para 2º Tenente, com possibilidade de isenção nos termos do edital.\nO processo seletivo terá as seguintes etapas: prova objetiva e redação, exames médicos, testes de aptidão física, avaliação psicológica, investigação social e curso de formação profissional. A prova objetiva está prevista para o dia 21 de fevereiro de 2027, com aplicação em Recife/Região Metropolitana, Arcoverde, Caruaru e Petrolina.\nO contrato será pelo regime estatutário.\nO prazo de validade do concurso será de dois anos, contados da primeira homologação do resultado final, podendo ser prorrogado por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Soldado",
     "2º Tenente",
@@ -19335,9 +21879,16 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "2º Tenente"
+   ],
+   "cargosGerais": [
+    "Soldado"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de 2º Tenente. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 5,
    "motivos": [
     "Prova objetiva (base)",
@@ -19385,6 +21936,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Conselho de Arquitetura e Urbanismo de Santa Catarina (CAU-SC) abriu um concurso público para formar cadastro de reserva em funções de nível médio e superior. A lotação será em Florianópolis.\nSegundo o edital, as oportunidades são para os cargos de:\nNível médio\n• Assistente administrativo\n• Técnico em Secretariado\nNível superior\n• Advogado\n• Analista Administrativo e Financeiro\n• Analista de Compras, Contratos e Licitações\n• Arquiteto e Urbanista\nA jornada é de 40 horas semanais para todos os cargos. Os salários-base variam de R$ 4.111,01 a R$ 12.383,88. Os benefícios incluem plano de assistência médico-hospitalar, vale-alimentação de R$ 1.409,04 por mês, vale-transporte ou vale-combustível e reembolso-creche, conforme as regras do edital.\nAs inscrições serão recebidas de 9 de novembro de 2026, às 10h, a 9 de dezembro de 2026, às 23h, pelo sistema eletrônico de inscrição. A taxa é de R$ 64,00 para cargos de nível médio e R$ 66,00 para cargos de nível superior, com pagamento até 10 de dezembro de 2026. Poderão solicitar isenção membros de família de baixa renda inscritos no CadÚnico e doadores de medula óssea, de 10 de novembro de 2026, às 10h, a 11 de novembro de 2026, às 18h, pelo sistema eletrônico, com envio da documentação exigida.\nA seleção terá provas objetivas e discursivas, eliminatórias e classificatórias. A aplicação está prevista para 24 de janeiro de 2027, à tarde, em Florianópolis (SC). Candidatos às vagas reservadas passarão, conforme o caso, por análise documental, avaliação biopsicossocial ou procedimento de heteroidentificação.\nOs aprovados convocados serão contratados pelo regime da Consolidação das Leis do Trabalho (CLT) e ficarão sujeitos a contrato de experiência de até 90 dias.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 4111.01,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente administrativo",
     "Técnico em Secretariado",
@@ -19396,12 +21949,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Advogado",
+    "Técnico em Secretariado",
+    "Analista de Compras, Contratos e Licitações",
     "Arquiteto e Urbanista"
    ],
+   "cargosGerais": [
+    "Assistente administrativo",
+    "Analista Administrativo e Financeiro"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Advogado, Técnico em Secretariado, Analista de Compras, Contratos e Licitações. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 5,
    "motivos": [
     "Prova objetiva (base)",
@@ -19447,15 +22008,23 @@ window.DADOS_CONCURSOS = {
    "texto": "A Polícia Militar de Minas Gerais (PMMG) abriu um concurso público para admissão ao Curso de Formação de Oficiais (CFO) do Quadro de Oficiais da Polícia Militar, com o objetivo de preencher 90 vagas em 2027. O certame exige nível superior de escolaridade (bacharelado em Direito), altura mínima de 1,60 m para candidatos masculinos e de 1,55 m para candidatas femininas, entre outros requisitos.\nSegundo o edital, as oportunidades são para os cargos de:\n• Cadete do Curso de Formação de Oficiais da PMMG (90 vagas, sendo 72 para ampla concorrência e 18 para pessoas negras)\nA jornada após a formatura é de 40 horas semanais. A remuneração inicial é de R$ 7.912,17 para o Cadete do 1º Ano do CFO, podendo chegar a R$ 12.170,61 para o posto de 2º Tenente. Durante o curso, os cadetes têm direito a abono fardamento, ajuda de custo para despesas com alimentação, além de assistência médico-hospitalar, psicológica e odontológica.\nAs inscrições deverão ser feitas exclusivamente online, no site www.policiamilitar.mg.gov.br, de 10 de novembro de 2026 a 10 de dezembro de 2026. A taxa de inscrição é de R$ 243,00, com possibilidade de isenção, conforme os critérios do edital.\nA seleção será composta por cinco fases: provas objetivas e dissertativas (previstas para o dia 10 de janeiro de 2027), avaliação física militar, avaliações psicológicas e exames de saúde, prova oral e prova de títulos, além de procedimento de heteroidentificação complementar à autodeclaração dos candidatos negros.\nO início do CFO está previsto para junho de 2027, com término em julho de 2030.\nO concurso terá validade de 30 dias, podendo ser prorrogado uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Cadete do Curso de Formação de Oficiais da PMMG"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Cadete do Curso de Formação de Oficiais da PMMG",
+    "Cadete do Curso de Formação de Oficiais"
+   ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 5,
    "motivos": [
     "Prova objetiva (base)",
@@ -19504,6 +22073,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Agência de Águas do Estado de São Paulo (SP-Águas) abriu um Concurso Público para preencher 190 vagas de empregos públicos permanentes e formar cadastro de reserva, com exigência de ensino superior completo em qualquer área.\nSegundo o edital, as oportunidades são para os cargos de:\nEspecialista em Regulação e Fiscalização de Recursos Hídricos I\n• Gestão de Recursos Hídricos (77 vagas)\n• Gestão Ambiental e Recursos Hídricos (59 vagas)\n• Direito e Regulação Econômica de Recursos Hídricos (16 vagas)\n• Monitoramento Hidrológico e Ciência de Dados (18 vagas)\nAnalista de Suporte à Regulação de Recursos Hídricos I\n• Administração Pública (8 vagas)\n• Direito (5 vagas)\n• Econômico-Financeira (4 vagas)\n• Tecnologia da Informação e Ciência de Dados (3 vagas)\nA jornada é de 40 horas semanais. O salário inicial é de R$ 12.070,00 para Especialista e R$ 10.366,00 para Analista. Os empregados também terão vale-refeição de R$ 55,00 por dia efetivamente trabalhado.\nAs inscrições serão feitas pelo site da Fundação Getulio Vargas (FGV), das 16h de 17 de novembro de 2026 às 18h de 17 de dezembro de 2026, no horário de Brasília. A taxa é de R$ 110,00 e poderá ser paga até 18 de dezembro de 2026. Doadores de sangue que atendam aos requisitos do edital poderão pedir isenção. Estudantes com remuneração inferior a dois salários mínimos ou desempregados poderão solicitar redução de 50% da taxa. Os pedidos de isenção e redução serão recebidos das 16h de 17 de novembro às 18h de 19 de novembro de 2026.\nA seleção terá prova objetiva e prova discursiva, ambas de caráter eliminatório e classificatório, além de avaliação de títulos, de caráter classificatório. As provas serão aplicadas em São Paulo (SP), em 31 de janeiro de 2027.\nOs aprovados serão admitidos pelo regime da Consolidação das Leis do Trabalho (CLT).\nO concurso terá validade de dois anos, contados da homologação, e poderá ser prorrogado uma única vez por igual período.\nMais informações podem ser obtidas no edital completo.\nAcompanhe mais detalhes no nosso podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Gestão de Recursos Hídricos",
     "Gestão Ambiental e Recursos Hídricos",
@@ -19517,9 +22088,22 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": true,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": "confirmado",
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Direito e Regulação Econômica de Recursos Hídricos",
+    "Direito",
+    "Tecnologia da Informação e Ciência de Dados"
+   ],
+   "cargosGerais": [
+    "Gestão de Recursos Hídricos",
+    "Gestão Ambiental e Recursos Hídricos",
+    "Monitoramento Hidrológico e Ciência de Dados",
+    "Administração Pública",
+    "Econômico-Financeira"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Direito e Regulação Econômica de Recursos Hídricos, Direito, Tecnologia da Informação e Ciência de Dados. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 5,
    "motivos": [
     "Prova objetiva (base)",
@@ -19567,6 +22151,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Defensoria Pública do Distrito Federal (DPDF) abriu um Concurso Público para preencher sete vagas e formar cadastro de reserva para Analista de Apoio à Assistência Judiciária, com exigência de nível superior.\nSegundo o edital, as oportunidades são para os cargos de:\n• Analista de Apoio à Assistência Judiciária, especialidade Direito e Legislação (3 vagas)\n• Analista de Apoio à Assistência Judiciária, especialidade Contabilidade (1 vaga)\n• Analista de Apoio à Assistência Judiciária, especialidade Informática, área Banco de Dados (1 vaga)\n• Analista de Apoio à Assistência Judiciária, especialidade Informática, área Desenvolvimento de Sistemas (1 vaga)\n• Analista de Apoio à Assistência Judiciária, especialidade Informática, área Redes (1 vaga)\nA jornada é de 35 horas semanais. A remuneração inicial é de R$ 11.514,95, além de auxílio-alimentação mensal de R$ 1.701,41.\nAs inscrições serão realizadas de 3 de dezembro de 2026 a 7 de janeiro de 2027, pelo site do Instituto ACCESS. A taxa é de R$ 110,00. Os pedidos de isenção poderão ser feitos de 10 a 12 de novembro de 2026, nas condições previstas no edital.\nA seleção terá prova objetiva e prova discursiva, ambas eliminatórias e classificatórias, além de avaliação de títulos, exclusivamente classificatória. As provas estão previstas para 21 de fevereiro de 2027. Candidatos inscritos para as vagas reservadas poderão passar por avaliação biopsicossocial ou procedimento de heteroidentificação, conforme o caso.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final, com possibilidade de prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nInformação também em áudio: clique e ouça o podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Analista de Apoio à Assistência Judiciária, especialidade Direito e Legislação",
     "Analista de Apoio à Assistência Judiciária, especialidade Contabilidade",
@@ -19575,9 +22161,18 @@ window.DADOS_CONCURSOS = {
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": null,
-   "cargosEspecialistas": [],
+   "cargosEspecialistas": [
+    "Analista de Apoio à Assistência Judiciária, especialidade Direito e Legislação",
+    "Analista de Apoio à Assistência Judiciária, especialidade Contabilidade",
+    "Analista de Apoio à Assistência Judiciária, especialidade Informática, área Redes"
+   ],
+   "cargosGerais": [
+    "Analista de Apoio à Assistência Judiciária"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": null,
+   "acessoMotivo": "O edital não tem vaga de nível médio nem de superior em qualquer área.",
    "esforco": 5,
    "motivos": [
     "Prova objetiva (base)",
@@ -19624,6 +22219,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Tribunal de Justiça do Estado de São Paulo (TJSP) abriu concursos públicos visando preencher vagas e formar cadastro de reserva para profissionais de nível médio e superior.\nSegundo os editais, as oportunidades são para os cargos de:\n• Oficial de Justiça (132 vagas e cadastro de reserva)\n• Escrevente Técnico Judiciário (cadastro de reserva)\nA jornada é de 40 horas semanais para ambos os cargos. A remuneração informada é de R$ 9.856,95 para Oficial de Justiça e de R$ 6.782,54 para Escrevente Técnico Judiciário, acrescida de auxílios para alimentação, saúde e transporte.\nAs inscrições para os dois concursos serão realizadas pelo site www.vunesp.com.br, de 28 de outubro de 2026 a 10 de dezembro de 2026. A taxa é de R$ 96,00 para Oficial de Justiça e de R$ 81,00 para Escrevente Técnico Judiciário, com pagamento até 11 de dezembro de 2026. Estudantes com renda mensal inferior a dois salários mínimos ou desempregados podem solicitar redução de 50% da taxa, das 10h de 28 de outubro de 2026 até às 23h59 de 30 de outubro de 2026.\nOs concursos terão etapa única, com provas objetiva e discursiva. As provas estão previstas para o dia 14 de março de 2027. Após as provas, candidatos inscritos nas listas reservadas poderão passar por perícia biopsicossocial ou procedimentos de heteroidentificação, conforme o caso.\nO concurso de Oficial de Justiça terá validade de dois anos, contados da homologação, com possibilidade de prorrogação por igual período. O de Escrevente Técnico Judiciário terá validade de um ano, também prorrogável por igual período.\nMais informações podem ser obtidas nos editais completos.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Oficial de Justiça",
     "Escrevente Técnico Judiciário"
@@ -19631,9 +22228,15 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [],
+   "cargosGerais": [
+    "Oficial de Justiça",
+    "Escrevente Técnico Judiciário"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "provavel",
+   "acessoMotivo": "Nenhum cargo de formação específica foi encontrado, então o maior salário deve ser de um cargo de nível médio ou de superior geral. Confira a tabela de cargos no edital.",
    "esforco": 5,
    "motivos": [
     "Prova objetiva (base)",
@@ -19681,6 +22284,8 @@ window.DADOS_CONCURSOS = {
    "texto": "A Defensoria Pública do Estado do Amazonas (DPE-AM) abriu um concurso público para preencher vagas e formar cadastro de reserva no quadro de servidores auxiliares, com exigência de nível médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nManaus\n• Assistente Técnico de Defensoria, Assistente Técnico em Agrimensura (cadastro reserva)\n• Assistente Técnico em Tecnologia da Informação de Defensoria, Programador (cadastro reserva)\n• Assistente Técnico em Tecnologia da Informação de Defensoria, Assistente Técnico de Suporte (2 vagas e cadastro reserva)\n• Analista em Gestão Especializado de Defensoria, Administração (1 vaga e cadastro reserva)\n• Analista Social de Defensoria, Psicologia (cadastro reserva)\n• Analista Social de Defensoria, Serviço Social (cadastro reserva)\n• Analista em Gestão Especializado de Defensoria, Biblioteconomia (cadastro reserva)\n• Analista em Gestão Especializado de Defensoria, Ciência Contábil (cadastro reserva)\n• Analista em Gestão Especializado de Defensoria, Engenharia Elétrica (cadastro reserva)\n• Analista em Gestão Especializado de Defensoria, Arquitetura (cadastro reserva)\n• Analista em Gestão Especializado de Defensoria, Engenharia Civil (cadastro reserva)\n• Analista em Saúde de Defensoria, Medicina Clínica (cadastro reserva)\n• Analista em Gestão Especializado em Tecnologia da Informação de Defensoria, Analista de Infraestrutura (cadastro reserva)\n• Analista em Gestão Especializado em Tecnologia da Informação de Defensoria, Analista de Service Desk (cadastro reserva)\n• Analista em Gestão Especializado em Tecnologia da Informação de Defensoria, Analista de Segurança da Informação (cadastro reserva)\n• Analista em Gestão Especializado de Defensoria, Arquivologia (cadastro reserva)\nPolos de atendimento do interior e Iranduba\n• Assistente Técnico de Defensoria, Assistente Técnico Administrativo, polo do Médio Amazonas (cadastro reserva)\n• Assistente Técnico de Defensoria, Assistente Técnico Administrativo, polo do Alto Solimões (cadastro reserva)\n• Assistente Técnico de Defensoria, Assistente Técnico Administrativo, polo do Médio Solimões (cadastro reserva)\n• Assistente Técnico de Defensoria, Assistente Técnico Administrativo, polo do Baixo Amazonas (cadastro reserva)\n• Assistente Técnico de Defensoria, Assistente Técnico Administrativo, polo de Benjamim Constant (cadastro reserva)\n• Assistente Técnico de Defensoria, Assistente Técnico Administrativo, polo de Coari (cadastro reserva)\n• Assistente Técnico de Defensoria, Assistente Técnico Administrativo, polo do Juruá (cadastro reserva)\n• Assistente Técnico de Defensoria, Assistente Técnico Administrativo, polo do Purus (cadastro reserva)\n• Assistente Técnico de Defensoria, Assistente Técnico Administrativo, polo do Rio Negro e Solimões (1 vaga e cadastro reserva)\n• Assistente Técnico de Defensoria, Assistente Técnico Administrativo, polo do Alto Rio Negro (cadastro reserva)\n• Assistente Técnico de Defensoria, Assistente Técnico Administrativo, polo de Maués (cadastro reserva)\n• Assistente Técnico de Defensoria, Assistente Técnico Administrativo, Iranduba (cadastro reserva)\n• Analista Jurídico de Defensoria, Ciência Jurídica, polo do Médio Amazonas (1 vaga e cadastro reserva)\n• Analista Jurídico de Defensoria, Ciência Jurídica, polo do Alto Solimões (cadastro reserva)\n• Analista Jurídico de Defensoria, Ciência Jurídica, polo do Médio Solimões (cadastro reserva)\n• Analista Jurídico de Defensoria, Ciência Jurídica, polo do Baixo Amazonas (cadastro reserva)\n• Analista Jurídico de Defensoria, Ciência Jurídica, polo de Benjamim Constant (cadastro reserva)\n• Analista Jurídico de Defensoria, Ciência Jurídica, polo de Coari (cadastro reserva)\n• Analista Jurídico de Defensoria, Ciência Jurídica, polo do Juruá (cadastro reserva)\n• Analista Jurídico de Defensoria, Ciência Jurídica, polo do Purus (cadastro reserva)\n• Analista Jurídico de Defensoria, Ciência Jurídica, polo do Rio Negro e Solimões (cadastro reserva)\n• Analista Jurídico de Defensoria, Ciência Jurídica, polo do Alto Rio Negro (cadastro reserva)\n• Analista Jurídico de Defensoria, Ciência Jurídica, polo de Maués (cadastro reserva)\n• Analista Jurídico de Defensoria, Ciência Jurídica, Iranduba (cadastro reserva)\nA jornada será de seis ou oito horas diárias, a critério do Defensor Público-Geral. Para Analista em Saúde, será de quatro horas diárias. A remuneração inicial mensal varia de R$ 4.713,02 a R$ 8.006,38.\nAs inscrições serão feitas exclusivamente pelo site da Fundação Carlos Chagas, das 10h de 30 de novembro de 2026 às 23h59 de 4 de janeiro de 2027, no horário de Brasília. A taxa é de R$ 100,00 para cargos de ensino médio e R$ 125,00 para cargos de ensino superior. Pedidos de isenção serão recebidos pelo mesmo site, das 10h de 30 de novembro de 2026 às 23h59 de 4 de dezembro de 2026, para candidatos que atendam às condições previstas no edital.\nA seleção terá prova objetiva de conhecimentos gerais e específicos, de caráter eliminatório e classificatório. A aplicação está prevista para 7 de março de 2027, no período da manhã para os cargos de nível médio e no período da tarde para os cargos de nível superior.\nO concurso terá validade de dois anos, contados da publicação da homologação do resultado final. O prazo poderá ser prorrogado por igual período, a critério da DPE-AM.\nMais informações podem ser obtidas no edital completo.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 4713.02,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Assistente Técnico de Defensoria, Assistente Técnico em Agrimensura",
     "Assistente Técnico em Tecnologia da Informação de Defensoria, Programador",
@@ -19715,14 +22320,17 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Analista em Saúde de Defensoria, Medicina Clínica",
     "Assistente Técnico de Defensoria, Assistente Técnico em Agrimensura",
     "Assistente Técnico em Tecnologia da Informação de Defensoria, Programador",
     "Analista em Gestão Especializado de Defensoria, Administração"
    ],
+   "cargosGerais": [],
+   "temGeneralista": false,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Analista em Saúde de Defensoria, Medicina Clínica, Assistente Técnico de Defensoria, Assistente Técnico em Agrimensura, Assistente Técnico em Tecnologia da Informação de Defensoria, Programador. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 5,
    "motivos": [
     "Prova objetiva (base)",
@@ -19768,6 +22376,8 @@ window.DADOS_CONCURSOS = {
    "texto": "O Conselho Regional de Psicologia da 5ª Região (CRP/05) abriu um Concurso Público para preencher vagas imediatas e formar cadastro de reserva em empregos públicos permanentes de níveis médio e superior.\nSegundo o edital, as oportunidades são para os cargos de:\nSede, no Rio de Janeiro\n• Técnico Administrativo Nível Superior (5 vagas)\n• Contador (1 vaga)\n• Técnico Tecnologia da Informação (1 vaga)\n• Jornalista (1 vaga)\n• Psicóloga(o) (8 vagas)\n• Agente Administrativo (4 vagas)\nSubsede Norte e Noroeste Fluminense\n• Psicóloga(o) (2 vagas)\n• Agente Administrativo (1 vaga)\nSubsede Serrana\n• Psicóloga(o) (2 vagas)\n• Agente Administrativo (1 vaga)\nSubsede Sul Fluminense\n• Psicóloga(o) (2 vagas)\n• Agente Administrativo (2 vagas)\nSubsede Baixada Fluminense\n• Psicóloga(o) (2 vagas)\n• Agente Administrativo (1 vaga)\nSubsede Leste Fluminense\n• Psicóloga(o) (2 vagas)\n• Agente Administrativo (2 vagas)\nA jornada semanal é de 30 horas para Psicóloga(o) e de 40 horas para os demais cargos. As remunerações variam de R$ 3.077,42 a R$ 7.313,35.\nAs inscrições serão feitas exclusivamente pelo site FGV Conhecimento, das 16h de 16 de novembro de 2026 às 16h de 17 de dezembro de 2026, no horário de Brasília. A taxa é de R$ 99,00 para nível médio e R$ 140,00 para nível superior. O pagamento poderá ser feito até 18 de dezembro de 2026. Candidatos de baixa renda inscritos no CadÚnico e doadores de medula óssea poderão solicitar isenção das 16h de 16 de novembro de 2026 às 16h de 18 de novembro de 2026, conforme as regras do edital.\nA seleção terá prova objetiva e prova discursiva, ambas eliminatórias e classificatórias, para todos os cargos. Haverá avaliação de títulos, classificatória, para os cargos de nível superior. Os candidatos às vagas reservadas passarão pelos procedimentos de verificação previstos no edital. As provas objetivas e discursivas serão aplicadas em 28 de fevereiro de 2027. As provas do Concurso Pblico sero realizadas no Estado do Rio de Janeiro, nas cidades de Rio de Janeiro, Petrópolis, Campos dos Goytacazes e Volta Redonda.\nOs aprovados convocados serão contratados sob o regime da Consolidação das Leis do Trabalho (CLT) para empregos públicos permanentes.\nO concurso terá validade de dois anos a partir da homologação do resultado final, com possibilidade de prorrogação por igual período, a critério do CRP/05.\nMais informações podem ser obtidas no edital completo.\nPrefere ouvir? Escute o podcast exclusivo com mais informações.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": 3077.42,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Técnico Administrativo Nível Superior",
     "Contador",
@@ -19789,12 +22399,20 @@ window.DADOS_CONCURSOS = {
    "temMedio": true,
    "temSuperior": true,
    "superiorQualquerArea": false,
-   "confiancaMedio": "possivel",
-   "confiancaQualquerArea": null,
    "cargosEspecialistas": [
     "Contador",
+    "Técnico Tecnologia da Informação",
+    "Jornalista",
     "Psicóloga"
    ],
+   "cargosGerais": [
+    "Técnico Administrativo Nível Superior",
+    "Agente Administrativo"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "incerto",
+   "acessoMotivo": "O maior salário provavelmente é de Contador, Técnico Tecnologia da Informação, Jornalista. A vaga de nível médio pode pagar menos de R$ 5 mil.",
    "esforco": 5,
    "motivos": [
     "Prova objetiva (base)",
@@ -19840,15 +22458,22 @@ window.DADOS_CONCURSOS = {
    "texto": "A Secretaria de Administração Penitenciária e Ressocialização de Pernambuco (SEAP) abriu um Concurso Público para preencher 700 vagas de Policial Penal. O cargo exige nível superior em qualquer área de formação e Carteira Nacional de Habilitação, no mínimo, na categoria B.\nSegundo o edital, as oportunidades são para o seguinte cargo:\n• Policial Penal (700 vagas)\nA jornada é de oito horas diárias ou 40 horas semanais, com possibilidade de regime de plantão. A remuneração é de R$ 5.667,92, composta pelo vencimento-base e pela Gratificação de Risco por Função Policial Penal.\nAs inscrições serão realizadas das 10h de 12 de novembro de 2026 às 18h de 4 de janeiro de 2027, pelo site do Cebraspe, no horário oficial de Brasília. A taxa é de R$ 250,00, com pagamento até 6 de janeiro de 2027. Candidatos que atendam às condições previstas no edital poderão solicitar isenção das 10h de 12 de novembro às 18h de 22 de novembro de 2026.\nA seleção terá provas objetivas e discursivas, exames médicos, exames de aptidão física, avaliação psicológica e investigação social. A segunda etapa será o curso de formação profissional. As provas estão previstas para 21 de março de 2027, à tarde, em Arcoverde, Caruaru, Petrolina e Recife.\nO concurso terá validade de dois anos, contados da publicação da primeira homologação do resultado final, com possibilidade de uma prorrogação por igual período.\nMais informações podem ser obtidas no edital completo.\nEscute os destaques diretamente no podcast.",
    "salarioMin": null,
    "taxa": null,
+   "salarioPiso": null,
+   "salarioMedioTexto": null,
    "cargosLista": [
     "Policial Penal"
    ],
    "temMedio": false,
    "temSuperior": true,
    "superiorQualquerArea": true,
-   "confiancaMedio": null,
-   "confiancaQualquerArea": "confirmado",
    "cargosEspecialistas": [],
+   "cargosGerais": [
+    "Policial Penal"
+   ],
+   "temGeneralista": true,
+   "qaPorCargo": [],
+   "acesso": "confirmado",
+   "acessoMotivo": "A notícia diz que o cargo aceita superior em qualquer área e o edital tem um cargo só.",
    "esforco": 5,
    "motivos": [
     "Prova objetiva (base)",
